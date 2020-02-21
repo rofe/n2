@@ -1,0 +1,207 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Condensed:400,700&display=swap');
+
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+body {
+    color: #0001fd;
+    font-family: 'Roboto Condensed';
+    background-color: #ffe9e1;
+    margin: 0;
+}
+
+svg {
+    fill: currentColor;
+}
+
+main .menu>div {
+    display:flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+main .menu>div>div {
+    max-width: 400px;
+    margin: 0 30px;
+}
+
+main .menu .store>div {
+    border: currentColor 2px solid;
+    margin-bottom: 50px;
+    box-sizing: border-box;
+    position: relative;
+    padding: 30px;
+} 
+
+main .menu .store .soft-serve-flavors {
+    margin-top: 100px;
+    border: 0;
+    padding-top: 50px;
+}
+
+main .menu .store .soft-serve-flavors h4 {
+    margin: 2px;
+}
+
+main .menu h2 {
+    text-transform: lowercase;
+    margin-bottom: 50px;
+}
+
+main .menu h4 {
+    font-size: 24px;
+    margin: 20px 2px 2px 2px;
+}
+
+main .menu h4+h4 {
+    margin: 2px 2px 2px 2px;
+}
+
+main .menu p {
+    margin: 2px;
+}
+
+
+main .menu .lab div>div {
+    border: 2px solid currentColor;
+    margin: 0 10px 10px 0;
+}
+
+main .menu .lab div.flavors>div {
+    width: 45%;
+    padding: 20px;
+    display: inline-block;
+    box-sizing: border-box;
+    text-align: left;
+    flex: 1 0 auto;
+    height:auto;
+}
+
+main .menu .lab div.flavors>div:before {
+    content:'';
+    float:left;
+    padding-top:100%;
+}
+
+
+
+main .menu .lab div.flavors {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+main .menu .lab div.specials>div {
+    padding: 20px;
+}
+
+main .menu .lab h3 {
+    display: none;
+}
+
+
+main .menu .store>div h3 {
+    border: currentColor 2px solid;
+    background-color: white;
+    display: inline-block;
+    position: absolute;
+    transform: translateX(-50%);
+    top: -40px;
+    padding: 15px;
+    font-size: 14px;
+    text-transform: uppercase;
+    white-space: nowrap;
+}
+
+
+main>div {
+    padding: 20px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 36px;
+    line-height: 32px;
+    letter-spacing: -1px;
+    text-transform: lowercase;
+}
+
+header div:first-of-type {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+
+header svg {
+    margin: 20px;
+}
+
+header svg.icon-normal {
+    height: 65px;
+    width: 65px;
+
+}
+
+header svg.icon-hamburger {
+    height: 24px;
+    width: 17px;
+}
+
+a:any-link {
+    text-decoration: none;
+    color: currentColor;
+}
+
+header div:nth-of-type(2) {
+    display: none;
+}
+
+div.menu, div.order {
+    background-color: white;
+}
+
+footer ul {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    margin: 20px
+}
+
+footer svg.icon-instagram {
+    height: 20px;
+    width: 20px;
+}
+
+main div.image {
+    z-index: 1;
+    position: relative;
+}
+
+main div.default {
+    z-index: 0;
+    position: relative;
+}
+
+main div.image img {
+    width: 300px;
+    display: block;
+    position: absolute;
+    margin-top: -100px;
+}
+
+main div.image.left img {
+    left: -120px;
+}
+
+main div.image.right img {
+    right: -120px;
+}
+
+main>div:last-of-type {
+    margin-bottom: 200px;
+
+}
+
+
