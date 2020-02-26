@@ -14,11 +14,26 @@ body {
 
 svg {
     fill: currentColor;
+    vertical-align: baseline;
 }
 
 main svg {
-    height: 1em;
-    width: 1em;
+    height: 0.8em;
+    width: 0.8em;
+    display: inline-block;
+
+}
+
+main h2 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+
+main p {
+    font-size: 16px;
+    margin: 10px 0;
 }
 
 main .menu>div {
@@ -50,9 +65,14 @@ main .menu .store .soft-serve-flavors h4 {
     margin: 2px;
 }
 
+main .menu h1 {
+    font-size: 24px;
+}
+
 main .menu h2 {
     text-transform: lowercase;
     margin-bottom: 50px;
+    font-size: 34px;
 }
 
 main .menu h4 {
