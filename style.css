@@ -16,6 +16,11 @@ svg {
     fill: currentColor;
 }
 
+main svg {
+    height: 1em;
+    width: 1em;
+}
+
 main .menu>div {
     display:flex;
     justify-content: space-around;
