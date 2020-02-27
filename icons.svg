@@ -31,4 +31,25 @@
 </symbol>
 
 
+<symbol id="reg" viewBox="0 0 250 400">
+    <g>
+        <circle cx="125" cy="125" r="100" stroke-width="20px" fill="none"/>
+        <text x="125" y="135" text-anchor="middle" font-size="180px" dy=".3em">R</text>
+    </g>
+</symbol>
+
+<symbol id="v" viewBox="0 0 250 300">
+    <g>
+        <circle cx="125" cy="125" r="100" stroke-width="20px" fill="none"/>
+        <text x="125" y="125" text-anchor="middle" font-size="180px" dy=".3em">v</text>
+    </g>
+</symbol>
+
+<symbol id="gf" viewBox="0 0 250 300">
+    <g>
+        <circle cx="125" cy="125" r="100" stroke-width="20px" fill="none"/>
+        <text x="125" y="135" text-anchor="middle" font-size="150px" dy=".3em">gf</text>
+    </g>
+</symbol>
+
 </svg>
