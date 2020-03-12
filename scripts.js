@@ -142,9 +142,51 @@ function fixIcons() {
         e.setAttribute("href", `/icons.svg#${name}`);
     });
 }
+
+function cloneMenuSwiper() {
+    var menu=document.querySelector("div.menu");
+    var mobilemenu=menu.cloneNode(true);
+    mobilemenu.querySelector(":scope>div").className="locations-menus";
+    var titleswitcher=document.createElement('div');
+    titleswitcher.className="locations";
+    mobilemenu.querySelectorAll("h2").forEach((e) => {
+        titleswitcher.appendChild(e.cloneNode(true));
+        e.parentNode.removeChild(e);
+    });
+    mobilemenu.insertBefore(titleswitcher, mobilemenu.firstChild);
+    menu.classList.add("desktop");
+    menu.parentNode.insertBefore(mobilemenu,menu.nextSibling);
+}
+
+var menuLocation="store";
+var menuOffset=0;
+
+function setMenuLocation(e) {
+    
+}
+
+function updateMenuDisplay() {
+    var vw=window.innerWidth;
+    var p=(vw-375)/375;
+    console.log(`p: ${p}`);
+    p=Math.max(p,0);
+    p=Math.min(p,1);
+    console.log(`p: ${p}`);
+    var pink=[252,216,199];
+    var blue=[0,1,253];
+    var r=pink[0]*(1-p)+blue[0]*(p);
+    var g=pink[1]*(1-p)+blue[1]*(p);
+    var b=pink[2]*(1-p)+blue[2]*(p);
+    document.querySelector(".locations-menus .lab").style=`color:rgba(${r},${g},${b},1)`;
+    document.querySelector(".locations #lab").style=`color:rgba(${r},${g},${b},1)`;
+}
+
 window.onload = function() {
   fixIcons();
   classify();
   wrapMenus();
-scrani.onload();
-}   
+  cloneMenuSwiper();
+  scrani.onload();
+}
+
+window.onresize=updateMenuDisplay;
