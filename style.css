@@ -5,6 +5,7 @@ body {
     font-family: 'Roboto Condensed';
     background-color: #ffe9e1;
     margin: 0;
+    font-weight: 700;
 }
 
 svg {
@@ -26,27 +27,73 @@ main svg + svg {
 }
 
 
+main h1 {
+    font-size: 34px;
+    line-height: 32px;
+    letter-spacing: -1px;
+}
+
 main h2 {
-    margin-top: 40px;
-    margin-bottom: 5px;
     font-size: 24px;
-    text-transform: uppercase;
+    line-height: 26px;
+    letter-spacing: -1px;
+}
+
+main h3 {
+    font-size: 18px;
+    line-height: 18px;
+}
+
+main h4 {
+    font-size: 16px;
+    line-height: 16px;
 }
 
 main p {
-    font-size: 16px;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+main h2 {
+    margin-top: 40px;
+    margin-bottom: 5px;
+}
+
+main p {
     margin: 10px 0;
 }
 
 main .menu>div {
-    display:flex;
+    display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
 }
 
 main .menu>div>div {
     max-width: 400px;
     margin: 0;
+}
+
+main .menu.desktop {
+    display: none;
+}
+
+
+main .menu .locations {
+    border: 1px solid black;
+}
+
+main .menu .locations-menus {
+    overflow-x: hidden;
+    justify-content: flex-start;
+}
+
+main .menu .locations-menus>div {
+    min-width: 335px;
+    padding-right: 20px;
+    padding-top: 50px;
+    display: inline-block;
+    white-space: normal;
 }
 
 main .menu .store>div {
@@ -67,18 +114,12 @@ main .menu .store .soft-serve-flavors h4 {
     margin: 2px;
 }
 
-main .menu h1 {
-    font-size: 24px;
-}
-
 main .menu h2 {
     text-transform: lowercase;
     margin-bottom: 50px;
-    font-size: 34px;
 }
 
 main .menu h4 {
-    font-size: 24px;
     margin: 20px 2px 2px 2px;
 }
 
@@ -103,22 +144,26 @@ main .menu .lab div.flavors>div {
     display: inline-block;
     box-sizing: border-box;
     flex: 1 0 auto;
-    height:auto;
+    height: auto;
 }
 
 main .menu .lab div.flavors h4 {
-    font-size:40px;
+    /* font-size:40px;
     line-height: 40px;
+    */
 }
 
 main .menu .lab div.specials h4 {
+    /*
     font-size:30px;
     line-height: 30px;
+    */
 }
 
 main .menu .lab div.flavors p {
-    font-size: 18px;
+    /* font-size: 18px; 
     text-transform: uppercase;
+    */
 }
 
 main .menu .lab div.flavors>div:before {
@@ -126,8 +171,6 @@ main .menu .lab div.flavors>div:before {
     float:left;
     padding-top:100%;
 }
-
-
 
 main .menu .lab div.flavors {
     display: flex;
@@ -152,26 +195,15 @@ main .menu .store>div h3 {
     transform: translateX(-50%);
     top: -40px;
     padding: 15px;
-    font-size: 14px;
+    /* font-size: 14px; */
     text-transform: uppercase;
     white-space: nowrap;
-}
-
-main .hours p {
-    font-size: 24px;
 }
 
 
 main>div {
     padding: 20px;
     text-align: center;
-}
-
-h1 {
-    font-size: 36px;
-    line-height: 32px;
-    letter-spacing: -1px;
-    text-transform: lowercase;
 }
 
 header div:first-of-type {
@@ -261,6 +293,17 @@ main div.image.right img {
 main>div:last-of-type {
     margin-bottom: 200px;
 
+}
+
+@media only screen and (min-width: 900px) {
+    
+    main .menu {
+        display: none;
+    }    
+
+    main .menu.desktop {
+        display: block;
+    }    
 }
 
 
