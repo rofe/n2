@@ -52,6 +52,7 @@ main h4 {
 main p {
     font-size: 14px;
     line-height: 16px;
+    font-weight: 400;
 }
 
 main h2 {
