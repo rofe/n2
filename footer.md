@@ -1,7 +1,6 @@
 - [home](/)
-- [menu](#menu)
 - [hours](#hours)
-- [order](#order)
+- [menu] (#current-menu)
 - [contact](#contact-us)
 
 

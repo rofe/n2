@@ -181,11 +181,23 @@ function updateMenuDisplay() {
     document.querySelector(".locations #lab").style=`color:rgba(${r},${g},${b},1)`;
 }
 
+function fixSmsUrls() {
+    document.querySelectorAll("main a").forEach((e) => {
+        var href=e.getAttribute("href");
+        console.log(href);
+        if (href && href.indexOf("https://sms.com")==0) {
+            e.setAttribute("href","sms:"+href.substr(9));
+        }
+    })
+
+}
+
 window.onload = function() {
   fixIcons();
   classify();
-  wrapMenus();
-  cloneMenuSwiper();
+  //wrapMenus();
+  //cloneMenuSwiper();
+  fixSmsUrls();
   scrani.onload();
 }
 
