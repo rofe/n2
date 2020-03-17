@@ -186,7 +186,7 @@ function fixSmsUrls() {
         var href=e.getAttribute("href");
         console.log(href);
         if (href && href.indexOf("https://sms.com")==0) {
-            e.setAttribute("href","sms:"+href.substr(9));
+            e.setAttribute("href","sms:"+href.substr(15));
         }
     })
 
