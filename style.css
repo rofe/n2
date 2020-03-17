@@ -39,6 +39,12 @@ main h2 {
     letter-spacing: -1px;
 }
 
+main .current h2 {
+    border: currentColor 2px solid;
+    padding: 7px 20px;
+    display: inline-block;
+}
+
 main h3 {
     font-size: 18px;
     line-height: 18px;
