@@ -80,8 +80,13 @@ main ol li {
 
 }
 
-div.default {
+
+main div.default {
     margin-top: 150px;
+}
+
+main div:first-of-type {
+    margin-top: 50px;
 }
 
 main .menu>div {
