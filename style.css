@@ -96,6 +96,10 @@ main ol li {
 main div.default {
     margin-top: 100px;
     margin-bottom: 50px;
+    margin: auto;
+    max-width: 600px;
+    padding: 50px;
+    box-sizing: border-box;
 }
 
 main div:first-of-type {
