@@ -41,6 +41,10 @@ main h2 {
     margin-bottom: 5px;
 }
 
+main .current {
+    background-color: white;
+}
+
 main .current h2 {
     border: currentColor 2px solid;
     padding: 7px 20px;
@@ -61,7 +65,7 @@ main h4 {
 
 main p, main ol {
     font-size: 18px;
-    line-height: 20px;
+    line-height: 22px;
     font-weight: 400;
 }
 
@@ -90,7 +94,8 @@ main ol li {
 
 
 main div.default {
-    margin-top: 150px;
+    margin-top: 100px;
+    margin-bottom: 50px;
 }
 
 main div:first-of-type {
