@@ -182,11 +182,26 @@ function updateMenuDisplay() {
 }
 
 function fixSmsUrls() {
+    var os="";
+    var userAgent = navigator.userAgent || navigator.vendor || window.opera;
+
+    if (/android/i.test(userAgent)) {
+        os="android";
+    }
+
+    console.log(os);
+
     document.querySelectorAll("main a").forEach((e) => {
         var href=e.getAttribute("href");
         console.log(href);
         if (href && href.indexOf("https://sms.com")==0) {
-            e.setAttribute("href","sms:"+href.substr(15));
+            var smshref="sms:/"+href.substr(15);
+
+            if (os=="android") {
+                var s=smshref.split("&body");
+                smshref=s[0]+"?body"+s[1];
+            }
+            e.setAttribute("href",smshref);
         }
     })
 

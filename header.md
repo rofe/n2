@@ -2,8 +2,6 @@
 
 :normal:
 
-:hamburger:
-
 ---
 
 - [home](#)
