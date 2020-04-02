@@ -52,4 +52,20 @@
     </g>
 </symbol>
 
+<symbol id="minus" viewBox="0 0 32 32">
+    <mask id="minusMask">
+        <rect x="0" y="0" width="32" height="32" fill="white"></rect>
+        <text x="16" text-anchor="middle" alignment-baseline="middle" y="16" fill="black" font-size="50">-</text>
+    </mask>    
+    <circle cx="50%" cy="50%" r="50%" mask="url(/icons.svg#minusMask)"></circle>
+</symbol>
+
+<symbol id="plus" viewBox="0 0 32 32">
+        <mask id="plusMask">
+            <rect x="0" y="0" width="32" height="32" fill="white"></rect>
+            <text x="16" text-anchor="middle" alignment-baseline="middle" y="21" fill="black" font-size="40">+</text>
+        </mask>    
+        <circle cx="50%" cy="50%" r="50%" mask="url(/icons.svg#plusMask)"></circle>
+</symbol>
+
 </svg>
