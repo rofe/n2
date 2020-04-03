@@ -821,8 +821,8 @@ var catalog_raw=[
  {
   "type": "MODIFIER_LIST",
   "id": "EXX7SQAD5YC3XMG77RJUXJNV",
-  "updated_at": "2020-03-30T01:23:48.829Z",
-  "version": 1585531428829,
+  "updated_at": "2020-04-01T00:51:30.888Z",
+  "version": 1585702290888,
   "is_deleted": false,
   "present_at_all_locations": true,
   "modifier_list_data": {
@@ -833,8 +833,8 @@ var catalog_raw=[
     {
      "type": "MODIFIER",
      "id": "SUP72PEZSFGZ5UDS7CEIOPZ6",
-     "updated_at": "2019-12-30T20:43:22.089Z",
-     "version": 1577738602089,
+     "updated_at": "2020-04-01T00:51:30.888Z",
+     "version": 1585702290888,
      "is_deleted": false,
      "present_at_all_locations": true,
      "modifier_data": {
@@ -844,15 +844,33 @@ var catalog_raw=[
        "currency": "USD"
       },
       "on_by_default": false,
-      "ordinal": 2,
+      "ordinal": 0,
+      "modifier_list_id": "EXX7SQAD5YC3XMG77RJUXJNV"
+     }
+    },
+    {
+     "type": "MODIFIER",
+     "id": "T5IGPPH5DMRZ3FUYAUC2NNJK",
+     "updated_at": "2020-04-01T00:51:30.888Z",
+     "version": 1585702290888,
+     "is_deleted": false,
+     "present_at_all_locations": true,
+     "modifier_data": {
+      "name": "dark chocolate",
+      "price_money": {
+       "amount": 100,
+       "currency": "USD"
+      },
+      "on_by_default": false,
+      "ordinal": 1,
       "modifier_list_id": "EXX7SQAD5YC3XMG77RJUXJNV"
      }
     },
     {
      "type": "MODIFIER",
      "id": "SVDK3RNWR7T4HNIGFYFHBBGJ",
-     "updated_at": "2019-12-30T20:43:22.089Z",
-     "version": 1577738602089,
+     "updated_at": "2020-04-01T00:51:30.888Z",
+     "version": 1585702290888,
      "is_deleted": false,
      "present_at_all_locations": true,
      "modifier_data": {
@@ -862,7 +880,7 @@ var catalog_raw=[
        "currency": "USD"
       },
       "on_by_default": false,
-      "ordinal": 3,
+      "ordinal": 2,
       "modifier_list_id": "EXX7SQAD5YC3XMG77RJUXJNV"
      }
     }
@@ -872,8 +890,8 @@ var catalog_raw=[
  {
   "type": "MODIFIER",
   "id": "SUP72PEZSFGZ5UDS7CEIOPZ6",
-  "updated_at": "2019-12-30T20:43:22.089Z",
-  "version": 1577738602089,
+  "updated_at": "2020-04-01T00:51:30.888Z",
+  "version": 1585702290888,
   "is_deleted": false,
   "present_at_all_locations": true,
   "modifier_data": {
@@ -882,15 +900,15 @@ var catalog_raw=[
     "amount": 100,
     "currency": "USD"
    },
-   "ordinal": 2,
+   "ordinal": 0,
    "modifier_list_id": "EXX7SQAD5YC3XMG77RJUXJNV"
   }
  },
  {
   "type": "MODIFIER",
   "id": "SVDK3RNWR7T4HNIGFYFHBBGJ",
-  "updated_at": "2019-12-30T20:43:22.089Z",
-  "version": 1577738602089,
+  "updated_at": "2020-04-01T00:51:30.888Z",
+  "version": 1585702290888,
   "is_deleted": false,
   "present_at_all_locations": true,
   "modifier_data": {
@@ -899,7 +917,7 @@ var catalog_raw=[
     "amount": 100,
     "currency": "USD"
    },
-   "ordinal": 3,
+   "ordinal": 2,
    "modifier_list_id": "EXX7SQAD5YC3XMG77RJUXJNV"
   }
  },
@@ -4510,8 +4528,8 @@ var catalog_raw=[
  {
   "type": "ITEM",
   "id": "DLKX5RSC5SNN5UCGILWKOHAD",
-  "updated_at": "2020-03-22T17:31:49.883Z",
-  "version": 1584898309883,
+  "updated_at": "2020-04-01T23:27:13.189Z",
+  "version": 1585783633189,
   "is_deleted": false,
   "present_at_all_locations": true,
   "image_id": "UR4563QTITYG4GLTRGCGLSI5",
@@ -12659,8 +12677,8 @@ var catalog_raw=[
  {
   "type": "ITEM",
   "id": "WN35EZKZ5VHRPBC7OXUGOTP5",
-  "updated_at": "2020-03-29T19:59:55.616Z",
-  "version": 1585511995616,
+  "updated_at": "2020-04-02T22:06:45.855Z",
+  "version": 1585865205855,
   "is_deleted": false,
   "present_at_all_locations": true,
   "image_id": "3JCCEPUFUF2XY427HE45SA52",
@@ -12670,14 +12688,14 @@ var catalog_raw=[
    "variations": [
     {
      "type": "ITEM_VARIATION",
-     "id": "2X6EC3ZUEUNN25TV35WVQOB3",
-     "updated_at": "2020-03-27T01:14:31.662Z",
-     "version": 1585271671662,
+     "id": "ZCRVA7YYZFV7RPQKQ56D4QLT",
+     "updated_at": "2020-04-02T19:22:37.951Z",
+     "version": 1585855357951,
      "is_deleted": false,
      "present_at_all_locations": true,
      "item_variation_data": {
       "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
-      "name": "black sesame + white chocolate pearls",
+      "name": "cookies + cream",
       "ordinal": 0,
       "pricing_type": "FIXED_PRICING",
       "price_money": {
@@ -12689,14 +12707,14 @@ var catalog_raw=[
     },
     {
      "type": "ITEM_VARIATION",
-     "id": "ZCRVA7YYZFV7RPQKQ56D4QLT",
-     "updated_at": "2020-03-27T01:14:31.662Z",
-     "version": 1585271671662,
+     "id": "SWXZSXZ3X62QPXSLKBECKDDV",
+     "updated_at": "2020-04-02T19:22:37.951Z",
+     "version": 1585855357951,
      "is_deleted": false,
      "present_at_all_locations": true,
      "item_variation_data": {
       "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
-      "name": "cookies + cream",
+      "name": "earl grey + passion",
       "ordinal": 1,
       "pricing_type": "FIXED_PRICING",
       "price_money": {
@@ -12708,14 +12726,14 @@ var catalog_raw=[
     },
     {
      "type": "ITEM_VARIATION",
-     "id": "SWXZSXZ3X62QPXSLKBECKDDV",
-     "updated_at": "2020-03-27T01:14:31.662Z",
-     "version": 1585271671662,
+     "id": "74IVJ35BIAV7SXS4D4QVCOBW",
+     "updated_at": "2020-04-02T19:22:37.951Z",
+     "version": 1585855357951,
      "is_deleted": false,
      "present_at_all_locations": true,
      "item_variation_data": {
       "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
-      "name": "earl grey + passion",
+      "name": "strawberry lemonade + white chocolate (GF)",
       "ordinal": 2,
       "pricing_type": "FIXED_PRICING",
       "price_money": {
@@ -12727,53 +12745,34 @@ var catalog_raw=[
     },
     {
      "type": "ITEM_VARIATION",
-     "id": "74IVJ35BIAV7SXS4D4QVCOBW",
-     "updated_at": "2020-03-29T19:59:55.616Z",
-     "version": 1585511995616,
-     "is_deleted": false,
-     "present_at_all_locations": true,
-     "item_variation_data": {
-      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
-      "name": "strawberry lemonade + white chocolate (GF)",
-      "ordinal": 3,
-      "pricing_type": "FIXED_PRICING",
-      "price_money": {
-       "amount": 500,
-       "currency": "USD"
-      },
-      "track_inventory": false
-     }
-    },
-    {
-     "type": "ITEM_VARIATION",
-     "id": "Q6ZPYY5S4E7HDX2U7FRS7XFX",
-     "updated_at": "2020-03-29T19:59:55.616Z",
-     "version": 1585511995616,
-     "is_deleted": false,
-     "present_at_all_locations": true,
-     "item_variation_data": {
-      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
-      "name": "salted maple + brown butter (the \"handle\" bar) (GF)",
-      "ordinal": 4,
-      "pricing_type": "FIXED_PRICING",
-      "price_money": {
-       "amount": 500,
-       "currency": "USD"
-      },
-      "track_inventory": false
-     }
-    },
-    {
-     "type": "ITEM_VARIATION",
      "id": "VX7IVX3KNOFTBDVAKFNIREGF",
-     "updated_at": "2020-03-29T19:59:55.616Z",
-     "version": 1585511995616,
+     "updated_at": "2020-04-02T22:06:45.855Z",
+     "version": 1585865205855,
      "is_deleted": false,
      "present_at_all_locations": true,
      "item_variation_data": {
       "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
       "name": "trashberry bar (V + GF) many berry sorbet + dark chocolate dip + cocoa pebbles",
-      "ordinal": 5,
+      "ordinal": 3,
+      "pricing_type": "FIXED_PRICING",
+      "price_money": {
+       "amount": 600,
+       "currency": "USD"
+      },
+      "track_inventory": false
+     }
+    },
+    {
+     "type": "ITEM_VARIATION",
+     "id": "GFEYV3J345N3MFIJWDERFKTZ",
+     "updated_at": "2020-04-02T22:06:45.855Z",
+     "version": 1585865205855,
+     "is_deleted": false,
+     "present_at_all_locations": true,
+     "item_variation_data": {
+      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
+      "name": "almond joy (V)",
+      "ordinal": 4,
       "pricing_type": "FIXED_PRICING",
       "price_money": {
        "amount": 600,
@@ -12789,25 +12788,25 @@ var catalog_raw=[
  {
   "type": "ITEM",
   "id": "G7MYMIMDCVGWMAUCEVK4A4XA",
-  "updated_at": "2020-03-29T19:43:10.991Z",
-  "version": 1585510990991,
+  "updated_at": "2020-04-03T01:11:09.522Z",
+  "version": 1585876269522,
   "is_deleted": false,
   "present_at_all_locations": true,
   "image_id": "VI5PS4KCUEOBTRCUPTOMFWMV",
   "item_data": {
    "name": "ice cream sando",
-   "description": "",
+   "description": "anti chocolate chip + milk chocolate ice cream",
    "variations": [
     {
      "type": "ITEM_VARIATION",
-     "id": "2MZ3R56XXGNNCOHVRBBBBB2Q",
-     "updated_at": "2020-03-28T00:31:19.118Z",
-     "version": 1585355479118,
+     "id": "YMY5PEBP7VVPMXZM3ZOTVFPM",
+     "updated_at": "2020-04-03T00:47:10.975Z",
+     "version": 1585874830975,
      "is_deleted": false,
      "present_at_all_locations": true,
      "item_variation_data": {
       "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
-      "name": "gingersnap + cream cheese",
+      "name": "anti chocolate chip + milk chocolate ice cream",
       "ordinal": 0,
       "pricing_type": "FIXED_PRICING",
       "price_money": {
@@ -12824,8 +12823,8 @@ var catalog_raw=[
  {
   "type": "ITEM",
   "id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
-  "updated_at": "2020-03-29T23:58:01.885Z",
-  "version": 1585526281885,
+  "updated_at": "2020-04-03T00:49:18.316Z",
+  "version": 1585874958316,
   "is_deleted": false,
   "present_at_all_locations": true,
   "image_id": "KHTCC3RTDA6VT7JHQACDZ7HN",
@@ -12835,14 +12834,14 @@ var catalog_raw=[
    "variations": [
     {
      "type": "ITEM_VARIATION",
-     "id": "GYLWHI56W4KOKKZD3IO2GEIW",
-     "updated_at": "2020-03-29T00:48:33.219Z",
-     "version": 1585442913219,
+     "id": "K3N6S6PX6ZACHUIAGUPUGMUA",
+     "updated_at": "2020-04-01T19:07:58.061Z",
+     "version": 1585768078061,
      "is_deleted": false,
      "present_at_all_locations": true,
      "item_variation_data": {
       "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
-      "name": "banana cream cake slice",
+      "name": "grasshopper pie slice",
       "ordinal": 0,
       "pricing_type": "FIXED_PRICING",
       "price_money": {
@@ -12854,18 +12853,18 @@ var catalog_raw=[
     },
     {
      "type": "ITEM_VARIATION",
-     "id": "RBUWVU52VWWQRSAD3IMXRNLT",
-     "updated_at": "2020-03-29T19:36:37.611Z",
-     "version": 1585510597611,
+     "id": "DSJKVTUTWMXZ3EBMG4O4VSO4",
+     "updated_at": "2020-04-01T19:07:58.061Z",
+     "version": 1585768078061,
      "is_deleted": false,
      "present_at_all_locations": true,
      "item_variation_data": {
       "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
-      "name": "chocolate + brown butter slice",
+      "name": "grasshopper pie - whole",
       "ordinal": 1,
       "pricing_type": "FIXED_PRICING",
       "price_money": {
-       "amount": 600,
+       "amount": 3500,
        "currency": "USD"
       },
       "track_inventory": false
@@ -12873,14 +12872,14 @@ var catalog_raw=[
     },
     {
      "type": "ITEM_VARIATION",
-     "id": "K3N6S6PX6ZACHUIAGUPUGMUA",
-     "updated_at": "2020-03-29T23:58:01.885Z",
-     "version": 1585526281885,
+     "id": "AZ2CHG6O4ZHSLB3QB4ZCTILB",
+     "updated_at": "2020-04-01T20:57:34.895Z",
+     "version": 1585774654895,
      "is_deleted": false,
      "present_at_all_locations": true,
      "item_variation_data": {
       "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
-      "name": "grasshopper pie slice",
+      "name": "banana cream slice",
       "ordinal": 2,
       "pricing_type": "FIXED_PRICING",
       "price_money": {
@@ -12892,15 +12891,72 @@ var catalog_raw=[
     },
     {
      "type": "ITEM_VARIATION",
-     "id": "DSJKVTUTWMXZ3EBMG4O4VSO4",
-     "updated_at": "2020-03-29T19:36:37.611Z",
-     "version": 1585510597611,
+     "id": "MMQ4HUON6XDT7HQOGYNVCE7U",
+     "updated_at": "2020-04-02T22:09:48.057Z",
+     "version": 1585865388057,
      "is_deleted": false,
      "present_at_all_locations": true,
      "item_variation_data": {
       "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
-      "name": "grasshopper pie - whole",
+      "name": "banana cream 6\" cake",
       "ordinal": 3,
+      "pricing_type": "FIXED_PRICING",
+      "price_money": {
+       "amount": 3500,
+       "currency": "USD"
+      },
+      "track_inventory": false
+     }
+    },
+    {
+     "type": "ITEM_VARIATION",
+     "id": "4RP3VMFLLEXAXR43Y22HEGM4",
+     "updated_at": "2020-04-02T22:09:48.057Z",
+     "version": 1585865388057,
+     "is_deleted": false,
+     "present_at_all_locations": true,
+     "item_variation_data": {
+      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
+      "name": "chocolate + brown butter slice",
+      "ordinal": 4,
+      "pricing_type": "FIXED_PRICING",
+      "price_money": {
+       "amount": 600,
+       "currency": "USD"
+      },
+      "track_inventory": false
+     }
+    },
+    {
+     "type": "ITEM_VARIATION",
+     "id": "SCF3Z2FCKHHHWPA5XZFGEW4T",
+     "updated_at": "2020-04-02T22:09:48.057Z",
+     "version": 1585865388057,
+     "is_deleted": false,
+     "present_at_all_locations": true,
+     "item_variation_data": {
+      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
+      "name": "chocolate + brown butter 6\" cake",
+      "ordinal": 5,
+      "pricing_type": "FIXED_PRICING",
+      "price_money": {
+       "amount": 3500,
+       "currency": "USD"
+      },
+      "track_inventory": false
+     }
+    },
+    {
+     "type": "ITEM_VARIATION",
+     "id": "Z5HSFWQJVU4WWVC5VATK2TK5",
+     "updated_at": "2020-04-03T00:49:18.316Z",
+     "version": 1585874958316,
+     "is_deleted": false,
+     "present_at_all_locations": true,
+     "item_variation_data": {
+      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
+      "name": "strawberry + funfetti 6\" cake",
+      "ordinal": 6,
       "pricing_type": "FIXED_PRICING",
       "price_money": {
        "amount": 3500,
@@ -12916,8 +12972,8 @@ var catalog_raw=[
  {
   "type": "ITEM",
   "id": "BJ477UAFT44XPN5FDXKSH57Z",
-  "updated_at": "2020-03-29T23:57:40.176Z",
-  "version": 1585526260176,
+  "updated_at": "2020-04-03T00:48:22.404Z",
+  "version": 1585874902404,
   "is_deleted": false,
   "present_at_all_locations": true,
   "image_id": "T7DF24QMNAZ3EQWZS3DJCYOM",
@@ -12927,14 +12983,14 @@ var catalog_raw=[
    "variations": [
     {
      "type": "ITEM_VARIATION",
-     "id": "BPGB4IGZO26N6YI3CI6Q7BMD",
-     "updated_at": "2020-03-29T00:10:53.564Z",
-     "version": 1585440653564,
+     "id": "KGF4KLDBXOCOVMJC5MHPQJM2",
+     "updated_at": "2020-04-02T21:59:26.604Z",
+     "version": 1585864766604,
      "is_deleted": false,
      "present_at_all_locations": true,
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "banana ice cream",
+      "name": "apricot + black tea sorbet (v)",
       "ordinal": 0,
       "pricing_type": "FIXED_PRICING",
       "price_money": {
@@ -12946,14 +13002,14 @@ var catalog_raw=[
     },
     {
      "type": "ITEM_VARIATION",
-     "id": "XON4MT2YWSNW2UYENHYLGNS7",
-     "updated_at": "2020-03-29T01:51:16.838Z",
-     "version": 1585446676838,
+     "id": "6XCEL4SH6O77RSCUHA3YRJGZ",
+     "updated_at": "2020-04-02T21:59:26.604Z",
+     "version": 1585864766604,
      "is_deleted": false,
      "present_at_all_locations": true,
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "butter popcorn ice cream",
+      "name": "blood orange sorbet (v)",
       "ordinal": 1,
       "pricing_type": "FIXED_PRICING",
       "price_money": {
@@ -12966,8 +13022,8 @@ var catalog_raw=[
     {
      "type": "ITEM_VARIATION",
      "id": "3TRGA7KTYGMBLRD6SWFVEKNQ",
-     "updated_at": "2020-03-29T01:51:16.838Z",
-     "version": 1585446676838,
+     "updated_at": "2020-04-02T21:59:26.604Z",
+     "version": 1585864766604,
      "is_deleted": false,
      "present_at_all_locations": true,
      "item_variation_data": {
@@ -12984,14 +13040,14 @@ var catalog_raw=[
     },
     {
      "type": "ITEM_VARIATION",
-     "id": "BRD3XSAACOI2JV36TZX4R5RI",
-     "updated_at": "2020-03-29T01:51:16.838Z",
-     "version": 1585446676838,
+     "id": "PMADBWOLB5L2UFKAZAP2UMJZ",
+     "updated_at": "2020-04-02T20:08:51.013Z",
+     "version": 1585858131013,
      "is_deleted": false,
      "present_at_all_locations": true,
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "egg nog ice cream",
+      "name": "grapefruit sorbet (v)",
       "ordinal": 3,
       "pricing_type": "FIXED_PRICING",
       "price_money": {
@@ -13003,14 +13059,14 @@ var catalog_raw=[
     },
     {
      "type": "ITEM_VARIATION",
-     "id": "6XUXZIRVLTHXRS4EBUE3LIWN",
-     "updated_at": "2020-03-29T01:51:16.838Z",
-     "version": 1585446676838,
+     "id": "JCDCBIBSDZ44JKDSVTOHWBXO",
+     "updated_at": "2020-04-02T20:08:51.013Z",
+     "version": 1585858131013,
      "is_deleted": false,
      "present_at_all_locations": true,
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "cream cheese ice cream",
+      "name": "greek yogurt ice cream",
       "ordinal": 4,
       "pricing_type": "FIXED_PRICING",
       "price_money": {
@@ -13022,14 +13078,14 @@ var catalog_raw=[
     },
     {
      "type": "ITEM_VARIATION",
-     "id": "PMADBWOLB5L2UFKAZAP2UMJZ",
-     "updated_at": "2020-03-29T01:51:16.838Z",
-     "version": 1585446676838,
+     "id": "23I4FHD3XKFEKSY2WQOEQA2B",
+     "updated_at": "2020-04-02T20:08:51.013Z",
+     "version": 1585858131013,
      "is_deleted": false,
      "present_at_all_locations": true,
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "grapefruit sorbet (v)",
+      "name": "lemon sorbet (v)",
       "ordinal": 5,
       "pricing_type": "FIXED_PRICING",
       "price_money": {
@@ -13041,14 +13097,14 @@ var catalog_raw=[
     },
     {
      "type": "ITEM_VARIATION",
-     "id": "JCDCBIBSDZ44JKDSVTOHWBXO",
-     "updated_at": "2020-03-29T01:51:16.838Z",
-     "version": 1585446676838,
+     "id": "KXGLDB25RYVJNULIQRN7P5NA",
+     "updated_at": "2020-04-02T20:08:51.013Z",
+     "version": 1585858131013,
      "is_deleted": false,
      "present_at_all_locations": true,
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "greek yogurt ice cream",
+      "name": "milk chocolate ice cream",
       "ordinal": 6,
       "pricing_type": "FIXED_PRICING",
       "price_money": {
@@ -13060,14 +13116,14 @@ var catalog_raw=[
     },
     {
      "type": "ITEM_VARIATION",
-     "id": "23I4FHD3XKFEKSY2WQOEQA2B",
-     "updated_at": "2020-03-29T01:51:16.838Z",
-     "version": 1585446676838,
+     "id": "US4TWCXG3BGSJA6OUXPL5XAK",
+     "updated_at": "2020-04-02T20:08:51.013Z",
+     "version": 1585858131013,
      "is_deleted": false,
      "present_at_all_locations": true,
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "lemon sorbet (v)",
+      "name": "pomegranate sorbet (v)",
       "ordinal": 7,
       "pricing_type": "FIXED_PRICING",
       "price_money": {
@@ -13079,14 +13135,14 @@ var catalog_raw=[
     },
     {
      "type": "ITEM_VARIATION",
-     "id": "US4TWCXG3BGSJA6OUXPL5XAK",
-     "updated_at": "2020-03-29T01:51:16.838Z",
-     "version": 1585446676838,
+     "id": "EFK3V3MXKLXFFJMZB5E7R5RH",
+     "updated_at": "2020-04-02T21:59:26.604Z",
+     "version": 1585864766604,
      "is_deleted": false,
      "present_at_all_locations": true,
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "pomegranate sorbet (v)",
+      "name": "salted vanilla bean ice cream",
       "ordinal": 8,
       "pricing_type": "FIXED_PRICING",
       "price_money": {
@@ -13098,53 +13154,15 @@ var catalog_raw=[
     },
     {
      "type": "ITEM_VARIATION",
-     "id": "LZ4WUYYTCYXUNN6JDMBBTDQS",
-     "updated_at": "2020-03-29T01:51:16.838Z",
-     "version": 1585446676838,
-     "is_deleted": false,
-     "present_at_all_locations": true,
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "raspberry ice cream (v)",
-      "ordinal": 9,
-      "pricing_type": "FIXED_PRICING",
-      "price_money": {
-       "amount": 1000,
-       "currency": "USD"
-      },
-      "track_inventory": false
-     }
-    },
-    {
-     "type": "ITEM_VARIATION",
-     "id": "ZK5EQ6RE5UHCIWXG3G27AY6W",
-     "updated_at": "2020-03-29T23:57:40.176Z",
-     "version": 1585526260176,
-     "is_deleted": false,
-     "present_at_all_locations": true,
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "NORMAL DOTS passionfruit 5oz",
-      "ordinal": 10,
-      "pricing_type": "FIXED_PRICING",
-      "price_money": {
-       "amount": 600,
-       "currency": "USD"
-      },
-      "track_inventory": false
-     }
-    },
-    {
-     "type": "ITEM_VARIATION",
      "id": "P4MTGDKJJAEO3FGCQR2VPALZ",
-     "updated_at": "2020-03-29T23:57:40.176Z",
-     "version": 1585526260176,
+     "updated_at": "2020-04-03T00:48:22.404Z",
+     "version": 1585874902404,
      "is_deleted": false,
      "present_at_all_locations": true,
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
       "name": "NORMAL DOTS dulce de leche 5oz",
-      "ordinal": 11,
+      "ordinal": 9,
       "pricing_type": "FIXED_PRICING",
       "price_money": {
        "amount": 600,
@@ -13156,17 +13174,55 @@ var catalog_raw=[
     {
      "type": "ITEM_VARIATION",
      "id": "RJORTN67EAX6JL5LTBQWQCDY",
-     "updated_at": "2020-03-29T23:57:40.176Z",
-     "version": 1585526260176,
+     "updated_at": "2020-04-03T00:48:22.404Z",
+     "version": 1585874902404,
      "is_deleted": false,
      "present_at_all_locations": true,
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
       "name": "NORMAL DOTS lemon (v) 5oz",
-      "ordinal": 12,
+      "ordinal": 10,
       "pricing_type": "FIXED_PRICING",
       "price_money": {
        "amount": 600,
+       "currency": "USD"
+      },
+      "track_inventory": false
+     }
+    },
+    {
+     "type": "ITEM_VARIATION",
+     "id": "Y5WMEGVP57UXY4SP5UQMNFNK",
+     "updated_at": "2020-04-03T00:48:22.404Z",
+     "version": 1585874902404,
+     "is_deleted": false,
+     "present_at_all_locations": true,
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "MILK + COOKIES pint : sweet cream ice cream + cookie butter + chocolate shortbread + cookie dough",
+      "ordinal": 11,
+      "pricing_type": "FIXED_PRICING",
+      "price_money": {
+       "amount": 1000,
+       "currency": "USD"
+      },
+      "track_inventory": false
+     }
+    },
+    {
+     "type": "ITEM_VARIATION",
+     "id": "GVX3HFLL4AQ5ROL75O23IFJD",
+     "updated_at": "2020-04-03T00:48:22.404Z",
+     "version": 1585874902404,
+     "is_deleted": false,
+     "present_at_all_locations": true,
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "COCONUT + HONEYCOMB pint (V) : coconut sorbet + house-made honeycomb + dark chocolate bits",
+      "ordinal": 12,
+      "pricing_type": "FIXED_PRICING",
+      "price_money": {
+       "amount": 1000,
        "currency": "USD"
       },
       "track_inventory": false
@@ -13291,8 +13347,8 @@ var catalog_raw=[
  {
   "type": "ITEM",
   "id": "A27FMLO6LCQUMRQLI3HU2HH3",
-  "updated_at": "2020-03-28T23:38:43.056Z",
-  "version": 1585438723056,
+  "updated_at": "2020-04-02T01:15:01.78Z",
+  "version": 1585790101780,
   "is_deleted": false,
   "present_at_all_locations": true,
   "image_id": "KY2AMJZKG5QKEASZRFRWLRAX",
@@ -13316,113 +13372,75 @@ var catalog_raw=[
    "variations": [
     {
      "type": "ITEM_VARIATION",
-     "id": "3QWCPYNNK3VAIBR5QEO6XXJQ",
-     "updated_at": "2020-03-28T23:38:43.056Z",
-     "version": 1585438723056,
-     "is_deleted": false,
-     "present_at_all_locations": true,
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "coconut (vegan) - half size",
-      "ordinal": 0,
-      "pricing_type": "FIXED_PRICING",
-      "price_money": {
-       "amount": 300,
-       "currency": "USD"
-      },
-      "track_inventory": false
-     }
-    },
-    {
-     "type": "ITEM_VARIATION",
      "id": "MKAM7BMQTJWF3GG46ZAEZTJD",
-     "updated_at": "2020-03-28T23:38:43.056Z",
-     "version": 1585438723056,
-     "is_deleted": false,
-     "present_at_all_locations": true,
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "coconut (vegan) - normal size",
-      "ordinal": 1,
-      "pricing_type": "FIXED_PRICING",
-      "price_money": {
-       "amount": 400,
-       "currency": "USD"
-      },
-      "track_inventory": false
-     }
-    },
-    {
-     "type": "ITEM_VARIATION",
-     "id": "V2UKISQS6UKL4YEB3OLVD3PE",
-     "updated_at": "2020-03-28T23:38:43.056Z",
-     "version": 1585438723056,
-     "is_deleted": false,
-     "present_at_all_locations": true,
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "milk chocolate - half size",
-      "ordinal": 2,
-      "pricing_type": "FIXED_PRICING",
-      "price_money": {
-       "amount": 300,
-       "currency": "USD"
-      },
-      "track_inventory": false
-     }
-    },
-    {
-     "type": "ITEM_VARIATION",
-     "id": "BGXOH5JDN5ZDHR4YFOPM2RYC",
-     "updated_at": "2020-03-28T23:38:43.056Z",
-     "version": 1585438723056,
-     "is_deleted": false,
-     "present_at_all_locations": true,
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "milk chocolate - normal size",
-      "ordinal": 3,
-      "pricing_type": "FIXED_PRICING",
-      "price_money": {
-       "amount": 400,
-       "currency": "USD"
-      },
-      "track_inventory": false
-     }
-    },
-    {
-     "type": "ITEM_VARIATION",
-     "id": "4VMGNG4PJUO4GCJ5FBPTMMYW",
-     "updated_at": "2020-03-28T23:38:43.056Z",
-     "version": 1585438723056,
-     "is_deleted": false,
-     "present_at_all_locations": true,
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "salted vanilla bean - half size",
-      "ordinal": 4,
-      "pricing_type": "FIXED_PRICING",
-      "price_money": {
-       "amount": 300,
-       "currency": "USD"
-      },
-      "track_inventory": false
-     }
-    },
-    {
-     "type": "ITEM_VARIATION",
-     "id": "RUL4NBNGSKSWBZTAT5F5CTB2",
-     "updated_at": "2020-03-28T23:38:43.056Z",
-     "version": 1585438723056,
+     "updated_at": "2020-04-01T00:50:41.637Z",
+     "version": 1585702241637,
      "is_deleted": false,
      "present_at_all_locations": true,
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
       "name": "salted vanilla bean - normal size",
-      "ordinal": 5,
+      "ordinal": 0,
       "pricing_type": "FIXED_PRICING",
       "price_money": {
        "amount": 400,
+       "currency": "USD"
+      },
+      "track_inventory": false
+     }
+    },
+    {
+     "type": "ITEM_VARIATION",
+     "id": "UIWCTHM26GRC5LMFAOIKWMBZ",
+     "updated_at": "2020-04-01T00:50:41.637Z",
+     "version": 1585702241637,
+     "is_deleted": false,
+     "present_at_all_locations": true,
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "salted vanilla bean - half size",
+      "ordinal": 1,
+      "pricing_type": "FIXED_PRICING",
+      "price_money": {
+       "amount": 300,
+       "currency": "USD"
+      },
+      "track_inventory": false
+     }
+    },
+    {
+     "type": "ITEM_VARIATION",
+     "id": "Z2QIYSNMECE2TKPSXRESIJJL",
+     "updated_at": "2020-04-01T01:11:44.338Z",
+     "version": 1585703504338,
+     "is_deleted": false,
+     "present_at_all_locations": true,
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "milk chocolate - normal size",
+      "ordinal": 2,
+      "pricing_type": "FIXED_PRICING",
+      "price_money": {
+       "amount": 400,
+       "currency": "USD"
+      },
+      "track_inventory": false
+     }
+    },
+    {
+     "type": "ITEM_VARIATION",
+     "id": "QP26ZCJRXPIYDK3ISJLKVW3R",
+     "updated_at": "2020-04-01T01:11:44.338Z",
+     "version": 1585703504338,
+     "is_deleted": false,
+     "present_at_all_locations": true,
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "milk chocolate - half size",
+      "ordinal": 3,
+      "pricing_type": "FIXED_PRICING",
+      "price_money": {
+       "amount": 300,
        "currency": "USD"
       },
       "track_inventory": false
@@ -13575,6 +13593,317 @@ var catalog_raw=[
      "present_at_all_locations": true,
      "item_variation_data": {
       "item_id": "45PRQCRBAYLURP3LEDJ3OGN7",
+      "name": "Regular",
+      "ordinal": 0,
+      "pricing_type": "FIXED_PRICING",
+      "price_money": {
+       "amount": 450,
+       "currency": "USD"
+      }
+     }
+    }
+   ],
+   "product_type": "REGULAR",
+   "skip_modifier_screen": false
+  }
+ },
+ {
+  "type": "ITEM",
+  "id": "7ZWFQMJ7762E3HNXC4XI4UXU",
+  "updated_at": "2020-03-30T18:49:54.85Z",
+  "version": 1585594194850,
+  "is_deleted": false,
+  "present_at_all_locations": true,
+  "image_id": "SVPOABGRHX76X2UECZ3ZVC4L",
+  "item_data": {
+   "name": "COAVA cold brew coffee",
+   "description": "COAVA coffee perfectly cold brewed, add soft serve and make it a cold brew float. ",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2",
+     "min_selected_modifiers": -1,
+     "max_selected_modifiers": -1,
+     "enabled": true
+    }
+   ],
+   "variations": [
+    {
+     "type": "ITEM_VARIATION",
+     "id": "UZTZHQ2HBUKZQ2HAGNLIX6ZX",
+     "updated_at": "2020-03-30T18:49:54.85Z",
+     "version": 1585594194850,
+     "is_deleted": false,
+     "present_at_all_locations": true,
+     "item_variation_data": {
+      "item_id": "7ZWFQMJ7762E3HNXC4XI4UXU",
+      "name": "cold brew 12 oz",
+      "ordinal": 0,
+      "pricing_type": "FIXED_PRICING",
+      "price_money": {
+       "amount": 300,
+       "currency": "USD"
+      },
+      "track_inventory": false
+     }
+    },
+    {
+     "type": "ITEM_VARIATION",
+     "id": "JD6BHUCU7JD4UI4FC3BN42WD",
+     "updated_at": "2020-03-30T18:49:54.85Z",
+     "version": 1585594194850,
+     "is_deleted": false,
+     "present_at_all_locations": true,
+     "item_variation_data": {
+      "item_id": "7ZWFQMJ7762E3HNXC4XI4UXU",
+      "name": "cold brew 16 oz",
+      "ordinal": 1,
+      "pricing_type": "FIXED_PRICING",
+      "price_money": {
+       "amount": 400,
+       "currency": "USD"
+      },
+      "track_inventory": false
+     }
+    }
+   ],
+   "product_type": "REGULAR"
+  }
+ },
+ {
+  "type": "MODIFIER_LIST",
+  "id": "LPZTD3WMASMFYAJTC5YNFWP2",
+  "updated_at": "2020-03-30T18:49:44.59Z",
+  "version": 1585594184590,
+  "is_deleted": false,
+  "present_at_all_locations": true,
+  "modifier_list_data": {
+   "name": "add soft serve",
+   "selection_type": "MULTIPLE",
+   "modifiers": [
+    {
+     "type": "MODIFIER",
+     "id": "L2A3GZYK5NH7BPDTN7ZDP6E4",
+     "updated_at": "2020-03-30T18:49:44.59Z",
+     "version": 1585594184590,
+     "is_deleted": false,
+     "present_at_all_locations": true,
+     "modifier_data": {
+      "name": "milk chocolate",
+      "price_money": {
+       "amount": 300,
+       "currency": "USD"
+      },
+      "on_by_default": false,
+      "ordinal": 0,
+      "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
+     }
+    },
+    {
+     "type": "MODIFIER",
+     "id": "UUDJTX63GLC53WUGUR7MZSVA",
+     "updated_at": "2020-03-30T18:49:44.59Z",
+     "version": 1585594184590,
+     "is_deleted": false,
+     "present_at_all_locations": true,
+     "modifier_data": {
+      "name": "coconut (vegan)",
+      "price_money": {
+       "amount": 300,
+       "currency": "USD"
+      },
+      "on_by_default": false,
+      "ordinal": 1,
+      "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
+     }
+    }
+   ]
+  }
+ },
+ {
+  "type": "MODIFIER",
+  "id": "L2A3GZYK5NH7BPDTN7ZDP6E4",
+  "updated_at": "2020-03-30T18:49:44.59Z",
+  "version": 1585594184590,
+  "is_deleted": false,
+  "present_at_all_locations": true,
+  "modifier_data": {
+   "name": "milk chocolate",
+   "price_money": {
+    "amount": 300,
+    "currency": "USD"
+   },
+   "ordinal": 0,
+   "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
+  }
+ },
+ {
+  "type": "MODIFIER",
+  "id": "UUDJTX63GLC53WUGUR7MZSVA",
+  "updated_at": "2020-03-30T18:49:44.59Z",
+  "version": 1585594184590,
+  "is_deleted": false,
+  "present_at_all_locations": true,
+  "modifier_data": {
+   "name": "coconut (vegan)",
+   "price_money": {
+    "amount": 300,
+    "currency": "USD"
+   },
+   "ordinal": 1,
+   "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
+  }
+ },
+ {
+  "type": "ITEM",
+  "id": "2NYBUBTAJJJMIW6P42VV3O7C",
+  "updated_at": "2020-03-30T21:46:46.237Z",
+  "version": 1585604806237,
+  "is_deleted": false,
+  "present_at_all_locations": true,
+  "image_id": "KA57PIC742IF7DUTYAQI2NRA",
+  "item_data": {
+   "name": "NORMAL® swag",
+   "description": "",
+   "variations": [
+    {
+     "type": "ITEM_VARIATION",
+     "id": "VN3RAXCT632CNNHFSQKRVLNE",
+     "updated_at": "2020-03-30T21:13:06.794Z",
+     "version": 1585602786794,
+     "is_deleted": false,
+     "present_at_all_locations": true,
+     "item_variation_data": {
+      "item_id": "2NYBUBTAJJJMIW6P42VV3O7C",
+      "name": "ice cream cone enamel pin",
+      "ordinal": 0,
+      "pricing_type": "FIXED_PRICING",
+      "price_money": {
+       "amount": 600,
+       "currency": "USD"
+      },
+      "track_inventory": false
+     }
+    },
+    {
+     "type": "ITEM_VARIATION",
+     "id": "JAU32B2WKMHGW4KF3EXL45QW",
+     "updated_at": "2020-03-30T21:13:06.794Z",
+     "version": 1585602786794,
+     "is_deleted": false,
+     "present_at_all_locations": true,
+     "item_variation_data": {
+      "item_id": "2NYBUBTAJJJMIW6P42VV3O7C",
+      "name": "smiley logo enamel pin",
+      "ordinal": 1,
+      "pricing_type": "FIXED_PRICING",
+      "price_money": {
+       "amount": 600,
+       "currency": "USD"
+      },
+      "track_inventory": false
+     }
+    },
+    {
+     "type": "ITEM_VARIATION",
+     "id": "CI4CM6VX2LUFD7GRZKYX5AVR",
+     "updated_at": "2020-03-30T21:13:06.794Z",
+     "version": 1585602786794,
+     "is_deleted": false,
+     "present_at_all_locations": true,
+     "item_variation_data": {
+      "item_id": "2NYBUBTAJJJMIW6P42VV3O7C",
+      "name": "NORMAL® truck pin",
+      "ordinal": 2,
+      "pricing_type": "FIXED_PRICING",
+      "price_money": {
+       "amount": 600,
+       "currency": "USD"
+      },
+      "track_inventory": false
+     }
+    },
+    {
+     "type": "ITEM_VARIATION",
+     "id": "L66PWDJ346NSVWHJAGJ7PIXQ",
+     "updated_at": "2020-03-30T21:46:46.237Z",
+     "version": 1585604806237,
+     "is_deleted": false,
+     "present_at_all_locations": true,
+     "item_variation_data": {
+      "item_id": "2NYBUBTAJJJMIW6P42VV3O7C",
+      "name": "water witch x NORMAL® pin",
+      "ordinal": 3,
+      "pricing_type": "FIXED_PRICING",
+      "price_money": {
+       "amount": 600,
+       "currency": "USD"
+      },
+      "track_inventory": false
+     }
+    },
+    {
+     "type": "ITEM_VARIATION",
+     "id": "325XYLYOAW3H4AYRNXVHO5MC",
+     "updated_at": "2020-03-30T21:46:46.237Z",
+     "version": 1585604806237,
+     "is_deleted": false,
+     "present_at_all_locations": true,
+     "item_variation_data": {
+      "item_id": "2NYBUBTAJJJMIW6P42VV3O7C",
+      "name": "ice cream cone patch",
+      "ordinal": 4,
+      "pricing_type": "FIXED_PRICING",
+      "price_money": {
+       "amount": 500,
+       "currency": "USD"
+      },
+      "track_inventory": false
+     }
+    }
+   ],
+   "product_type": "REGULAR"
+  }
+ },
+ {
+  "type": "MODIFIER",
+  "id": "T5IGPPH5DMRZ3FUYAUC2NNJK",
+  "updated_at": "2020-04-01T00:51:30.888Z",
+  "version": 1585702290888,
+  "is_deleted": false,
+  "present_at_all_locations": true,
+  "modifier_data": {
+   "name": "dark chocolate",
+   "price_money": {
+    "amount": 100,
+    "currency": "USD"
+   },
+   "ordinal": 1,
+   "modifier_list_id": "EXX7SQAD5YC3XMG77RJUXJNV"
+  }
+ },
+ {
+  "type": "ITEM",
+  "id": "A55MXDYWKVI662BLGDFTWUKX",
+  "updated_at": "2020-04-01T17:45:17.758Z",
+  "version": 1585763117758,
+  "is_deleted": false,
+  "present_at_all_locations": true,
+  "item_data": {
+   "name": "coconut sorbet mini",
+   "description": "",
+   "tax_ids": [
+    "DOHPWXGKIUN5ZS3TRWHOTM3T"
+   ],
+   "variations": [
+    {
+     "type": "ITEM_VARIATION",
+     "id": "VYXZXR4NDGMALYL67EDBXZVO",
+     "updated_at": "2020-04-01T17:45:17.758Z",
+     "version": 1585763117758,
+     "is_deleted": false,
+     "present_at_all_locations": true,
+     "item_variation_data": {
+      "item_id": "A55MXDYWKVI662BLGDFTWUKX",
       "name": "Regular",
       "ordinal": 0,
       "pricing_type": "FIXED_PRICING",

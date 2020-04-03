@@ -181,7 +181,7 @@ function updateMenuDisplay() {
     document.querySelector(".locations #lab").style=`color:rgba(${r},${g},${b},1)`;
 }
 
-function fixSmsUrls() {
+function isAndroid() {
     var os="";
     var userAgent = navigator.userAgent || navigator.vendor || window.opera;
 
@@ -190,6 +190,11 @@ function fixSmsUrls() {
     }
 
     console.log(os);
+    return (os=="android");
+
+}
+
+function fixSmsUrls() {
 
     document.querySelectorAll("main a").forEach((e) => {
         var href=e.getAttribute("href");
@@ -197,7 +202,7 @@ function fixSmsUrls() {
         if (href && href.indexOf("https://sms.com")==0) {
             var smshref="sms:/"+href.substr(15);
 
-            if (os=="android") {
+            if (isAndroid()) {
                 var s=smshref.split("&body");
                 smshref=s[0]+"?body"+s[1];
             }
@@ -253,6 +258,100 @@ function configItem(item) {
     config.innerHTML=html;
 }
 
+function formatTime(date) {
+    var hours = date.getHours();
+    var minutes = date.getMinutes();
+    var ampm = hours >= 12 ? 'pm' : 'am';
+    hours = hours % 12;
+    hours = hours ? hours : 12; // the hour '0' should be '12'
+    minutes = minutes < 10 ? '0'+minutes : minutes;
+    var strTime = hours + ':' + minutes + ' ' + ampm;
+    return strTime;
+}
+
+function getOpeningHoursConfig() {
+    return { opening: [12,12,12,12,12,12,12],
+             closing: [20,20,20,20,20,20,20],
+             lastOrderFromClose: 10,
+             prepTime: 10
+    }
+}
+
+function setPickupTimes () {
+    var date=document.getElementById("pickup-date").value;
+    var timeSelect=document.getElementById("pickup-time");
+    var conf=getOpeningHoursConfig();
+    var now=new Date();
+    var today=now.getFullYear()+"/"+(now.getMonth()+1)+"/"+now.getDate();
+    
+    var openingTime=new Date(date);
+    openingTime.setHours(conf.opening[openingTime.getDay()]);
+
+    var closingTime=new Date(date);
+    closingTime.setHours(conf.closing[closingTime.getDay()]);
+    
+    var startTime;
+    
+    if (today == date && (now.getTime()>openingTime)) {
+        startTime=new Date(now.getTime()+(conf.prepTime*60000));
+        time=new Date(startTime.getTime()+(10*60000-startTime.getTime()%(10*60000)));
+    } else {
+        var openingTime=new Date(date);
+        openingTime.setHours(conf.opening[openingTime.getDay()]);
+        startTime=new Date(openingTime.getTime()+(conf.prepTime*60000));
+        time=new Date(startTime.getTime());
+    }
+
+
+    timeSelect.innerHTML="";
+
+    while (time<=closingTime-conf.lastOrderFromClose*60000) {
+        var option = document.createElement("option");
+        option.text = formatTime(time);
+        option.value=time.toISOString();
+        timeSelect.add(option);
+        time=new Date(time.getTime()+15*60000);
+    }
+
+}
+
+function setPickupDates () {
+
+    var now=new Date();
+    var i=0;
+
+    var day=now;
+    var conf=getOpeningHoursConfig();
+
+    var weekdays = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
+    var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    var dateSelect=document.getElementById("pickup-date");
+
+    while (i<10) {
+        if (i==0) {
+            /* check if we are past cutoff for today */
+            var closingDate=new Date();
+            closingDate.setHours(conf.closing[day.getDay()],0,0,0);
+            if (now>closingDate-conf.lastOrderFromClose*60000) {
+                day.setDate(day.getDate()+1);
+                document.querySelector(".order-props").className="order-props alert";
+                document.getElementById("warning").className="warning";
+            }
+        }
+        if(conf.opening[day.getDay()]) {
+            var option = document.createElement("option");
+            option.text = weekdays[day.getDay()]+", "+months[day.getMonth()]+" "+day.getDate();
+            option.value=day.getFullYear()+"/"+(day.getMonth()+1)+"/"+day.getDate();
+            dateSelect.add(option);
+        }
+
+        day.setDate(day.getDate()+1);
+        i++;
+    }
+    setPickupTimes();
+}
+
+
 function addConfigToCart(e) {
     hideConfig();
     var variation=document.querySelector("#config select").value;
@@ -276,10 +375,162 @@ function toggleCartDisplay() {
         cartEl.querySelector(".summary").classList.remove("hidden");
         cartEl.querySelector(".details").classList.add("hidden");
     }
+    cartEl.querySelector(".lineitems").classList.remove("hidden");
+    cartEl.querySelector(".info").classList.remove("hidden");
     cartEl.querySelector(".order").classList.add("hidden");
     cartEl.querySelector(".payment").classList.add("hidden");
     cartEl.querySelector(".thankyou").classList.add("hidden");
+    setPickupDates();
 }
+
+function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+ d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+
+function displayThanks(payment){
+    var cartEl=document.getElementById("cart");
+    cartEl.querySelector(".payment").classList.add("hidden");
+    cartEl.querySelector(".thankyou").classList.remove("hidden");
+
+    var receiptElem=document.getElementById("receipt-link");
+    var receiptLink="/receipt"
+
+    if (payment) {
+            receiptLink=payment.receipt_url;
+    }
+
+    receiptElem.setAttribute("href", receiptLink);
+
+    var textElem=document.getElementById("text-link");
+    var msg=`Hi Normal, this is ${order.fulfillments[0].pickup_details.recipient.display_name}, picking up my order in a (describe car)`;
+    var smshref=`sms://+13852995418/${isAndroid()?"?":"&"}body=${encodeURIComponent(msg)}`;
+    textElem.setAttribute("href", smshref);
+
+    cart.line_items=[];
+    var summaryEl=document.querySelector("#cart .summary");
+    summaryEl.innerHTML=`your cart is empty`;
+}
+
+function getTip() {
+    var tipPercentage=+document.getElementById("tip").value;
+    var tipAmount=Math.round(order.total_money.amount*tipPercentage/100);
+    return (tipAmount);
+}
+
+function initPaymentForm() {
+        
+    // Create and initialize a payment form object
+        paymentForm = new SqPaymentForm({
+            // Initialize the payment form elements
+            
+            applicationId: "sq0idp-q-NmavFwDX6MRLzzd5q-sg",
+            inputClass: 'sq-input',
+            autoBuild: false,
+            // Customize the CSS for SqPaymentForm iframe elements
+            inputStyles: [{
+                fontSize: '16px',
+                lineHeight: '24px',
+                padding: '16px',
+                placeholderColor: '#a0a0a0',
+                backgroundColor: 'transparent',
+            }],
+            // Initialize the credit card placeholders
+            cardNumber: {
+                elementId: 'sq-card-number',
+                placeholder: 'Card Number'
+            },
+            cvv: {
+                elementId: 'sq-cvv',
+                placeholder: 'CVV'
+            },
+            expirationDate: {
+                elementId: 'sq-expiration-date',
+                placeholder: 'MM/YY'
+            },
+            postalCode: {
+                elementId: 'sq-postal-code',
+                placeholder: 'Postal'
+            },
+            // SqPaymentForm callback functions
+            callbacks: {
+                /*
+                * callback function: cardNonceResponseReceived
+                * Triggered when: SqPaymentForm completes a card nonce request
+                */
+                cardNonceResponseReceived: function (errors, nonce, cardData) {
+                if (errors) {
+                    // Log errors from nonce generation to the browser developer console.   
+                    console.error('Encountered errors:');
+                    errors.forEach(function (error) {
+                        console.error('  ' + error.message);
+                    });
+                    alert('Encountered errors, check browser developer console for more details');
+                    return;
+                }
+                   console.log(`The generated nonce is:\n${nonce}`);
+      
+                   var tipAmount=getTip();
+      
+                   var qs=`nonce=${encodeURIComponent(nonce)}&order_id=${encodeURIComponent(order.id)}&reference_id=${encodeURIComponent(order.reference_id)}&order_amount=${order.total_money.amount}&tip_amount=${tipAmount}`;   
+      
+                   fetch(orderEndpoint+'?'+qs, {
+                      method: 'GET',
+                      headers: {
+                        'Accept': 'application/json',
+                      }
+                    })
+                    .catch(err => {
+                      alert('Network error: ' + err);
+                    })
+                    .then(response => {
+                      if (!response.ok) {
+                        return response.text().then(errorInfo => Promise.reject(errorInfo));
+                      }
+                      return response.text();
+                    })
+                    .then(data => {
+                      console.log(data);
+                      var obj=JSON.parse(data);
+                      if (typeof obj.errors != "undefined") {
+                        alert('Payment failed to complete!\nCheck browser developer console for more details');
+                      } else {
+                        displayThanks(obj.payment);
+                      }
+                    })
+                    .catch(err => {
+                      console.error(err);
+                    });          
+                  }
+            }
+          });
+      
+          paymentForm.build();      
+}
+
+function onGetCardNonce(event) {
+    event.preventDefault();
+    paymentForm.requestCardNonce();
+  }
+
 
 function initCart() {
     var cartEl=document.getElementById("cart");
@@ -291,14 +542,47 @@ function initCart() {
             <div class="info">
                 <input id="name" type="text" placeholder="Your Name">
                 <input id="cell" type="text" placeholder="Cell Phone">
-                <button onclick="order()">order</button>
+                <div class="pickup-time"> 
+                    <nobr>
+                        <select id="pickup-date" onchange="setPickupTimes()"></select><select id="pickup-time"></select>
+                    </nobr>
+                </div>
+                <button onclick="submitOrder()">order</button>
             </div>
             <div class="order hidden"></div>
-            <div class="payment hidden"></div>
-            <div class="thankyou hidden"></div>
+            <div class="payment hidden">
+                <div class="tip"><select onchange="displayOrder(order)" id="tip">
+                    <option value="0">No Tip</option>
+                    <option value="10">10%</option>
+                    <option value="15">15%</option>
+                    <option value="20">20%</option>
+                    <option value="25">25%</option>
+                </select></div>
+                <div id="form-container">
+                    <div id="sq-card-number"></div>
+                    <div class="third" id="sq-expiration-date"></div>
+                    <div class="third" id="sq-cvv"></div>
+                    <div class="third" id="sq-postal-code"></div>
+                    <button id="sq-creditcard" class="button-credit-card" onclick="onGetCardNonce(event)">Pay</button>
+                </div>             
+            </div>
+            <div class="thankyou hidden">
+                <h3>Thanks for your order</h3>
+                <p>We really appreciate your business</p>
+                <p>
+                <a id="receipt-link" target="_new" href="">show receipt</a>
+                </p>
+                <p>
+                <a id="text-link" href="sms://+13852995418/">text us when you arrive!</a>
+                </p>
+            </div>
         </div>`;
 
     cartEl.innerHTML=html;
+
+    document.getElementById("name").value=getCookie("name");
+    document.getElementById("cell").value=getCookie("cell");
+
 }
 
 function plus(el) {
@@ -314,6 +598,128 @@ function minus (el) {
     li.quantity--;
     if (li.quantity==0) cart.remove(fp);   
     updateCart();
+}
+
+orderEndpoint="https://script.google.com/macros/s/AKfycbzPFOTS5HT-Vv1mAYv3ktpZfNhGtRPdHz00Qi9Alw/exec";
+order={};
+
+
+function displayOrder(o) {
+    order=o;
+    html=`<h3>Order: ${order.reference_id}</h3>`;
+    order.line_items.forEach((li) => {
+        html+=`<div class="line item"><span class="desc">${li.quantity} x ${li.name} : ${li.variation_name}</span> <span class="amount">$${formatMoney(li.base_price_money.amount*li.quantity)}</span></div>`;
+        if (typeof li.modifiers !== "undefined") {
+            li.modifiers.forEach((mod) => {
+                html+=`<div class="line mod"><span class="desc">${mod.name}</span> <span class="amount">$${formatMoney(mod.total_price_money.amount)}</span></div>`;
+            })
+        }
+    });
+    html+=`<div class="line subtotal"><span class="desc">Subtotal</span><span class="amount">$${formatMoney(order.total_money.amount)}</span></div>`;
+    html+=`<div class="line tax"><span class="desc">Prepared Food Tax (Included)</span><span class="amount">$${formatMoney(order.total_tax_money.amount)}</span></div>`;
+    html+=`<div class="line tip"><span class="desc">Tip</span><span class="amount">$${formatMoney(getTip())}</span></div>`;
+    html+=`<div class="line total"><span class="desc">Total</span><span class="amount">$${formatMoney(order.total_money.amount+getTip())}</span></div>`;
+    document.querySelector("#cart .order").innerHTML=html;
+    var paymentEl=document.querySelector("#cart .payment");
+    paymentEl.classList.remove("hidden");
+    initPaymentForm();
+}
+
+var paymentForm;
+
+function generateId () {
+    var id="";
+    var chars="123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    for (var i=0;i<4;i++) {
+        id+=chars.substr(Math.floor(Math.random()*chars.length),1);
+    }
+    return id;
+}
+
+function submitOrder() {
+    var cartEl=document.getElementById("cart");
+
+    var orderParams={};
+    orderParams.pickup_at=document.getElementById("pickup-time").value;
+    orderParams.display_name=document.getElementById("name").value;
+    orderParams.cell=document.getElementById("cell").value;
+    orderParams.reference_id=generateId();
+
+    if (cart.itemCount==0) return;
+    if (orderParams.display_name=="") {
+        document.getElementById("name").focus();
+        return;
+    }
+    if (orderParams.cell=="") {
+        document.getElementById("cell").focus();
+        return;
+    }
+
+    setCookie("name",orderParams.display_name, 200);
+    setCookie("cell",orderParams.cell, 200);
+
+    cartEl.querySelector(".lineitems").classList.add("hidden");
+    cartEl.querySelector(".info").classList.add("hidden");
+    var orderEl=cartEl.querySelector(".order");
+    orderEl.classList.remove("hidden");
+    orderEl.innerHTML=`<div class="ordering"><svg><use href="/icons.svg#normal"></use></svg></div>`;
+    
+    
+    orderParams.line_items=[];
+    cart.line_items.forEach((li) => { 
+        var mods=[];
+        li.mods.forEach((m) => mods.push({"catalog_object_id": m}));
+        var line_item={
+            "catalog_object_id": li.variation,
+            "quantity": ""+li.quantity };
+
+        if (mods.length) {
+            line_item.modifiers=mods;
+        }
+        orderParams.line_items.push(line_item);       
+    });
+
+    console.log ("order: "+JSON.stringify(orderParams));
+
+    var qs="";
+    for (var a in orderParams) {
+        if (a=="line_items") {
+            qs+=a+"="+encodeURIComponent(JSON.stringify(orderParams[a]));
+        } else {
+            qs+=a+"="+encodeURIComponent(orderParams[a]);
+        }
+        qs+="&";
+    }
+
+    console.log ("order qs: "+qs);
+
+    fetch(orderEndpoint+'?'+qs, {
+        method: 'GET',
+        headers: {
+          'Accept': 'application/json',
+        }
+      })
+      .catch(err => {
+        alert('Network error: ' + err);
+      })
+      .then(response => {
+        if (!response.ok) {
+          return response.text().then(errorInfo => Promise.reject(errorInfo));
+        }
+        return response.text();
+      })
+      .then(data => {
+        console.log(data);
+        var obj=JSON.parse(data);
+        if (typeof obj.order != "undefined") {
+            displayOrder(obj.order);
+        } else {
+            alert('Order Submission failed. Sorry.');
+        }
+      })
+      .catch(err => {
+        console.error(err);
+      });          
 }
 
 function updateCart() {
