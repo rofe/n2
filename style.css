@@ -383,7 +383,7 @@ main>div:last-of-type {
 }
 
 #cart.full {
-    height: 100vh;
+    height: 100%;
     transition: all 0.5s ease-in;
     overflow-y: scroll;
 }
@@ -495,7 +495,7 @@ main>div:last-of-type {
     z-index: 2;
     position: fixed;
     background-color: #ffe9e1;
-    height: 100vh;
+    height: 100%;
     width: 100vw;
     top: 0;
     left: 0;
