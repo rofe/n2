@@ -239,9 +239,10 @@ function configItem(item) {
     config.classList.remove("hidden");
     document.body.classList.add("noscroll");
     var html=`<div class="close" onclick="hideConfig()">X</div><div class="wrapper"><h3>customize your ${item.item_data.name}</h3>`;
+    html+=`<p>*all soft serve will be in a cup</p>`;
     html+=`<select>`;
     item.item_data.variations.forEach((v) => {
-        html+=`<option value="${v.id}">${v.item_variation_data.name}</option>`;
+        html+=`<option value="${v.id}">${v.item_variation_data.name} ($${formatMoney(v.item_variation_data.price_money.amount)})</option>`;
     });
     html+=`</select>`;
     item.item_data.modifier_list_info.forEach((m) => {
@@ -250,7 +251,7 @@ function configItem(item) {
         html+=`<div><select>`;
         html+=`<option value="" >no ${ml.modifier_list_data.name}</option>`;
         ml.modifier_list_data.modifiers.forEach((mod) => {
-            html+=`<option value="${mod.id}">${mod.modifier_data.name}</option>`;
+            html+=`<option value="${mod.id}">${mod.modifier_data.name} (+$${formatMoney(mod.modifier_data.price_money.amount)})</option>`;
         })
     html+=`</select></div>`;
     });
@@ -311,7 +312,7 @@ function setPickupTimes () {
         option.text = formatTime(time);
         option.value=time.toISOString();
         timeSelect.add(option);
-        time=new Date(time.getTime()+15*60000);
+        time=new Date(time.getTime()+10*60000);
     }
 
 }
@@ -324,8 +325,8 @@ function setPickupDates () {
     var day=now;
     var conf=getOpeningHoursConfig();
 
-    var weekdays = ["Sun","Mon","Tue","Wed","Thu","Fri","Sat"];
-    var months = ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep', 'Oct', 'Nov', 'Dec'];
+    var weekdays = ["sun","mon","tue","wed","thu","fri","sat"];
+    var months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
     var dateSelect=document.getElementById("pickup-date");
 
     while (i<10) {
@@ -557,7 +558,7 @@ function initCart() {
             <div class="order hidden"></div>
             <div class="payment hidden">
                 <div class="tip"><select onchange="displayOrder(order)" id="tip">
-                    <option value="0">No Tip</option>
+                    <option value="0">no tip</option>
                     <option value="10">10%</option>
                     <option value="15">15%</option>
                     <option value="20">20%</option>
@@ -568,7 +569,7 @@ function initCart() {
                     <div class="third" id="sq-expiration-date"></div>
                     <div class="third" id="sq-cvv"></div>
                     <div class="third" id="sq-postal-code"></div>
-                    <button id="sq-creditcard" class="button-credit-card" onclick="onGetCardNonce(event)">Pay</button>
+                    <button id="sq-creditcard" class="button-credit-card" onclick="onGetCardNonce(event)">pay</button>
                 </div>             
             </div>
             <div class="thankyou hidden">
@@ -611,7 +612,7 @@ order={};
 
 function displayOrder(o) {
     order=o;
-    html=`<h3>Order: ${order.reference_id}</h3>`;
+    html=`<h3>order: ${order.reference_id}</h3>`;
     order.line_items.forEach((li) => {
         html+=`<div class="line item"><span class="desc">${li.quantity} x ${li.name} : ${li.variation_name}</span> <span class="amount">$${formatMoney(li.base_price_money.amount*li.quantity)}</span></div>`;
         if (typeof li.modifiers !== "undefined") {
@@ -620,10 +621,10 @@ function displayOrder(o) {
             })
         }
     });
-    html+=`<div class="line subtotal"><span class="desc">Subtotal</span><span class="amount">$${formatMoney(order.total_money.amount)}</span></div>`;
-    html+=`<div class="line tax"><span class="desc">Prepared Food Tax (Included)</span><span class="amount">$${formatMoney(order.total_tax_money.amount)}</span></div>`;
-    html+=`<div class="line tip"><span class="desc">Tip</span><span class="amount">$${formatMoney(getTip())}</span></div>`;
-    html+=`<div class="line total"><span class="desc">Total</span><span class="amount">$${formatMoney(order.total_money.amount+getTip())}</span></div>`;
+    html+=`<div class="line subtotal"><span class="desc">subtotal</span><span class="amount">$${formatMoney(order.total_money.amount)}</span></div>`;
+    html+=`<div class="line tax"><span class="desc">prepared food tax (included)</span><span class="amount">$${formatMoney(order.total_tax_money.amount)}</span></div>`;
+    html+=`<div class="line tip"><span class="desc">tip</span><span class="amount">$${formatMoney(getTip())}</span></div>`;
+    html+=`<div class="line total"><span class="desc">total</span><span class="amount">$${formatMoney(order.total_money.amount+getTip())}</span></div>`;
     document.querySelector("#cart .order").innerHTML=html;
     var paymentEl=document.querySelector("#cart .payment");
     paymentEl.classList.remove("hidden");

@@ -700,6 +700,7 @@ select:disabled:hover, select[aria-disabled=true] {
 /* Define how SqPaymentForm iframes should look */
 .sq-input {
     height: 56px;
+    text-transform: lowercase;
     box-sizing: border-box;
     border: 1px solid #E0E2E3;
     background-color: white;
