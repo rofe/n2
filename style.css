@@ -504,9 +504,15 @@ main>div:last-of-type {
     transition: all 0.5s ease-in;
 }
 
+#config button {
+    margin-top: 30px;
+}
+
+
 #config.hidden {
     left: -100vw;
     transition: all 0.5s ease-in;
+    display: block;
 }
 
 #config .close {

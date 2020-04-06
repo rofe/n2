@@ -247,11 +247,12 @@ function configItem(item) {
     item.item_data.modifier_list_info.forEach((m) => {
         var ml=catalog.byId[m.modifier_list_id];
         html+=`<h3>${ml.modifier_list_data.name}</h3>`;
-        html+=`<div>`;
+        html+=`<div><select>`;
+        html+=`<option value="" >no ${ml.modifier_list_data.name}</option>`;
         ml.modifier_list_data.modifiers.forEach((mod) => {
-            html+=`<p><input type="checkbox" id="${mod.id}" /><label for="${mod.id}">${mod.modifier_data.name}</label></p>`;
+            html+=`<option value="${mod.id}">${mod.modifier_data.name}</option>`;
         })
-    html+=`</div>`;
+    html+=`</select></div>`;
     });
     html+=`<button onclick="addConfigToCart()">add to cart</button>
            </div>`;
@@ -354,10 +355,14 @@ function setPickupDates () {
 
 function addConfigToCart(e) {
     hideConfig();
-    var variation=document.querySelector("#config select").value;
+    var variation="";
     var mods=[];
-    document.querySelectorAll(`#config input[type="checkbox"]`).forEach((e) => {
-        if (e.checked) mods.push(e.id);
+    document.querySelectorAll(`#config select`).forEach((e, i) => {
+        if (!i) {
+            variation=e.value;
+        } else {
+            if (e.value) mods.push(e.value);
+        }
     })
     cart.add(variation, mods)
     updateCart();
@@ -730,6 +735,7 @@ function updateCart() {
         cartEl.classList.remove("hidden");
     } else {
         cartEl.classList.add("hidden");
+        document.body.classList.remove("noscroll");
     }
 
     var summaryEl=cartEl.querySelector(".summary");
@@ -780,7 +786,9 @@ function itemByName(name) {
 function variationByName(item, name) {
     name=name.toLowerCase();
     var variation=item.item_data.variations.find((i) => {
-        return (name == i.item_variation_data.name.toLowerCase());
+        var vname=i.item_variation_data.name.toLowerCase();
+        vname=vname.split("(")[0].trim();
+        return (name == vname);
     })
     return (variation);
 }
