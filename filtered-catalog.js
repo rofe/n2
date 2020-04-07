@@ -22,7 +22,7 @@ var catalog_raw=[
       "item_id": "JHXGR67LAV6YHS4OPESIOSEX",
       "name": "half",
       "price_money": {
-       "amount": 3001
+       "amount": 300
       }
      }
     },
