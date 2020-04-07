@@ -5773,16 +5773,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "P4MTGDKJJAEO3FGCQR2VPALZ",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "NORMAL DOTS dulce de leche 5oz",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
      "id": "IPIHGCRUL2CLR6L3I6NGN2NB",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
