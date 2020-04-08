@@ -5743,16 +5743,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "ZFBALZHBUBQQNNKD3PWWVSGW",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "pomegranate sorbet (v)",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
      "id": "EFK3V3MXKLXFFJMZB5E7R5RH",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
