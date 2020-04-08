@@ -5546,16 +5546,6 @@ var catalog_raw=[
    "name": "ice cream bar",
    "variations": [
     {
-     "id": "SWXZSXZ3X62QPXSLKBECKDDV",
-     "item_variation_data": {
-      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
-      "name": "earl grey + passion",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
      "id": "74IVJ35BIAV7SXS4D4QVCOBW",
      "item_variation_data": {
       "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
