@@ -5683,16 +5683,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "KEMPPEVVUV7BVTRU4H7SBO4P",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "coffee ice cream",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
      "id": "PMADBWOLB5L2UFKAZAP2UMJZ",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
@@ -5747,16 +5737,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
       "name": "strawberry milk ice cream",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
-     "id": "IPIHGCRUL2CLR6L3I6NGN2NB",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "MALTED COFFEE pint : coffee ice cream + salted caramel",
       "price_money": {
        "amount": 1000
       }
