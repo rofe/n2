@@ -5731,6 +5731,16 @@ var catalog_raw=[
        "amount": 1000
       }
      }
+    },
+    {
+     "id": "POCZ6TYWWQGLYBLE6ZW7ILJ7",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "GINGERSNAP + CREAM CHEESE : cream cheese ice cream + gingersnap cookie bits",
+      "price_money": {
+       "amount": 1000
+      }
+     }
     }
    ]
   }
