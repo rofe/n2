@@ -5723,32 +5723,12 @@ var catalog_raw=[
      }
     },
     {
-     "id": "EFK3V3MXKLXFFJMZB5E7R5RH",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "salted vanilla bean ice cream",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
      "id": "VXSBNROWAAY3VMP2YM57IDT6",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
       "name": "strawberry milk ice cream",
       "price_money": {
        "amount": 1000
-      }
-     }
-    },
-    {
-     "id": "WBHY7C5KUZWBJFG5TABCBREM",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "NORMAL MINT CHIP pint : fresh mint ice cream + white chocolate ganache + chocolate shortbread crumb",
-      "price_money": {
-       "amount": 987
       }
      }
     }
