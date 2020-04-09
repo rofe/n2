@@ -5593,6 +5593,16 @@ var catalog_raw=[
        "amount": 600
       }
      }
+    },
+    {
+     "id": "I5MYZMBBDAHCP23PJULXYUQQ",
+     "item_variation_data": {
+      "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
+      "name": "chocolate wasted: chocolate shortbread + milk chocolate ice cream + dark chocolate dip + roasted white chocolate bits",
+      "price_money": {
+       "amount": 600
+      }
+     }
     }
    ]
   }
