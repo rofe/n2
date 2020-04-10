@@ -5634,6 +5634,16 @@ var catalog_raw=[
    "name": "ice cream cake",
    "variations": [
     {
+     "id": "37UFSXRAXW4DANV7OC4EZBUE",
+     "item_variation_data": {
+      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
+      "name": "CARROT CAKE norm core : carrot cake + cream cheese ice cream + white chocolate dip + smoked sea salt",
+      "price_money": {
+       "amount": 450
+      }
+     }
+    },
+    {
      "id": "PBVUGXREMM2DKQU6ML322FCJ",
      "item_variation_data": {
       "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
@@ -5680,6 +5690,16 @@ var catalog_raw=[
       "name": "strawberry + funfetti slice",
       "price_money": {
        "amount": 600
+      }
+     }
+    },
+    {
+     "id": "6BU3PJI3ACLLHCIJ3AUT44WL",
+     "item_variation_data": {
+      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
+      "name": "strawberry + funfetti 6\" cake",
+      "price_money": {
+       "amount": 3500
       }
      }
     }
