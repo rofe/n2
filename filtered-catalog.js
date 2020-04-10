@@ -5713,10 +5713,30 @@ var catalog_raw=[
      }
     },
     {
+     "id": "ICXQZE2F5QFLED6OR2X6E76N",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "earl grey tea ice cream",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
      "id": "PMADBWOLB5L2UFKAZAP2UMJZ",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
       "name": "grapefruit sorbet (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "CUMFENPXE7DBQLIMPZP6AOIF",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "greek yogurt ice cream",
       "price_money": {
        "amount": 1000
       }
@@ -5769,6 +5789,46 @@ var catalog_raw=[
       "name": "GINGERSNAP + CREAM CHEESE : cream cheese ice cream + gingersnap cookie bits",
       "price_money": {
        "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "SDPP3UVAPX7O5SJKCADWHYHG",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "CARROT CAKE : carrot cake ice cream + carrot cake bits + cream cheese frosting",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "J66JJHWZFFX47P36QHZGN4QK",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "SWEET CORN + PASSION : sweet corn ice cream + passionfruit caramel",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "QPQFUMLG54SLU4GI7WE3KN5R",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "PISTACHIO BON BONS : pistachio ice cream \"eggs\" + dark chocolate dip + dulcey chocolate",
+      "price_money": {
+       "amount": 900
+      }
+     }
+    },
+    {
+     "id": "ODM3ULSSKENA52FZUWXFKO2F",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "MATCHA BON BONS (V + GF) : matcha ice cream + dark chocolate dip + cocoa pebbles",
+      "price_money": {
+       "amount": 900
       }
      }
     }
