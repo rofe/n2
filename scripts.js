@@ -1,3 +1,7 @@
+/* ------
+general purpose helix pages / display scripts
+--------- */
+
 (() => {
     const scrani = (() => {
     
@@ -212,6 +216,44 @@ function fixSmsUrls() {
 
 }
 
+function setCookie(cname, cvalue, exdays) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+ d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+}
+
+function getCookie(cname) {
+    var name = cname + "=";
+    var decodedCookie = decodeURIComponent(document.cookie);
+    var ca = decodedCookie.split(';');
+    for(var i = 0; i <ca.length; i++) {
+        var c = ca[i];
+        while (c.charAt(0) == ' ') {
+        c = c.substring(1);
+        }
+        if (c.indexOf(name) == 0) {
+        return c.substring(name.length, c.length);
+        }
+    }
+    return "";
+}
+
+function generateId () {
+    var id="";
+    var chars="123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+    for (var i=0;i<4;i++) {
+        id+=chars.substr(Math.floor(Math.random()*chars.length),1);
+    }
+    return id;
+}
+
+
+/* ------
+pim and catalog management handling
+--------- */
+
+
 function indexCatalog() {
     catalog={
         byId: {},
@@ -227,6 +269,11 @@ function indexCatalog() {
         }
     })
 } 
+
+/* ------
+product config
+--------- */
+
 
 function hideConfig() {
     var config=document.getElementById("config");
@@ -259,6 +306,11 @@ function configItem(item) {
            </div>`;
     config.innerHTML=html;
 }
+
+/* ------
+check-out flow (pickup name, cell, time, store opening hours, payment)
+--------- */
+
 
 function formatTime(date) {
     var hours = date.getHours();
@@ -317,6 +369,37 @@ function setPickupTimes () {
 
 }
 
+function displayThanks(payment){
+    var cartEl=document.getElementById("cart");
+    cartEl.querySelector(".payment").classList.add("hidden");
+    cartEl.querySelector(".thankyou").classList.remove("hidden");
+
+    var receiptElem=document.getElementById("receipt-link");
+    var receiptLink="/receipt"
+
+    if (payment) {
+            receiptLink=payment.receipt_url;
+    }
+
+    receiptElem.setAttribute("href", receiptLink);
+
+    var textElem=document.getElementById("text-link");
+    var msg=`Hi Normal, this is ${order.fulfillments[0].pickup_details.recipient.display_name}, picking up my order in a (describe car)`;
+    var smshref=`sms://+13852995418/${isAndroid()?"?":"&"}body=${encodeURIComponent(msg)}`;
+    textElem.setAttribute("href", smshref);
+
+    cart.line_items=[];
+    var summaryEl=document.querySelector("#cart .summary");
+    summaryEl.innerHTML=`your cart is empty`;
+}
+
+function getTip() {
+    var tipPercentage=+document.getElementById("tip").value;
+    var tipAmount=Math.round(order.total_money.amount*tipPercentage/100);
+    return (tipAmount);
+}
+
+
 function setPickupDates () {
 
     var now=new Date();
@@ -353,94 +436,7 @@ function setPickupDates () {
     setPickupTimes();
 }
 
-
-function addConfigToCart(e) {
-    hideConfig();
-    var variation="";
-    var mods=[];
-    document.querySelectorAll(`#config select`).forEach((e, i) => {
-        if (!i) {
-            variation=e.value;
-        } else {
-            if (e.value) mods.push(e.value);
-        }
-    })
-    cart.add(variation, mods)
-    updateCart();
-}
-
-function toggleCartDisplay() {
-    
-    var cartEl=document.getElementById("cart");
-    if (cartEl.classList.toggle("full")) {
-        document.body.classList.add("noscroll");
-        cartEl.querySelector(".summary").classList.add("hidden");
-        cartEl.querySelector(".details").classList.remove("hidden");
-    } else {
-        document.body.classList.remove("noscroll");
-        cartEl.querySelector(".summary").classList.remove("hidden");
-        cartEl.querySelector(".details").classList.add("hidden");
-    }
-    cartEl.querySelector(".lineitems").classList.remove("hidden");
-    cartEl.querySelector(".info").classList.remove("hidden");
-    cartEl.querySelector(".order").classList.add("hidden");
-    cartEl.querySelector(".payment").classList.add("hidden");
-    cartEl.querySelector(".thankyou").classList.add("hidden");
-    setPickupDates();
-}
-
-function setCookie(cname, cvalue, exdays) {
-    var d = new Date();
-    d.setTime(d.getTime() + (exdays*24*60*60*1000));
-    var expires = "expires="+ d.toUTCString();
-    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
-}
-
-function getCookie(cname) {
-    var name = cname + "=";
-    var decodedCookie = decodeURIComponent(document.cookie);
-    var ca = decodedCookie.split(';');
-    for(var i = 0; i <ca.length; i++) {
-        var c = ca[i];
-        while (c.charAt(0) == ' ') {
-        c = c.substring(1);
-        }
-        if (c.indexOf(name) == 0) {
-        return c.substring(name.length, c.length);
-        }
-    }
-    return "";
-}
-
-function displayThanks(payment){
-    var cartEl=document.getElementById("cart");
-    cartEl.querySelector(".payment").classList.add("hidden");
-    cartEl.querySelector(".thankyou").classList.remove("hidden");
-
-    var receiptElem=document.getElementById("receipt-link");
-    var receiptLink="/receipt"
-
-    if (payment) {
-            receiptLink=payment.receipt_url;
-    }
-
-    receiptElem.setAttribute("href", receiptLink);
-
-    var textElem=document.getElementById("text-link");
-    var msg=`Hi Normal, this is ${order.fulfillments[0].pickup_details.recipient.display_name}, picking up my order in a (describe car)`;
-    var smshref=`sms://+13852995418/${isAndroid()?"?":"&"}body=${encodeURIComponent(msg)}`;
-    textElem.setAttribute("href", smshref);
-
-    cart.line_items=[];
-    var summaryEl=document.querySelector("#cart .summary");
-    summaryEl.innerHTML=`your cart is empty`;
-}
-
-function getTip() {
-    var tipPercentage=+document.getElementById("tip").value;
-    var tipAmount=Math.round(order.total_money.amount*tipPercentage/100);
-    return (tipAmount);
-}
+var paymentForm;
 
 function initPaymentForm() {
         
@@ -537,110 +533,8 @@ function onGetCardNonce(event) {
     paymentForm.requestCardNonce();
   }
 
-
-function initCart() {
-    var cartEl=document.getElementById("cart");
-    
-    var html=`<div class="summary">items in your cart ($) <button onclick="toggleCartDisplay()">check out</button></div>`;
-    html+=`<div class="details hidden">
-            <div class="back" onclick="toggleCartDisplay()">&lt; back to shop</div>
-            <div class="lineitems"></div>
-            <div class="info">
-                <input id="name" type="text" placeholder="Your Name">
-                <input id="cell" type="text" placeholder="Cell Phone">
-                <div class="pickup-time"> 
-                    <nobr>
-                        <select id="pickup-date" onchange="setPickupTimes()"></select><select id="pickup-time"></select>
-                    </nobr>
-                </div>
-                <button onclick="submitOrder()">order</button>
-            </div>
-            <div class="order hidden"></div>
-            <div class="payment hidden">
-                <div class="tip"><select onchange="displayOrder(order)" id="tip">
-                    <option value="0">no tip</option>
-                    <option value="10">10%</option>
-                    <option value="15">15%</option>
-                    <option value="20">20%</option>
-                    <option value="25">25%</option>
-                </select></div>
-                <div id="form-container">
-                    <div id="sq-card-number"></div>
-                    <div class="third" id="sq-expiration-date"></div>
-                    <div class="third" id="sq-cvv"></div>
-                    <div class="third" id="sq-postal-code"></div>
-                    <button id="sq-creditcard" class="button-credit-card" onclick="onGetCardNonce(event)">pay</button>
-                </div>             
-            </div>
-            <div class="thankyou hidden">
-                <h3>Thanks for your order</h3>
-                <p>We really appreciate your business</p>
-                <p>
-                <a id="receipt-link" target="_new" href="">show receipt</a>
-                </p>
-                <p>
-                <a id="text-link" href="sms://+13852995418/">text us when you arrive!</a>
-                </p>
-            </div>
-        </div>`;
-
-    cartEl.innerHTML=html;
-
-    document.getElementById("name").value=getCookie("name");
-    document.getElementById("cell").value=getCookie("cell");
-
-}
-
-function plus(el) {
-  var fp=el.parentNode.parentNode.getAttribute("data-id");
-  var li=cart.line_items.find((li) => fp == li.fp);
-  if (li.quantity<20) li.quantity++;  
-  updateCart();
-}
-
-function minus (el) {
-    var fp=el.parentNode.parentNode.getAttribute("data-id");
-    var li=cart.line_items.find((li) => fp == li.fp);
-    li.quantity--;
-    if (li.quantity==0) cart.remove(fp);   
-    updateCart();
-}
-
 orderEndpoint="https://script.google.com/macros/s/AKfycbzPFOTS5HT-Vv1mAYv3ktpZfNhGtRPdHz00Qi9Alw/exec";
 order={};
-
-
-function displayOrder(o) {
-    order=o;
-    html=`<h3>order: ${order.reference_id}</h3>`;
-    order.line_items.forEach((li) => {
-        html+=`<div class="line item"><span class="desc">${li.quantity} x ${li.name} : ${li.variation_name}</span> <span class="amount">$${formatMoney(li.base_price_money.amount*li.quantity)}</span></div>`;
-        if (typeof li.modifiers !== "undefined") {
-            li.modifiers.forEach((mod) => {
-                html+=`<div class="line mod"><span class="desc">${mod.name}</span> <span class="amount">$${formatMoney(mod.total_price_money.amount)}</span></div>`;
-            })
-        }
-    });
-    html+=`<div class="line subtotal"><span class="desc">subtotal</span><span class="amount">$${formatMoney(order.total_money.amount)}</span></div>`;
-    html+=`<div class="line tax"><span class="desc">prepared food tax (included)</span><span class="amount">$${formatMoney(order.total_tax_money.amount)}</span></div>`;
-    html+=`<div class="line tip"><span class="desc">tip</span><span class="amount">$${formatMoney(getTip())}</span></div>`;
-    html+=`<div class="line total"><span class="desc">total</span><span class="amount">$${formatMoney(order.total_money.amount+getTip())}</span></div>`;
-    document.querySelector("#cart .order").innerHTML=html;
-    var paymentEl=document.querySelector("#cart .payment");
-    paymentEl.classList.remove("hidden");
-    initPaymentForm();
-}
-
-var paymentForm;
-
-function generateId () {
-    var id="";
-    var chars="123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-    for (var i=0;i<4;i++) {
-        id+=chars.substr(Math.floor(Math.random()*chars.length),1);
-    }
-    return id;
-}
 
 function submitOrder() {
     var cartEl=document.getElementById("cart");
@@ -726,6 +620,137 @@ function submitOrder() {
       .catch(err => {
         console.error(err);
       });          
+}
+
+function displayOrder(o) {
+    order=o;
+    html=`<h3>order: ${order.reference_id}</h3>`;
+    order.line_items.forEach((li) => {
+        html+=`<div class="line item"><span class="desc">${li.quantity} x ${li.name} : ${li.variation_name}</span> <span class="amount">$${formatMoney(li.base_price_money.amount*li.quantity)}</span></div>`;
+        if (typeof li.modifiers !== "undefined") {
+            li.modifiers.forEach((mod) => {
+                html+=`<div class="line mod"><span class="desc">${mod.name}</span> <span class="amount">$${formatMoney(mod.total_price_money.amount)}</span></div>`;
+            })
+        }
+    });
+    html+=`<div class="line subtotal"><span class="desc">subtotal</span><span class="amount">$${formatMoney(order.total_money.amount)}</span></div>`;
+    html+=`<div class="line tax"><span class="desc">prepared food tax (included)</span><span class="amount">$${formatMoney(order.total_tax_money.amount)}</span></div>`;
+    html+=`<div class="line tip"><span class="desc">tip</span><span class="amount">$${formatMoney(getTip())}</span></div>`;
+    html+=`<div class="line total"><span class="desc">total</span><span class="amount">$${formatMoney(order.total_money.amount+getTip())}</span></div>`;
+    document.querySelector("#cart .order").innerHTML=html;
+    var paymentEl=document.querySelector("#cart .payment");
+    paymentEl.classList.remove("hidden");
+    initPaymentForm();
+}
+
+
+
+/* ------
+shopping cart (configs, variations, modifiers, price, quantity)
+--------- */
+
+function addConfigToCart(e) {
+    hideConfig();
+    var variation="";
+    var mods=[];
+    document.querySelectorAll(`#config select`).forEach((e, i) => {
+        if (!i) {
+            variation=e.value;
+        } else {
+            if (e.value) mods.push(e.value);
+        }
+    })
+    cart.add(variation, mods)
+    updateCart();
+}
+
+function toggleCartDisplay() {
+    
+    var cartEl=document.getElementById("cart");
+    if (cartEl.classList.toggle("full")) {
+        document.body.classList.add("noscroll");
+        cartEl.querySelector(".summary").classList.add("hidden");
+        cartEl.querySelector(".details").classList.remove("hidden");
+    } else {
+        document.body.classList.remove("noscroll");
+        cartEl.querySelector(".summary").classList.remove("hidden");
+        cartEl.querySelector(".details").classList.add("hidden");
+    }
+    cartEl.querySelector(".lineitems").classList.remove("hidden");
+    cartEl.querySelector(".info").classList.remove("hidden");
+    cartEl.querySelector(".order").classList.add("hidden");
+    cartEl.querySelector(".payment").classList.add("hidden");
+    cartEl.querySelector(".thankyou").classList.add("hidden");
+    setPickupDates();
+}
+
+
+function initCart() {
+    var cartEl=document.getElementById("cart");
+    
+    var html=`<div class="summary">items in your cart ($) <button onclick="toggleCartDisplay()">check out</button></div>`;
+    html+=`<div class="details hidden">
+            <div class="back" onclick="toggleCartDisplay()">&lt; back to shop</div>
+            <div class="lineitems"></div>
+            <div class="info">
+                <input id="name" type="text" placeholder="Your Name">
+                <input id="cell" type="text" placeholder="Cell Phone">
+                <div class="pickup-time"> 
+                    <nobr>
+                        <select id="pickup-date" onchange="setPickupTimes()"></select><select id="pickup-time"></select>
+                    </nobr>
+                </div>
+                <button onclick="submitOrder()">order</button>
+            </div>
+            <div class="order hidden"></div>
+            <div class="payment hidden">
+                <div class="tip"><select onchange="displayOrder(order)" id="tip">
+                    <option value="0">no tip</option>
+                    <option value="10">10%</option>
+                    <option value="15">15%</option>
+                    <option value="20">20%</option>
+                    <option value="25">25%</option>
+                </select></div>
+                <div id="form-container">
+                    <div id="sq-card-number"></div>
+                    <div class="third" id="sq-expiration-date"></div>
+                    <div class="third" id="sq-cvv"></div>
+                    <div class="third" id="sq-postal-code"></div>
+                    <button id="sq-creditcard" class="button-credit-card" onclick="onGetCardNonce(event)">pay</button>
+                </div>             
+            </div>
+            <div class="thankyou hidden">
+                <h3>Thanks for your order</h3>
+                <p>We really appreciate your business</p>
+                <p>
+                <a id="receipt-link" target="_new" href="">show receipt</a>
+                </p>
+                <p>
+                <a id="text-link" href="sms://+13852995418/">text us when you arrive!</a>
+                </p>
+            </div>
+        </div>`;
+
+    cartEl.innerHTML=html;
+
+    document.getElementById("name").value=getCookie("name");
+    document.getElementById("cell").value=getCookie("cell");
+
+}
+
+function plus(el) {
+  var fp=el.parentNode.parentNode.getAttribute("data-id");
+  var li=cart.line_items.find((li) => fp == li.fp);
+  if (li.quantity<20) li.quantity++;  
+  updateCart();
+}
+
+function minus (el) {
+    var fp=el.parentNode.parentNode.getAttribute("data-id");
+    var li=cart.line_items.find((li) => fp == li.fp);
+    li.quantity--;
+    if (li.quantity==0) cart.remove(fp);   
+    updateCart();
 }
 
 function updateCart() {
@@ -851,19 +876,6 @@ function makeShoppable() {
     });
 }
 
-window.onload = function() {
-  fixIcons();
-  classify();
-  //wrapMenus();
-  //cloneMenuSwiper();
-  fixSmsUrls();
-  makeShoppable();
-
-  scrani.onload();
-}
-
-window.onresize=updateMenuDisplay;
-
 var cart={
     line_items: [],
     remove: (fp) => {
@@ -900,3 +912,17 @@ var cart={
         return (total);
     }
 }
+
+window.onload = function() {
+    fixIcons();
+    classify();
+    //wrapMenus();
+    //cloneMenuSwiper();
+    fixSmsUrls();
+    makeShoppable();
+  
+    scrani.onload();
+  }
+  
+  window.onresize=updateMenuDisplay;
+  
