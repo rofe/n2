@@ -5753,16 +5753,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "CUMFENPXE7DBQLIMPZP6AOIF",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "greek yogurt ice cream",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
      "id": "KXGLDB25RYVJNULIQRN7P5NA",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
