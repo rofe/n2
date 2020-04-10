@@ -5605,16 +5605,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "WOLSVUQ4EG2WOAUEWXM3TK3A",
-     "item_variation_data": {
-      "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
-      "name": "chocolate chip + sweet cream ice cream",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
      "id": "I5MYZMBBDAHCP23PJULXYUQQ",
      "item_variation_data": {
       "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
