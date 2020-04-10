@@ -5559,7 +5559,7 @@ var catalog_raw=[
      "id": "VX7IVX3KNOFTBDVAKFNIREGF",
      "item_variation_data": {
       "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
-      "name": "trashberry bar (V + GF) many berry sorbet + dark chocolate dip + cocoa pebbles",
+      "name": "trashberry bar (V + GF) many berry sorbet + dark chocolate dip + cocoa pebbles:",
       "price_money": {
        "amount": 600
       }
@@ -5569,7 +5569,17 @@ var catalog_raw=[
      "id": "GFEYV3J345N3MFIJWDERFKTZ",
      "item_variation_data": {
       "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
-      "name": "almond joy (V)",
+      "name": "almond joy (V) : coconut sorbet + dark chocolate dip + almond dip + toasted coconut",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    },
+    {
+     "id": "HLDPKXI4MNLX6G7USXNZMW4J",
+     "item_variation_data": {
+      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
+      "name": "\"handle\" bar (GF) : salted maple ice cream + dark chocolate dip + brown butter milk crumb",
       "price_money": {
        "amount": 600
       }
@@ -5584,6 +5594,16 @@ var catalog_raw=[
   "item_data": {
    "name": "ice cream sando",
    "variations": [
+    {
+     "id": "VHB4D7IJZ2T4IPQQV3NP7BDQ",
+     "item_variation_data": {
+      "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
+      "name": "anti-chocolate chip + milk chocolate ice cream",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    },
     {
      "id": "WOLSVUQ4EG2WOAUEWXM3TK3A",
      "item_variation_data": {
