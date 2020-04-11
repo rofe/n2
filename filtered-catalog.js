@@ -5783,16 +5783,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "SDPP3UVAPX7O5SJKCADWHYHG",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "CARROT CAKE : carrot cake ice cream + carrot cake bits + cream cheese frosting",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
      "id": "J66JJHWZFFX47P36QHZGN4QK",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
