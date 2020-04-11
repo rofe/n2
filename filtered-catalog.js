@@ -5793,16 +5793,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "QPQFUMLG54SLU4GI7WE3KN5R",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "PISTACHIO BON BONS : pistachio ice cream \"eggs\" + dark chocolate dip + dulcey chocolate",
-      "price_money": {
-       "amount": 900
-      }
-     }
-    },
-    {
      "id": "ODM3ULSSKENA52FZUWXFKO2F",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
