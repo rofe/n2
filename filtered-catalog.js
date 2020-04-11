@@ -5781,16 +5781,6 @@ var catalog_raw=[
        "amount": 1000
       }
      }
-    },
-    {
-     "id": "ODM3ULSSKENA52FZUWXFKO2F",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "MATCHA BON BONS (V + GF) : matcha ice cream + dark chocolate dip + cocoa pebbles",
-      "price_money": {
-       "amount": 900
-      }
-     }
     }
    ]
   }
