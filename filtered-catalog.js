@@ -5783,6 +5783,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "F6OQ2LHUHNEUTT5C6GY5CLEM",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "MALTED COFFEE : coffee ice cream + house-made malt balls + salted caramel",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
      "id": "J66JJHWZFFX47P36QHZGN4QK",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
