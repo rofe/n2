@@ -5644,16 +5644,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "DSJKVTUTWMXZ3EBMG4O4VSO4",
-     "item_variation_data": {
-      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
-      "name": "grasshopper pie - whole",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
      "id": "MMQ4HUON6XDT7HQOGYNVCE7U",
      "item_variation_data": {
       "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
