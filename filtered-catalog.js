@@ -5634,16 +5634,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "PBVUGXREMM2DKQU6ML322FCJ",
-     "item_variation_data": {
-      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
-      "name": "grasshopper pie slice",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
      "id": "MMQ4HUON6XDT7HQOGYNVCE7U",
      "item_variation_data": {
       "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
