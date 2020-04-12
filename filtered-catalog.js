@@ -5569,7 +5569,7 @@ var catalog_raw=[
      "id": "GFEYV3J345N3MFIJWDERFKTZ",
      "item_variation_data": {
       "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
-      "name": "almond joy (V) : coconut sorbet + dark chocolate dip + almond dip + toasted coconut",
+      "name": "almond joy (V + GF)) : coconut sorbet + dark chocolate dip + almond dip + toasted coconut",
       "price_money": {
        "amount": 600
       }
