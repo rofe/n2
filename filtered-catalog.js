@@ -6059,5 +6059,83 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "RDWFNM4AMFIJRXXWMMRQQT2J",
+  "type": "ITEM",
+  "item_data": {
+   "name": "ice cream cake slice",
+   "variations": [
+    {
+     "id": "WOBKXP5JODN6CJIHNIKXWNNU",
+     "item_variation_data": {
+      "item_id": "RDWFNM4AMFIJRXXWMMRQQT2J",
+      "name": "banana cream",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    },
+    {
+     "id": "OHVNGHPK7XDQAK6YJZWT2BYG",
+     "item_variation_data": {
+      "item_id": "RDWFNM4AMFIJRXXWMMRQQT2J",
+      "name": "chocolate + brown butter",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    },
+    {
+     "id": "5IMY3CAEPVY54JZRZESTXTLS",
+     "item_variation_data": {
+      "item_id": "RDWFNM4AMFIJRXXWMMRQQT2J",
+      "name": "strawberry + funfetti",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "GPK2TEIAKNVAPAMKEDBNJFJG",
+  "type": "ITEM",
+  "item_data": {
+   "name": "ice cream cake 6\" cake",
+   "variations": [
+    {
+     "id": "4KRE5USQMNPXQPNX5NDIFV22",
+     "item_variation_data": {
+      "item_id": "GPK2TEIAKNVAPAMKEDBNJFJG",
+      "name": "banana cream cake",
+      "price_money": {
+       "amount": 3500
+      }
+     }
+    },
+    {
+     "id": "O6JVGDRD3SMUJ2PYEIMJDEBG",
+     "item_variation_data": {
+      "item_id": "GPK2TEIAKNVAPAMKEDBNJFJG",
+      "name": "chocolate + brown butter cake",
+      "price_money": {
+       "amount": 3500
+      }
+     }
+    },
+    {
+     "id": "WCWV4LFEM5XKPRDC3WIJ2UUR",
+     "item_variation_data": {
+      "item_id": "GPK2TEIAKNVAPAMKEDBNJFJG",
+      "name": "strawberry + funfetti cake",
+      "price_money": {
+       "amount": 3500
+      }
+     }
+    }
+   ]
+  }
  }
 ]
