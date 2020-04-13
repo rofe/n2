@@ -6048,6 +6048,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "BMRVVH5PEKLM6WXVGARAKOAN",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "milk + cookies",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
      "id": "XDWUGNGUOHMFCCUBV5W3CO6N",
      "item_variation_data": {
       "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
