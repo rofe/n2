@@ -5313,95 +5313,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "5CA4QB6M3QCTID4MYBZZ5NUW",
-  "type": "ITEM",
-  "item_data": {
-   "name": "ice cream cake curbside",
-   "variations": [
-    {
-     "id": "KCGNTQUVG66HYU2IT7IOV5XI",
-     "item_variation_data": {
-      "item_id": "5CA4QB6M3QCTID4MYBZZ5NUW",
-      "name": "banana cream slice",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "GAYXTKHUBHELNZNYRN52YRAR",
-     "item_variation_data": {
-      "item_id": "5CA4QB6M3QCTID4MYBZZ5NUW",
-      "name": "banana cream 6\" cake",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
-     "id": "T3GNMDANWE37YQMCQ3QDC77N",
-     "item_variation_data": {
-      "item_id": "5CA4QB6M3QCTID4MYBZZ5NUW",
-      "name": "chocolate + brown butter slice",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "QVKWA3G2CQBT3LTELQC2UCTQ",
-     "item_variation_data": {
-      "item_id": "5CA4QB6M3QCTID4MYBZZ5NUW",
-      "name": "chocolate + brown butter 6\" cake",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
-     "id": "A5A7ZZBGCDWV3WMYG6S6MX44",
-     "item_variation_data": {
-      "item_id": "5CA4QB6M3QCTID4MYBZZ5NUW",
-      "name": "strawberry + funfetti slice",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "VXQHNRYI6DIVCSFWX5RW6LW7",
-     "item_variation_data": {
-      "item_id": "5CA4QB6M3QCTID4MYBZZ5NUW",
-      "name": "strawberry + funfetti 6\" cake",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
-     "id": "ZYVY6IZXZKQWGS6CGSJNLSFM",
-     "item_variation_data": {
-      "item_id": "5CA4QB6M3QCTID4MYBZZ5NUW",
-      "name": "grasshopper pie slice",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "LQ7AUTWJCLE63A4U7KMQAJ4T",
-     "item_variation_data": {
-      "item_id": "5CA4QB6M3QCTID4MYBZZ5NUW",
-      "name": "grasshopper pie (full)",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "HW777RRGRMUTFXD6N364OINZ",
   "type": "ITEM",
   "item_data": {
@@ -5627,7 +5538,7 @@ var catalog_raw=[
      "id": "37UFSXRAXW4DANV7OC4EZBUE",
      "item_variation_data": {
       "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
-      "name": "CARROT CAKE norm core : carrot cake + cream cheese ice cream + white chocolate dip + smoked sea salt",
+      "name": "CARROT CAKE norm core",
       "price_money": {
        "amount": 450
       }
@@ -5756,7 +5667,7 @@ var catalog_raw=[
      "id": "F6OQ2LHUHNEUTT5C6GY5CLEM",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "MALTED COFFEE : coffee ice cream + house-made malt balls + salted caramel",
+      "name": "MALTED COFFEE",
       "price_money": {
        "amount": 1000
       }
