@@ -5549,7 +5549,7 @@ var catalog_raw=[
      "id": "74IVJ35BIAV7SXS4D4QVCOBW",
      "item_variation_data": {
       "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
-      "name": "strawberry lemonade + white chocolate (GF)",
+      "name": "strawberry lemonade bar",
       "price_money": {
        "amount": 500
       }
@@ -5559,7 +5559,7 @@ var catalog_raw=[
      "id": "VX7IVX3KNOFTBDVAKFNIREGF",
      "item_variation_data": {
       "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
-      "name": "trashberry bar (V + GF) many berry sorbet + dark chocolate dip + cocoa pebbles:",
+      "name": "trashberry bar",
       "price_money": {
        "amount": 600
       }
@@ -5569,7 +5569,7 @@ var catalog_raw=[
      "id": "GFEYV3J345N3MFIJWDERFKTZ",
      "item_variation_data": {
       "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
-      "name": "almond joy (V + GF)) : coconut sorbet + dark chocolate dip + almond dip + toasted coconut",
+      "name": "almond joy bar",
       "price_money": {
        "amount": 600
       }
@@ -5579,7 +5579,7 @@ var catalog_raw=[
      "id": "HLDPKXI4MNLX6G7USXNZMW4J",
      "item_variation_data": {
       "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
-      "name": "\"handle\" bar (GF) : salted maple ice cream + dark chocolate dip + brown butter milk crumb",
+      "name": "\"handle\" bar",
       "price_money": {
        "amount": 600
       }
@@ -5608,7 +5608,7 @@ var catalog_raw=[
      "id": "I5MYZMBBDAHCP23PJULXYUQQ",
      "item_variation_data": {
       "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
-      "name": "chocolate wasted: chocolate shortbread + milk chocolate ice cream + dark chocolate dip + roasted white chocolate bits",
+      "name": "chocolate wasted sando",
       "price_money": {
        "amount": 600
       }
