@@ -6030,5 +6030,34 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+  "type": "ITEM",
+  "item_data": {
+   "name": "composed pint",
+   "variations": [
+    {
+     "id": "4KIM7CPEP4ZTHKKXPGFNRSZO",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "malted coffee",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "XDWUGNGUOHMFCCUBV5W3CO6N",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "sweet corn + passion",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
  }
 ]
