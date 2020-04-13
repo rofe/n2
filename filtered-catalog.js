@@ -6078,5 +6078,24 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "E7SOF4FMZHHI5AS72RRZDEYA",
+  "type": "ITEM",
+  "item_data": {
+   "name": "pint club",
+   "variations": [
+    {
+     "id": "OZG3O5EOTA4GP3CIO4SXCCUK",
+     "item_variation_data": {
+      "item_id": "E7SOF4FMZHHI5AS72RRZDEYA",
+      "name": "Regular",
+      "price_money": {
+       "amount": 3600
+      }
+     }
+    }
+   ]
+  }
  }
 ]
