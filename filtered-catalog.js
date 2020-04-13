@@ -6067,10 +6067,20 @@ var catalog_raw=[
    "name": "ice cream cake slice",
    "variations": [
     {
+     "id": "P3JO447IV32GWLGWQIDW22M3",
+     "item_variation_data": {
+      "item_id": "RDWFNM4AMFIJRXXWMMRQQT2J",
+      "name": "carrot cake norm core",
+      "price_money": {
+       "amount": 450
+      }
+     }
+    },
+    {
      "id": "WOBKXP5JODN6CJIHNIKXWNNU",
      "item_variation_data": {
       "item_id": "RDWFNM4AMFIJRXXWMMRQQT2J",
-      "name": "banana cream",
+      "name": "banana cream slice",
       "price_money": {
        "amount": 600
       }
@@ -6080,7 +6090,7 @@ var catalog_raw=[
      "id": "OHVNGHPK7XDQAK6YJZWT2BYG",
      "item_variation_data": {
       "item_id": "RDWFNM4AMFIJRXXWMMRQQT2J",
-      "name": "chocolate + brown butter",
+      "name": "chocolate + brown butter slice",
       "price_money": {
        "amount": 600
       }
@@ -6090,7 +6100,7 @@ var catalog_raw=[
      "id": "5IMY3CAEPVY54JZRZESTXTLS",
      "item_variation_data": {
       "item_id": "RDWFNM4AMFIJRXXWMMRQQT2J",
-      "name": "strawberry + funfetti",
+      "name": "strawberry + funfetti slice",
       "price_money": {
        "amount": 600
       }
