@@ -491,6 +491,7 @@ function initPaymentForm() {
                         console.error('  ' + error.message);
                     });
                     alert('Encountered errors, check browser developer console for more details');
+                    submittingPayment=false;
                     return;
                 }
                    console.log(`The generated nonce is:\n${nonce}`);
@@ -507,6 +508,7 @@ function initPaymentForm() {
                     })
                     .catch(err => {
                       alert('Network error: ' + err);
+                      submittingPayment==false;
                     })
                     .then(response => {
                       if (!response.ok) {
@@ -519,6 +521,7 @@ function initPaymentForm() {
                       var obj=JSON.parse(data);
                       if (typeof obj.errors != "undefined") {
                         alert('Payment failed to complete!\nCheck browser developer console for more details');
+                        submittingPayment=false;
                       } else {
                         displayThanks(obj.payment);
                       }
@@ -534,12 +537,16 @@ function initPaymentForm() {
 }
 
 function onGetCardNonce(event) {
-    event.preventDefault();
-    paymentForm.requestCardNonce();
+    if (!submittingPayment) {
+        submittingPayment=true;
+        event.preventDefault();
+        paymentForm.requestCardNonce();    
+    }
   }
 
 orderEndpoint="https://script.google.com/macros/s/AKfycbzPFOTS5HT-Vv1mAYv3ktpZfNhGtRPdHz00Qi9Alw/exec";
 order={};
+submittingPayment=false;
 
 function submitOrder() {
     var cartEl=document.getElementById("cart");
