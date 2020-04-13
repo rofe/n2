@@ -267,6 +267,11 @@ function indexCatalog() {
                 catalog.byId[v.id]=v;
             })
         }
+        if (e.type=="MODIFIER_LIST") {
+            if (e.modifier_list_data.modifiers) e.modifier_list_data.modifiers.forEach((m) => {
+                catalog.byId[m.id]=m;
+            })
+        }
     })
 } 
 
@@ -801,19 +806,24 @@ function formatMoney(num) {
     return (""+(num/100).toFixed(2))
 }
 
+function stripName(name) {
+    return (name.toLowerCase().replace(/[^0-9a-z]/gi, ''))
+}
+
 function itemByName(name) {
-    name=name.toLowerCase();
+    name=stripName(name);
     var item=catalog.items.find((i) => {
-        return (name == i.item_data.name.toLowerCase());
+        return (name == stripName(i.item_data.name));
     })
     return (item);
 }
 
 function variationByName(item, name) {
-    name=name.toLowerCase();
+    name=stripName(name);
     var variation=item.item_data.variations.find((i) => {
         var vname=i.item_variation_data.name.toLowerCase();
         vname=vname.split("(")[0].trim();
+        vname=stripName(vname);
         return (name == vname);
     })
     return (variation);
