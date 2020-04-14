@@ -5535,6 +5535,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "POCZ6TYWWQGLYBLE6ZW7ILJ7",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "coffee ice cream",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
      "id": "ICXQZE2F5QFLED6OR2X6E76N",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
@@ -5585,20 +5595,10 @@ var catalog_raw=[
      }
     },
     {
-     "id": "F6OQ2LHUHNEUTT5C6GY5CLEM",
+     "id": "3XMXDNF5MJA7LCEDHHPYCK23",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "MALTED COFFEE",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
-     "id": "J66JJHWZFFX47P36QHZGN4QK",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "SWEET CORN + PASSION : sweet corn ice cream + passionfruit caramel",
+      "name": "salted vanilla bean",
       "price_money": {
        "amount": 1000
       }
