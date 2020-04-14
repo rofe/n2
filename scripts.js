@@ -291,7 +291,7 @@ function configItem(item) {
     config.classList.remove("hidden");
     document.body.classList.add("noscroll");
     var html=`<div class="close" onclick="hideConfig()">X</div><div class="wrapper"><h3>customize your ${item.item_data.name}</h3>`;
-    html+=`<p>*all soft serve will be in a cup</p>`;
+    html+=`<p>*all soft serves will be served upside-down in a cup for optimal transport and limited contact, but you can totes add a cone on top :)</p>`;
     html+=`<select>`;
     item.item_data.variations.forEach((v) => {
         html+=`<option value="${v.id}">${v.item_variation_data.name} ($${formatMoney(v.item_variation_data.price_money.amount)})</option>`;
@@ -389,7 +389,7 @@ function displayThanks(payment){
     receiptElem.setAttribute("href", receiptLink);
 
     var textElem=document.getElementById("text-link");
-    var msg=`Hi Normal, this is ${order.fulfillments[0].pickup_details.recipient.display_name}, picking up my order in a (describe car)`;
+    var msg=`hi normal, this is ${order.fulfillments[0].pickup_details.recipient.display_name}, picking up my order in a (describe car)`;
     var smshref=`sms://+13852995418/${isAndroid()?"?":"&"}body=${encodeURIComponent(msg)}`;
     textElem.setAttribute("href", smshref);
 
@@ -732,8 +732,7 @@ function initCart() {
                 </div>             
             </div>
             <div class="thankyou hidden">
-                <h3>Thanks for your order</h3>
-                <p>We really appreciate your business</p>
+                <h3>thank you SO much, we REALLY appreciate you &#9825;</h3>
                 <p>
                 <a id="receipt-link" target="_new" href="">show receipt</a>
                 </p>
