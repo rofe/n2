@@ -5394,6 +5394,12 @@ var catalog_raw=[
       "name": "trashberry bar",
       "price_money": {
        "amount": 600
+     "id": "74IVJ35BIAV7SXS4D4QVCOBW",
+     "item_variation_data": {
+      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
+      "name": "strawberry lemonade + white chocolate (GF)",
+      "price_money": {
+       "amount": 500
       }
      }
     },
@@ -5402,6 +5408,10 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
       "name": "almond joy bar",
+     "id": "VX7IVX3KNOFTBDVAKFNIREGF",
+     "item_variation_data": {
+      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
+      "name": "trashberry bar (V + GF) many berry sorbet + dark chocolate dip + cocoa pebbles",
       "price_money": {
        "amount": 600
       }
@@ -5412,6 +5422,10 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
       "name": "\"handle\" bar",
+     "id": "GFEYV3J345N3MFIJWDERFKTZ",
+     "item_variation_data": {
+      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
+      "name": "almond joy (V)",
       "price_money": {
        "amount": 600
       }
@@ -5441,6 +5455,10 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
       "name": "chocolate wasted sando",
+     "id": "WOLSVUQ4EG2WOAUEWXM3TK3A",
+     "item_variation_data": {
+      "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
+      "name": "chocolate chip + sweet cream ice cream",
       "price_money": {
        "amount": 600
       }
@@ -5462,6 +5480,12 @@ var catalog_raw=[
       "name": "CARROT CAKE norm core",
       "price_money": {
        "amount": 450
+     "id": "PBVUGXREMM2DKQU6ML322FCJ",
+     "item_variation_data": {
+      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
+      "name": "grasshopper pie slice",
+      "price_money": {
+       "amount": 600
       }
      }
     },
@@ -5470,6 +5494,10 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
       "name": "banana cream 6\" cake",
+     "id": "DSJKVTUTWMXZ3EBMG4O4VSO4",
+     "item_variation_data": {
+      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
+      "name": "grasshopper pie - whole",
       "price_money": {
        "amount": 3500
       }
@@ -5496,12 +5524,12 @@ var catalog_raw=[
      }
     },
     {
-     "id": "6BU3PJI3ACLLHCIJ3AUT44WL",
+     "id": "3PZVFPYFVVXUFYVOZTESVNXQ",
      "item_variation_data": {
       "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
-      "name": "strawberry + funfetti 6\" cake",
+      "name": "strawberry + funfetti slice",
       "price_money": {
-       "amount": 3500
+       "amount": 600
       }
      }
     }
@@ -5535,10 +5563,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "ICXQZE2F5QFLED6OR2X6E76N",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "earl grey tea ice cream",
       "price_money": {
        "amount": 1000
       }
@@ -5574,528 +5598,6 @@ var catalog_raw=[
       }
      }
     },
-    {
-     "id": "VXSBNROWAAY3VMP2YM57IDT6",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "strawberry milk ice cream",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
-     "id": "F6OQ2LHUHNEUTT5C6GY5CLEM",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "MALTED COFFEE",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
-     "id": "J66JJHWZFFX47P36QHZGN4QK",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "SWEET CORN + PASSION : sweet corn ice cream + passionfruit caramel",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "QBICF3X57NGMNBN7A43LEDR4",
-  "type": "ITEM",
-  "item_data": {
-   "name": "fruity pebble milk ice cream pint",
-   "variations": [
-    {
-     "id": "UQEYRQ5UDIMVQHBKHY6IBAME",
-     "item_variation_data": {
-      "item_id": "QBICF3X57NGMNBN7A43LEDR4",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "EQT6SGZDFOLBNMQWBGVMZTLU",
-  "type": "ITEM",
-  "item_data": {
-   "name": "passionfruit sorbet pint",
-   "variations": [
-    {
-     "id": "TXKMRBYIMPGIV4G5DMEHE3RG",
-     "item_variation_data": {
-      "item_id": "EQT6SGZDFOLBNMQWBGVMZTLU",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "BBX4UTUYF3HHZVXPHONTBYDQ",
-  "type": "ITEM",
-  "item_data": {
-   "name": "coffee beans",
-   "variations": [
-    {
-     "id": "JJKWSDKX6C4UNFS7EFKVTWJB",
-     "item_variation_data": {
-      "item_id": "BBX4UTUYF3HHZVXPHONTBYDQ",
-      "name": "nathalia maria BRASIL 300g",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "A27FMLO6LCQUMRQLI3HU2HH3",
-  "type": "ITEM",
-  "item_data": {
-   "name": "soft serve",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "EXX7SQAD5YC3XMG77RJUXJNV"
-    },
-    {
-     "modifier_list_id": "HPPEARW2E5E6WN26UDBR2EEM"
-    }
-   ],
-   "variations": [
-    {
-     "id": "S36T7JK24IH6IDKH3XAXMLIV",
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "salted vanilla bean - half size",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "Z7M7WY6CX6M6S45T3WWLVJ2N",
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "salted vanilla bean - normal size",
-      "price_money": {
-       "amount": 400
-      }
-     }
-    },
-    {
-     "id": "QP26ZCJRXPIYDK3ISJLKVW3R",
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "milk chocolate - half size",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "Z2QIYSNMECE2TKPSXRESIJJL",
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "milk chocolate - normal size",
-      "price_money": {
-       "amount": 400
-      }
-     }
-    },
-    {
-     "id": "EF4R27UD4TCP5RCROZA66SQG",
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "dark chocolate sorbet (v) - half size",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "66RSFD36KI77R33S2TVWXDGF",
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "dark chocolate sorbet (v) - normal size",
-      "price_money": {
-       "amount": 400
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "HPPEARW2E5E6WN26UDBR2EEM",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "cone",
-   "modifiers": [
-    {
-     "id": "BFI7QOYM7VD3SZDZN3DDVETH",
-     "modifier_data": {
-      "name": "add cone on top",
-      "price_money": {
-       "amount": 100
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "IRLGXWAJUEL3FGOC76NU7KTD",
-  "type": "ITEM",
-  "item_data": {
-   "name": "salted vanilla bean mini"
-  }
- },
- {
-  "id": "ZHNCG5ZBJCXT66DCSLDM2XIL",
-  "type": "ITEM",
-  "item_data": {
-   "name": "milk chocolate mini",
-   "variations": [
-    {
-     "id": "EI5SQZ2SEQJJONHFYV7NWWQ2",
-     "item_variation_data": {
-      "item_id": "ZHNCG5ZBJCXT66DCSLDM2XIL",
-      "name": "Regular",
-      "price_money": {
-       "amount": 450
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "45PRQCRBAYLURP3LEDJ3OGN7",
-  "type": "ITEM",
-  "item_data": {
-   "name": "apricot + black tea mini",
-   "variations": [
-    {
-     "id": "VISQUQUUTZQOSTBUNH6H33JY",
-     "item_variation_data": {
-      "item_id": "45PRQCRBAYLURP3LEDJ3OGN7",
-      "name": "Regular",
-      "price_money": {
-       "amount": 450
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "7ZWFQMJ7762E3HNXC4XI4UXU",
-  "type": "ITEM",
-  "item_data": {
-   "name": "COAVA cold brew coffee",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
-    }
-   ],
-   "variations": [
-    {
-     "id": "UZTZHQ2HBUKZQ2HAGNLIX6ZX",
-     "item_variation_data": {
-      "item_id": "7ZWFQMJ7762E3HNXC4XI4UXU",
-      "name": "cold brew 12 oz",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "JD6BHUCU7JD4UI4FC3BN42WD",
-     "item_variation_data": {
-      "item_id": "7ZWFQMJ7762E3HNXC4XI4UXU",
-      "name": "cold brew 16 oz",
-      "price_money": {
-       "amount": 400
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "LPZTD3WMASMFYAJTC5YNFWP2",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "add soft serve",
-   "modifiers": [
-    {
-     "id": "L2A3GZYK5NH7BPDTN7ZDP6E4",
-     "modifier_data": {
-      "name": "milk chocolate",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "R42VX2AH6AO4PXF62VJHIZPN",
-     "modifier_data": {
-      "name": "apricot + black tea",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "A66TWJJ4YPQZV6KBRBVJUPGG",
-     "modifier_data": {
-      "name": "salted vanilla bean",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "2NYBUBTAJJJMIW6P42VV3O7C",
-  "type": "ITEM",
-  "item_data": {
-   "name": "NORMAL® swag",
-   "variations": [
-    {
-     "id": "VN3RAXCT632CNNHFSQKRVLNE",
-     "item_variation_data": {
-      "item_id": "2NYBUBTAJJJMIW6P42VV3O7C",
-      "name": "ice cream cone enamel pin",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "JAU32B2WKMHGW4KF3EXL45QW",
-     "item_variation_data": {
-      "item_id": "2NYBUBTAJJJMIW6P42VV3O7C",
-      "name": "smiley logo enamel pin",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "CI4CM6VX2LUFD7GRZKYX5AVR",
-     "item_variation_data": {
-      "item_id": "2NYBUBTAJJJMIW6P42VV3O7C",
-      "name": "NORMAL® truck pin",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "L66PWDJ346NSVWHJAGJ7PIXQ",
-     "item_variation_data": {
-      "item_id": "2NYBUBTAJJJMIW6P42VV3O7C",
-      "name": "water witch x NORMAL® pin",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "325XYLYOAW3H4AYRNXVHO5MC",
-     "item_variation_data": {
-      "item_id": "2NYBUBTAJJJMIW6P42VV3O7C",
-      "name": "ice cream cone patch",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "A55MXDYWKVI662BLGDFTWUKX",
-  "type": "ITEM",
-  "item_data": {
-   "name": "coconut sorbet mini",
-   "variations": [
-    {
-     "id": "VYXZXR4NDGMALYL67EDBXZVO",
-     "item_variation_data": {
-      "item_id": "A55MXDYWKVI662BLGDFTWUKX",
-      "name": "Regular",
-      "price_money": {
-       "amount": 450
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
-  "type": "ITEM",
-  "item_data": {
-   "name": "composed pint",
-   "variations": [
-    {
-     "id": "4KIM7CPEP4ZTHKKXPGFNRSZO",
-     "item_variation_data": {
-      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
-      "name": "malted coffee",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
-     "id": "BMRVVH5PEKLM6WXVGARAKOAN",
-     "item_variation_data": {
-      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
-      "name": "milk + cookies",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
-     "id": "XDWUGNGUOHMFCCUBV5W3CO6N",
-     "item_variation_data": {
-      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
-      "name": "sweet corn + passion",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "RDWFNM4AMFIJRXXWMMRQQT2J",
-  "type": "ITEM",
-  "item_data": {
-   "name": "ice cream cake slice",
-   "variations": [
-    {
-     "id": "P3JO447IV32GWLGWQIDW22M3",
-     "item_variation_data": {
-      "item_id": "RDWFNM4AMFIJRXXWMMRQQT2J",
-      "name": "carrot cake norm core",
-      "price_money": {
-       "amount": 450
-      }
-     }
-    },
-    {
-     "id": "WOBKXP5JODN6CJIHNIKXWNNU",
-     "item_variation_data": {
-      "item_id": "RDWFNM4AMFIJRXXWMMRQQT2J",
-      "name": "banana cream slice",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "OHVNGHPK7XDQAK6YJZWT2BYG",
-     "item_variation_data": {
-      "item_id": "RDWFNM4AMFIJRXXWMMRQQT2J",
-      "name": "chocolate + brown butter slice",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "5IMY3CAEPVY54JZRZESTXTLS",
-     "item_variation_data": {
-      "item_id": "RDWFNM4AMFIJRXXWMMRQQT2J",
-      "name": "strawberry + funfetti slice",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "GPK2TEIAKNVAPAMKEDBNJFJG",
-  "type": "ITEM",
-  "item_data": {
-   "name": "ice cream cake 6\" cake",
-   "variations": [
-    {
-     "id": "4KRE5USQMNPXQPNX5NDIFV22",
-     "item_variation_data": {
-      "item_id": "GPK2TEIAKNVAPAMKEDBNJFJG",
-      "name": "banana cream cake",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
-     "id": "O6JVGDRD3SMUJ2PYEIMJDEBG",
-     "item_variation_data": {
-      "item_id": "GPK2TEIAKNVAPAMKEDBNJFJG",
-      "name": "chocolate + brown butter cake",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
-     "id": "WCWV4LFEM5XKPRDC3WIJ2UUR",
-     "item_variation_data": {
-      "item_id": "GPK2TEIAKNVAPAMKEDBNJFJG",
-      "name": "strawberry + funfetti cake",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "E7SOF4FMZHHI5AS72RRZDEYA",
-  "type": "ITEM",
-  "item_data": {
-   "name": "pint club",
-   "variations": [
-    {
-     "id": "OZG3O5EOTA4GP3CIO4SXCCUK",
-     "item_variation_data": {
-      "item_id": "E7SOF4FMZHHI5AS72RRZDEYA",
-      "name": "Regular",
-      "price_money": {
-       "amount": 3600
-      }
-     }
-    }
-   ]
-  }
+
  }
 ]
