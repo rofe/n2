@@ -5722,7 +5722,7 @@ var catalog_raw=[
      "id": "EF4R27UD4TCP5RCROZA66SQG",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "dark chocolate sorbet (v) - half size",
+      "name": "blood orange sorbet (v) - half size",
       "price_money": {
        "amount": 300
       }
@@ -5732,7 +5732,7 @@ var catalog_raw=[
      "id": "66RSFD36KI77R33S2TVWXDGF",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "dark chocolate sorbet (v) - normal size",
+      "name": "blood orange sorbet (v) - normal size",
       "price_money": {
        "amount": 400
       }
