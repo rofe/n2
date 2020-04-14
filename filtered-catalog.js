@@ -5603,6 +5603,16 @@ var catalog_raw=[
        "amount": 1000
       }
      }
+    },
+    {
+     "id": "7SRL2GK7Y6P5PCDZZ5JOPWQA",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "dark chocolate sorbet (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
     }
    ]
   }
