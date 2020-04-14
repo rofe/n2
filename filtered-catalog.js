@@ -5699,26 +5699,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "66RSFD36KI77R33S2TVWXDGF",
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "apricot + black tea (v) - normal size",
-      "price_money": {
-       "amount": 400
-      }
-     }
-    },
-    {
-     "id": "EF4R27UD4TCP5RCROZA66SQG",
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "apricot + black tea (v) - half size",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "Z7M7WY6CX6M6S45T3WWLVJ2N",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
