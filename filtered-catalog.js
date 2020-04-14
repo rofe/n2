@@ -5679,20 +5679,10 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "Z2QIYSNMECE2TKPSXRESIJJL",
+     "id": "S36T7JK24IH6IDKH3XAXMLIV",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "milk chocolate - normal size",
-      "price_money": {
-       "amount": 400
-      }
-     }
-    },
-    {
-     "id": "QP26ZCJRXPIYDK3ISJLKVW3R",
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "milk chocolate - half size",
+      "name": "salted vanilla bean - half size",
       "price_money": {
        "amount": 300
       }
@@ -5709,12 +5699,42 @@ var catalog_raw=[
      }
     },
     {
-     "id": "S36T7JK24IH6IDKH3XAXMLIV",
+     "id": "QP26ZCJRXPIYDK3ISJLKVW3R",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "salted vanilla bean - half size",
+      "name": "milk chocolate - half size",
       "price_money": {
        "amount": 300
+      }
+     }
+    },
+    {
+     "id": "Z2QIYSNMECE2TKPSXRESIJJL",
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "milk chocolate - normal size",
+      "price_money": {
+       "amount": 400
+      }
+     }
+    },
+    {
+     "id": "EF4R27UD4TCP5RCROZA66SQG",
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "dark chocolate sorbet (v) - half size",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "66RSFD36KI77R33S2TVWXDGF",
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "dark chocolate sorbet (v) - normal size",
+      "price_money": {
+       "amount": 400
       }
      }
     }
