@@ -5535,6 +5535,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "POCZ6TYWWQGLYBLE6ZW7ILJ7",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "coffee ice cream",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
      "id": "ICXQZE2F5QFLED6OR2X6E76N",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
@@ -5585,20 +5595,20 @@ var catalog_raw=[
      }
     },
     {
-     "id": "F6OQ2LHUHNEUTT5C6GY5CLEM",
+     "id": "3XMXDNF5MJA7LCEDHHPYCK23",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "MALTED COFFEE",
+      "name": "salted vanilla bean",
       "price_money": {
        "amount": 1000
       }
      }
     },
     {
-     "id": "J66JJHWZFFX47P36QHZGN4QK",
+     "id": "7SRL2GK7Y6P5PCDZZ5JOPWQA",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "SWEET CORN + PASSION : sweet corn ice cream + passionfruit caramel",
+      "name": "dark chocolate sorbet (v)",
       "price_money": {
        "amount": 1000
       }
@@ -5722,7 +5732,7 @@ var catalog_raw=[
      "id": "EF4R27UD4TCP5RCROZA66SQG",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "dark chocolate sorbet (v) - half size",
+      "name": "blood orange sorbet (v) - half size",
       "price_money": {
        "amount": 300
       }
@@ -5732,7 +5742,7 @@ var catalog_raw=[
      "id": "66RSFD36KI77R33S2TVWXDGF",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "dark chocolate sorbet (v) - normal size",
+      "name": "blood orange sorbet (v) - normal size",
       "price_money": {
        "amount": 400
       }
