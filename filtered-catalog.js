@@ -5510,7 +5510,7 @@ var catalog_raw=[
      "id": "N32XQCKQCAPVHYLEHR2BJWGQ",
      "item_variation_data": {
       "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
-      "name": "gingersnap + cream cheese",
+      "name": "gingersnap + cream cheese sando",
       "price_money": {
        "amount": 600
       }
