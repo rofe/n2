@@ -5584,16 +5584,6 @@ var catalog_raw=[
    "name": "ice cream pint",
    "variations": [
     {
-     "id": "KGF4KLDBXOCOVMJC5MHPQJM2",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "apricot + black tea sorbet (v)",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
      "id": "6XCEL4SH6O77RSCUHA3YRJGZ",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
@@ -5908,11 +5898,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "COAVA cold brew coffee",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
-    }
-   ],
    "variations": [
     {
      "id": "UZTZHQ2HBUKZQ2HAGNLIX6ZX",
