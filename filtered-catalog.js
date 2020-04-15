@@ -638,6 +638,55 @@ var catalog_raw=[
   }
  },
  {
+  "id": "XTV2HWGVBOMXBPDOUVYC6LN5",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "family + friend"
+  }
+ },
+ {
+  "id": "WYHA7ZHXMSLZMOZDCN7YMN35",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "female foodie"
+  }
+ },
+ {
+  "id": "PKEG4TNRCFT564ZAESAO2VBB",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "employee off shift"
+  }
+ },
+ {
+  "id": "LYLML5DRBIQZI5Q2EKFHK6EC",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "bring your own mug!"
+  }
+ },
+ {
+  "id": "A545MQSHNHX3Y5XJXMYYDOME",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "free 8 oz coffee + purchase"
+  }
+ },
+ {
+  "id": "646FUHHQZZAT37STY7BDLCHE",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "free cone voucher"
+  }
+ },
+ {
+  "id": "QMH5ORM2NHCJ6I6FJJ4WOJIQ",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "maven block"
+  }
+ },
+ {
   "id": "HHL5FR6RH4MOSCS5WHTR355I",
   "type": "ITEM",
   "item_data": {
@@ -3771,6 +3820,20 @@ var catalog_raw=[
   }
  },
  {
+  "id": "TVV6PIR5L3XFL43TDIXSBWXK",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "wholesale"
+  }
+ },
+ {
+  "id": "J4U3YGHO6SXI47IOAESZ6LM3",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "film society wholesale"
+  }
+ },
+ {
   "id": "NCEEXC4XE5X24M6P7YELCTOU",
   "type": "ITEM",
   "item_data": {
@@ -4465,6 +4528,13 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "XEK7DS5MXDR7P27ZOIKT23JS",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "taco tuesday 2 tacos for $10"
   }
  },
  {
