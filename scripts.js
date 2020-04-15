@@ -198,6 +198,16 @@ function isAndroid() {
 
 }
 
+function resizeImages() {
+    document.querySelectorAll('main div img').forEach((i) => {
+        var s = i.getAttribute('src');
+        if (s.indexOf('/hlx_')==0) {
+            i.setAttribute('src',s+'?width=256')
+        }
+    })
+}
+
+
 function fixSmsUrls() {
 
     document.querySelectorAll("main a").forEach((e) => {
@@ -865,7 +875,6 @@ function variationByName(item, name) {
     return (variation);
 }
 
-
 function makeShoppable() {
     initCart();
     indexCatalog();
@@ -959,16 +968,19 @@ var cart={
     }
 }
 
-window.onload = function() {
+window.addEventListener('DOMContentLoaded', (event) => {
+    resizeImages();
     fixIcons();
     classify();
     //wrapMenus();
     //cloneMenuSwiper();
     fixSmsUrls();
     makeShoppable();
-  
+});
+
+window.onload = function() {  
     scrani.onload();
   }
   
-  window.onresize=updateMenuDisplay;
+window.onresize=updateMenuDisplay;
   
