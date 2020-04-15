@@ -6069,6 +6069,36 @@ var catalog_raw=[
    "name": "composed pint",
    "variations": [
     {
+     "id": "QQMATAOELTCB67HTM2YFXBK2",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "cream cheese + gingersnap",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "RQSFTHNBCIN5YAGLF2H3YKIY",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "coconut + honeycomb",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "NT62C36IS76VAVQGXTZPPOPO",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "greek + peach",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
      "id": "4KIM7CPEP4ZTHKKXPGFNRSZO",
      "item_variation_data": {
       "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
@@ -6093,6 +6123,16 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
       "name": "sweet corn + passion",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "AZ6KE57YUO6POGVFB3G567PQ",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "normal mint chip",
       "price_money": {
        "amount": 1000
       }
