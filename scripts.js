@@ -969,7 +969,7 @@ var cart={
 }
 
 window.addEventListener('DOMContentLoaded', (event) => {
-    resizeImages();
+    //resizeImages();
     fixIcons();
     classify();
     //wrapMenus();
