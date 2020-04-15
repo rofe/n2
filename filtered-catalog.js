@@ -6243,12 +6243,5 @@ var catalog_raw=[
   "discount_data": {
    "name": "BUMBLE"
   }
- },
- {
-  "id": "JMQUWQBZJH74IIW5ZOZQDCIL",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "normal-test"
-  }
  }
 ]
