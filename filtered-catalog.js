@@ -5515,6 +5515,16 @@ var catalog_raw=[
        "amount": 600
       }
      }
+    },
+    {
+     "id": "PXQTE6Q3ZDEQPA3B3D3WOVAU",
+     "item_variation_data": {
+      "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
+      "name": "snickerdoodle + brown butter sando",
+      "price_money": {
+       "amount": 600
+      }
+     }
     }
    ]
   }
