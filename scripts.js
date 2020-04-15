@@ -340,8 +340,8 @@ function setPickupTimes () {
     var date=document.getElementById("pickup-date").value;
     var timeSelect=document.getElementById("pickup-time");
     var conf=getOpeningHoursConfig();
-    var now=new Date();
-    //var now=new Date("2020-04-15T22:51:00-07:00");
+    //var now=new Date();
+    var now=new Date("2020-04-15T22:51:00-07:00");
 
     var today=now.getFullYear()+"/"+(now.getMonth()+1)+"/"+now.getDate();
     
@@ -409,8 +409,8 @@ function getTip() {
 
 function setPickupDates () {
 
-    //var now=new Date("2020-04-15T22:51:00-07:00");
-    var now=new Date();
+    var now=new Date("2020-04-15T22:51:00-07:00");
+    //var now=new Date();
     var i=0;
 
     var day=now;
@@ -713,7 +713,7 @@ function initCart() {
                     <nobr>
                         <select id="pickup-date" onchange="setPickupTimes()"></select><select id="pickup-time"></select>
                     </nobr>
-                    <div class="warning hidden">* we are so sorry, but don't accept orders anymore for today, but of course you can order normal for later.</div>
+                    <div class="warning hidden">* we are so sorry, but we don't accept orders anymore for today, but of course you can order normal for later.</div>
                 </div>
                 <button onclick="submitOrder()">order</button>
             </div>
