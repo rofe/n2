@@ -5448,26 +5448,6 @@ var catalog_raw=[
    "name": "ice cream bar",
    "variations": [
     {
-     "id": "74IVJ35BIAV7SXS4D4QVCOBW",
-     "item_variation_data": {
-      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
-      "name": "strawberry lemonade bar",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    },
-    {
-     "id": "VX7IVX3KNOFTBDVAKFNIREGF",
-     "item_variation_data": {
-      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
-      "name": "trashberry bar",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
      "id": "GFEYV3J345N3MFIJWDERFKTZ",
      "item_variation_data": {
       "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
@@ -5486,6 +5466,26 @@ var catalog_raw=[
        "amount": 600
       }
      }
+    },
+    {
+     "id": "74IVJ35BIAV7SXS4D4QVCOBW",
+     "item_variation_data": {
+      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
+      "name": "strawberry lemonade bar",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "VX7IVX3KNOFTBDVAKFNIREGF",
+     "item_variation_data": {
+      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
+      "name": "trashberry bar",
+      "price_money": {
+       "amount": 600
+      }
+     }
     }
    ]
   }
@@ -5497,20 +5497,20 @@ var catalog_raw=[
    "name": "ice cream sando",
    "variations": [
     {
-     "id": "VHB4D7IJZ2T4IPQQV3NP7BDQ",
+     "id": "I5MYZMBBDAHCP23PJULXYUQQ",
      "item_variation_data": {
       "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
-      "name": "anti-chocolate chip + milk chocolate ice cream",
+      "name": "chocolate wasted sando",
       "price_money": {
        "amount": 600
       }
      }
     },
     {
-     "id": "I5MYZMBBDAHCP23PJULXYUQQ",
+     "id": "N32XQCKQCAPVHYLEHR2BJWGQ",
      "item_variation_data": {
       "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
-      "name": "chocolate wasted sando",
+      "name": "gingersnap + cream cheese",
       "price_money": {
        "amount": 600
       }
