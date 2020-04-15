@@ -5625,6 +5625,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "7SRL2GK7Y6P5PCDZZ5JOPWQA",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "dark chocolate sorbet (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
      "id": "ICXQZE2F5QFLED6OR2X6E76N",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
@@ -5665,16 +5675,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "VXSBNROWAAY3VMP2YM57IDT6",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "strawberry milk ice cream",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
      "id": "3XMXDNF5MJA7LCEDHHPYCK23",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
@@ -5685,10 +5685,30 @@ var catalog_raw=[
      }
     },
     {
-     "id": "7SRL2GK7Y6P5PCDZZ5JOPWQA",
+     "id": "VXSBNROWAAY3VMP2YM57IDT6",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "dark chocolate sorbet (v)",
+      "name": "strawberry milk ice cream",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "UMDLFBY6MRQUSALJUJ5LA6D6",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "MILK + COOKIES composed pint : sweet cream ice cream + house-made speculoos + choc chip cookie dough + chocolate shortbread crumb",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "VJW3BAI3TYPENS3WVY4BGLBR",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "SWEET CORN + PASSION composed pint : sweet corn ice cream + passion fruit caramel",
       "price_money": {
        "amount": 1000
       }
@@ -5935,18 +5955,18 @@ var catalog_raw=[
    "name": "add soft serve",
    "modifiers": [
     {
-     "id": "L2A3GZYK5NH7BPDTN7ZDP6E4",
+     "id": "R42VX2AH6AO4PXF62VJHIZPN",
      "modifier_data": {
-      "name": "milk chocolate",
+      "name": "blood orange sorbet (v)",
       "price_money": {
        "amount": 300
       }
      }
     },
     {
-     "id": "R42VX2AH6AO4PXF62VJHIZPN",
+     "id": "L2A3GZYK5NH7BPDTN7ZDP6E4",
      "modifier_data": {
-      "name": "apricot + black tea",
+      "name": "milk chocolate",
       "price_money": {
        "amount": 300
       }
