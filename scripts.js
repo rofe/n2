@@ -341,6 +341,8 @@ function setPickupTimes () {
     var timeSelect=document.getElementById("pickup-time");
     var conf=getOpeningHoursConfig();
     var now=new Date();
+    //var now=new Date("2020-04-15T22:51:00-07:00");
+
     var today=now.getFullYear()+"/"+(now.getMonth()+1)+"/"+now.getDate();
     
     var openingTime=new Date(date);
@@ -364,7 +366,7 @@ function setPickupTimes () {
 
     timeSelect.innerHTML="";
 
-    while (time<=closingTime-conf.lastOrderFromClose*60000) {
+    while (time<=closingTime) {
         var option = document.createElement("option");
         option.text = formatTime(time);
         option.value=time.toISOString();
@@ -407,6 +409,7 @@ function getTip() {
 
 function setPickupDates () {
 
+    //var now=new Date("2020-04-15T22:51:00-07:00");
     var now=new Date();
     var i=0;
 
@@ -424,8 +427,7 @@ function setPickupDates () {
             closingDate.setHours(conf.closing[day.getDay()],0,0,0);
             if (now>closingDate-conf.lastOrderFromClose*60000) {
                 day.setDate(day.getDate()+1);
-                document.querySelector(".order-props").className="order-props alert";
-                document.getElementById("warning").className="warning";
+                document.querySelector("#cart .info .pickup-time .warning.hidden").classList.remove("hidden");
             }
         }
         if(conf.opening[day.getDay()]) {
@@ -711,6 +713,7 @@ function initCart() {
                     <nobr>
                         <select id="pickup-date" onchange="setPickupTimes()"></select><select id="pickup-time"></select>
                     </nobr>
+                    <div class="warning hidden">* we are so sorry, but don't accept orders anymore for today, but of course you can order normal for later.</div>
                 </div>
                 <button onclick="submitOrder()">order</button>
             </div>
