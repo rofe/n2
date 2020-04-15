@@ -258,6 +258,7 @@ function indexCatalog() {
     catalog={
         byId: {},
         items: [],
+        discounts: {}
 };
     catalog_raw.forEach((e) => {
         catalog.byId[e.id]=e;
@@ -271,6 +272,11 @@ function indexCatalog() {
             if (e.modifier_list_data.modifiers) e.modifier_list_data.modifiers.forEach((m) => {
                 catalog.byId[m.id]=m;
             })
+        }
+        if (e.type=="DISCOUNT") {
+            if (e.discount_data.name) {
+                catalog.discounts[e.discount_data.name.toLowerCase()]={ id: e.id };
+            }
         }
     })
 } 
@@ -550,6 +556,16 @@ orderEndpoint="https://script.google.com/macros/s/AKfycbzPFOTS5HT-Vv1mAYv3ktpZfN
 order={};
 submittingPayment=false;
 
+function checkDiscount(e) {
+    if (catalog.discounts[e.value.toLowerCase()]) {
+        e.setAttribute("data-id", catalog.discounts[e.value.toLowerCase()].id);
+        e.classList.add("valid");
+    } else {
+        e.setAttribute("data-id", "");
+        e.classList.remove("valid");
+    }
+}
+
 function submitOrder() {
     var cartEl=document.getElementById("cart");
 
@@ -558,6 +574,8 @@ function submitOrder() {
     orderParams.display_name=document.getElementById("name").value;
     orderParams.cell=document.getElementById("cell").value;
     orderParams.reference_id=generateId();
+    orderParams.discount_name=document.getElementById("discount").value;
+    orderParams.discount=document.getElementById("discount").getAttribute("data-id");
 
     if (cart.itemCount==0) return;
     if (orderParams.display_name=="") {
@@ -566,6 +584,11 @@ function submitOrder() {
     }
     if (orderParams.cell=="") {
         document.getElementById("cell").focus();
+        return;
+    }
+    if (orderParams.discount=="" && orderParams.discount_name) {
+        document.getElementById("discount").focus();
+        alert("we don't recognize this discount anymore, typo?");
         return;
     }
 
@@ -647,6 +670,9 @@ function displayOrder(o) {
             })
         }
     });
+    if (order.discounts) {
+        html+=`<div class="line discounts"><span class="desc">${order.discounts[0].name} - discount</span><span class="amount">- $${formatMoney(order.discounts[0].applied_money.amount)}</span></div>`;
+    }
     html+=`<div class="line subtotal"><span class="desc">subtotal</span><span class="amount">$${formatMoney(order.total_money.amount)}</span></div>`;
     html+=`<div class="line tax"><span class="desc">prepared food tax (included)</span><span class="amount">$${formatMoney(order.total_tax_money.amount)}</span></div>`;
     html+=`<div class="line tip"><span class="desc">tip</span><span class="amount">$${formatMoney(getTip())}</span></div>`;
@@ -707,14 +733,15 @@ function initCart() {
             <div class="back" onclick="toggleCartDisplay()">&lt; back to shop</div>
             <div class="lineitems"></div>
             <div class="info">
-                <input id="name" type="text" placeholder="Your Name">
-                <input id="cell" type="text" placeholder="Cell Phone">
+                <input id="name" type="text" placeholder="your name">
+                <input id="cell" type="text" placeholder="cell phone">
                 <div class="pickup-time"> 
                     <nobr>
                         <select id="pickup-date" onchange="setPickupTimes()"></select><select id="pickup-time"></select>
                     </nobr>
                     <div class="warning hidden">* we are so sorry, but we don't accept orders anymore for today, but of course you can order normal for later.</div>
                 </div>
+                <input id="discount" data-id="" type="text" placeholder="discount code?" onkeyup="checkDiscount(this)">
                 <button onclick="submitOrder()">order</button>
             </div>
             <div class="order hidden"></div>

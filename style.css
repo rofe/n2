@@ -483,8 +483,17 @@ main>div:last-of-type {
     box-shadow: 0 1px 0 1px rgba(0,0,0,.04);
     background-color: #fff;
 }
+
+#cart .info input.valid {
+    color: #fff;
+    background-color: #0001fd;
+    border: 2px solid #fff;
+}
+
+
 #cart .pickup-time {
     margin-top: 4px;
+    margin-bottom: 3px;
 }
 
 #cart .pickup-time select {
