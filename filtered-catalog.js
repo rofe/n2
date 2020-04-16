@@ -5447,6 +5447,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "XG2FEKXJ2ZN3IHCPATBDOLHC",
+     "item_variation_data": {
+      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
+      "name": "norm s'more bar",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
      "id": "74IVJ35BIAV7SXS4D4QVCOBW",
      "item_variation_data": {
       "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
