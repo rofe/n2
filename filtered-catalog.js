@@ -5898,6 +5898,11 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "COAVA cold brew coffee",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
+    }
+   ],
    "variations": [
     {
      "id": "UZTZHQ2HBUKZQ2HAGNLIX6ZX",
