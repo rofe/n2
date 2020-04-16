@@ -169,6 +169,15 @@ function setMenuLocation(e) {
     
 }
 
+function bindInputs(inputs) {
+    inputs.forEach((e) => {
+        e.value=localStorage.getItem(e.id);
+        e.addEventListener('change', (event) => {
+            localStorage.setItem(event.target.id, event.target.value);
+        })
+    })
+}
+
 function updateMenuDisplay() {
     var vw=window.innerWidth;
     var p=(vw-375)/375;
@@ -602,8 +611,8 @@ function submitOrder() {
         return;
     }
 
-    setCookie("name",orderParams.display_name, 200);
-    setCookie("cell",orderParams.cell, 200);
+    localStorage.setItem("name",orderParams.display_name);
+    localStorage.setItem("cell",orderParams.cell);
 
     cartEl.querySelector(".lineitems").classList.add("hidden");
     cartEl.querySelector(".info").classList.add("hidden");
@@ -784,8 +793,25 @@ function initCart() {
 
     cartEl.innerHTML=html;
 
-    document.getElementById("name").value=getCookie("name");
-    document.getElementById("cell").value=getCookie("cell");
+    var name=getCookie("name");
+    var cell=getCookie("cell");
+
+    if (name) {
+        setCookie('name','',-10);
+        localStorage.setItem('name',name);
+        console.log('migrating name to ls')
+    }
+
+    if (cell) {
+        setCookie('cell','',-10);
+        localStorage.setItem('cell',cell);
+        console.log('migrating cell to ls')
+    }
+
+    
+
+    document.getElementById("name").value=localStorage.getItem("name");
+    document.getElementById("cell").value=localStorage.getItem("cell");
 
 }
 
@@ -968,6 +994,97 @@ var cart={
     }
 }
 
+/* ---
+sign up form
+--- */
+
+customerEndpoint="https://script.google.com/macros/s/AKfycbwny6SK6iv7OqtmyM3DcMfwVFQGrVS8V4PaWf4U3kZojtfguns/exec";
+
+
+function insertSignupForm() {
+    var $signup;
+    var $form=document.createElement('div');
+
+    document.querySelectorAll('main a').forEach((e) => {
+        if (e.innerText.toLowerCase().indexOf('sign up')==0) {
+            $signup=e;
+        }
+    }) 
+    $form.id='signup';
+    $form.className='form';
+
+    $form.innerHTML=`<input type="text" id="name" placeholder="name">
+    <input type="text" id="cell" placeholder="cell">
+    <input type="text" id="email" placeholder="email">
+    <button onclick="signup()">sign up to pint club</button>`;
+
+    $signup.parentNode.replaceChild($form, $signup);
+    bindInputs(document.querySelectorAll('#signup input'));
+}
+
+function signup() {
+    var ValidationException={};
+
+    try {
+        var params={};
+        document.querySelectorAll('#signup input').forEach((e) => {
+            params[e.id]=e.value;
+            if (!e.value) {
+                e.focus();
+                throw ValidationException;
+            }
+        }) 
+        var $signup=document.querySelector("#signup");
+        $signup.innerHTML=`<div class="ordering"><svg><use href="/icons.svg#normal"></use></svg></div>`;
+    
+        var qs="";
+        for (var a in params) {
+            qs+=a+"="+encodeURIComponent(params[a]);
+            qs+="&";
+        }
+    
+        console.log ("customer qs: "+qs);
+    
+        fetch(customerEndpoint+'?'+qs, {
+            method: 'GET',
+            headers: {
+            'Accept': 'application/json',
+            }
+        })
+        .catch(err => {
+            alert('Network error: ' + err);
+        })
+        .then(response => {
+            if (!response.ok) {
+            return response.text().then(errorInfo => Promise.reject(errorInfo));
+            }
+            return response.text();
+        })
+        .then(data => {
+            console.log(data);
+            var obj=JSON.parse(data);
+            if (typeof obj.customer != "undefined") {
+                $signup.innerHTML=`<h3>welcome ${params.name.split(' ')[0].toLowerCase()}!</h3>
+                <p>we are so excited to have you as our newest member of the pint club and will be in touch shortly.</p>`;
+            } else {
+                alert('Pint Signup failed. Sorry.');
+            }
+        })
+        .catch(err => {
+            console.error(err);
+        });          
+    
+    } catch (e) {
+        console.log ("validation failed");
+    }
+}
+
+
+
+/* ----
+general setup
+--- */
+
 window.addEventListener('DOMContentLoaded', (event) => {
     //resizeImages();
     fixIcons();
@@ -976,6 +1093,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     //cloneMenuSwiper();
     fixSmsUrls();
     makeShoppable();
+    insertSignupForm();
 });
 
 window.onload = function() {  
