@@ -641,35 +641,21 @@ var catalog_raw=[
   "id": "XTV2HWGVBOMXBPDOUVYC6LN5",
   "type": "DISCOUNT",
   "discount_data": {
-   "name": "family + friend"
+   "name": "fam+friend"
   }
  },
  {
   "id": "WYHA7ZHXMSLZMOZDCN7YMN35",
   "type": "DISCOUNT",
   "discount_data": {
-   "name": "female foodie"
+   "name": "female-foodie"
   }
  },
  {
   "id": "PKEG4TNRCFT564ZAESAO2VBB",
   "type": "DISCOUNT",
   "discount_data": {
-   "name": "employee off shift"
-  }
- },
- {
-  "id": "LYLML5DRBIQZI5Q2EKFHK6EC",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "bring your own mug!"
-  }
- },
- {
-  "id": "A545MQSHNHX3Y5XJXMYYDOME",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "free 8 oz coffee + purchase"
+   "name": "employee-off-shift"
   }
  },
  {
@@ -677,13 +663,6 @@ var catalog_raw=[
   "type": "DISCOUNT",
   "discount_data": {
    "name": "free cone voucher"
-  }
- },
- {
-  "id": "QMH5ORM2NHCJ6I6FJJ4WOJIQ",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "maven block"
   }
  },
  {
@@ -3823,7 +3802,7 @@ var catalog_raw=[
   "id": "TVV6PIR5L3XFL43TDIXSBWXK",
   "type": "DISCOUNT",
   "discount_data": {
-   "name": "wholesale"
+   "name": "normal-wholesale"
   }
  },
  {
@@ -5605,16 +5584,6 @@ var catalog_raw=[
    "name": "ice cream pint",
    "variations": [
     {
-     "id": "KGF4KLDBXOCOVMJC5MHPQJM2",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "apricot + black tea sorbet (v)",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
      "id": "6XCEL4SH6O77RSCUHA3YRJGZ",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
@@ -5929,11 +5898,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "COAVA cold brew coffee",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
-    }
-   ],
    "variations": [
     {
      "id": "UZTZHQ2HBUKZQ2HAGNLIX6ZX",
@@ -6256,6 +6220,13 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "XFLCA3GWWAIVA3OAAY4XSIDB",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "BUMBLE"
   }
  }
 ]
