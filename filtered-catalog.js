@@ -5614,16 +5614,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "PMADBWOLB5L2UFKAZAP2UMJZ",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "grapefruit sorbet (v)",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
      "id": "KXGLDB25RYVJNULIQRN7P5NA",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
