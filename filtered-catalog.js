@@ -5447,6 +5447,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "XG2FEKXJ2ZN3IHCPATBDOLHC",
+     "item_variation_data": {
+      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
+      "name": "norm s'more bar",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
      "id": "74IVJ35BIAV7SXS4D4QVCOBW",
      "item_variation_data": {
       "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
@@ -5545,32 +5555,12 @@ var catalog_raw=[
      }
     },
     {
-     "id": "SCF3Z2FCKHHHWPA5XZFGEW4T",
-     "item_variation_data": {
-      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
-      "name": "chocolate + brown butter 6\" cake",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
      "id": "3PZVFPYFVVXUFYVOZTESVNXQ",
      "item_variation_data": {
       "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
       "name": "strawberry + funfetti slice",
       "price_money": {
        "amount": 600
-      }
-     }
-    },
-    {
-     "id": "6BU3PJI3ACLLHCIJ3AUT44WL",
-     "item_variation_data": {
-      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
-      "name": "strawberry + funfetti 6\" cake",
-      "price_money": {
-       "amount": 3500
       }
      }
     }
@@ -5898,6 +5888,11 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "COAVA cold brew coffee",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
+    }
+   ],
    "variations": [
     {
      "id": "UZTZHQ2HBUKZQ2HAGNLIX6ZX",
