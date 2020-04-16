@@ -5545,32 +5545,12 @@ var catalog_raw=[
      }
     },
     {
-     "id": "SCF3Z2FCKHHHWPA5XZFGEW4T",
-     "item_variation_data": {
-      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
-      "name": "chocolate + brown butter 6\" cake",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
      "id": "3PZVFPYFVVXUFYVOZTESVNXQ",
      "item_variation_data": {
       "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
       "name": "strawberry + funfetti slice",
       "price_money": {
        "amount": 600
-      }
-     }
-    },
-    {
-     "id": "6BU3PJI3ACLLHCIJ3AUT44WL",
-     "item_variation_data": {
-      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
-      "name": "strawberry + funfetti 6\" cake",
-      "price_money": {
-       "amount": 3500
       }
      }
     }
