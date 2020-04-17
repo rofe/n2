@@ -5427,16 +5427,6 @@ var catalog_raw=[
    "name": "ice cream bar",
    "variations": [
     {
-     "id": "GFEYV3J345N3MFIJWDERFKTZ",
-     "item_variation_data": {
-      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
-      "name": "almond joy bar",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
      "id": "HLDPKXI4MNLX6G7USXNZMW4J",
      "item_variation_data": {
       "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
