@@ -6126,6 +6126,16 @@ var catalog_raw=[
    "name": "ice cream cake 6\" cake",
    "variations": [
     {
+     "id": "YOEJD35JDFPO2GHEGAOX74K5",
+     "item_variation_data": {
+      "item_id": "GPK2TEIAKNVAPAMKEDBNJFJG",
+      "name": "DALGONA COFFEE PIE",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
      "id": "4KRE5USQMNPXQPNX5NDIFV22",
      "item_variation_data": {
       "item_id": "GPK2TEIAKNVAPAMKEDBNJFJG",
