@@ -5465,16 +5465,6 @@ var catalog_raw=[
        "amount": 500
       }
      }
-    },
-    {
-     "id": "VX7IVX3KNOFTBDVAKFNIREGF",
-     "item_variation_data": {
-      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
-      "name": "trashberry bar",
-      "price_money": {
-       "amount": 600
-      }
-     }
     }
    ]
   }
@@ -5485,16 +5475,6 @@ var catalog_raw=[
   "item_data": {
    "name": "ice cream sando",
    "variations": [
-    {
-     "id": "I5MYZMBBDAHCP23PJULXYUQQ",
-     "item_variation_data": {
-      "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
-      "name": "chocolate wasted sando",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
     {
      "id": "N32XQCKQCAPVHYLEHR2BJWGQ",
      "item_variation_data": {
@@ -5535,6 +5515,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "AF3ROOH5HCQDQFC4GCGTSYJB",
+     "item_variation_data": {
+      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
+      "name": "DALGONA COFFEE PIE",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
      "id": "MMQ4HUON6XDT7HQOGYNVCE7U",
      "item_variation_data": {
       "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
@@ -5549,16 +5539,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
       "name": "chocolate + brown butter slice",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "3PZVFPYFVVXUFYVOZTESVNXQ",
-     "item_variation_data": {
-      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
-      "name": "strawberry + funfetti slice",
       "price_money": {
        "amount": 600
       }
@@ -5614,16 +5594,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "PMADBWOLB5L2UFKAZAP2UMJZ",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "grapefruit sorbet (v)",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
      "id": "KXGLDB25RYVJNULIQRN7P5NA",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
@@ -5658,16 +5628,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
       "name": "strawberry milk ice cream",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
-     "id": "UMDLFBY6MRQUSALJUJ5LA6D6",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "MILK + COOKIES composed pint : sweet cream ice cream + house-made speculoos + choc chip cookie dough + chocolate shortbread crumb",
       "price_money": {
        "amount": 1000
       }
@@ -6165,6 +6125,16 @@ var catalog_raw=[
   "item_data": {
    "name": "ice cream cake 6\" cake",
    "variations": [
+    {
+     "id": "YOEJD35JDFPO2GHEGAOX74K5",
+     "item_variation_data": {
+      "item_id": "GPK2TEIAKNVAPAMKEDBNJFJG",
+      "name": "DALGONA COFFEE PIE",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
     {
      "id": "4KRE5USQMNPXQPNX5NDIFV22",
      "item_variation_data": {
