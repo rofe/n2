@@ -5614,16 +5614,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "VXSBNROWAAY3VMP2YM57IDT6",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "strawberry milk ice cream",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
      "id": "VJW3BAI3TYPENS3WVY4BGLBR",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
@@ -5751,7 +5741,7 @@ var catalog_raw=[
      "id": "EF4R27UD4TCP5RCROZA66SQG",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "blood orange sorbet (v) - half size",
+      "name": "blueberry sorbet (v) - half size",
       "price_money": {
        "amount": 300
       }
@@ -5761,7 +5751,7 @@ var catalog_raw=[
      "id": "66RSFD36KI77R33S2TVWXDGF",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "blood orange sorbet (v) - normal size",
+      "name": "blueberry sorbet (v) - normal size",
       "price_money": {
        "amount": 400
       }
