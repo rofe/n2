@@ -1009,17 +1009,20 @@ function insertSignupForm() {
         if (e.innerText.toLowerCase().indexOf('sign up')==0) {
             $signup=e;
         }
-    }) 
-    $form.id='signup';
-    $form.className='form';
+    })
 
-    $form.innerHTML=`<input type="text" id="name" placeholder="name">
-    <input type="text" id="cell" placeholder="cell">
-    <input type="text" id="email" placeholder="email">
-    <button onclick="signup()">sign up to pint club</button>`;
-
-    $signup.parentNode.replaceChild($form, $signup);
-    bindInputs(document.querySelectorAll('#signup input'));
+    if ($signup) {
+        $form.id='signup';
+        $form.className='form';
+    
+        $form.innerHTML=`<input type="text" id="name" placeholder="name">
+        <input type="text" id="cell" placeholder="cell">
+        <input type="text" id="email" placeholder="email">
+        <button onclick="signup()">sign up to pint club</button>`;
+    
+        $signup.parentNode.replaceChild($form, $signup);
+        bindInputs(document.querySelectorAll('#signup input'));    
+    }
 }
 
 function signup() {
@@ -1100,5 +1103,5 @@ window.onload = function() {
     scrani.onload();
   }
   
-window.onresize=updateMenuDisplay;
+//window.onresize=updateMenuDisplay;
   
