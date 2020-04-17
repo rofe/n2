@@ -5476,16 +5476,6 @@ var catalog_raw=[
    "name": "ice cream sando",
    "variations": [
     {
-     "id": "I5MYZMBBDAHCP23PJULXYUQQ",
-     "item_variation_data": {
-      "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
-      "name": "chocolate wasted sando",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
      "id": "N32XQCKQCAPVHYLEHR2BJWGQ",
      "item_variation_data": {
       "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
