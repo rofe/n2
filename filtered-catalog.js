@@ -5515,6 +5515,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "AF3ROOH5HCQDQFC4GCGTSYJB",
+     "item_variation_data": {
+      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
+      "name": "DALGONA COFFEE PIE",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    },
+    {
      "id": "MMQ4HUON6XDT7HQOGYNVCE7U",
      "item_variation_data": {
       "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
