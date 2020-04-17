@@ -5465,16 +5465,6 @@ var catalog_raw=[
        "amount": 500
       }
      }
-    },
-    {
-     "id": "VX7IVX3KNOFTBDVAKFNIREGF",
-     "item_variation_data": {
-      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
-      "name": "trashberry bar",
-      "price_money": {
-       "amount": 600
-      }
-     }
     }
    ]
   }
@@ -5549,16 +5539,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
       "name": "chocolate + brown butter slice",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "3PZVFPYFVVXUFYVOZTESVNXQ",
-     "item_variation_data": {
-      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
-      "name": "strawberry + funfetti slice",
       "price_money": {
        "amount": 600
       }
