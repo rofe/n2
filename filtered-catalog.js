@@ -5634,16 +5634,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "UMDLFBY6MRQUSALJUJ5LA6D6",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "MILK + COOKIES composed pint : sweet cream ice cream + house-made speculoos + choc chip cookie dough + chocolate shortbread crumb",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
      "id": "VJW3BAI3TYPENS3WVY4BGLBR",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
