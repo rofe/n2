@@ -5533,16 +5533,6 @@ var catalog_raw=[
        "amount": 3500
       }
      }
-    },
-    {
-     "id": "OB56WL5T6XCYYUUQUBXSO3NT",
-     "item_variation_data": {
-      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
-      "name": "chocolate + brown butter slice",
-      "price_money": {
-       "amount": 600
-      }
-     }
     }
    ]
   }
