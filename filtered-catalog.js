@@ -5513,16 +5513,6 @@ var catalog_raw=[
        "amount": 4000
       }
      }
-    },
-    {
-     "id": "MMQ4HUON6XDT7HQOGYNVCE7U",
-     "item_variation_data": {
-      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
-      "name": "banana cream 6\" cake",
-      "price_money": {
-       "amount": 3500
-      }
-     }
     }
    ]
   }
@@ -5538,16 +5528,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
       "name": "blood orange sorbet (v)",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
-     "id": "POCZ6TYWWQGLYBLE6ZW7ILJ7",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "coffee ice cream",
       "price_money": {
        "amount": 1000
       }
