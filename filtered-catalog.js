@@ -5582,16 +5582,6 @@ var catalog_raw=[
        "amount": 1000
       }
      }
-    },
-    {
-     "id": "VJW3BAI3TYPENS3WVY4BGLBR",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "SWEET CORN + PASSION composed pint : sweet corn ice cream + passion fruit caramel",
-      "price_money": {
-       "amount": 1000
-      }
-     }
     }
    ]
   }
