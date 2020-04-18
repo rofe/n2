@@ -5524,30 +5524,10 @@ var catalog_raw=[
    "name": "ice cream pint",
    "variations": [
     {
-     "id": "6XCEL4SH6O77RSCUHA3YRJGZ",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "blood orange sorbet (v)",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
      "id": "7SRL2GK7Y6P5PCDZZ5JOPWQA",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
       "name": "dark chocolate sorbet (v)",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
-     "id": "ICXQZE2F5QFLED6OR2X6E76N",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "earl grey tea ice cream",
       "price_money": {
        "amount": 1000
       }
@@ -5564,20 +5544,30 @@ var catalog_raw=[
      }
     },
     {
-     "id": "4MKFFTAALT55TSRNK3N2O7EX",
+     "id": "3XMXDNF5MJA7LCEDHHPYCK23",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "olive oil ice cream",
+      "name": "salted vanilla bean",
       "price_money": {
        "amount": 1000
       }
      }
     },
     {
-     "id": "3XMXDNF5MJA7LCEDHHPYCK23",
+     "id": "3Z3A4SLXIQAUL3VMOTTMNR46",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "salted vanilla bean",
+      "name": "COCONUT + HONEYCOMB composed pint (v) : coconut sorbet + house-made honeycomb + dark chocolate bits",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "LILEH3QNE4PKZWQ7NZ2VHY3I",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "GREEK + PEACH composed pint : greek yogurt ice cream + peach jam + shortbread cookie crumb",
       "price_money": {
        "amount": 1000
       }
