@@ -6051,7 +6051,7 @@ var catalog_raw=[
      "id": "COSEBDXHLP53IUTUAKH73T24",
      "item_variation_data": {
       "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
-      "name": "strawberry + bb",
+      "name": "strawberry milk + brown butter",
       "price_money": {
        "amount": 1000
       }
