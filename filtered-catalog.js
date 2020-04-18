@@ -5524,10 +5524,50 @@ var catalog_raw=[
    "name": "ice cream pint",
    "variations": [
     {
+     "id": "6XCEL4SH6O77RSCUHA3YRJGZ",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "blood orange sorbet (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "BH6NRTUYVGWYS6CHEZWYJUEC",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "blueberry sorbet (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "RMIA2F45MM5CFIK545TOFVA5",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "blueberry + lemon cheesecake twist (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
      "id": "7SRL2GK7Y6P5PCDZZ5JOPWQA",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
       "name": "dark chocolate sorbet (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "NBEQTYEVPP7AFGL4LGMRRSFB",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "lemon cheesecake ice cream (v)",
       "price_money": {
        "amount": 1000
       }
@@ -5547,7 +5587,7 @@ var catalog_raw=[
      "id": "3XMXDNF5MJA7LCEDHHPYCK23",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "salted vanilla bean",
+      "name": "salted vanilla bean ice cream",
       "price_money": {
        "amount": 1000
       }
@@ -5568,6 +5608,16 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
       "name": "GREEK + PEACH composed pint : greek yogurt ice cream + peach jam + shortbread cookie crumb",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "PCPQGA673QHWWBNMFS6TGPPM",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "STRAWBERRY + BB composed pint (gf) : strawberry milk ice cream + meringue + brown butter milk crumb",
       "price_money": {
        "amount": 1000
       }
