@@ -5584,16 +5584,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "3XMXDNF5MJA7LCEDHHPYCK23",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "salted vanilla bean ice cream",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
      "id": "3Z3A4SLXIQAUL3VMOTTMNR46",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
@@ -5697,26 +5687,6 @@ var catalog_raw=[
     }
    ],
    "variations": [
-    {
-     "id": "S36T7JK24IH6IDKH3XAXMLIV",
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "salted vanilla bean - half size",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "Z7M7WY6CX6M6S45T3WWLVJ2N",
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "salted vanilla bean - normal size",
-      "price_money": {
-       "amount": 400
-      }
-     }
-    },
     {
      "id": "QP26ZCJRXPIYDK3ISJLKVW3R",
      "item_variation_data": {
