@@ -5594,16 +5594,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "LILEH3QNE4PKZWQ7NZ2VHY3I",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "GREEK + PEACH composed pint : greek yogurt ice cream + peach jam + shortbread cookie crumb",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
      "id": "PCPQGA673QHWWBNMFS6TGPPM",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
