@@ -5445,6 +5445,16 @@ var catalog_raw=[
        "amount": 500
       }
      }
+    },
+    {
+     "id": "VX7IVX3KNOFTBDVAKFNIREGF",
+     "item_variation_data": {
+      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
+      "name": "trashberry bar",
+      "price_money": {
+       "amount": 600
+      }
+     }
     }
    ]
   }
