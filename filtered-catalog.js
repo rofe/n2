@@ -5456,6 +5456,16 @@ var catalog_raw=[
    "name": "ice cream sando",
    "variations": [
     {
+     "id": "VHB4D7IJZ2T4IPQQV3NP7BDQ",
+     "item_variation_data": {
+      "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
+      "name": "anti-chocolate chip + milk chocolate sando",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    },
+    {
      "id": "N32XQCKQCAPVHYLEHR2BJWGQ",
      "item_variation_data": {
       "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
@@ -5503,6 +5513,16 @@ var catalog_raw=[
        "amount": 4000
       }
      }
+    },
+    {
+     "id": "OB56WL5T6XCYYUUQUBXSO3NT",
+     "item_variation_data": {
+      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
+      "name": "chocolate + brown butter slice",
+      "price_money": {
+       "amount": 600
+      }
+     }
     }
    ]
   }
@@ -5544,6 +5564,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "ICXQZE2F5QFLED6OR2X6E76N",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "earl grey tea ice cream",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
      "id": "NBEQTYEVPP7AFGL4LGMRRSFB",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
@@ -5558,6 +5588,36 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
       "name": "milk chocolate ice cream",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "4MKFFTAALT55TSRNK3N2O7EX",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "olive oil ice cream",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "3XMXDNF5MJA7LCEDHHPYCK23",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "salted vanilla bean ice cream",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "VXSBNROWAAY3VMP2YM57IDT6",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "strawberry milk ice cream",
       "price_money": {
        "amount": 1000
       }
