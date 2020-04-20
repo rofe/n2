@@ -5544,16 +5544,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "RMIA2F45MM5CFIK545TOFVA5",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "blueberry + lemon cheesecake twist (v)",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
      "id": "7SRL2GK7Y6P5PCDZZ5JOPWQA",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
