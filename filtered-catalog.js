@@ -5445,16 +5445,6 @@ var catalog_raw=[
        "amount": 500
       }
      }
-    },
-    {
-     "id": "74IVJ35BIAV7SXS4D4QVCOBW",
-     "item_variation_data": {
-      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
-      "name": "strawberry lemonade bar",
-      "price_money": {
-       "amount": 500
-      }
-     }
     }
    ]
   }
