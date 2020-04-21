@@ -5503,26 +5503,6 @@ var catalog_raw=[
    "name": "ice cream cake",
    "variations": [
     {
-     "id": "37UFSXRAXW4DANV7OC4EZBUE",
-     "item_variation_data": {
-      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
-      "name": "CARROT CAKE norm core",
-      "price_money": {
-       "amount": 450
-      }
-     }
-    },
-    {
-     "id": "AF3ROOH5HCQDQFC4GCGTSYJB",
-     "item_variation_data": {
-      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
-      "name": "DALGONA COFFEE PIE",
-      "price_money": {
-       "amount": 4000
-      }
-     }
-    },
-    {
      "id": "OB56WL5T6XCYYUUQUBXSO3NT",
      "item_variation_data": {
       "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
