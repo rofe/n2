@@ -316,7 +316,13 @@ function configItem(item) {
     config.classList.remove("hidden");
     document.body.classList.add("noscroll");
     var html=`<div class="close" onclick="hideConfig()">X</div><div class="wrapper"><h3>customize your ${item.item_data.name}</h3>`;
-    html+=`<p>*all soft serves will be served upside-down in a cup for optimal transport and limited contact, but you can totes add a cone on top :)</p>`;
+    if (item.item_data.name.toLowerCase() == "soft serve") {
+        html+=`<p>*all soft serves will be served upside-down in a cup for optimal transport and limited contact, but you can totes add a cone on top :)</p>`;
+    }
+    if (item.item_data.name.toLowerCase() == "choco taco") {
+        html+=`<p>*it's NORMAL&reg; taco tuesday!<br>choose 1 soft serve and dip for your custom choco taco</p>`;    
+    }
+
     html+=`<select>`;
     item.item_data.variations.forEach((v) => {
         html+=`<option value="${v.id}">${v.item_variation_data.name} ($${formatMoney(v.item_variation_data.price_money.amount)})</option>`;
@@ -477,6 +483,8 @@ function initPaymentForm() {
             // Initialize the payment form elements
             
             applicationId: "sq0idp-q-NmavFwDX6MRLzzd5q-sg",
+            locationId: '6EXJXZ644ND0E',
+
             inputClass: 'sq-input',
             autoBuild: false,
             // Customize the CSS for SqPaymentForm iframe elements
@@ -504,8 +512,27 @@ function initPaymentForm() {
                 elementId: 'sq-postal-code',
                 placeholder: 'Postal'
             },
+            
+            applePay: {
+                elementId: 'sq-apple-pay'
+            },
             // SqPaymentForm callback functions
             callbacks: {
+
+                methodsSupported: function (methods, unsupportedReason) {
+                    console.log(methods);
+              
+                    var applePayBtn = document.getElementById('sq-apple-pay');
+              
+                    // Only show the button if Apple Pay on the Web is enabled
+                    // Otherwise, display the wallet not enabled message.
+                    if (methods.applePay === true) {
+                      applePayBtn.style.display = 'inline-block';
+                    } else {
+                      console.log(unsupportedReason);
+                    }
+                  }
+              ,
                 /*
                 * callback function: cardNonceResponseReceived
                 * Triggered when: SqPaymentForm completes a card nonce request
@@ -778,6 +805,7 @@ function initCart() {
                     <div class="third" id="sq-cvv"></div>
                     <div class="third" id="sq-postal-code"></div>
                     <button id="sq-creditcard" class="button-credit-card" onclick="onGetCardNonce(event)">pay</button>
+                    <button id="sq-apple-pay"></button>
                 </div>             
             </div>
             <div class="thankyou hidden">
