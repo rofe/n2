@@ -311,17 +311,12 @@ function hideConfig() {
     document.body.classList.remove("noscroll");
 }
 
-function configItem(item) {
+function configItem(item, callout) {
     var config=document.getElementById("config");
     config.classList.remove("hidden");
     document.body.classList.add("noscroll");
     var html=`<div class="close" onclick="hideConfig()">X</div><div class="wrapper"><h3>customize your ${item.item_data.name}</h3>`;
-    if (item.item_data.name.toLowerCase() == "soft serve") {
-        html+=`<p>*all soft serves will be served upside-down in a cup for optimal transport and limited contact, but you can totes add a cone on top :)</p>`;
-    }
-    if (item.item_data.name.toLowerCase() == "choco taco") {
-        html+=`<p>*it's NORMAL&reg; taco tuesday!<br>choose 1 soft serve and dip for your custom choco taco</p>`;    
-    }
+    html+=callout;
 
     html+=`<select>`;
     item.item_data.variations.forEach((v) => {
@@ -888,13 +883,27 @@ function updateCart() {
     console.log(JSON.stringify(cart.line_items));
 }
 
+function findCallout($parent) {
+    var callout="";
+    var $e=$parent.nextSibling;
+    while ($e && $e.tagName != $parent.tagName) {
+        if ($e.tagName=="P" && $e.innerText.indexOf("*")==0) {
+            callout+=`<p>${$e.innerText}</p>`;        
+        }
+        console.log($e.tagName +":"+$e.innerText)
+        $e=$e.nextSibling;
+    }
+    return callout;
+}
+
 function addToCart(e) {
     var id=e.getAttribute("data-id");
     console.log(id);
     if (id) {
         var obj=catalog.byId[id]
         if (obj.type=="ITEM") {
-            configItem(obj);
+            var callout=findCallout(e.parentNode);
+            configItem(obj, callout);
         } else {
             cart.add(obj.id);
             updateCart();
