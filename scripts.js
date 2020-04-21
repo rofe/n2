@@ -887,10 +887,10 @@ function findCallout($parent) {
     var callout="";
     var $e=$parent.nextSibling;
     while ($e && $e.tagName != $parent.tagName) {
-        if ($e.tagName=="P" && $e.innerText.indexOf("*")==0) {
-            callout+=`<p>${$e.innerText}</p>`;        
+        if ($e.tagName=="P" && $e.textContent.indexOf("*")==0) {
+            callout+=`<p>${$e.textContent}</p>`;        
         }
-        console.log($e.tagName +":"+$e.innerText)
+        console.log($e.tagName +":"+$e.textContent)
         $e=$e.nextSibling;
     }
     return callout;
