@@ -1086,10 +1086,10 @@ function signup() {
             console.log(data);
             var obj=JSON.parse(data);
             if (typeof obj.customer != "undefined") {
-                $signup.innerHTML=`<h3>welcome ${params.name.split(' ')[0].toLowerCase()}!</h3>
-                <p>we are so excited to have you as our newest member of the pint club and will be in touch shortly.</p>`;
+                $signup.innerHTML=`<p>welcome ${params.name.split(' ')[0].toLowerCase()},<br>
+                    we are SO excited to have you as our newest member of NORMAL&reg; PINT CLUB! stay tuned, we'll be in touch shortly.</p>`;
             } else {
-                alert('Pint Signup failed. Sorry.');
+                alert('Pint Club Signup failed. Sorry.');
             }
         })
         .catch(err => {
