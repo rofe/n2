@@ -508,26 +508,8 @@ function initPaymentForm() {
                 placeholder: 'Postal'
             },
             
-            applePay: {
-                elementId: 'sq-apple-pay'
-            },
             // SqPaymentForm callback functions
             callbacks: {
-
-                methodsSupported: function (methods, unsupportedReason) {
-                    console.log(methods);
-              
-                    var applePayBtn = document.getElementById('sq-apple-pay');
-              
-                    // Only show the button if Apple Pay on the Web is enabled
-                    // Otherwise, display the wallet not enabled message.
-                    if (methods.applePay === true) {
-                      applePayBtn.style.display = 'inline-block';
-                    } else {
-                      console.log(unsupportedReason);
-                    }
-                  }
-              ,
                 /*
                 * callback function: cardNonceResponseReceived
                 * Triggered when: SqPaymentForm completes a card nonce request
