@@ -5522,16 +5522,6 @@ var catalog_raw=[
    "name": "ice cream pint",
    "variations": [
     {
-     "id": "6XCEL4SH6O77RSCUHA3YRJGZ",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "blood orange sorbet (v)",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
      "id": "BH6NRTUYVGWYS6CHEZWYJUEC",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
