@@ -1824,9 +1824,6 @@ var catalog_raw=[
    "name": "choco taco",
    "modifier_list_info": [
     {
-     "modifier_list_id": "RYNRMVD5XK4FLVZA3UB3QSZC"
-    },
-    {
      "modifier_list_id": "XKJLMJRKJ6BRSJVJRD6UP4NV"
     }
    ],
@@ -1835,7 +1832,27 @@ var catalog_raw=[
      "id": "VX7CBZUWWTLX4QME3N5LI4N2",
      "item_variation_data": {
       "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
-      "name": "custom choco taco",
+      "name": "filled with salted vanilla bean",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    },
+    {
+     "id": "3N65QQAR5LAXYRWEE6KFQOUE",
+     "item_variation_data": {
+      "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
+      "name": "filled with milk chocolate",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    },
+    {
+     "id": "ESNH3LAUIBLZZZKVO3FTQT6Q",
+     "item_variation_data": {
+      "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
+      "name": "filled with blueberry sorbet (v)",
       "price_money": {
        "amount": 700
       }
