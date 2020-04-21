@@ -1822,12 +1822,20 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "choco taco",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "RYNRMVD5XK4FLVZA3UB3QSZC"
+    },
+    {
+     "modifier_list_id": "XKJLMJRKJ6BRSJVJRD6UP4NV"
+    }
+   ],
    "variations": [
     {
      "id": "VX7CBZUWWTLX4QME3N5LI4N2",
      "item_variation_data": {
       "item_id": "DLKX5RSC5SNN5UCGILWKOHAD",
-      "name": "choco taco",
+      "name": "custom choco taco",
       "price_money": {
        "amount": 700
       }
@@ -2776,7 +2784,7 @@ var catalog_raw=[
     {
      "id": "52KVOXREOSLAD5QVSAWHZAN3",
      "modifier_data": {
-      "name": "vanilla",
+      "name": "salted vanilla bean",
       "price_money": {
        "amount": 0
       }
@@ -2794,34 +2802,7 @@ var catalog_raw=[
     {
      "id": "B4YKKKWOISWXVYCZRX5PQHD2",
      "modifier_data": {
-      "name": "greek yogurt",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "CK5U4OLKFUUDUL76X2DTVB7Q",
-     "modifier_data": {
-      "name": "coffee + irish cream",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "TZU6EKWVWMCUFJNIHEGOGAV5",
-     "modifier_data": {
-      "name": "passionfruit  (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "AHEN4AG3LROFMDXZDPPU4O4B",
-     "modifier_data": {
-      "name": "smoked caramel (v)",
+      "name": "blueberry sorbet (v)",
       "price_money": {
        "amount": 0
       }
@@ -6212,6 +6193,42 @@ var catalog_raw=[
   "type": "DISCOUNT",
   "discount_data": {
    "name": "BUMBLE"
+  }
+ },
+ {
+  "id": "XKJLMJRKJ6BRSJVJRD6UP4NV",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "taco dip",
+   "modifiers": [
+    {
+     "id": "NRGI7KGRKOBOGDOGDENHAZBZ",
+     "modifier_data": {
+      "name": "almond dip",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "VLROZ7RIUKALRYS6SJMQ6GXL",
+     "modifier_data": {
+      "name": "dark chocolate",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "UTS3EPW5FU3QKEKMSPP4QG4L",
+     "modifier_data": {
+      "name": "dulcey chocolate",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    }
+   ]
   }
  }
 ]
