@@ -5492,6 +5492,16 @@ var catalog_raw=[
        "amount": 600
       }
      }
+    },
+    {
+     "id": "VCQJQPQCRLAHOE7UJNKLWVDV",
+     "item_variation_data": {
+      "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
+      "name": "peanut butter + dark chocolate sando",
+      "price_money": {
+       "amount": 600
+      }
+     }
     }
    ]
   }
@@ -5522,10 +5532,50 @@ var catalog_raw=[
    "name": "ice cream pint",
    "variations": [
     {
+     "id": "KGF4KLDBXOCOVMJC5MHPQJM2",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "apricot + black tea sorbet (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "6XCEL4SH6O77RSCUHA3YRJGZ",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "blood orange sorbet (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
      "id": "BH6NRTUYVGWYS6CHEZWYJUEC",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
       "name": "blueberry sorbet (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "RMIA2F45MM5CFIK545TOFVA5",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "blueberry + lemon cheesecake twist (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "POCZ6TYWWQGLYBLE6ZW7ILJ7",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "coffee ice cream",
       "price_money": {
        "amount": 1000
       }
@@ -5596,26 +5646,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
       "name": "strawberry milk ice cream",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
-     "id": "3Z3A4SLXIQAUL3VMOTTMNR46",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "COCONUT + HONEYCOMB composed pint (v) : coconut sorbet + house-made honeycomb + dark chocolate bits",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
-     "id": "PCPQGA673QHWWBNMFS6TGPPM",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "STRAWBERRY + BB composed pint (gf) : strawberry milk ice cream + meringue + brown butter milk crumb",
       "price_money": {
        "amount": 1000
       }
