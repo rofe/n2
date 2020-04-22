@@ -5425,12 +5425,62 @@ var catalog_raw=[
    "name": "ice cream bar",
    "variations": [
     {
+     "id": "GFEYV3J345N3MFIJWDERFKTZ",
+     "item_variation_data": {
+      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
+      "name": "almond joy bar",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    },
+    {
+     "id": "PTVJCBNNH4YHYLJLAFPTSZCX",
+     "item_variation_data": {
+      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
+      "name": "cookies + cream bar",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "CJ2LNWOYERHUWNEMYXOQOFYY",
+     "item_variation_data": {
+      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
+      "name": "earl grey + passion bar",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
      "id": "HLDPKXI4MNLX6G7USXNZMW4J",
      "item_variation_data": {
       "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
       "name": "\"handle\" bar",
       "price_money": {
-       "amount": 600
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "ZUXYGFYADCNX3D774YXARHSM",
+     "item_variation_data": {
+      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
+      "name": "key lime pie bar",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "R7I7SSJIJZ3ZKJ75SED2BIA6",
+     "item_variation_data": {
+      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
+      "name": "mint chip bar",
+      "price_money": {
+       "amount": 500
       }
      }
     },
@@ -5439,6 +5489,26 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
       "name": "norm s'more bar",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "YGGADHIJM3WUA5IRVMD5WF5U",
+     "item_variation_data": {
+      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
+      "name": "strawberry shortcake bar",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "LYZ5U2QYCQVDNZOYD5C6RU5N",
+     "item_variation_data": {
+      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
+      "name": "the cereal bar",
       "price_money": {
        "amount": 500
       }
@@ -5474,6 +5544,36 @@ var catalog_raw=[
      }
     },
     {
+     "id": "OAEUHNQVAKA35JUQMOXGFRLI",
+     "item_variation_data": {
+      "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
+      "name": "banana cream sando",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    },
+    {
+     "id": "XPGX6MY5LDTNBEC3PKIQXDK3",
+     "item_variation_data": {
+      "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
+      "name": "chocolate chip + sweet cream sando",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    },
+    {
+     "id": "I5MYZMBBDAHCP23PJULXYUQQ",
+     "item_variation_data": {
+      "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
+      "name": "chocolate wasted sando",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    },
+    {
      "id": "N32XQCKQCAPVHYLEHR2BJWGQ",
      "item_variation_data": {
       "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
@@ -5484,10 +5584,10 @@ var catalog_raw=[
      }
     },
     {
-     "id": "PXQTE6Q3ZDEQPA3B3D3WOVAU",
+     "id": "QX7R7AVNS4WKSVLXP6GSQR5J",
      "item_variation_data": {
       "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
-      "name": "snickerdoodle + brown butter sando",
+      "name": "mocha sando",
       "price_money": {
        "amount": 600
       }
@@ -5498,6 +5598,16 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
       "name": "peanut butter + dark chocolate sando",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    },
+    {
+     "id": "PXQTE6Q3ZDEQPA3B3D3WOVAU",
+     "item_variation_data": {
+      "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
+      "name": "snickerdoodle + brown butter sando",
       "price_money": {
        "amount": 600
       }
