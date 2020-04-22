@@ -4537,13 +4537,13 @@ var catalog_raw=[
   "id": "XBXM5EYMN3VDIP7CM7O6LHLA",
   "type": "ITEM",
   "item_data": {
-   "name": "normal choco taco",
+   "name": "choco taco",
    "variations": [
     {
-     "id": "KCHFJN6GCK2EK5Y2ZFPZIQMH",
+     "id": "UZVF7KVBCGBPO34J4F6DNKVH",
      "item_variation_data": {
       "item_id": "XBXM5EYMN3VDIP7CM7O6LHLA",
-      "name": "Regular",
+      "name": "normal choco taco",
       "price_money": {
        "amount": 700
       }
