@@ -5792,26 +5792,6 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "EF4R27UD4TCP5RCROZA66SQG",
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "blueberry sorbet (v) - half size",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "66RSFD36KI77R33S2TVWXDGF",
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "blueberry sorbet (v) - normal size",
-      "price_money": {
-       "amount": 400
-      }
-     }
-    },
-    {
      "id": "QP26ZCJRXPIYDK3ISJLKVW3R",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
