@@ -1821,7 +1821,7 @@ var catalog_raw=[
   "id": "DLKX5RSC5SNN5UCGILWKOHAD",
   "type": "ITEM",
   "item_data": {
-   "name": "choco taco",
+   "name": "custom choco taco",
    "modifier_list_info": [
     {
      "modifier_list_id": "XKJLMJRKJ6BRSJVJRD6UP4NV"
@@ -4537,7 +4537,7 @@ var catalog_raw=[
   "id": "XBXM5EYMN3VDIP7CM7O6LHLA",
   "type": "ITEM",
   "item_data": {
-   "name": "custom choco taco",
+   "name": "normal® choco taco",
    "modifier_list_info": [
     {
      "modifier_list_id": "YB56URCOMB3TGA7ZIMDKPGWA"
@@ -5617,25 +5617,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
-  "type": "ITEM",
-  "item_data": {
-   "name": "ice cream cake",
-   "variations": [
-    {
-     "id": "OB56WL5T6XCYYUUQUBXSO3NT",
-     "item_variation_data": {
-      "item_id": "GU3ZMWZDJQ6TUJO4Y62TLEVJ",
-      "name": "chocolate + brown butter slice",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "BJ477UAFT44XPN5FDXKSH57Z",
   "type": "ITEM",
   "item_data": {
@@ -6205,16 +6186,6 @@ var catalog_raw=[
    "name": "ice cream cake slice",
    "variations": [
     {
-     "id": "P3JO447IV32GWLGWQIDW22M3",
-     "item_variation_data": {
-      "item_id": "RDWFNM4AMFIJRXXWMMRQQT2J",
-      "name": "carrot cake norm core",
-      "price_money": {
-       "amount": 450
-      }
-     }
-    },
-    {
      "id": "WOBKXP5JODN6CJIHNIKXWNNU",
      "item_variation_data": {
       "item_id": "RDWFNM4AMFIJRXXWMMRQQT2J",
@@ -6253,16 +6224,6 @@ var catalog_raw=[
   "item_data": {
    "name": "ice cream cake 6\" cake",
    "variations": [
-    {
-     "id": "YOEJD35JDFPO2GHEGAOX74K5",
-     "item_variation_data": {
-      "item_id": "GPK2TEIAKNVAPAMKEDBNJFJG",
-      "name": "DALGONA COFFEE PIE",
-      "price_money": {
-       "amount": 4000
-      }
-     }
-    },
     {
      "id": "4KRE5USQMNPXQPNX5NDIFV22",
      "item_variation_data": {
