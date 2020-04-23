@@ -614,7 +614,7 @@ async function checkCart() {
             $menu.querySelectorAll("h2").forEach((e) => {
                 var hname=stripName(e.innerText);
                 var valid=e.firstChild.tagName != "DEL";
-                if (name == hname && !isdel) {
+                if (name == hname && valid) {
                     found=true;
                 }
             })
