@@ -720,8 +720,8 @@ select:disabled:hover, select[aria-disabled=true] {
         height: 48px;
         padding: 0;
         margin: 24px 0 16px 0;
-        background-image: -webkit-named-image(apple-pay-logo-black);
-        background-color: white;
+        background-image: -webkit-named-image(apple-pay-logo-white);
+        background-color: black;
         background-size: 100% 60%;
         background-repeat: no-repeat;
         background-position: 50% 50%;
@@ -729,6 +729,7 @@ select:disabled:hover, select[aria-disabled=true] {
         cursor: pointer;
         display: none;
       }
+
 
 @keyframes rotate-center {
     0% {
