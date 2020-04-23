@@ -421,7 +421,7 @@ function displayThanks(payment){
     var smshref=`sms://+13852995418/${isAndroid()?"?":"&"}body=${encodeURIComponent(msg)}`;
     textElem.setAttribute("href", smshref);
 
-    cart.line_items=[];
+    cart.clear();
     var summaryEl=document.querySelector("#cart .summary");
     summaryEl.innerHTML=`your cart is empty`;
 }
@@ -1121,20 +1121,16 @@ function insertSignupForm() {
     var $signup;
     var $form=document.createElement('div');
 
-    document.querySelectorAll('main a').forEach((e) => {
-        if (e.innerText.toLowerCase().indexOf('sign up')==0) {
-            $signup=e;
-        }
-    })
-
+    var $signup=document.getElementById('sign-up-for-pint-club');
     if ($signup) {
+        $signup=$signup.parentNode;
         $form.id='signup';
         $form.className='form';
     
-        $form.innerHTML=`<input type="text" id="name" placeholder="name">
+        $form.innerHTML=`<div class="form-wrapper"><input type="text" id="name" placeholder="name">
         <input type="text" id="cell" placeholder="cell">
         <input type="text" id="email" placeholder="email">
-        <button onclick="signup()">sign up to pint club</button>`;
+        <button onclick="signup()">sign up to pint club</button></div>`;
     
         $signup.parentNode.replaceChild($form, $signup);
         bindInputs(document.querySelectorAll('#signup input'));    
@@ -1183,8 +1179,8 @@ function signup() {
             console.log(data);
             var obj=JSON.parse(data);
             if (typeof obj.customer != "undefined") {
-                $signup.innerHTML=`<p>welcome ${params.name.split(' ')[0].toLowerCase()},<br>
-                    we are SO excited to have you as our newest member of NORMAL&reg; PINT CLUB! stay tuned, we'll be in touch shortly.</p>`;
+                $signup.innerHTML=`<div class="form-wrapper"><p>welcome ${params.name.split(' ')[0].toLowerCase()},<br>
+                    we are SO excited to have you as our newest member of NORMAL&reg; PINT CLUB! stay tuned, we'll be in touch shortly.</p></div>`;
             } else {
                 alert('Pint Club Signup failed. Sorry.');
             }

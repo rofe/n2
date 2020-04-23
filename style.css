@@ -71,33 +71,15 @@ main h4 {
     line-height: 16px;
 }
 
-main p, main ol {
+main p, main ol, main ul {
     font-size: 18px;
     line-height: 22px;
     font-weight: 400;
 }
 
 
-main h2 {
-}
-
 main p {
     margin: 15px 0;
-}
-
-main ol {
-    list-style: none;
-    padding-left: 0;
-}
-
-main .here ol {
-    list-style-type: decimal;
-    list-style-position: inside;
-}
-
-main ol li {
-    padding: 5px;
-
 }
 
 
@@ -251,6 +233,14 @@ main .menu .store>div h3 {
     white-space: nowrap;
 }
 
+main .form .form-wrapper {
+    max-width: 500px;
+    margin: auto;
+}
+
+main .fine ul {
+    font-size: 12px;
+}
 
 main>div {
     padding: 20px;
@@ -306,6 +296,14 @@ main a {
     padding: 5px 20px;
     border: solid 2px currentColor;
     border-radius: 20px;
+}
+
+main ol, main ul {
+    text-align: left;
+}
+
+main li {
+    margin: 5px;
 }
 
 header div:nth-of-type(2) {
