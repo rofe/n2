@@ -6092,6 +6092,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "6PWWBUSMTTAECX4GPHYLXR4F",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "choco taco pint",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
      "id": "NT62C36IS76VAVQGXTZPPOPO",
      "item_variation_data": {
       "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
