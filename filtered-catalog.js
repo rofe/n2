@@ -5688,6 +5688,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "T5NDDJVGGKYV2XNH7C2XPSK2",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "nutella",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
      "id": "4MKFFTAALT55TSRNK3N2O7EX",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
@@ -6132,10 +6142,10 @@ var catalog_raw=[
      }
     },
     {
-     "id": "XDWUGNGUOHMFCCUBV5W3CO6N",
+     "id": "7O3I7N7JUQJWEZ5OCJI4YJ54",
      "item_variation_data": {
       "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
-      "name": "sweet corn + passion",
+      "name": "olive oil + peach jam",
       "price_money": {
        "amount": 1000
       }
@@ -6152,20 +6162,30 @@ var catalog_raw=[
      }
     },
     {
-     "id": "COSEBDXHLP53IUTUAKH73T24",
+     "id": "ZHZNQL4RVCBCTRQBFXY6KF3P",
      "item_variation_data": {
       "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
-      "name": "strawberry milk + brown butter",
+      "name": "pb + j pint",
       "price_money": {
        "amount": 1000
       }
      }
     },
     {
-     "id": "ZHZNQL4RVCBCTRQBFXY6KF3P",
+     "id": "XDWUGNGUOHMFCCUBV5W3CO6N",
      "item_variation_data": {
       "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
-      "name": "pb + j pint",
+      "name": "sweet corn + passion",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "COSEBDXHLP53IUTUAKH73T24",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "strawberry milk + brown butter",
       "price_money": {
        "amount": 1000
       }
