@@ -5691,7 +5691,7 @@ var catalog_raw=[
      "id": "T5NDDJVGGKYV2XNH7C2XPSK2",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "nutella",
+      "name": "nutella ice cream",
       "price_money": {
        "amount": 1000
       }
