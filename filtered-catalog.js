@@ -2601,13 +2601,33 @@ var catalog_raw=[
   "id": "K3XKHNT2SPEI4P2ZVG27MV3X",
   "type": "ITEM",
   "item_data": {
-   "name": "normal t-shirt",
+   "name": "feel NORMAL® yet tie dye tee",
    "variations": [
+    {
+     "id": "R7SQ2I45XCIENWB6UFWVP4WE",
+     "item_variation_data": {
+      "item_id": "K3XKHNT2SPEI4P2ZVG27MV3X",
+      "name": "medium",
+      "price_money": {
+       "amount": 2000
+      }
+     }
+    },
     {
      "id": "LDW4FEKBUV43TM5ILEHZJWRE",
      "item_variation_data": {
       "item_id": "K3XKHNT2SPEI4P2ZVG27MV3X",
-      "name": "Regular",
+      "name": "large",
+      "price_money": {
+       "amount": 2000
+      }
+     }
+    },
+    {
+     "id": "MWTNFVAXDYT65YF3KA7I77L4",
+     "item_variation_data": {
+      "item_id": "K3XKHNT2SPEI4P2ZVG27MV3X",
+      "name": "extra large",
       "price_money": {
        "amount": 2000
       }
