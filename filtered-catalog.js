@@ -1924,13 +1924,13 @@ var catalog_raw=[
   "id": "6IKBVSZV2JOTUFVZNNQSANM4",
   "type": "ITEM",
   "item_data": {
-   "name": "coffee beans",
+   "name": "COAVA coffee beans",
    "variations": [
     {
      "id": "QF575ANQCRXDDSQNENHZCLPM",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "white bag",
+      "name": "ethiopia",
       "price_money": {
        "amount": 1600
       }
@@ -6446,6 +6446,25 @@ var catalog_raw=[
       "name": "smiley logo pin",
       "price_money": {
        "amount": 600
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "MFGGON3VZVXZLI65QKNGPDQF",
+  "type": "ITEM",
+  "item_data": {
+   "name": "make it a NORMAL® day baggu bag",
+   "variations": [
+    {
+     "id": "4KCKUPIMNL6RJEC3VQJ3KMPG",
+     "item_variation_data": {
+      "item_id": "MFGGON3VZVXZLI65QKNGPDQF",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1800
       }
      }
     }
