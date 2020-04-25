@@ -6160,6 +6160,16 @@ var catalog_raw=[
        "amount": 1000
       }
      }
+    },
+    {
+     "id": "ZHZNQL4RVCBCTRQBFXY6KF3P",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "pb + j pint",
+      "price_money": {
+       "amount": 1000
+      }
+     }
     }
    ]
   }
