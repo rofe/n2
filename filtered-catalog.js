@@ -6102,6 +6102,16 @@ var catalog_raw=[
    "name": "composed pint",
    "variations": [
     {
+     "id": "MLOTFSEPSUSVCYBRG6UG45WK",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "carrot cake",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
      "id": "QQMATAOELTCB67HTM2YFXBK2",
      "item_variation_data": {
       "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
