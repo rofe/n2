@@ -6402,5 +6402,54 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "ETXJKNGNVXHA6DXKTW3RILR4",
+  "type": "ITEM",
+  "item_data": {
+   "name": "NORMAL® enamel pin",
+   "variations": [
+    {
+     "id": "HRA775WYODXYCJ2WY75SSIFL",
+     "item_variation_data": {
+      "item_id": "ETXJKNGNVXHA6DXKTW3RILR4",
+      "name": "cone logo pin",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    },
+    {
+     "id": "3DKQWNN4FB6ACORFOX7AXQUH",
+     "item_variation_data": {
+      "item_id": "ETXJKNGNVXHA6DXKTW3RILR4",
+      "name": "NORMAL® truck pin",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    },
+    {
+     "id": "TF5KO2OAO2HFYL72MUHVWKZE",
+     "item_variation_data": {
+      "item_id": "ETXJKNGNVXHA6DXKTW3RILR4",
+      "name": "normal x water witch pin",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    },
+    {
+     "id": "Q2GFFI4BFJYZDM2OVQUC7EDP",
+     "item_variation_data": {
+      "item_id": "ETXJKNGNVXHA6DXKTW3RILR4",
+      "name": "smiley logo pin",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    }
+   ]
+  }
  }
 ]
