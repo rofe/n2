@@ -6353,5 +6353,54 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "LYLIQDSPYY4HYTDF5ZPRQS4A",
+  "type": "ITEM",
+  "item_data": {
+   "name": "feel NORMAL® yet long sleeve",
+   "variations": [
+    {
+     "id": "RCPV5TFXPHHYPFRB2SGMI3HN",
+     "item_variation_data": {
+      "item_id": "LYLIQDSPYY4HYTDF5ZPRQS4A",
+      "name": "small",
+      "price_money": {
+       "amount": 2500
+      }
+     }
+    },
+    {
+     "id": "CY52KC7X2P2KXLO47PE5PM4A",
+     "item_variation_data": {
+      "item_id": "LYLIQDSPYY4HYTDF5ZPRQS4A",
+      "name": "medium",
+      "price_money": {
+       "amount": 2500
+      }
+     }
+    },
+    {
+     "id": "WUZZXP6PCZP5CEOUW2IOA7LA",
+     "item_variation_data": {
+      "item_id": "LYLIQDSPYY4HYTDF5ZPRQS4A",
+      "name": "large",
+      "price_money": {
+       "amount": 2500
+      }
+     }
+    },
+    {
+     "id": "PDGGYYEUJXNPTT7FTG2XXOPH",
+     "item_variation_data": {
+      "item_id": "LYLIQDSPYY4HYTDF5ZPRQS4A",
+      "name": "extra large",
+      "price_money": {
+       "amount": 2500
+      }
+     }
+    }
+   ]
+  }
  }
 ]
