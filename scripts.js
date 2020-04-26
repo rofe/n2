@@ -1072,7 +1072,7 @@ var cart={
     },
     setQuantity: (fp, q) => {
         var index=cart.line_items.findIndex((li) => fp == li.fp);
-        cart.line_items[index]=q;
+        cart.line_items[index].quantity=q;
         cart.store();
 
     },
