@@ -5860,26 +5860,6 @@ var catalog_raw=[
        "amount": 400
       }
      }
-    },
-    {
-     "id": "7P2BONRFB7ABANAQY23WGSDD",
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "salted vanilla bean - half size",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "7V2UA4XPQV23ZV24WS57JUEM",
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "salted vanilla bean - normal size",
-      "price_money": {
-       "amount": 400
-      }
-     }
     }
    ]
   }
