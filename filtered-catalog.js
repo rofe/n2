@@ -6122,10 +6122,30 @@ var catalog_raw=[
    "name": "composed pint",
    "variations": [
     {
+     "id": "J3XKVEWE6L5BCEZVOV2R2WQF",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "banana cream",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
      "id": "MLOTFSEPSUSVCYBRG6UG45WK",
      "item_variation_data": {
       "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
       "name": "carrot cake",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "LFLQQSQ6EON3XJTOIXWNKLPP",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "cinnamon toast crunch",
       "price_money": {
        "amount": 1000
       }
