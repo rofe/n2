@@ -323,7 +323,7 @@ function configItem(item, callout) {
         html+=`<option value="${v.id}">${v.item_variation_data.name} ($${formatMoney(v.item_variation_data.price_money.amount)})</option>`;
     });
     html+=`</select>`;
-    if (item.item_data.item_modifier_list) {
+    if (item.item_data.modifier_list_info) {
         item.item_data.modifier_list_info.forEach((m) => {
             var ml=catalog.byId[m.modifier_list_id];
             html+=`<h3>${ml.modifier_list_data.name}</h3>`;
