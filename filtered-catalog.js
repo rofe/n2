@@ -5825,7 +5825,7 @@ var catalog_raw=[
      "id": "SVOGJI7K7PZAR7T62LN5QSBM",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "blood orange sorbet (v) - half size",
+      "name": "apricot + black tea sorbet (v) - half size",
       "price_money": {
        "amount": 300
       }
@@ -5835,7 +5835,7 @@ var catalog_raw=[
      "id": "GEAPVQHNDXIZ36TSEHM46NYX",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "blood orange sorbet (v) - normal size",
+      "name": "apricot + black tea sorbet (v) - normal size",
       "price_money": {
        "amount": 400
       }
@@ -5856,6 +5856,26 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
       "name": "milk chocolate - normal size",
+      "price_money": {
+       "amount": 400
+      }
+     }
+    },
+    {
+     "id": "CWBBAMWVQ3SWU7PXC7SHIARR",
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "salted vanilla bean - half size",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "4S6JNMFRS2YBD7ZLGESRLWIT",
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "salted vanilla bean - normal size",
       "price_money": {
        "amount": 400
       }
