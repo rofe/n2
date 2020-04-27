@@ -323,16 +323,18 @@ function configItem(item, callout) {
         html+=`<option value="${v.id}">${v.item_variation_data.name} ($${formatMoney(v.item_variation_data.price_money.amount)})</option>`;
     });
     html+=`</select>`;
-    item.item_data.modifier_list_info.forEach((m) => {
-        var ml=catalog.byId[m.modifier_list_id];
-        html+=`<h3>${ml.modifier_list_data.name}</h3>`;
-        html+=`<div><select>`;
-        html+=`<option value="" >no ${ml.modifier_list_data.name}</option>`;
-        ml.modifier_list_data.modifiers.forEach((mod) => {
-            html+=`<option value="${mod.id}">${mod.modifier_data.name} (+$${formatMoney(mod.modifier_data.price_money.amount)})</option>`;
-        })
-    html+=`</select></div>`;
-    });
+    if (item.item_data.item_modifier_list) {
+        item.item_data.modifier_list_info.forEach((m) => {
+            var ml=catalog.byId[m.modifier_list_id];
+            html+=`<h3>${ml.modifier_list_data.name}</h3>`;
+            html+=`<div><select>`;
+            html+=`<option value="" >no ${ml.modifier_list_data.name}</option>`;
+            ml.modifier_list_data.modifiers.forEach((mod) => {
+                html+=`<option value="${mod.id}">${mod.modifier_data.name} (+$${formatMoney(mod.modifier_data.price_money.amount)})</option>`;
+            })
+        html+=`</select></div>`;
+        });    
+    }
     html+=`<button onclick="addConfigToCart()">add to cart</button>
            </div>`;
     config.innerHTML=html;
@@ -625,6 +627,8 @@ async function checkCart() {
             var name=variation.item_variation_data.name;
             name=stripName(name);
 
+            // check for h3 variation name
+
             $menu.querySelectorAll("h3").forEach((e) => {
                 var hname=stripName(e.innerText);
                 var valid=e.firstChild.tagName != "DEL";
@@ -632,6 +636,20 @@ async function checkCart() {
                     found=true;
                 }
             })
+
+            //check for h3 item name
+
+            var iname=item.item_data.name;
+            iname=stripName(iname);
+
+            $menu.querySelectorAll("h3").forEach((e) => {
+                var hname=stripName(e.innerText);
+                var valid=e.firstChild.tagName != "DEL";
+                if (iname == hname && e.firstChild.tagName != "DEL") {
+                    found=true;
+                }
+            })
+
             if (!found) nomore.push(e); 
         }
     })
@@ -1039,6 +1057,20 @@ function makeShoppable() {
                     console.log(`variation: ${name} not found`);
                 }
    
+            } else {
+                var name=e.innerText;
+                name=name.trim();
+                var item=itemByName(name);
+                if (item) {
+                    console.log(`item: ${item.item_data.name} : ${item.id}`);
+                    var button=addToCartButton.cloneNode(true);
+                    if (item.item_data.variations.length>1) {
+                        button.setAttribute("data-id", item.id);
+                    } else {
+                        button.setAttribute("data-id", item.item_data.variations[0].id);
+                    }
+                    e.appendChild(button);
+                }   
             }            
         }
     });
