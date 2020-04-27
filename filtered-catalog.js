@@ -6302,13 +6302,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "XFLCA3GWWAIVA3OAAY4XSIDB",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "BUMBLE"
-  }
- },
- {
   "id": "XKJLMJRKJ6BRSJVJRD6UP4NV",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
@@ -6459,6 +6452,13 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "ZOMPBDTGFORYV4KN7EMLN5EB",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "BUMBLE"
   }
  }
 ]
