@@ -1925,12 +1925,17 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "COAVA coffee beans",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "VISPIIS3MUXM3B3A2Y4FD6DW"
+    }
+   ],
    "variations": [
     {
      "id": "QF575ANQCRXDDSQNENHZCLPM",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "ethiopia",
+      "name": "",
       "price_money": {
        "amount": 1600
       }
@@ -6509,6 +6514,51 @@ var catalog_raw=[
   "type": "DISCOUNT",
   "discount_data": {
    "name": "BUMBLE"
+  }
+ },
+ {
+  "id": "VISPIIS3MUXM3B3A2Y4FD6DW",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "coffee bean varietal",
+   "modifiers": [
+    {
+     "id": "D4MHIOLCCELXZU47IWBXYWNQ",
+     "modifier_data": {
+      "name": "ETHIOPIA kilenso",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "ASAHHHKIZULQM4RE2RKKUI7K",
+     "modifier_data": {
+      "name": "ETHIOPIA bukisa",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "RNP6JQ73JYXF4QAS6XAGPC64",
+     "modifier_data": {
+      "name": "GUATEMALA nayo ovalle",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "BM5PLOZEZSLYZ2A7VZWHQRBY",
+     "modifier_data": {
+      "name": "HONDURAS la peña",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    }
+   ]
   }
  }
 ]
