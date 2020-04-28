@@ -2604,16 +2604,6 @@ var catalog_raw=[
    "name": "feel NORMAL® yet tie dye tee",
    "variations": [
     {
-     "id": "R7SQ2I45XCIENWB6UFWVP4WE",
-     "item_variation_data": {
-      "item_id": "K3XKHNT2SPEI4P2ZVG27MV3X",
-      "name": "medium",
-      "price_money": {
-       "amount": 2000
-      }
-     }
-    },
-    {
      "id": "LDW4FEKBUV43TM5ILEHZJWRE",
      "item_variation_data": {
       "item_id": "K3XKHNT2SPEI4P2ZVG27MV3X",
