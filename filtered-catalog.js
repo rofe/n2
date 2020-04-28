@@ -2812,7 +2812,7 @@ var catalog_raw=[
     {
      "id": "B4YKKKWOISWXVYCZRX5PQHD2",
      "modifier_data": {
-      "name": "blueberry sorbet (v)",
+      "name": "apricot + black tea (v)",
       "price_money": {
        "amount": 0
       }
