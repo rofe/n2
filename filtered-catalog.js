@@ -5520,6 +5520,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "H3TSXYXFMLIQTNJFMBAWVMQU",
+     "item_variation_data": {
+      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
+      "name": "the broadway bar",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
      "id": "LYZ5U2QYCQVDNZOYD5C6RU5N",
      "item_variation_data": {
       "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
