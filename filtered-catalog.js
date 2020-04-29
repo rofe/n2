@@ -6545,13 +6545,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "ZOMPBDTGFORYV4KN7EMLN5EB",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "BUMBLE"
-  }
- },
- {
   "id": "VISPIIS3MUXM3B3A2Y4FD6DW",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
