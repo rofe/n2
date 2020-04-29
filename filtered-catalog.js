@@ -5548,6 +5548,16 @@ var catalog_raw=[
        "amount": 600
       }
      }
+    },
+    {
+     "id": "FYI2Y5NJKTHOXR5PZBACVVC3",
+     "item_variation_data": {
+      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
+      "name": "pina colada bar",
+      "price_money": {
+       "amount": 500
+      }
+     }
     }
    ]
   }
