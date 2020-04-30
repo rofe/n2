@@ -6634,5 +6634,103 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "FXQQPYZEUHSLFZ6M6P3QZJVW",
+  "type": "ITEM",
+  "item_data": {
+   "name": "the chocolate bomb",
+   "variations": [
+    {
+     "id": "WLIAQ3WFI7WX6WAN2CQ3E5EB",
+     "item_variation_data": {
+      "item_id": "FXQQPYZEUHSLFZ6M6P3QZJVW",
+      "name": "thursday 5/7",
+      "price_money": {
+       "amount": 900
+      }
+     }
+    },
+    {
+     "id": "J73MI2ATTZC6XZNZIH7NNZWY",
+     "item_variation_data": {
+      "item_id": "FXQQPYZEUHSLFZ6M6P3QZJVW",
+      "name": "friday 5/8",
+      "price_money": {
+       "amount": 900
+      }
+     }
+    },
+    {
+     "id": "AVKXRNARZR77TAOUZJ3RDPZL",
+     "item_variation_data": {
+      "item_id": "FXQQPYZEUHSLFZ6M6P3QZJVW",
+      "name": "saturday 5/9",
+      "price_money": {
+       "amount": 900
+      }
+     }
+    },
+    {
+     "id": "4KB5OBMFOBRYZ3JJ7KG5G3KM",
+     "item_variation_data": {
+      "item_id": "FXQQPYZEUHSLFZ6M6P3QZJVW",
+      "name": "sunday 5/10",
+      "price_money": {
+       "amount": 900
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "JRQTOY5Q2KHVQ3V6NEBNY3DD",
+  "type": "ITEM",
+  "item_data": {
+   "name": "the blood orange cake",
+   "variations": [
+    {
+     "id": "JZT7ELS7PQX33ZSVBJMC7IVT",
+     "item_variation_data": {
+      "item_id": "JRQTOY5Q2KHVQ3V6NEBNY3DD",
+      "name": "thursday 5/7",
+      "price_money": {
+       "amount": 3500
+      }
+     }
+    },
+    {
+     "id": "I2GC3KDL5PR5ETMKRIQEWWA3",
+     "item_variation_data": {
+      "item_id": "JRQTOY5Q2KHVQ3V6NEBNY3DD",
+      "name": "friday 5/8",
+      "price_money": {
+       "amount": 3500
+      }
+     }
+    },
+    {
+     "id": "OQLMYBKVGUFWGESCSEAA6MGJ",
+     "item_variation_data": {
+      "item_id": "JRQTOY5Q2KHVQ3V6NEBNY3DD",
+      "name": "saturday 5/9",
+      "price_money": {
+       "amount": 3500
+      }
+     }
+    },
+    {
+     "id": "VYHXZMFHAGNVCUNMOA6GWTYP",
+     "item_variation_data": {
+      "item_id": "JRQTOY5Q2KHVQ3V6NEBNY3DD",
+      "name": "sunday 5/10",
+      "price_money": {
+       "amount": 3500
+      }
+     }
+    }
+   ]
+  }
  }
 ]
