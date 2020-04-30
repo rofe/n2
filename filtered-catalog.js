@@ -6588,5 +6588,12 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "NPKJEY5W2WAEQMK3S7UQGXWD",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "KIRINCROSSFIT"
+  }
  }
 ]
