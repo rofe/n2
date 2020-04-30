@@ -6587,38 +6587,48 @@ var catalog_raw=[
   }
  },
  {
-  "id": "2TAK2XSAHIWHWF4MSOXVU25W",
+  "id": "KTPHPYPG6KWULPWTZWZ7PSW5",
   "type": "ITEM",
   "item_data": {
-   "name": "mother's day specials",
+   "name": "the honey cake",
    "variations": [
     {
-     "id": "3I6KINBL2STV5OBB5L5K4YUZ",
+     "id": "UJB5EB5FZX4CCM23KPAVNSNP",
      "item_variation_data": {
-      "item_id": "2TAK2XSAHIWHWF4MSOXVU25W",
-      "name": "the honey cake",
+      "item_id": "KTPHPYPG6KWULPWTZWZ7PSW5",
+      "name": "friday 5/8",
       "price_money": {
        "amount": 3000
       }
      }
     },
     {
-     "id": "LVJMB4QUV2WJT773BVA4KKAQ",
+     "id": "CH3VQ6RLBYRO72UYXTMBI7OE",
      "item_variation_data": {
-      "item_id": "2TAK2XSAHIWHWF4MSOXVU25W",
-      "name": "the chocolate bomb",
+      "item_id": "KTPHPYPG6KWULPWTZWZ7PSW5",
+      "name": "thursday 5/7",
       "price_money": {
-       "amount": 800
+       "amount": 3000
       }
      }
     },
     {
-     "id": "BHN2G3BRQMFSOVR7UZSXHEAH",
+     "id": "OB2IJDEK7CMUDSR4ZMZKSY5A",
      "item_variation_data": {
-      "item_id": "2TAK2XSAHIWHWF4MSOXVU25W",
-      "name": "the blood orange cake",
+      "item_id": "KTPHPYPG6KWULPWTZWZ7PSW5",
+      "name": "saturday 5/9",
       "price_money": {
-       "amount": 3500
+       "amount": 3000
+      }
+     }
+    },
+    {
+     "id": "BP7Z4PBQ6P7BSDMPMXXQ6D5K",
+     "item_variation_data": {
+      "item_id": "KTPHPYPG6KWULPWTZWZ7PSW5",
+      "name": "sunday 5/10",
+      "price_money": {
+       "amount": 3000
       }
      }
     }
