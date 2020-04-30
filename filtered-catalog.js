@@ -6585,5 +6585,44 @@ var catalog_raw=[
   "discount_data": {
    "name": "KIRINCROSSFIT"
   }
+ },
+ {
+  "id": "2TAK2XSAHIWHWF4MSOXVU25W",
+  "type": "ITEM",
+  "item_data": {
+   "name": "mother's day specials",
+   "variations": [
+    {
+     "id": "3I6KINBL2STV5OBB5L5K4YUZ",
+     "item_variation_data": {
+      "item_id": "2TAK2XSAHIWHWF4MSOXVU25W",
+      "name": "the honey cake",
+      "price_money": {
+       "amount": 3000
+      }
+     }
+    },
+    {
+     "id": "LVJMB4QUV2WJT773BVA4KKAQ",
+     "item_variation_data": {
+      "item_id": "2TAK2XSAHIWHWF4MSOXVU25W",
+      "name": "the chocolate bomb",
+      "price_money": {
+       "amount": 800
+      }
+     }
+    },
+    {
+     "id": "BHN2G3BRQMFSOVR7UZSXHEAH",
+     "item_variation_data": {
+      "item_id": "2TAK2XSAHIWHWF4MSOXVU25W",
+      "name": "the blood orange cake",
+      "price_money": {
+       "amount": 3500
+      }
+     }
+    }
+   ]
+  }
  }
 ]
