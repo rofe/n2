@@ -315,7 +315,19 @@ function configItem(item, callout) {
     var config=document.getElementById("config");
     config.classList.remove("hidden");
     document.body.classList.add("noscroll");
-    var html=`<div class="close" onclick="hideConfig()">X</div><div class="wrapper"><h3>customize your ${item.item_data.name}</h3>`;
+    var html=`<div class="close" onclick="hideConfig()">X</div><div class="wrapper">`;
+    
+    var pickupVars=false;
+    if (item.item_data.variations[0].item_variation_data.name.indexOf('day ')>0) {
+        pickupVars=true;
+    }
+
+    if (pickupVars) {
+        html+=`when would you like to pick this up?`
+    } else {
+        html+=`<h3>customize your ${item.item_data.name}</h3>`;
+    }
+
     html+=callout;
 
     html+=`<select>`;

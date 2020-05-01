@@ -1927,10 +1927,20 @@ var catalog_raw=[
    "name": "COAVA coffee beans",
    "variations": [
     {
-     "id": "QF575ANQCRXDDSQNENHZCLPM",
+     "id": "ZZBE6XOSAL6C6JVJFRQ2NSTB",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "ethiopia",
+      "name": "ETHIOPIA kilenso",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "WHZ6I2AFGCDA37MX3OFX55XD",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "ETHIOPIA bukisa",
       "price_money": {
        "amount": 1600
       }
@@ -2604,16 +2614,6 @@ var catalog_raw=[
    "name": "feel NORMAL® yet tie dye tee",
    "variations": [
     {
-     "id": "R7SQ2I45XCIENWB6UFWVP4WE",
-     "item_variation_data": {
-      "item_id": "K3XKHNT2SPEI4P2ZVG27MV3X",
-      "name": "medium",
-      "price_money": {
-       "amount": 2000
-      }
-     }
-    },
-    {
      "id": "LDW4FEKBUV43TM5ILEHZJWRE",
      "item_variation_data": {
       "item_id": "K3XKHNT2SPEI4P2ZVG27MV3X",
@@ -2822,7 +2822,7 @@ var catalog_raw=[
     {
      "id": "B4YKKKWOISWXVYCZRX5PQHD2",
      "modifier_data": {
-      "name": "blueberry sorbet (v)",
+      "name": "apricot + black tea (v)",
       "price_money": {
        "amount": 0
       }
@@ -5500,6 +5500,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "H3TSXYXFMLIQTNJFMBAWVMQU",
+     "item_variation_data": {
+      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
+      "name": "the broadway bar",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
      "id": "LYZ5U2QYCQVDNZOYD5C6RU5N",
      "item_variation_data": {
       "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
@@ -5516,6 +5526,16 @@ var catalog_raw=[
       "name": "trashberry bar",
       "price_money": {
        "amount": 600
+      }
+     }
+    },
+    {
+     "id": "FYI2Y5NJKTHOXR5PZBACVVC3",
+     "item_variation_data": {
+      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
+      "name": "pina colada bar",
+      "price_money": {
+       "amount": 500
       }
      }
     }
@@ -5618,6 +5638,16 @@ var catalog_raw=[
    "name": "ice cream pint",
    "variations": [
     {
+     "id": "5KV7PC2YOEEMOPZOCSZVXTEL",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "apple cider sorbet (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
      "id": "KGF4KLDBXOCOVMJC5MHPQJM2",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
@@ -5652,6 +5682,16 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
       "name": "blueberry + lemon cheesecake twist (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "AE74IAOQ45IJNSU7PJRFDJTB",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "coconut sorbet (v)",
       "price_money": {
        "amount": 1000
       }
@@ -5825,7 +5865,7 @@ var catalog_raw=[
      "id": "SVOGJI7K7PZAR7T62LN5QSBM",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "blood orange sorbet (v) - half size",
+      "name": "passion fruit sorbet (v) - half size",
       "price_money": {
        "amount": 300
       }
@@ -5835,7 +5875,7 @@ var catalog_raw=[
      "id": "GEAPVQHNDXIZ36TSEHM46NYX",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "blood orange sorbet (v) - normal size",
+      "name": "passion fruit sorbet (v) - normal size",
       "price_money": {
        "amount": 400
       }
@@ -5862,7 +5902,7 @@ var catalog_raw=[
      }
     },
     {
-     "id": "7P2BONRFB7ABANAQY23WGSDD",
+     "id": "2Z6BPKGVDLBHKAZUPIB6Z67H",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
       "name": "salted vanilla bean - half size",
@@ -5872,7 +5912,7 @@ var catalog_raw=[
      }
     },
     {
-     "id": "7V2UA4XPQV23ZV24WS57JUEM",
+     "id": "GRMD27P4VYOSELYWGCMYWJLH",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
       "name": "salted vanilla bean - normal size",
@@ -6102,10 +6142,30 @@ var catalog_raw=[
    "name": "composed pint",
    "variations": [
     {
+     "id": "J3XKVEWE6L5BCEZVOV2R2WQF",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "banana cream",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
      "id": "MLOTFSEPSUSVCYBRG6UG45WK",
      "item_variation_data": {
       "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
       "name": "carrot cake",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "LFLQQSQ6EON3XJTOIXWNKLPP",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "cinnamon toast crunch",
       "price_money": {
        "amount": 1000
       }
@@ -6220,6 +6280,16 @@ var catalog_raw=[
        "amount": 1000
       }
      }
+    },
+    {
+     "id": "WVJ6H6ON7NCX62K3FEFXIBQJ",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "tahini + chocolate + honeycomb",
+      "price_money": {
+       "amount": 1000
+      }
+     }
     }
    ]
   }
@@ -6319,13 +6389,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "XFLCA3GWWAIVA3OAAY4XSIDB",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "BUMBLE"
   }
  },
  {
@@ -6475,6 +6538,250 @@ var catalog_raw=[
       "name": "Regular",
       "price_money": {
        "amount": 1800
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "VISPIIS3MUXM3B3A2Y4FD6DW",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "coffee bean varietal",
+   "modifiers": [
+    {
+     "id": "D4MHIOLCCELXZU47IWBXYWNQ",
+     "modifier_data": {
+      "name": "ETHIOPIA kilenso",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "ASAHHHKIZULQM4RE2RKKUI7K",
+     "modifier_data": {
+      "name": "ETHIOPIA bukisa",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "RNP6JQ73JYXF4QAS6XAGPC64",
+     "modifier_data": {
+      "name": "GUATEMALA nayo ovalle",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "BM5PLOZEZSLYZ2A7VZWHQRBY",
+     "modifier_data": {
+      "name": "HONDURAS la peña",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "NPKJEY5W2WAEQMK3S7UQGXWD",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "KIRINCROSSFIT"
+  }
+ },
+ {
+  "id": "KTPHPYPG6KWULPWTZWZ7PSW5",
+  "type": "ITEM",
+  "item_data": {
+   "name": "the honey cake",
+   "variations": [
+    {
+     "id": "UJB5EB5FZX4CCM23KPAVNSNP",
+     "item_variation_data": {
+      "item_id": "KTPHPYPG6KWULPWTZWZ7PSW5",
+      "name": "friday 5/8",
+      "price_money": {
+       "amount": 3000
+      }
+     }
+    },
+    {
+     "id": "CH3VQ6RLBYRO72UYXTMBI7OE",
+     "item_variation_data": {
+      "item_id": "KTPHPYPG6KWULPWTZWZ7PSW5",
+      "name": "thursday 5/7",
+      "price_money": {
+       "amount": 3000
+      }
+     }
+    },
+    {
+     "id": "OB2IJDEK7CMUDSR4ZMZKSY5A",
+     "item_variation_data": {
+      "item_id": "KTPHPYPG6KWULPWTZWZ7PSW5",
+      "name": "saturday 5/9",
+      "price_money": {
+       "amount": 3000
+      }
+     }
+    },
+    {
+     "id": "BP7Z4PBQ6P7BSDMPMXXQ6D5K",
+     "item_variation_data": {
+      "item_id": "KTPHPYPG6KWULPWTZWZ7PSW5",
+      "name": "sunday 5/10",
+      "price_money": {
+       "amount": 3000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "FXQQPYZEUHSLFZ6M6P3QZJVW",
+  "type": "ITEM",
+  "item_data": {
+   "name": "the chocolate bomb",
+   "variations": [
+    {
+     "id": "WLIAQ3WFI7WX6WAN2CQ3E5EB",
+     "item_variation_data": {
+      "item_id": "FXQQPYZEUHSLFZ6M6P3QZJVW",
+      "name": "thursday 5/7",
+      "price_money": {
+       "amount": 900
+      }
+     }
+    },
+    {
+     "id": "J73MI2ATTZC6XZNZIH7NNZWY",
+     "item_variation_data": {
+      "item_id": "FXQQPYZEUHSLFZ6M6P3QZJVW",
+      "name": "friday 5/8",
+      "price_money": {
+       "amount": 900
+      }
+     }
+    },
+    {
+     "id": "AVKXRNARZR77TAOUZJ3RDPZL",
+     "item_variation_data": {
+      "item_id": "FXQQPYZEUHSLFZ6M6P3QZJVW",
+      "name": "saturday 5/9",
+      "price_money": {
+       "amount": 900
+      }
+     }
+    },
+    {
+     "id": "4KB5OBMFOBRYZ3JJ7KG5G3KM",
+     "item_variation_data": {
+      "item_id": "FXQQPYZEUHSLFZ6M6P3QZJVW",
+      "name": "sunday 5/10",
+      "price_money": {
+       "amount": 900
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "JRQTOY5Q2KHVQ3V6NEBNY3DD",
+  "type": "ITEM",
+  "item_data": {
+   "name": "the blood orange cake",
+   "variations": [
+    {
+     "id": "JZT7ELS7PQX33ZSVBJMC7IVT",
+     "item_variation_data": {
+      "item_id": "JRQTOY5Q2KHVQ3V6NEBNY3DD",
+      "name": "thursday 5/7",
+      "price_money": {
+       "amount": 3500
+      }
+     }
+    },
+    {
+     "id": "I2GC3KDL5PR5ETMKRIQEWWA3",
+     "item_variation_data": {
+      "item_id": "JRQTOY5Q2KHVQ3V6NEBNY3DD",
+      "name": "friday 5/8",
+      "price_money": {
+       "amount": 3500
+      }
+     }
+    },
+    {
+     "id": "OQLMYBKVGUFWGESCSEAA6MGJ",
+     "item_variation_data": {
+      "item_id": "JRQTOY5Q2KHVQ3V6NEBNY3DD",
+      "name": "saturday 5/9",
+      "price_money": {
+       "amount": 3500
+      }
+     }
+    },
+    {
+     "id": "VYHXZMFHAGNVCUNMOA6GWTYP",
+     "item_variation_data": {
+      "item_id": "JRQTOY5Q2KHVQ3V6NEBNY3DD",
+      "name": "sunday 5/10",
+      "price_money": {
+       "amount": 3500
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "77GLETZ4Y5Z6P6DUPFEWR3ZA",
+  "type": "ITEM",
+  "item_data": {
+   "name": "pint packs",
+   "variations": [
+    {
+     "id": "N6A2Y733WHSQ6T7LY2HQOKVT",
+     "item_variation_data": {
+      "item_id": "77GLETZ4Y5Z6P6DUPFEWR3ZA",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1800
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "TVYWNPVN5GEFAWAWOQDGYYUV",
+  "type": "ITEM",
+  "item_data": {
+   "name": "beltex pint"
+  }
+ },
+ {
+  "id": "ZNSFQW2NYHQOR4RGWB5EADXK",
+  "type": "ITEM",
+  "item_data": {
+   "name": "nutella pint",
+   "variations": [
+    {
+     "id": "3PVPTSXIVCALB7OZCFAXFGH5",
+     "item_variation_data": {
+      "item_id": "ZNSFQW2NYHQOR4RGWB5EADXK",
+      "name": "Regular",
+      "price_money": {
+       "amount": 900
       }
      }
     }
