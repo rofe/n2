@@ -7176,7 +7176,7 @@ var catalog_raw=[
       "item_id": "MFGGON3VZVXZLI65QKNGPDQF",
       "name": "Regular",
       "price_money": {
-       "amount": 1800
+       "amount": 1500
       }
      }
     }
