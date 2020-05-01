@@ -6742,5 +6742,31 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "77GLETZ4Y5Z6P6DUPFEWR3ZA",
+  "type": "ITEM",
+  "item_data": {
+   "name": "pint packs",
+   "variations": [
+    {
+     "id": "N6A2Y733WHSQ6T7LY2HQOKVT",
+     "item_variation_data": {
+      "item_id": "77GLETZ4Y5Z6P6DUPFEWR3ZA",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1800
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "TVYWNPVN5GEFAWAWOQDGYYUV",
+  "type": "ITEM",
+  "item_data": {
+   "name": "beltex pint"
+  }
  }
 ]
