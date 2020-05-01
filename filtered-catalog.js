@@ -6280,6 +6280,16 @@ var catalog_raw=[
        "amount": 1000
       }
      }
+    },
+    {
+     "id": "WVJ6H6ON7NCX62K3FEFXIBQJ",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "tahini + chocolate + honeycomb",
+      "price_money": {
+       "amount": 1000
+      }
+     }
     }
    ]
   }
