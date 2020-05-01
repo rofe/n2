@@ -528,6 +528,15 @@ main>div:last-of-type {
     box-sizing: border-box;
     text-align: center;
     transition: all 0.5s ease-in;
+    overflow: scroll;
+}
+
+#config img {
+    width: 100vw;
+    height: 60vw;
+    max-width: 400px;
+    max-height: 400px;
+    object-fit: cover;
 }
 
 #config button {
@@ -544,6 +553,9 @@ main>div:last-of-type {
 #config .close {
     padding: 20px;
     text-align: right;
+    position: absolute;
+    top: 0;
+    right: 0;
 }
 
 #config .wrapper {

@@ -315,12 +315,26 @@ function configItem(item, callout) {
     var config=document.getElementById("config");
     config.classList.remove("hidden");
     document.body.classList.add("noscroll");
-    var html=`<div class="close" onclick="hideConfig()">X</div><div class="wrapper">`;
+    var html='';
     
     var pickupVars=false;
+    var image="";
+
     if (item.item_data.variations[0].item_variation_data.name.indexOf('day ')>0) {
         pickupVars=true;
     }
+
+    if (item.image_id) {
+        var imgobj=catalog.byId[item.image_id];
+        if (imgobj) {
+            image=imgobj.image_data.url;
+        } 
+    }
+    if (image) {
+        html+=`<img src="${image}">`;
+    }
+
+    html+=`<div class="close" onclick="hideConfig()">X</div><div class="wrapper">`;
 
     if (pickupVars) {
         html+=`when would you like to pick this up?`
