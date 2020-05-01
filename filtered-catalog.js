@@ -6768,5 +6768,24 @@ var catalog_raw=[
   "item_data": {
    "name": "beltex pint"
   }
+ },
+ {
+  "id": "ZNSFQW2NYHQOR4RGWB5EADXK",
+  "type": "ITEM",
+  "item_data": {
+   "name": "nutella pint",
+   "variations": [
+    {
+     "id": "3PVPTSXIVCALB7OZCFAXFGH5",
+     "item_variation_data": {
+      "item_id": "ZNSFQW2NYHQOR4RGWB5EADXK",
+      "name": "Regular",
+      "price_money": {
+       "amount": 900
+      }
+     }
+    }
+   ]
+  }
  }
 ]
