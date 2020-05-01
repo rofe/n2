@@ -752,7 +752,11 @@ select:disabled:hover, select[aria-disabled=true] {
   
 
 
-@media only screen and (min-width: 900px) {
+@media only screen and (min-width: 600px) {
+
+    #config img {
+        max-height: 180px;
+    }
     
     main .menu {
         display: none;

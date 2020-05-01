@@ -311,13 +311,20 @@ function hideConfig() {
     document.body.classList.remove("noscroll");
 }
 
+function isFixedPickup(item) {
+    if (item.item_data.variations[0].item_variation_data.name.indexOf('day ')>0) {
+        return true;
+    }
+    return false;
+}
+
 function configItem(item, callout) {
     var config=document.getElementById("config");
     config.classList.remove("hidden");
     document.body.classList.add("noscroll");
     var html='';
     
-    var pickupVars=false;
+    var pickupVars=isFixedPickup(item);
     var image="";
 
     if (item.item_data.variations[0].item_variation_data.name.indexOf('day ')>0) {
@@ -853,6 +860,22 @@ function toggleCartDisplay() {
     cartEl.querySelector(".payment").classList.add("hidden");
     cartEl.querySelector(".thankyou").classList.add("hidden");
     setPickupDates();
+
+    var hidePickup=true;
+
+    cart.line_items.forEach((e) => {
+        var variation=catalog.byId[e.variation];
+        var item=catalog.byId[variation.item_variation_data.item_id];
+        if (hidePickup && !isFixedPickup(item)) {
+            hidePickup=false;
+        }
+    })
+
+    if (hidePickup) {
+        document.querySelector("#cart .pickup-time").classList.add("hidden");
+    } else {
+        document.querySelector("#cart .pickup-time").classList.remove("hidden");
+    }
 }
 
 
