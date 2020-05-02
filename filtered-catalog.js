@@ -7283,7 +7283,7 @@ var catalog_raw=[
       "item_id": "KTPHPYPG6KWULPWTZWZ7PSW5",
       "name": "friday 5/8",
       "price_money": {
-       "amount": 3000
+       "amount": 2500
       }
      }
     },
@@ -7293,7 +7293,7 @@ var catalog_raw=[
       "item_id": "KTPHPYPG6KWULPWTZWZ7PSW5",
       "name": "thursday 5/7",
       "price_money": {
-       "amount": 3000
+       "amount": 2500
       }
      }
     },
@@ -7303,7 +7303,7 @@ var catalog_raw=[
       "item_id": "KTPHPYPG6KWULPWTZWZ7PSW5",
       "name": "saturday 5/9",
       "price_money": {
-       "amount": 3000
+       "amount": 2500
       }
      }
     },
@@ -7313,7 +7313,7 @@ var catalog_raw=[
       "item_id": "KTPHPYPG6KWULPWTZWZ7PSW5",
       "name": "sunday 5/10",
       "price_money": {
-       "amount": 3000
+       "amount": 2500
       }
      }
     }
