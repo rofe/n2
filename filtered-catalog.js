@@ -7462,5 +7462,12 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "T6NK2P5S52EYVLY2LMRGH56E",
+  "type": "ITEM",
+  "item_data": {
+   "name": "free 8oz COAVA coffee"
+  }
  }
 ]
