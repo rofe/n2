@@ -6267,6 +6267,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "O74VSJVK47IVRH2M6KF2J3LT",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "passionfruit sorbet (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
      "id": "3XMXDNF5MJA7LCEDHHPYCK23",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
@@ -6758,6 +6768,16 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
       "name": "banana cream",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "BJEJ4OV57WMHNPGPFQEQCA75",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "birthday cake pint",
       "price_money": {
        "amount": 1000
       }
