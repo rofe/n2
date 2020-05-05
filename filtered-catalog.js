@@ -2266,7 +2266,7 @@ var catalog_raw=[
     }
    ]
   },
-  "image_id": "UR4563QTITYG4GLTRGCGLSI5"
+  "image_id": "HRQBJWHR3QF7CM3J5S6UP5F4"
  },
  {
   "id": "VPXU6536DTFIZXM3RNJRXVQ3",
@@ -6506,13 +6506,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "UR4563QTITYG4GLTRGCGLSI5",
-  "type": "IMAGE",
-  "image_data": {
-   "url": "https://square-production.s3.amazonaws.com/files/58cd652f1d5f96199af77eb2ad2daf78aac3f736/original.jpeg"
-  }
- },
- {
   "id": "IRLGXWAJUEL3FGOC76NU7KTD",
   "type": "ITEM",
   "item_data": {
@@ -7500,6 +7493,13 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "HRQBJWHR3QF7CM3J5S6UP5F4",
+  "type": "IMAGE",
+  "image_data": {
+   "url": "https://square-production.s3.amazonaws.com/files/06714713f98065d20683c8c83fae80b250bcae62/original.jpeg"
   }
  }
 ]
