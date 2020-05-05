@@ -2266,7 +2266,7 @@ var catalog_raw=[
     }
    ]
   },
-  "image_id": "HRQBJWHR3QF7CM3J5S6UP5F4"
+  "image_id": "FAYRWA6LEPGN6KV2NYBXDCDW"
  },
  {
   "id": "VPXU6536DTFIZXM3RNJRXVQ3",
@@ -7496,10 +7496,10 @@ var catalog_raw=[
   }
  },
  {
-  "id": "HRQBJWHR3QF7CM3J5S6UP5F4",
+  "id": "FAYRWA6LEPGN6KV2NYBXDCDW",
   "type": "IMAGE",
   "image_data": {
-   "url": "https://square-production.s3.amazonaws.com/files/06714713f98065d20683c8c83fae80b250bcae62/original.jpeg"
+   "url": "https://square-production.s3.amazonaws.com/files/33f6e0abfc4b52f6b156308a810c5a28a27221aa/original.jpeg"
   }
  }
 ]
