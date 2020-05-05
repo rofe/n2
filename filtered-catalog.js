@@ -3282,7 +3282,7 @@ var catalog_raw=[
     {
      "id": "B4YKKKWOISWXVYCZRX5PQHD2",
      "modifier_data": {
-      "name": "apricot + black tea (v)",
+      "name": "cherry sorbet (v)",
       "price_money": {
        "amount": 0
       }
@@ -3303,7 +3303,7 @@ var catalog_raw=[
  {
   "id": "B4YKKKWOISWXVYCZRX5PQHD2",
   "modifier_data": {
-   "name": "apricot + black tea (v)",
+   "name": "cherry sorbet (v)",
    "price_money": {
     "amount": 0
    }
@@ -6608,7 +6608,7 @@ var catalog_raw=[
     {
      "id": "R42VX2AH6AO4PXF62VJHIZPN",
      "modifier_data": {
-      "name": "blood orange sorbet (v)",
+      "name": "cherry (v)",
       "price_money": {
        "amount": 300
       }
@@ -6742,7 +6742,7 @@ var catalog_raw=[
  {
   "id": "R42VX2AH6AO4PXF62VJHIZPN",
   "modifier_data": {
-   "name": "blood orange sorbet (v)",
+   "name": "cherry (v)",
    "price_money": {
     "amount": 300
    }
