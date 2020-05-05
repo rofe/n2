@@ -3282,7 +3282,7 @@ var catalog_raw=[
     {
      "id": "B4YKKKWOISWXVYCZRX5PQHD2",
      "modifier_data": {
-      "name": "cherry sorbet (v)",
+      "name": "orange julius (v)",
       "price_money": {
        "amount": 0
       }
@@ -3303,7 +3303,7 @@ var catalog_raw=[
  {
   "id": "B4YKKKWOISWXVYCZRX5PQHD2",
   "modifier_data": {
-   "name": "cherry sorbet (v)",
+   "name": "orange julius (v)",
    "price_money": {
     "amount": 0
    }
@@ -6411,7 +6411,7 @@ var catalog_raw=[
      "id": "SVOGJI7K7PZAR7T62LN5QSBM",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "cherry sorbet (v) - half size",
+      "name": "orange julius (v) - half size",
       "price_money": {
        "amount": 300
       }
@@ -6421,7 +6421,7 @@ var catalog_raw=[
      "id": "GEAPVQHNDXIZ36TSEHM46NYX",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "cherry sorbet (v) - normal size",
+      "name": "orange julius (v) - normal size",
       "price_money": {
        "amount": 400
       }
@@ -6601,7 +6601,7 @@ var catalog_raw=[
     {
      "id": "R42VX2AH6AO4PXF62VJHIZPN",
      "modifier_data": {
-      "name": "cherry (v)",
+      "name": "orange julius (v)",
       "price_money": {
        "amount": 300
       }
@@ -6735,7 +6735,7 @@ var catalog_raw=[
  {
   "id": "R42VX2AH6AO4PXF62VJHIZPN",
   "modifier_data": {
-   "name": "cherry (v)",
+   "name": "orange julius (v)",
    "price_money": {
     "amount": 300
    }
