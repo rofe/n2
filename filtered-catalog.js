@@ -6777,6 +6777,16 @@ var catalog_raw=[
    "name": "composed pint",
    "variations": [
     {
+     "id": "ZEB4ZLCYQOKT3PW6I7DEUKM3",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "baklava pint",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
      "id": "J3XKVEWE6L5BCEZVOV2R2WQF",
      "item_variation_data": {
       "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
@@ -6931,6 +6941,16 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
       "name": "tahini + chocolate + honeycomb",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "NTHU3BGKOOUHGVDHDTU6DTYO",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "the honey cake pint",
       "price_money": {
        "amount": 1000
       }
