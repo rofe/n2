@@ -2369,6 +2369,26 @@ var catalog_raw=[
        "amount": 1600
       }
      }
+    },
+    {
+     "id": "GC7JJ76SEFMUEWI7CEVRBYAW",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "HONDURAS la peña",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "GBVKDOXROD3O7JLPXPGCL3ZO",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "GUATEMALA nayo ovalle",
+      "price_money": {
+       "amount": 1600
+      }
+     }
     }
    ]
   }
@@ -6991,6 +7011,16 @@ var catalog_raw=[
       "name": "strawberry + funfetti cake",
       "price_money": {
        "amount": 3500
+      }
+     }
+    },
+    {
+     "id": "6X2BR7BWEG556C73QYKCS3E2",
+     "item_variation_data": {
+      "item_id": "GPK2TEIAKNVAPAMKEDBNJFJG",
+      "name": "the chocolate bomb",
+      "price_money": {
+       "amount": 900
       }
      }
     }
