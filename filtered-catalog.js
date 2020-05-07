@@ -6994,6 +6994,16 @@ var catalog_raw=[
        "amount": 600
       }
      }
+    },
+    {
+     "id": "LG6FIB3URIALY6Y3KC7MS6NC",
+     "item_variation_data": {
+      "item_id": "RDWFNM4AMFIJRXXWMMRQQT2J",
+      "name": "the chocolate bomb",
+      "price_money": {
+       "amount": 900
+      }
+     }
     }
    ]
   }
