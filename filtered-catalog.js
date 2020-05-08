@@ -6207,6 +6207,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "Y2M47RUG3V3Y3C42OOBC5T6D",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "coco-panana sorbet (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
      "id": "AE74IAOQ45IJNSU7PJRFDJTB",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
