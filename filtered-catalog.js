@@ -6621,7 +6621,7 @@ var catalog_raw=[
     {
      "id": "R42VX2AH6AO4PXF62VJHIZPN",
      "modifier_data": {
-      "name": "orange julius (v)",
+      "name": "coconut sorbet (v)",
       "price_money": {
        "amount": 300
       }
@@ -6755,7 +6755,7 @@ var catalog_raw=[
  {
   "id": "R42VX2AH6AO4PXF62VJHIZPN",
   "modifier_data": {
-   "name": "orange julius (v)",
+   "name": "coconut sorbet (v)",
    "price_money": {
     "amount": 300
    }
