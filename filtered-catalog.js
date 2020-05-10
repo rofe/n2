@@ -6441,7 +6441,7 @@ var catalog_raw=[
      "id": "SVOGJI7K7PZAR7T62LN5QSBM",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "coconut sorbet (v) - half size",
+      "name": "passion fruit sorbet (v) - half size",
       "price_money": {
        "amount": 300
       }
@@ -6451,7 +6451,7 @@ var catalog_raw=[
      "id": "GEAPVQHNDXIZ36TSEHM46NYX",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "coconut sorbet (v) - normal size",
+      "name": "passion fruit sorbet (v) - normal size",
       "price_money": {
        "amount": 400
       }
