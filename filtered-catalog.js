@@ -6936,7 +6936,7 @@ var catalog_raw=[
      "id": "WVJ6H6ON7NCX62K3FEFXIBQJ",
      "item_variation_data": {
       "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
-      "name": "tahini + chocolate + honeycomb",
+      "name": "tahini + chocolate",
       "price_money": {
        "amount": 1000
       }
@@ -6947,6 +6947,16 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
       "name": "the honey cake pint",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "JPEMW4G74KFBW6I5IN6TDHCO",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "s'mores pint",
       "price_money": {
        "amount": 1000
       }
