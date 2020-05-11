@@ -4314,13 +4314,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "J4U3YGHO6SXI47IOAESZ6LM3",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "film society wholesale"
-  }
- },
- {
   "id": "NCEEXC4XE5X24M6P7YELCTOU",
   "type": "ITEM",
   "item_data": {
@@ -5024,13 +5017,6 @@ var catalog_raw=[
    "price_money": {
     "amount": 75
    }
-  }
- },
- {
-  "id": "XEK7DS5MXDR7P27ZOIKT23JS",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "taco tuesday 2 tacos for $10"
   }
  },
  {
@@ -7348,13 +7334,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "NPKJEY5W2WAEQMK3S7UQGXWD",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "KIRINCROSSFIT"
-  }
- },
- {
   "id": "KTPHPYPG6KWULPWTZWZ7PSW5",
   "type": "ITEM",
   "item_data": {
@@ -7570,6 +7549,13 @@ var catalog_raw=[
   "type": "IMAGE",
   "image_data": {
    "url": "https://square-production.s3.amazonaws.com/files/33f6e0abfc4b52f6b156308a810c5a28a27221aa/original.jpeg"
+  }
+ },
+ {
+  "id": "CZSI76Z7MTFTMOUZDXF5MIRH",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "IMAMEMBER"
   }
  }
 ]
