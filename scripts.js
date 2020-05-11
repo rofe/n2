@@ -417,15 +417,15 @@ function setPickupTimes () {
     if (today == date && (now.getTime()>openingTime)) {
         startTime=new Date(now.getTime()+(conf.prepTime*60000));
         time=new Date(startTime.getTime()+(10*60000-startTime.getTime()%(10*60000)));
+        timeSelect.innerHTML=`<option value="now">i am here now! ready to eat.</option>`;
     } else {
         var openingTime=new Date(date);
         openingTime.setHours(conf.opening[openingTime.getDay()]);
         startTime=new Date(openingTime.getTime()+(conf.prepTime*60000));
         time=new Date(startTime.getTime());
+        timeSelect.innerHTML="";
     }
 
-
-    timeSelect.innerHTML="";
 
     while (time<=closingTime) {
         var option = document.createElement("option");
@@ -694,7 +694,13 @@ async function submitOrder() {
     var cartEl=document.getElementById("cart");
 
     var orderParams={};
+    var now=false;
     orderParams.pickup_at=document.getElementById("pickup-time").value;
+    if (orderParams.pickup_at=="now") {
+        now=true;
+        orderParams.pickup_at=new Date().toISOString();
+        orderParams.now="yes";
+    } 
     orderParams.display_name=document.getElementById("name").value;
     orderParams.cell=document.getElementById("cell").value;
     orderParams.reference_id=generateId();
