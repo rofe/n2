@@ -6311,6 +6311,26 @@ var catalog_raw=[
        "amount": 1000
       }
      }
+    },
+    {
+     "id": "H4KLDJIXXCRXM2DS7F4GX3QE",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "tahini ice cream (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "YB4VSRNU3H7IUEYWRRVKAK2T",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "greek yogurt ice cream",
+      "price_money": {
+       "amount": 1000
+      }
+     }
     }
    ]
   },
