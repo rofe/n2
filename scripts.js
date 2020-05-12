@@ -493,7 +493,7 @@ function setPickupDates () {
         }
         if(conf.opening[day.getDay()]) {
             var option = document.createElement("option");
-            option.text = weekdays[day.getDay()]+", "+months[day.getMonth()]+" "+day.getDate();
+            option.text = (i==0)?'today':weekdays[day.getDay()]+", "+months[day.getMonth()]+" "+day.getDate();
             option.value=day.getFullYear()+"/"+(day.getMonth()+1)+"/"+day.getDate();
             dateSelect.add(option);
         }
