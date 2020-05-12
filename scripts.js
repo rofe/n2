@@ -235,6 +235,16 @@ function fixSmsUrls() {
 
 }
 
+function setColors() {
+    if (window.location.pathname.indexOf('/lab.')==0) {
+        let root = document.documentElement;
+        root.style.setProperty('--text-color', 'white');
+        root.style.setProperty('--background-color', '#39559e');
+        root.style.setProperty('--background-highlight-color', '#29458e');
+        root.style.setProperty('--warning-color', '#651313');    
+    }    
+}
+
 function setCookie(cname, cvalue, exdays) {
     var d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
@@ -1290,6 +1300,7 @@ general setup
 window.addEventListener('DOMContentLoaded', (event) => {
     //resizeImages();
     fixIcons();
+    setColors();
     classify();
     //wrapMenus();
     //cloneMenuSwiper();
