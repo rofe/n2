@@ -6991,6 +6991,16 @@ var catalog_raw=[
        "amount": 1000
       }
      }
+    },
+    {
+     "id": "R4GRC224ZC2IT5QW3NEPEBS2",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "butterfinger pint",
+      "price_money": {
+       "amount": 1000
+      }
+     }
     }
    ]
   }
