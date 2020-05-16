@@ -49,7 +49,7 @@ main h2 {
     margin-bottom: 5px;
 }
 
-main .current {
+main .current, main .normal {
     background-color: white;
 }
 
