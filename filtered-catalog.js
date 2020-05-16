@@ -7627,5 +7627,24 @@ var catalog_raw=[
   "discount_data": {
    "name": "IMAMEMBER"
   }
+ },
+ {
+  "id": "DONYA6SLBFMWSSJIPK5YRK32",
+  "type": "ITEM",
+  "item_data": {
+   "name": "PINT CLUB",
+   "variations": [
+    {
+     "id": "MM3E66XXHJQL6TYTLGOI6KV2",
+     "item_variation_data": {
+      "item_id": "DONYA6SLBFMWSSJIPK5YRK32",
+      "name": "Regular",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    }
+   ]
+  }
  }
 ]
