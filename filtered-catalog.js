@@ -7001,6 +7001,16 @@ var catalog_raw=[
        "amount": 1000
       }
      }
+    },
+    {
+     "id": "CSJEJG74HT7DZKH3GMQKWEPU",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "jacobsen salt + walnut fudge",
+      "price_money": {
+       "amount": 1000
+      }
+     }
     }
    ]
   }
