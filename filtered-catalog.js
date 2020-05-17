@@ -3282,15 +3282,6 @@ var catalog_raw=[
    "name": "store flavors",
    "modifiers": [
     {
-     "id": "52KVOXREOSLAD5QVSAWHZAN3",
-     "modifier_data": {
-      "name": "salted vanilla bean",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "2ODB3QSVELCV2PIOKOFMP3O5",
      "modifier_data": {
       "name": "milk chocolate",
@@ -3309,15 +3300,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "52KVOXREOSLAD5QVSAWHZAN3",
-  "modifier_data": {
-   "name": "salted vanilla bean",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
@@ -6492,26 +6474,6 @@ var catalog_raw=[
        "amount": 400
       }
      }
-    },
-    {
-     "id": "2Z6BPKGVDLBHKAZUPIB6Z67H",
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "salted vanilla bean - half size",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "GRMD27P4VYOSELYWGCMYWJLH",
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "salted vanilla bean - normal size",
-      "price_money": {
-       "amount": 400
-      }
-     }
     }
    ]
   },
@@ -6661,15 +6623,6 @@ var catalog_raw=[
        "amount": 300
       }
      }
-    },
-    {
-     "id": "A66TWJJ4YPQZV6KBRBVJUPGG",
-     "modifier_data": {
-      "name": "salted vanilla bean",
-      "price_money": {
-       "amount": 300
-      }
-     }
     }
    ]
   }
@@ -6782,15 +6735,6 @@ var catalog_raw=[
   "id": "R42VX2AH6AO4PXF62VJHIZPN",
   "modifier_data": {
    "name": "blood orange sorbet (v)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "A66TWJJ4YPQZV6KBRBVJUPGG",
-  "modifier_data": {
-   "name": "salted vanilla bean",
    "price_money": {
     "amount": 300
    }
