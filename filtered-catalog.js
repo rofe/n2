@@ -3298,6 +3298,15 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "OC63TYXM7XN74EWS4VPJZQR3",
+     "modifier_data": {
+      "name": "salted vanilla bean",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -6474,6 +6483,26 @@ var catalog_raw=[
        "amount": 400
       }
      }
+    },
+    {
+     "id": "T5IUEXEGD6WJOGUNVB353WBB",
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "salted vanilla bean - half size",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "AXJGW3M5TECBQXZ44ZGZON7T",
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "salted vanilla bean - normal size",
+      "price_money": {
+       "amount": 400
+      }
+     }
     }
    ]
   },
@@ -6619,6 +6648,15 @@ var catalog_raw=[
      "id": "L2A3GZYK5NH7BPDTN7ZDP6E4",
      "modifier_data": {
       "name": "milk chocolate",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "4HLENF3TX6KX663CDFACUXXC",
+     "modifier_data": {
+      "name": "salted vanilla bean",
       "price_money": {
        "amount": 300
       }
@@ -7589,6 +7627,24 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "4HLENF3TX6KX663CDFACUXXC",
+  "modifier_data": {
+   "name": "salted vanilla bean",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "OC63TYXM7XN74EWS4VPJZQR3",
+  "modifier_data": {
+   "name": "salted vanilla bean",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]
