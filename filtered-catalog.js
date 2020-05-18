@@ -7646,5 +7646,207 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "5NIRVGS7XLKUCWD2HAKWERZ7",
+  "type": "ITEM",
+  "item_data": {
+   "name": "lab cone",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "SA4VTU3B6BG67REI5ULSWM6W"
+    }
+   ],
+   "variations": [
+    {
+     "id": "JV4D7Y4TPALY4K2JWRYWT3VW",
+     "item_variation_data": {
+      "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
+      "name": "large vanilla",
+      "price_money": {
+       "amount": 400
+      }
+     }
+    },
+    {
+     "id": "KF54Q4SYCGNABDUFXUSIFBUD",
+     "item_variation_data": {
+      "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
+      "name": "small vanilla",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "AHTRIDO27ZRTQAPNS267AFNS",
+     "item_variation_data": {
+      "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
+      "name": "small coffee",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "D5AOB6HZSQ3GEZ6PXOVMAJVH",
+     "item_variation_data": {
+      "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
+      "name": "large coffee",
+      "price_money": {
+       "amount": 400
+      }
+     }
+    },
+    {
+     "id": "5MCULBQZKLO2EHRCV2NIEPFB",
+     "item_variation_data": {
+      "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
+      "name": "small chocolate",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "CBFQBWMCOQBFMTCAF2TL2TYD",
+     "item_variation_data": {
+      "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
+      "name": "large chocolate",
+      "price_money": {
+       "amount": 400
+      }
+     }
+    },
+    {
+     "id": "URDJP4QYZXSUZG2EDBRBJHA3",
+     "item_variation_data": {
+      "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
+      "name": "small strawberry",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "X75KIRQFVKUKL74VNVWSNQQD",
+     "item_variation_data": {
+      "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
+      "name": "large strawberry",
+      "price_money": {
+       "amount": 400
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "TL73TNO3AQ25SL72KPU7OAGF",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "lab dip",
+   "modifiers": [
+    {
+     "id": "FOTLUTCUCC2YNZURTY5LDKY2",
+     "modifier_data": {
+      "name": "almond",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    },
+    {
+     "id": "4T7MTOTZ2YCXDQSIMGQSVWBO",
+     "modifier_data": {
+      "name": "dark chocolate",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    },
+    {
+     "id": "JYJWSCDUG55E7Z3RA3HZCTW7",
+     "modifier_data": {
+      "name": "dulcey",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "FOTLUTCUCC2YNZURTY5LDKY2",
+  "modifier_data": {
+   "name": "almond",
+   "price_money": {
+    "amount": 100
+   }
+  }
+ },
+ {
+  "id": "4T7MTOTZ2YCXDQSIMGQSVWBO",
+  "modifier_data": {
+   "name": "dark chocolate",
+   "price_money": {
+    "amount": 100
+   }
+  }
+ },
+ {
+  "id": "JYJWSCDUG55E7Z3RA3HZCTW7",
+  "modifier_data": {
+   "name": "dulcey",
+   "price_money": {
+    "amount": 100
+   }
+  }
+ },
+ {
+  "id": "G6UENHHO3MBKOXDAAT2FW3WU",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "lab vessels",
+   "modifiers": [
+    {
+     "id": "TIDE5HTT5CFESA3IF3SN73A5",
+     "modifier_data": {
+      "name": "cup",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "DED6ZMXYTS4ZVI5RZAEH3ZET",
+     "modifier_data": {
+      "name": "cone",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "TIDE5HTT5CFESA3IF3SN73A5",
+  "modifier_data": {
+   "name": "cup",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "DED6ZMXYTS4ZVI5RZAEH3ZET",
+  "modifier_data": {
+   "name": "cone",
+   "price_money": {
+    "amount": 100
+   }
+  }
  }
 ]
