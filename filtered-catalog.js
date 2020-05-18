@@ -7763,6 +7763,15 @@ var catalog_raw=[
    "name": "lab dip",
    "modifiers": [
     {
+     "id": "L45JPNW5GTRPNRU6I4VB2AWY",
+     "modifier_data": {
+      "name": "no dip",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "FOTLUTCUCC2YNZURTY5LDKY2",
      "modifier_data": {
       "name": "almond",
@@ -7826,20 +7835,20 @@ var catalog_raw=[
    "name": "lab vessels",
    "modifiers": [
     {
-     "id": "TIDE5HTT5CFESA3IF3SN73A5",
-     "modifier_data": {
-      "name": "cup",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "DED6ZMXYTS4ZVI5RZAEH3ZET",
      "modifier_data": {
       "name": "cone",
       "price_money": {
        "amount": 100
+      }
+     }
+    },
+    {
+     "id": "TIDE5HTT5CFESA3IF3SN73A5",
+     "modifier_data": {
+      "name": "cup",
+      "price_money": {
+       "amount": 0
       }
      }
     }
@@ -7868,6 +7877,15 @@ var catalog_raw=[
   "id": "JSLVN2D4WTDQVDM5M26FPD4V",
   "modifier_data": {
    "name": "no topping",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "L45JPNW5GTRPNRU6I4VB2AWY",
+  "modifier_data": {
+   "name": "no dip",
    "price_money": {
     "amount": 0
    }
