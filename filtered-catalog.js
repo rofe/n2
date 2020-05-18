@@ -86,6 +86,15 @@ var catalog_raw=[
    "name": "lab topping",
    "modifiers": [
     {
+     "id": "JSLVN2D4WTDQVDM5M26FPD4V",
+     "modifier_data": {
+      "name": "no topping",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "GGMHSHMFWGXZ7B3A44KKTUCZ",
      "modifier_data": {
       "name": "rainbow sprinkles",
@@ -7852,6 +7861,15 @@ var catalog_raw=[
    "name": "cone",
    "price_money": {
     "amount": 100
+   }
+  }
+ },
+ {
+  "id": "JSLVN2D4WTDQVDM5M26FPD4V",
+  "modifier_data": {
+   "name": "no topping",
+   "price_money": {
+    "amount": 0
    }
   }
  }
