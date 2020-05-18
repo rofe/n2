@@ -95,96 +95,87 @@ var catalog_raw=[
      }
     },
     {
-     "id": "GGMHSHMFWGXZ7B3A44KKTUCZ",
+     "id": "2QIV3NVYJ3GMNRWDDZ7TMW6E",
      "modifier_data": {
-      "name": "rainbow sprinkles",
+      "name": "light crumble",
       "price_money": {
-       "amount": 75
+       "amount": 100
       }
      }
     },
     {
-     "id": "6NRLCZ4SQL2PK5LVRFIUKPUK",
+     "id": "3D7GUSPIRY74KLQ4U6WSXXWU",
      "modifier_data": {
-      "name": "chocolate sprinkles",
+      "name": "dark crumble",
       "price_money": {
-       "amount": 75
+       "amount": 100
       }
      }
     },
     {
-     "id": "MILAAD5NVQZHJG2O6BDYDU6E",
+     "id": "BFMGXRVR3YA6HYDKAHW7TFAE",
      "modifier_data": {
-      "name": "fruity pebbles",
+      "name": "green cotton candy",
       "price_money": {
-       "amount": 75
+       "amount": 100
       }
      }
     },
     {
-     "id": "KMEPTZBPUCRPWEIS2ZZNZ642",
+     "id": "PIJPWBQ25FYH23WIX7X3LXWU",
      "modifier_data": {
-      "name": "cocoa krispies",
+      "name": "pink cotton candy",
       "price_money": {
-       "amount": 75
+       "amount": 100
       }
      }
     },
     {
-     "id": "XXNWDBSRUDMZKUS6MCFDHQZL",
+     "id": "E4QWC3WZ3UAJSWVU46TVRQTW",
      "modifier_data": {
-      "name": "normal dots - dulce de leche",
+      "name": "cake",
       "price_money": {
-       "amount": 300
+       "amount": 100
+      }
+     }
+    },
+    {
+     "id": "DQI5ZXHHHHTRSGV6CHZXRZ2E",
+     "modifier_data": {
+      "name": "fudge",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    },
+    {
+     "id": "XRO5TYSM65RKXZF4G76OLHPO",
+     "modifier_data": {
+      "name": "brittle",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    },
+    {
+     "id": "HNI5W3JCDMENH6WYMM4RLGCI",
+     "modifier_data": {
+      "name": "mallow",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    },
+    {
+     "id": "APEW55N7JFU4WVDRL72CFYGJ",
+     "modifier_data": {
+      "name": "dough",
+      "price_money": {
+       "amount": 100
       }
      }
     }
    ]
-  }
- },
- {
-  "id": "GGMHSHMFWGXZ7B3A44KKTUCZ",
-  "modifier_data": {
-   "name": "rainbow sprinkles",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "6NRLCZ4SQL2PK5LVRFIUKPUK",
-  "modifier_data": {
-   "name": "chocolate sprinkles",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "MILAAD5NVQZHJG2O6BDYDU6E",
-  "modifier_data": {
-   "name": "fruity pebbles",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "KMEPTZBPUCRPWEIS2ZZNZ642",
-  "modifier_data": {
-   "name": "cocoa krispies",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "XXNWDBSRUDMZKUS6MCFDHQZL",
-  "modifier_data": {
-   "name": "normal dots - dulce de leche",
-   "price_money": {
-    "amount": 300
-   }
   }
  },
  {
@@ -7788,15 +7779,6 @@ var catalog_raw=[
        "amount": 100
       }
      }
-    },
-    {
-     "id": "JYJWSCDUG55E7Z3RA3HZCTW7",
-     "modifier_data": {
-      "name": "dulcey",
-      "price_money": {
-       "amount": 100
-      }
-     }
     }
    ]
   }
@@ -7820,19 +7802,10 @@ var catalog_raw=[
   }
  },
  {
-  "id": "JYJWSCDUG55E7Z3RA3HZCTW7",
-  "modifier_data": {
-   "name": "dulcey",
-   "price_money": {
-    "amount": 100
-   }
-  }
- },
- {
   "id": "G6UENHHO3MBKOXDAAT2FW3WU",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "lab vessels",
+   "name": "lab vessel",
    "modifiers": [
     {
      "id": "DED6ZMXYTS4ZVI5RZAEH3ZET",
@@ -7888,6 +7861,87 @@ var catalog_raw=[
    "name": "no dip",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "2QIV3NVYJ3GMNRWDDZ7TMW6E",
+  "modifier_data": {
+   "name": "light crumble",
+   "price_money": {
+    "amount": 100
+   }
+  }
+ },
+ {
+  "id": "3D7GUSPIRY74KLQ4U6WSXXWU",
+  "modifier_data": {
+   "name": "dark crumble",
+   "price_money": {
+    "amount": 100
+   }
+  }
+ },
+ {
+  "id": "BFMGXRVR3YA6HYDKAHW7TFAE",
+  "modifier_data": {
+   "name": "green cotton candy",
+   "price_money": {
+    "amount": 100
+   }
+  }
+ },
+ {
+  "id": "PIJPWBQ25FYH23WIX7X3LXWU",
+  "modifier_data": {
+   "name": "pink cotton candy",
+   "price_money": {
+    "amount": 100
+   }
+  }
+ },
+ {
+  "id": "E4QWC3WZ3UAJSWVU46TVRQTW",
+  "modifier_data": {
+   "name": "cake",
+   "price_money": {
+    "amount": 100
+   }
+  }
+ },
+ {
+  "id": "DQI5ZXHHHHTRSGV6CHZXRZ2E",
+  "modifier_data": {
+   "name": "fudge",
+   "price_money": {
+    "amount": 100
+   }
+  }
+ },
+ {
+  "id": "XRO5TYSM65RKXZF4G76OLHPO",
+  "modifier_data": {
+   "name": "brittle",
+   "price_money": {
+    "amount": 100
+   }
+  }
+ },
+ {
+  "id": "HNI5W3JCDMENH6WYMM4RLGCI",
+  "modifier_data": {
+   "name": "mallow",
+   "price_money": {
+    "amount": 100
+   }
+  }
+ },
+ {
+  "id": "APEW55N7JFU4WVDRL72CFYGJ",
+  "modifier_data": {
+   "name": "dough",
+   "price_money": {
+    "amount": 100
    }
   }
  }
