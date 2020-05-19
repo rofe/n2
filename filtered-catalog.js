@@ -7311,15 +7311,6 @@ var catalog_raw=[
    "name": "coffee bean varietal",
    "modifiers": [
     {
-     "id": "D4MHIOLCCELXZU47IWBXYWNQ",
-     "modifier_data": {
-      "name": "ETHIOPIA kilenso",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "ASAHHHKIZULQM4RE2RKKUI7K",
      "modifier_data": {
       "name": "ETHIOPIA bukisa",
@@ -7347,15 +7338,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "D4MHIOLCCELXZU47IWBXYWNQ",
-  "modifier_data": {
-   "name": "ETHIOPIA kilenso",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
