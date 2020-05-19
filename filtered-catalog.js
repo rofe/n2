@@ -3066,16 +3066,6 @@ var catalog_raw=[
        "amount": 2000
       }
      }
-    },
-    {
-     "id": "MWTNFVAXDYT65YF3KA7I77L4",
-     "item_variation_data": {
-      "item_id": "K3XKHNT2SPEI4P2ZVG27MV3X",
-      "name": "extra large",
-      "price_money": {
-       "amount": 2000
-      }
-     }
     }
    ]
   }
@@ -6277,7 +6267,7 @@ var catalog_raw=[
      "id": "O74VSJVK47IVRH2M6KF2J3LT",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "passionfruit sorbet (v)",
+      "name": "“orange julius” sorbet (v)",
       "price_money": {
        "amount": 1000
       }
@@ -7311,15 +7301,6 @@ var catalog_raw=[
    "name": "coffee bean varietal",
    "modifiers": [
     {
-     "id": "D4MHIOLCCELXZU47IWBXYWNQ",
-     "modifier_data": {
-      "name": "ETHIOPIA kilenso",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "ASAHHHKIZULQM4RE2RKKUI7K",
      "modifier_data": {
       "name": "ETHIOPIA bukisa",
@@ -7336,26 +7317,8 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "BM5PLOZEZSLYZ2A7VZWHQRBY",
-     "modifier_data": {
-      "name": "HONDURAS la peña",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
-  }
- },
- {
-  "id": "D4MHIOLCCELXZU47IWBXYWNQ",
-  "modifier_data": {
-   "name": "ETHIOPIA kilenso",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
@@ -7371,15 +7334,6 @@ var catalog_raw=[
   "id": "RNP6JQ73JYXF4QAS6XAGPC64",
   "modifier_data": {
    "name": "GUATEMALA nayo ovalle",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "BM5PLOZEZSLYZ2A7VZWHQRBY",
-  "modifier_data": {
-   "name": "HONDURAS la peña",
    "price_money": {
     "amount": 0
    }
@@ -7654,26 +7608,16 @@ var catalog_raw=[
    "name": "lab cone",
    "modifier_list_info": [
     {
+     "modifier_list_id": "TL73TNO3AQ25SL72KPU7OAGF"
+    },
+    {
      "modifier_list_id": "SA4VTU3B6BG67REI5ULSWM6W"
     },
     {
      "modifier_list_id": "G6UENHHO3MBKOXDAAT2FW3WU"
-    },
-    {
-     "modifier_list_id": "TL73TNO3AQ25SL72KPU7OAGF"
     }
    ],
    "variations": [
-    {
-     "id": "JV4D7Y4TPALY4K2JWRYWT3VW",
-     "item_variation_data": {
-      "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
-      "name": "large vanilla",
-      "price_money": {
-       "amount": 400
-      }
-     }
-    },
     {
      "id": "KF54Q4SYCGNABDUFXUSIFBUD",
      "item_variation_data": {
@@ -7681,6 +7625,16 @@ var catalog_raw=[
       "name": "small vanilla",
       "price_money": {
        "amount": 300
+      }
+     }
+    },
+    {
+     "id": "JV4D7Y4TPALY4K2JWRYWT3VW",
+     "item_variation_data": {
+      "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
+      "name": "large vanilla",
+      "price_money": {
+       "amount": 400
       }
      }
     },
