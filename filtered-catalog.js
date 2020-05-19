@@ -3066,16 +3066,6 @@ var catalog_raw=[
        "amount": 2000
       }
      }
-    },
-    {
-     "id": "MWTNFVAXDYT65YF3KA7I77L4",
-     "item_variation_data": {
-      "item_id": "K3XKHNT2SPEI4P2ZVG27MV3X",
-      "name": "extra large",
-      "price_money": {
-       "amount": 2000
-      }
-     }
     }
    ]
   }
@@ -7327,15 +7317,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "BM5PLOZEZSLYZ2A7VZWHQRBY",
-     "modifier_data": {
-      "name": "HONDURAS la peña",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
@@ -7353,15 +7334,6 @@ var catalog_raw=[
   "id": "RNP6JQ73JYXF4QAS6XAGPC64",
   "modifier_data": {
    "name": "GUATEMALA nayo ovalle",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "BM5PLOZEZSLYZ2A7VZWHQRBY",
-  "modifier_data": {
-   "name": "HONDURAS la peña",
    "price_money": {
     "amount": 0
    }
