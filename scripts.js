@@ -353,6 +353,20 @@ function configItem(item, callout) {
 
     html+=`<div class="close" onclick="hideConfig()">X</div><div class="wrapper">`;
 
+    if (item.item_data.name == 'lab cone') {
+        html+=`<div id="cone-builder">
+            <div id="cb-vessel">
+            <div id="cb-soft-serve">
+            <div id="cb-dip">
+            <div id="cb-topping">
+            </div>
+            </div>
+            </div>
+            </div>
+        </div>`;
+
+    }
+
     if (pickupVars) {
         html+=`when would you like to pick this up?`
     } else {
@@ -361,7 +375,7 @@ function configItem(item, callout) {
 
     html+=callout;
 
-    html+=`<select>`;
+    html+=`<select onchange="configChanged()" name="variation">`;
     item.item_data.variations.forEach((v) => {
         html+=`<option value="${v.id}">${v.item_variation_data.name} ($${formatMoney(v.item_variation_data.price_money.amount)})</option>`;
     });
@@ -370,8 +384,7 @@ function configItem(item, callout) {
         item.item_data.modifier_list_info.forEach((m) => {
             var ml=catalog.byId[m.modifier_list_id];
             html+=`<h3>${ml.modifier_list_data.name}</h3>`;
-            html+=`<div><select>`;
-            html+=`<option value="" >no ${ml.modifier_list_data.name}</option>`;
+            html+=`<div><select name="${ml.modifier_list_data.name}" onchange="configChanged()">`;
             ml.modifier_list_data.modifiers.forEach((mod) => {
                 html+=`<option value="${mod.id}">${mod.modifier_data.name} (+$${formatMoney(mod.modifier_data.price_money.amount)})</option>`;
             })
@@ -381,6 +394,38 @@ function configItem(item, callout) {
     html+=`<button onclick="addConfigToCart()">add to cart</button>
            </div>`;
     config.innerHTML=html;
+    configChanged();
+}
+
+function configChanged() {
+    console.log("config changed")
+    const cb=document.getElementById("cone-builder");
+    if (cb) {
+        console.log("conebuilder found")
+        document.querySelectorAll('#config select').forEach((e) => {
+            if (e.getAttribute('name').includes('variation')) {
+                let name=catalog.byId[e.value].item_variation_data.name;
+                console.log(`select ${name}`);
+                let bg=`url(/cone-builder/${name.split(' ')[1]}-soft-serve.png)`;
+                document.getElementById('cb-soft-serve').style.backgroundImage=bg;
+            }
+            if (e.getAttribute('name').includes('vessel')) {
+                let name=stripName(catalog.byId[e.value].modifier_data.name);
+                let bg=`url(/cone-builder/${name}.png)`;
+                document.getElementById('cb-vessel').style.backgroundImage=bg;
+            }
+            if (e.getAttribute('name').includes('dip')) {
+                let name=stripName(catalog.byId[e.value].modifier_data.name);
+                let bg=`url(/cone-builder/${name}-dip.png)`;
+                document.getElementById('cb-dip').style.backgroundImage=bg;
+            }
+            if (e.getAttribute('name').includes('topping')) {
+                let name=stripName(catalog.byId[e.value].modifier_data.name);
+                let bg=`url(/cone-builder/${name}-topping.png)`;
+                document.getElementById('cb-topping').style.backgroundImage=bg;
+            }
+        });
+    }
 }
 
 /* ------

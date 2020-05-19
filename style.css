@@ -119,7 +119,6 @@ main .menu.desktop {
     display: none;
 }
 
-
 main .menu .locations {
     border: 1px solid black;
 }
@@ -571,6 +570,18 @@ main>div:last-of-type {
     padding: 20px;
     margin: auto;
 }
+
+#config #cone-builder {
+    height: 400px;
+    width: 100%;
+}
+
+#config #cone-builder div {
+    height: 100%;
+    background-size: contain;
+    background-position: center center;
+}
+
 
 /* class applies to select element itself, not a wrapper element */
 select {
