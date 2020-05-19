@@ -6277,7 +6277,7 @@ var catalog_raw=[
      "id": "O74VSJVK47IVRH2M6KF2J3LT",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "passionfruit sorbet (v)",
+      "name": "“orange julius” sorbet (v)",
       "price_money": {
        "amount": 1000
       }
