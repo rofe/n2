@@ -7647,22 +7647,22 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "JV4D7Y4TPALY4K2JWRYWT3VW",
-     "item_variation_data": {
-      "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
-      "name": "large vanilla",
-      "price_money": {
-       "amount": 400
-      }
-     }
-    },
-    {
      "id": "KF54Q4SYCGNABDUFXUSIFBUD",
      "item_variation_data": {
       "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
       "name": "small vanilla",
       "price_money": {
        "amount": 300
+      }
+     }
+    },
+    {
+     "id": "JV4D7Y4TPALY4K2JWRYWT3VW",
+     "item_variation_data": {
+      "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
+      "name": "large vanilla",
+      "price_money": {
+       "amount": 400
       }
      }
     },
