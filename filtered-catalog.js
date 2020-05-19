@@ -7608,13 +7608,13 @@ var catalog_raw=[
    "name": "lab cone",
    "modifier_list_info": [
     {
+     "modifier_list_id": "TL73TNO3AQ25SL72KPU7OAGF"
+    },
+    {
      "modifier_list_id": "SA4VTU3B6BG67REI5ULSWM6W"
     },
     {
      "modifier_list_id": "G6UENHHO3MBKOXDAAT2FW3WU"
-    },
-    {
-     "modifier_list_id": "TL73TNO3AQ25SL72KPU7OAGF"
     }
    ],
    "variations": [
