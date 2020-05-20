@@ -235,14 +235,17 @@ function fixSmsUrls() {
 
 }
 
-function setColors() {
+function setLocation() {
     if (window.location.pathname.indexOf('/lab.')==0) {
+        storeLocation='lab';
         let root = document.documentElement;
         root.style.setProperty('--text-color', 'white');
         root.style.setProperty('--background-color', '#39559e');
         root.style.setProperty('--background-highlight-color', '#29458e');
         root.style.setProperty('--warning-color', '#651313');    
-    }    
+    } else {
+        storeLocation='store';
+    }
 }
 
 function setCookie(cname, cvalue, exdays) {
@@ -578,6 +581,7 @@ function initPaymentForm() {
                 lineHeight: '24px',
                 padding: '16px',
                 placeholderColor: '#a0a0a0',
+                color: getComputedStyle(document.documentElement).getPropertyValue('--text-color'),
                 backgroundColor: 'transparent',
             }],
             // Initialize the credit card placeholders
@@ -621,7 +625,7 @@ function initPaymentForm() {
       
                    var qs=`nonce=${encodeURIComponent(nonce)}&order_id=${encodeURIComponent(order.id)}&reference_id=${encodeURIComponent(order.reference_id)}&order_amount=${order.total_money.amount}&tip_amount=${tipAmount}`;   
       
-                   fetch(orderEndpoint+'?'+qs, {
+                   fetch(orderEndpoints[storeLocation]+'?'+qs, {
                       method: 'GET',
                       headers: {
                         'Accept': 'application/json',
@@ -665,7 +669,13 @@ function onGetCardNonce(event) {
     }
   }
 
-orderEndpoint="https://script.google.com/macros/s/AKfycbzPFOTS5HT-Vv1mAYv3ktpZfNhGtRPdHz00Qi9Alw/exec";
+storeLocation="";
+
+orderEndpoints= { 
+    store: "https://script.google.com/macros/s/AKfycbzPFOTS5HT-Vv1mAYv3ktpZfNhGtRPdHz00Qi9Alw/exec",
+    lab: "https://script.google.com/macros/s/AKfycbyQ1tQesQanw1Dd13t0c7KLxBRwKTesCfbHJQdHMMvc02aWiLGZ/exec"
+};
+
 order={};
 submittingPayment=false;
 
@@ -682,7 +692,11 @@ function checkDiscount(e) {
 async function checkCart() {
 
     console.log("checking cart");
-    var resp = await fetch("/index.plain.html");
+    var menuurl='/index.plain.html';
+    if (storeLocation=='lab') {
+        menuurl='/lab.plain.html';
+    }
+    var resp = await fetch(menuurl);
     var html = await resp.text(); 
    
     //console.log(html);
@@ -829,7 +843,7 @@ async function submitOrder() {
 
     console.log ("order qs: "+qs);
 
-    fetch(orderEndpoint+'?'+qs, {
+    fetch(orderEndpoints[storeLocation]+'?'+qs, {
         method: 'GET',
         headers: {
           'Accept': 'application/json',
@@ -1236,11 +1250,11 @@ var cart={
     },
 
     store: () => {
-        localStorage.setItem("cart",JSON.stringify({lastUpdate: new Date(), line_items: cart.line_items}));
+        localStorage.setItem("cart-"+storeLocation,JSON.stringify({lastUpdate: new Date(), line_items: cart.line_items}));
     },
 
     load: () => {
-        var cartobj=JSON.parse(localStorage.getItem("cart"));
+        var cartobj=JSON.parse(localStorage.getItem("cart-"+storeLocation));
         cart.line_items=[];
 
         if (cartobj && cartobj.line_items) {
@@ -1344,8 +1358,8 @@ general setup
 
 window.addEventListener('DOMContentLoaded', (event) => {
     //resizeImages();
+    setLocation();
     fixIcons();
-    setColors();
     classify();
     //wrapMenus();
     //cloneMenuSwiper();
