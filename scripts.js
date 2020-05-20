@@ -571,7 +571,7 @@ function initPaymentForm() {
             // Initialize the payment form elements
             
             applicationId: "sq0idp-q-NmavFwDX6MRLzzd5q-sg",
-            locationId: '6EXJXZ644ND0E',
+            locationId: storeLocations[storeLocation].locationId,
 
             inputClass: 'sq-input',
             autoBuild: false,
@@ -581,7 +581,7 @@ function initPaymentForm() {
                 lineHeight: '24px',
                 padding: '16px',
                 placeholderColor: '#a0a0a0',
-                color: getComputedStyle(document.documentElement).getPropertyValue('--text-color'),
+                color: getComputedStyle(document.documentElement).getPropertyValue('--text-color').trim(),
                 backgroundColor: 'transparent',
             }],
             // Initialize the credit card placeholders
@@ -625,7 +625,7 @@ function initPaymentForm() {
       
                    var qs=`nonce=${encodeURIComponent(nonce)}&order_id=${encodeURIComponent(order.id)}&reference_id=${encodeURIComponent(order.reference_id)}&order_amount=${order.total_money.amount}&tip_amount=${tipAmount}`;   
       
-                   fetch(orderEndpoints[storeLocation]+'?'+qs, {
+                   fetch(storeLocations[storeLocation].endpoint+'?'+qs, {
                       method: 'GET',
                       headers: {
                         'Accept': 'application/json',
@@ -670,11 +670,16 @@ function onGetCardNonce(event) {
   }
 
 storeLocation="";
-
-orderEndpoints= { 
-    store: "https://script.google.com/macros/s/AKfycbzPFOTS5HT-Vv1mAYv3ktpZfNhGtRPdHz00Qi9Alw/exec",
-    lab: "https://script.google.com/macros/s/AKfycbyQ1tQesQanw1Dd13t0c7KLxBRwKTesCfbHJQdHMMvc02aWiLGZ/exec"
-};
+storeLocations={
+    store: { 
+        endpoint: "https://script.google.com/macros/s/AKfycbzPFOTS5HT-Vv1mAYv3ktpZfNhGtRPdHz00Qi9Alw/exec",
+        locationId: "6EXJXZ644ND0E"
+    },
+    lab: {
+        endpoint: "https://script.google.com/macros/s/AKfycbyQ1tQesQanw1Dd13t0c7KLxBRwKTesCfbHJQdHMMvc02aWiLGZ/exec",
+        locationId: "3HQZPV73H8BHM"
+    }
+}
 
 order={};
 submittingPayment=false;
@@ -843,7 +848,7 @@ async function submitOrder() {
 
     console.log ("order qs: "+qs);
 
-    fetch(orderEndpoints[storeLocation]+'?'+qs, {
+    fetch(storeLocations[storeLocation].endpoint+'?'+qs, {
         method: 'GET',
         headers: {
           'Accept': 'application/json',
