@@ -7611,109 +7611,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "5NIRVGS7XLKUCWD2HAKWERZ7",
-  "type": "ITEM",
-  "item_data": {
-   "name": "lab cone",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "TL73TNO3AQ25SL72KPU7OAGF"
-    },
-    {
-     "modifier_list_id": "SA4VTU3B6BG67REI5ULSWM6W"
-    },
-    {
-     "modifier_list_id": "G6UENHHO3MBKOXDAAT2FW3WU"
-    },
-    {
-     "modifier_list_id": "SVHE22U3CGBLX3O5ICNVCG5A"
-    }
-   ],
-   "variations": [
-    {
-     "id": "KF54Q4SYCGNABDUFXUSIFBUD",
-     "item_variation_data": {
-      "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
-      "name": "normal size",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "JV4D7Y4TPALY4K2JWRYWT3VW",
-     "item_variation_data": {
-      "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
-      "name": "half size",
-      "price_money": {
-       "amount": 400
-      }
-     }
-    },
-    {
-     "id": "AHTRIDO27ZRTQAPNS267AFNS",
-     "item_variation_data": {
-      "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
-      "name": "coffee - half size",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "D5AOB6HZSQ3GEZ6PXOVMAJVH",
-     "item_variation_data": {
-      "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
-      "name": "coffee - normal size",
-      "price_money": {
-       "amount": 400
-      }
-     }
-    },
-    {
-     "id": "5MCULBQZKLO2EHRCV2NIEPFB",
-     "item_variation_data": {
-      "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
-      "name": "brownie batter - half size",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "CBFQBWMCOQBFMTCAF2TL2TYD",
-     "item_variation_data": {
-      "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
-      "name": "brownie batter - normal size",
-      "price_money": {
-       "amount": 400
-      }
-     }
-    },
-    {
-     "id": "URDJP4QYZXSUZG2EDBRBJHA3",
-     "item_variation_data": {
-      "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
-      "name": "strawberry lemonade (v) - half size",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "X75KIRQFVKUKL74VNVWSNQQD",
-     "item_variation_data": {
-      "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
-      "name": "strawberry lemonade (v) - normal size",
-      "price_money": {
-       "amount": 400
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "TL73TNO3AQ25SL72KPU7OAGF",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
@@ -8035,6 +7932,49 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
+  }
+ },
+ {
+  "id": "2NQSD2Q7EQP23Q2MADGONRAX",
+  "type": "ITEM",
+  "item_data": {
+   "name": "lab cone",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "SVHE22U3CGBLX3O5ICNVCG5A"
+    },
+    {
+     "modifier_list_id": "TL73TNO3AQ25SL72KPU7OAGF"
+    },
+    {
+     "modifier_list_id": "SA4VTU3B6BG67REI5ULSWM6W"
+    },
+    {
+     "modifier_list_id": "G6UENHHO3MBKOXDAAT2FW3WU"
+    }
+   ],
+   "variations": [
+    {
+     "id": "4UQDTZSNNB5F4L6R242D6JPP",
+     "item_variation_data": {
+      "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
+      "name": "small size",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "6VCVAVGJ3QUOOIJQAPBQXQ6B",
+     "item_variation_data": {
+      "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
+      "name": "regular size",
+      "price_money": {
+       "amount": 400
+      }
+     }
+    }
+   ]
   }
  }
 ]
