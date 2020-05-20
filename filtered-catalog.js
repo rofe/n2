@@ -97,81 +97,108 @@ var catalog_raw=[
     {
      "id": "2QIV3NVYJ3GMNRWDDZ7TMW6E",
      "modifier_data": {
-      "name": "light crumble",
+      "name": "brown butter crumble",
       "price_money": {
-       "amount": 100
+       "amount": 75
       }
      }
     },
     {
      "id": "3D7GUSPIRY74KLQ4U6WSXXWU",
      "modifier_data": {
-      "name": "dark crumble",
+      "name": "brownie crumble",
       "price_money": {
-       "amount": 100
+       "amount": 75
       }
      }
     },
     {
      "id": "BFMGXRVR3YA6HYDKAHW7TFAE",
      "modifier_data": {
-      "name": "green cotton candy",
+      "name": "green apple cotton candy",
       "price_money": {
-       "amount": 100
+       "amount": 75
       }
      }
     },
     {
      "id": "PIJPWBQ25FYH23WIX7X3LXWU",
      "modifier_data": {
-      "name": "pink cotton candy",
+      "name": "strawberry cotton candy",
       "price_money": {
-       "amount": 100
+       "amount": 75
       }
      }
     },
     {
      "id": "E4QWC3WZ3UAJSWVU46TVRQTW",
      "modifier_data": {
-      "name": "cake",
+      "name": "butter cake",
       "price_money": {
-       "amount": 100
+       "amount": 75
       }
      }
     },
     {
      "id": "DQI5ZXHHHHTRSGV6CHZXRZ2E",
      "modifier_data": {
-      "name": "fudge",
+      "name": "fudge bits (v)",
       "price_money": {
-       "amount": 100
+       "amount": 75
       }
      }
     },
     {
      "id": "XRO5TYSM65RKXZF4G76OLHPO",
      "modifier_data": {
-      "name": "brittle",
+      "name": "peanut brittle",
       "price_money": {
-       "amount": 100
+       "amount": 75
       }
      }
     },
     {
      "id": "HNI5W3JCDMENH6WYMM4RLGCI",
      "modifier_data": {
-      "name": "mallow",
+      "name": "toasted meringue",
       "price_money": {
-       "amount": 100
+       "amount": 75
       }
      }
     },
     {
      "id": "APEW55N7JFU4WVDRL72CFYGJ",
      "modifier_data": {
-      "name": "dough",
+      "name": "cookie dough bits",
       "price_money": {
-       "amount": 100
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "WPVUWUDCRWMKCFQ6GAI5UV76",
+     "modifier_data": {
+      "name": "chocolate sprinkles (v)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "RXUS4VJ5RQAR26IOKVJKVWR4",
+     "modifier_data": {
+      "name": "rainbow sprinkles",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "AWKAGAEV7PLFTJGBDAR7DLEM",
+     "modifier_data": {
+      "name": "whipped mascarpone",
+      "price_money": {
+       "amount": 75
       }
      }
     }
@@ -7622,7 +7649,7 @@ var catalog_raw=[
      "id": "KF54Q4SYCGNABDUFXUSIFBUD",
      "item_variation_data": {
       "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
-      "name": "small vanilla",
+      "name": "salted vanilla bean - half size",
       "price_money": {
        "amount": 300
       }
@@ -7632,7 +7659,7 @@ var catalog_raw=[
      "id": "JV4D7Y4TPALY4K2JWRYWT3VW",
      "item_variation_data": {
       "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
-      "name": "large vanilla",
+      "name": "salted vanilla bean - normal size",
       "price_money": {
        "amount": 400
       }
@@ -7642,7 +7669,7 @@ var catalog_raw=[
      "id": "AHTRIDO27ZRTQAPNS267AFNS",
      "item_variation_data": {
       "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
-      "name": "small coffee",
+      "name": "coffee - half size",
       "price_money": {
        "amount": 300
       }
@@ -7652,7 +7679,7 @@ var catalog_raw=[
      "id": "D5AOB6HZSQ3GEZ6PXOVMAJVH",
      "item_variation_data": {
       "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
-      "name": "large coffee",
+      "name": "coffee - normal size",
       "price_money": {
        "amount": 400
       }
@@ -7662,7 +7689,7 @@ var catalog_raw=[
      "id": "5MCULBQZKLO2EHRCV2NIEPFB",
      "item_variation_data": {
       "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
-      "name": "small chocolate",
+      "name": "brownie batter - half size",
       "price_money": {
        "amount": 300
       }
@@ -7672,7 +7699,7 @@ var catalog_raw=[
      "id": "CBFQBWMCOQBFMTCAF2TL2TYD",
      "item_variation_data": {
       "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
-      "name": "large chocolate",
+      "name": "brownie batter - normal size",
       "price_money": {
        "amount": 400
       }
@@ -7682,7 +7709,7 @@ var catalog_raw=[
      "id": "URDJP4QYZXSUZG2EDBRBJHA3",
      "item_variation_data": {
       "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
-      "name": "small strawberry",
+      "name": "strawberry lemonade (v) - half size",
       "price_money": {
        "amount": 300
       }
@@ -7692,7 +7719,7 @@ var catalog_raw=[
      "id": "X75KIRQFVKUKL74VNVWSNQQD",
      "item_variation_data": {
       "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
-      "name": "large strawberry",
+      "name": "strawberry lemonade (v) - normal size",
       "price_money": {
        "amount": 400
       }
@@ -7728,7 +7755,16 @@ var catalog_raw=[
     {
      "id": "4T7MTOTZ2YCXDQSIMGQSVWBO",
      "modifier_data": {
-      "name": "dark chocolate",
+      "name": "dark chocolate (v)",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    },
+    {
+     "id": "MLIGVTKEILQAP5EI6YJ4I4PV",
+     "modifier_data": {
+      "name": "dulcey",
       "price_money": {
        "amount": 100
       }
@@ -7749,7 +7785,7 @@ var catalog_raw=[
  {
   "id": "4T7MTOTZ2YCXDQSIMGQSVWBO",
   "modifier_data": {
-   "name": "dark chocolate",
+   "name": "dark chocolate (v)",
    "price_money": {
     "amount": 100
    }
@@ -7821,81 +7857,117 @@ var catalog_raw=[
  {
   "id": "2QIV3NVYJ3GMNRWDDZ7TMW6E",
   "modifier_data": {
-   "name": "light crumble",
+   "name": "brown butter crumble",
    "price_money": {
-    "amount": 100
+    "amount": 75
    }
   }
  },
  {
   "id": "3D7GUSPIRY74KLQ4U6WSXXWU",
   "modifier_data": {
-   "name": "dark crumble",
+   "name": "brownie crumble",
    "price_money": {
-    "amount": 100
+    "amount": 75
    }
   }
  },
  {
   "id": "BFMGXRVR3YA6HYDKAHW7TFAE",
   "modifier_data": {
-   "name": "green cotton candy",
+   "name": "green apple cotton candy",
    "price_money": {
-    "amount": 100
+    "amount": 75
    }
   }
  },
  {
   "id": "PIJPWBQ25FYH23WIX7X3LXWU",
   "modifier_data": {
-   "name": "pink cotton candy",
+   "name": "strawberry cotton candy",
    "price_money": {
-    "amount": 100
+    "amount": 75
    }
   }
  },
  {
   "id": "E4QWC3WZ3UAJSWVU46TVRQTW",
   "modifier_data": {
-   "name": "cake",
+   "name": "butter cake",
    "price_money": {
-    "amount": 100
+    "amount": 75
    }
   }
  },
  {
   "id": "DQI5ZXHHHHTRSGV6CHZXRZ2E",
   "modifier_data": {
-   "name": "fudge",
+   "name": "fudge bits (v)",
    "price_money": {
-    "amount": 100
+    "amount": 75
    }
   }
  },
  {
   "id": "XRO5TYSM65RKXZF4G76OLHPO",
   "modifier_data": {
-   "name": "brittle",
+   "name": "peanut brittle",
    "price_money": {
-    "amount": 100
+    "amount": 75
    }
   }
  },
  {
   "id": "HNI5W3JCDMENH6WYMM4RLGCI",
   "modifier_data": {
-   "name": "mallow",
+   "name": "toasted meringue",
    "price_money": {
-    "amount": 100
+    "amount": 75
    }
   }
  },
  {
   "id": "APEW55N7JFU4WVDRL72CFYGJ",
   "modifier_data": {
-   "name": "dough",
+   "name": "cookie dough bits",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "MLIGVTKEILQAP5EI6YJ4I4PV",
+  "modifier_data": {
+   "name": "dulcey",
    "price_money": {
     "amount": 100
+   }
+  }
+ },
+ {
+  "id": "WPVUWUDCRWMKCFQ6GAI5UV76",
+  "modifier_data": {
+   "name": "chocolate sprinkles (v)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "RXUS4VJ5RQAR26IOKVJKVWR4",
+  "modifier_data": {
+   "name": "rainbow sprinkles",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "AWKAGAEV7PLFTJGBDAR7DLEM",
+  "modifier_data": {
+   "name": "whipped mascarpone",
+   "price_money": {
+    "amount": 75
    }
   }
  }
