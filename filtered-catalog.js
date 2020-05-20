@@ -7952,5 +7952,86 @@ var catalog_raw=[
     "amount": 75
    }
   }
+ },
+ {
+  "id": "SVHE22U3CGBLX3O5ICNVCG5A",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "lab flavor",
+   "modifiers": [
+    {
+     "id": "POR634QNMVAE4S4ADO2PU6PA",
+     "modifier_data": {
+      "name": "vanilla",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "EEIGHDNY27I5SHME7HCBM5A5",
+     "modifier_data": {
+      "name": "chocolate",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "5YMWVQ5ZKCZ5CFBEHIZVQZBH",
+     "modifier_data": {
+      "name": "strawberry",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "UYGH6JOSRMX7WLBQJVK4B4XZ",
+     "modifier_data": {
+      "name": "coffee",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "POR634QNMVAE4S4ADO2PU6PA",
+  "modifier_data": {
+   "name": "vanilla",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "EEIGHDNY27I5SHME7HCBM5A5",
+  "modifier_data": {
+   "name": "chocolate",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "5YMWVQ5ZKCZ5CFBEHIZVQZBH",
+  "modifier_data": {
+   "name": "strawberry",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "UYGH6JOSRMX7WLBQJVK4B4XZ",
+  "modifier_data": {
+   "name": "coffee",
+   "price_money": {
+    "amount": 0
+   }
+  }
  }
 ]
