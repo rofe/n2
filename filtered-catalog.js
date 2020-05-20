@@ -7328,15 +7328,6 @@ var catalog_raw=[
    "name": "coffee bean varietal",
    "modifiers": [
     {
-     "id": "ASAHHHKIZULQM4RE2RKKUI7K",
-     "modifier_data": {
-      "name": "ETHIOPIA bukisa",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "RNP6JQ73JYXF4QAS6XAGPC64",
      "modifier_data": {
       "name": "GUATEMALA nayo ovalle",
@@ -7346,15 +7337,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "ASAHHHKIZULQM4RE2RKKUI7K",
-  "modifier_data": {
-   "name": "ETHIOPIA bukisa",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
