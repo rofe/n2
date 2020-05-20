@@ -7624,6 +7624,9 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "G6UENHHO3MBKOXDAAT2FW3WU"
+    },
+    {
+     "modifier_list_id": "SVHE22U3CGBLX3O5ICNVCG5A"
     }
    ],
    "variations": [
@@ -7631,7 +7634,7 @@ var catalog_raw=[
      "id": "KF54Q4SYCGNABDUFXUSIFBUD",
      "item_variation_data": {
       "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
-      "name": "salted vanilla bean - half size",
+      "name": "normal size",
       "price_money": {
        "amount": 300
       }
@@ -7641,7 +7644,7 @@ var catalog_raw=[
      "id": "JV4D7Y4TPALY4K2JWRYWT3VW",
      "item_variation_data": {
       "item_id": "5NIRVGS7XLKUCWD2HAKWERZ7",
-      "name": "salted vanilla bean - normal size",
+      "name": "half size",
       "price_money": {
        "amount": 400
       }
@@ -7962,7 +7965,7 @@ var catalog_raw=[
     {
      "id": "POR634QNMVAE4S4ADO2PU6PA",
      "modifier_data": {
-      "name": "vanilla",
+      "name": "salted vanilla bean",
       "price_money": {
        "amount": 0
       }
@@ -7971,7 +7974,7 @@ var catalog_raw=[
     {
      "id": "EEIGHDNY27I5SHME7HCBM5A5",
      "modifier_data": {
-      "name": "chocolate",
+      "name": "strawberry lemonade (v)",
       "price_money": {
        "amount": 0
       }
@@ -7980,7 +7983,7 @@ var catalog_raw=[
     {
      "id": "5YMWVQ5ZKCZ5CFBEHIZVQZBH",
      "modifier_data": {
-      "name": "strawberry",
+      "name": "brownie batter",
       "price_money": {
        "amount": 0
       }
@@ -8001,7 +8004,7 @@ var catalog_raw=[
  {
   "id": "POR634QNMVAE4S4ADO2PU6PA",
   "modifier_data": {
-   "name": "vanilla",
+   "name": "salted vanilla bean",
    "price_money": {
     "amount": 0
    }
@@ -8010,7 +8013,7 @@ var catalog_raw=[
  {
   "id": "EEIGHDNY27I5SHME7HCBM5A5",
   "modifier_data": {
-   "name": "chocolate",
+   "name": "strawberry lemonade (v)",
    "price_money": {
     "amount": 0
    }
@@ -8019,7 +8022,7 @@ var catalog_raw=[
  {
   "id": "5YMWVQ5ZKCZ5CFBEHIZVQZBH",
   "modifier_data": {
-   "name": "strawberry",
+   "name": "brownie batter",
    "price_money": {
     "amount": 0
    }
