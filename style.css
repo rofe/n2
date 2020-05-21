@@ -573,13 +573,15 @@ main>div:last-of-type {
 #config.cone-builder {
     background-color: var(--background-highlight-color);
     overflow-x: hidden;
+    box-sizing: border-box;
+    height: 100vh;
 }
 
 #config.cone-builder .wrapper {
     display: flex;
-    flex-direction: column;
-    height: 100vh;
     box-sizing: border-box;
+    flex-direction: column;
+    height: 100%;
     padding: 0;
 }
 
@@ -587,10 +589,13 @@ main>div:last-of-type {
     background-color: var(--background-color);
     flex-grow: 1;
     margin: 20px;
+    display: flex;
+    flex: 1;
 }
 
 #config.cone-builder #cone-builder div {
-    height: 100%;
+    display: flex;
+    flex: 1;
     background-size: contain;
     background-position: center center;
     background-repeat: no-repeat;
