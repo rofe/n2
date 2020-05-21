@@ -639,6 +639,8 @@ main>div:last-of-type {
     white-space: nowrap;
     color: var(--background-color);
     transition: transform 0.4s ease;
+    cursor: pointer;
+    user-select: none;
 }
 
 #config.cone-builder .selected {
@@ -652,10 +654,12 @@ main>div:last-of-type {
 #config.cone-builder .cb-selections .cb-options>span {
     padding: 5px 15px;
     line-height: 0.7em;
+    user-select: none;
 }
 
 #config.cone-builder .cb-selections .cb-options span.price {
     font-size: 14px;
+    user-select: none;
 }
 /* class applies to select element itself, not a wrapper element */
 select {

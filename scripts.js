@@ -331,17 +331,20 @@ function isFixedPickup(item) {
     return false;
 }
 
+function adjustScrolling($sel) {
+    var selpos = $sel.offsetLeft-$sel.parentNode.firstChild.offsetLeft;
+    var selwidth = $sel.offsetWidth;
+    var wrapperwidth=document.querySelector("#config.cone-builder .wrapper").offsetWidth;
+    $sel.parentNode.style=`transform: translateX(${-Math.round(selpos+(selwidth-wrapperwidth)/2)}px)`;
+}
+
 function coneBuilderSelect($sel) {
     $sel.parentNode.querySelectorAll("span").forEach(($e) => {
         $e.classList.remove('selected');
     })
     $sel.classList.add('selected');
     showConfig();
-    var selpos = $sel.offsetLeft;
-    var selwidth = $sel.offsetWidth;
-    var wrapperwidth=document.querySelector("#config.cone-builder .wrapper").offsetWidth;
-    $sel.parentNode.style=`transform: translateX(${-Math.round(selpos+(selwidth-wrapperwidth)/2)}px)`;
-    console.log(selpos);
+    adjustScrolling($sel);
 }
 
 
@@ -354,6 +357,7 @@ function coneBuilderShow(name) {
         if ($e.getAttribute('data-name') == name) {
             $e.classList.remove('hidden');
             $e.classList.add('visible');
+            adjustScrolling($e.querySelector('.selected'));
         } else {
             $e.classList.add('hidden');
             $e.classList.remove('visible');
@@ -361,7 +365,6 @@ function coneBuilderShow(name) {
     })
 
     var flow=coneBuilderFlow();
-    console.log ("flow progress "+name);
 
     if (name==flow[0]) hide("cb-back");
     else show("cb-back");
@@ -510,20 +513,20 @@ function configItem(item, callout) {
     if ((name == "lab cone") || (name == "soft serve")) {
         html=getConeBuilderHTML(item, callout);
         config.classList.add('cone-builder');
+        config.innerHTML=html;
+        showConfig();
+        adjustScrolling(document.querySelector('#config.cone-builder .cb-options .selected'));
     } else {
         html=getConfigHTML(item, callout);
         config.classList.remove('cone-builder');
+        config.innerHTML=html;
     }
-    
-    config.innerHTML=html;
-    showConfig();
 }
+    
 
 function showConfig() {
-    console.log("config changed")
     const cb=document.getElementById("cone-builder");
     if (cb) {
-        console.log("conebuilder found")
         document.querySelectorAll('#config.cone-builder .cb-options .selected').forEach((e) => {
             var ml=e.parentNode.parentNode.getAttribute('data-name');
             var id=e.getAttribute('data-id');
