@@ -558,7 +558,7 @@ main>div:last-of-type {
 }
 
 #config .close {
-    padding: 20px;
+    padding: 30px;
     text-align: right;
     position: absolute;
     top: 0;
@@ -570,19 +570,88 @@ main>div:last-of-type {
     padding: 20px;
     margin: auto;
 }
-
-#config #cone-builder {
-    height: 400px;
-    width: 100%;
+#config.cone-builder {
+    background-color: var(--background-highlight-color);
+    overflow-x: hidden;
 }
 
-#config #cone-builder div {
+#config.cone-builder .wrapper {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    box-sizing: border-box;
+    padding: 0;
+}
+
+#config.cone-builder #cone-builder {
+    background-color: var(--background-color);
+    flex-grow: 1;
+    margin: 20px;
+}
+
+#config.cone-builder #cone-builder div {
     height: 100%;
     background-size: contain;
     background-position: center center;
+    background-repeat: no-repeat;
 }
 
+#config.cone-builder .cb-buttons {
+    display: flex;
+    background-color: var(--text-color);
+    color: var(--background-highlight-color);
+    height: 80px;
+    align-items: stretch;
+}
 
+#config.cone-builder .cb-buttons>div {
+    flex-grow: 1;
+    align-self: center;
+}
+
+#config.cone-builder .cb-controls {
+    height: 195px;
+    flex-grow: 0;
+}
+
+#config.cone-builder svg.icon {
+    height: 2em;
+    width: 2em;
+}
+
+#config.cone-builder .cb-selections {
+    font-size: 24px;
+    height: 115px;
+}
+
+#config.cone-builder .cb-selections h4 {
+    margin: 10px;
+}
+
+#config.cone-builder .cb-selections .cb-selection .cb-options {
+    display: flex;
+    flex-wrap: nowrap;
+    white-space: nowrap;
+    color: var(--background-color);
+    transition: transform 0.4s ease;
+}
+
+#config.cone-builder .selected {
+    color: var(--text-color);
+}
+
+#config.cone-builder .cb-selections .cb-selection.hidden {
+    display: none;
+}
+
+#config.cone-builder .cb-selections .cb-options>span {
+    padding: 5px 15px;
+    line-height: 0.7em;
+}
+
+#config.cone-builder .cb-selections .cb-options span.price {
+    font-size: 14px;
+}
 /* class applies to select element itself, not a wrapper element */
 select {
 	display: block;
