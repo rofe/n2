@@ -574,7 +574,7 @@ main>div:last-of-type {
     background-color: var(--background-highlight-color);
     overflow-x: hidden;
     box-sizing: border-box;
-    height: 100vh;
+    height: 100%;
 }
 
 #config.cone-builder .wrapper {
