@@ -1161,7 +1161,7 @@ function initCart() {
                 <button onclick="submitOrder()">order</button>
             </div>
             <div class="warning hidden toolate">
-            <p>* we are so sorry, but we don't accept orders anymore for today, we will keep all you configurations in your cart though so you can just easily check-out tomorrow.</p>
+            <p>* we are so sorry, but we don't accept orders anymore for today, we will keep all your ice-cream in your cart, so you can just easily check-out tomorrow.</p>
             </div>
             <div class="warning hidden tooearly">
             <p>* we are not open yet, but we will keep your cart around, just reload the page once we are open and complete the checkout.</p> 
