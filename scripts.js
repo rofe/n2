@@ -571,11 +571,7 @@ function formatTime(date) {
 }
 
 function getOpeningHoursConfig() {
-    return { opening: [12,12,12,12,12,12,12],
-             closing: [20,20,20,20,20,20,20],
-             lastOrderFromClose: 10,
-             prepTime: 10
-    }
+    return storeLocations[storeLocation].openingHours;
 }
 
 function setPickupTimes () {
@@ -621,7 +617,11 @@ function setPickupTimes () {
 function displayThanks(payment){
     var cartEl=document.getElementById("cart");
     cartEl.querySelector(".payment").classList.add("hidden");
-    cartEl.querySelector(".thankyou").classList.remove("hidden");
+    if (storeLocations[storeLocation].orderAhead) {
+        cartEl.querySelector(".thankyou.order-ahead").classList.remove("hidden");
+    } else {
+        cartEl.querySelector(".thankyou.callyourname").classList.remove("hidden");
+    }
 
     var receiptElem=document.getElementById("receipt-link");
     var receiptLink="/receipt"
@@ -661,28 +661,53 @@ function setPickupDates () {
     var weekdays = ["sun","mon","tue","wed","thu","fri","sat"];
     var months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
     var dateSelect=document.getElementById("pickup-date");
+    var closedForToday=false;
 
-    while (i<10) {
-        if (i==0) {
-            /* check if we are past cutoff for today */
-            var closingDate=new Date();
-            closingDate.setHours(conf.closing[day.getDay()],0,0,0);
-            if (now>closingDate-conf.lastOrderFromClose*60000) {
-                day.setDate(day.getDate()+1);
-                document.querySelector("#cart .info .pickup-time .warning.hidden").classList.remove("hidden");
+    if (storeLocations[storeLocation].orderAhead) {
+
+        while (i<storeLocations[storeLocation].orderAhead) {
+            if (i==0) {
+                /* check if we are past cutoff for today */
+                var closingDate=new Date();
+                closingDate.setHours(conf.closing[day.getDay()],0,0,0);
+                if (now>closingDate-conf.lastOrderFromClose*60000) {
+                    day.setDate(day.getDate()+1);
+                    document.querySelector("#cart .info .pickup-time .warning.hidden").classList.remove("hidden");
+                }
             }
-        }
-        if(conf.opening[day.getDay()]) {
-            var option = document.createElement("option");
-            option.text = (i==0)?'today':weekdays[day.getDay()]+", "+months[day.getMonth()]+" "+day.getDate();
-            option.value=day.getFullYear()+"/"+(day.getMonth()+1)+"/"+day.getDate();
-            dateSelect.add(option);
-        }
+            if(conf.opening[day.getDay()]) {
+                var option = document.createElement("option");
+                option.text = (i==0)?'today':weekdays[day.getDay()]+", "+months[day.getMonth()]+" "+day.getDate();
+                option.value=day.getFullYear()+"/"+(day.getMonth()+1)+"/"+day.getDate();
+                dateSelect.add(option);
+            }
 
-        day.setDate(day.getDate()+1);
-        i++;
+            day.setDate(day.getDate()+1);
+            i++;
+        }
+        setPickupTimes();
+    } else {
+        var closingDate=new Date();
+        var openingDate=new Date();
+        closingDate.setHours(conf.closing[day.getDay()],0,0,0);
+        openingDate.setHours(conf.opening[day.getDay()],0,0,0);
+
+        var option = document.createElement("option");
+        option.text = 'today';
+        option.value=day.getFullYear()+"/"+(day.getMonth()+1)+"/"+day.getDate();
+        dateSelect.add(option);
+
+        setPickupTimes();
+
+        if (now>closingDate-conf.lastOrderFromClose*60000) {
+            document.querySelector("#cart .info").classList.add("hidden");
+            document.querySelector("#cart .warning.toolate").classList.remove("hidden");
+        }
+        if (now<openingDate) {
+            document.querySelector("#cart .info").classList.add("hidden");
+            document.querySelector("#cart .warning.tooearly").classList.remove("hidden");
+        }
     }
-    setPickupTimes();
 }
 
 var paymentForm;
@@ -796,11 +821,22 @@ storeLocation="";
 storeLocations={
     store: { 
         endpoint: "https://script.google.com/macros/s/AKfycbzPFOTS5HT-Vv1mAYv3ktpZfNhGtRPdHz00Qi9Alw/exec",
-        locationId: "6EXJXZ644ND0E"
+        locationId: "6EXJXZ644ND0E",
+        openingHours: { opening: [12,12,12,12,12,12,12],
+            closing: [20,20,20,20,20,20,20],
+            lastOrderFromClose: 10,
+            prepTime: 10
+        },
+        orderAhead: 10
     },
     lab: {
         endpoint: "https://script.google.com/macros/s/AKfycbyQ1tQesQanw1Dd13t0c7KLxBRwKTesCfbHJQdHMMvc02aWiLGZ/exec",
-        locationId: "3HQZPV73H8BHM"
+        locationId: "3HQZPV73H8BHM",
+        openingHours: { opening: [12,12,12,12,12,7,12],
+            closing: [22,22,22,22,22,22,22],
+            lastOrderFromClose: 10,
+            prepTime: 10
+        }
     }
 }
 
@@ -1019,9 +1055,14 @@ function displayOrder(o) {
     html+=`<div class="line tip"><span class="desc">tip</span><span class="amount">$${formatMoney(getTip())}</span></div>`;
     html+=`<div class="line total"><span class="desc">total</span><span class="amount">$${formatMoney(order.total_money.amount+getTip())}</span></div>`;
     document.querySelector("#cart .order").innerHTML=html;
+    if (!storeLocations[storeLocation].orderAhead) {
+        document.querySelector('#cart .payment .wegotyourorder').classList.remove('hidden');
+    }
+
     var paymentEl=document.querySelector("#cart .payment");
     paymentEl.classList.remove("hidden");
     initPaymentForm();
+    document.getElementById('sq-creditcard').innerHTML='i am here, ready to pick-up my order';
 }
 
 
@@ -1081,13 +1122,16 @@ function toggleCartDisplay() {
 
     var hidePickup=true;
 
-    cart.line_items.forEach((e) => {
-        var variation=catalog.byId[e.variation];
-        var item=catalog.byId[variation.item_variation_data.item_id];
-        if (hidePickup && !isFixedPickup(item)) {
-            hidePickup=false;
-        }
-    })
+    if (storeLocations[storeLocation].orderAhead) {
+        cart.line_items.forEach((e) => {
+            var variation=catalog.byId[e.variation];
+            var item=catalog.byId[variation.item_variation_data.item_id];
+            if (hidePickup && !isFixedPickup(item)) {
+                hidePickup=false;
+            }
+        })    
+    }
+
 
     if (hidePickup) {
         document.querySelector("#cart .pickup-time").classList.add("hidden");
@@ -1116,6 +1160,13 @@ function initCart() {
                 <input id="discount" data-id="" type="text" placeholder="discount code?" onkeyup="checkDiscount(this)">
                 <button onclick="submitOrder()">order</button>
             </div>
+            <div class="warning hidden toolate">
+            <p>* we are so sorry, but we don't accept orders anymore for today, we will keep all you configurations in your cart though so you can just easily check-out tomorrow.</p>
+            </div>
+            <div class="warning hidden tooearly">
+            <p>* we are not open yet, but we will keep your cart around, just reload the page once we are open and complete the checkout.</p> 
+            <p>we are excited to see you.</p>
+            </div>
             <div class="order hidden"></div>
             <div class="payment hidden">
                 <div class="tip"><select onchange="displayOrder(order)" id="tip">
@@ -1126,6 +1177,10 @@ function initCart() {
                     <option value="25">25%</option>
                 </select></div>
                 <div id="form-container">
+                    <div class="wegotyourorder warning hidden">
+                    <p>* we got your order. we will start working on it as soon as you are here.</p>
+                    <p>so feel free to enter all your credit card details, and click the button when you are here</p>
+                    </div>
                     <div id="sq-card-number"></div>
                     <div class="third" id="sq-expiration-date"></div>
                     <div class="third" id="sq-cvv"></div>
@@ -1134,7 +1189,7 @@ function initCart() {
                     <button id="sq-apple-pay"></button>
                 </div>             
             </div>
-            <div class="thankyou hidden">
+            <div class="thankyou order-ahead hidden">
                 <h3>thank you SO much, we REALLY appreciate you &#9825;</h3>
                 <p>
                 <a id="receipt-link" target="_new" href="">show receipt</a>
@@ -1142,6 +1197,15 @@ function initCart() {
                 <p>
                 <a id="text-link" href="sms://+13852995418/">text us when you arrive!</a>
                 </p>
+            </div>
+            <div class="thankyou callyourname hidden">
+                <h3>thank you SO much, we REALLY appreciate you &#9825;</h3>
+                <p>
+                <a id="receipt-link" target="_new" href="">show receipt</a>
+                </p>
+                <h3>
+                we will call your name in as soon as your order is ready
+                </h3>
             </div>
         </div>`;
 
