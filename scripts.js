@@ -238,14 +238,18 @@ function fixSmsUrls() {
 function setLocation() {
     if (window.location.pathname.indexOf('/lab.')==0) {
         storeLocation='lab';
-        let root = document.documentElement;
-        root.style.setProperty('--text-color', 'white');
-        root.style.setProperty('--background-color', '#39559e');
-        root.style.setProperty('--background-highlight-color', '#29458e');
-        root.style.setProperty('--warning-color', '#651313');    
     } else {
         storeLocation='store';
     }
+    
+    var cssVars=storeLocations[storeLocation].cssVars;
+    if (cssVars) {
+        let root = document.documentElement;
+        cssVars.forEach((e) => {
+            root.style.setProperty(e.name, e.value);
+        })
+    }
+
 }
 
 function setCookie(cname, cvalue, exdays) {
@@ -836,7 +840,12 @@ storeLocations={
             closing: [22,22,22,22,22,22,22],
             lastOrderFromClose: 10,
             prepTime: 10
-        }
+        },
+        cssVars: [
+            { name: '--text-color', value: '#fc00fc' },
+            { name: '--background-color', value: '#e1ffff' },
+            { name: '--background-highlight-color', value: 'white' },
+        ]    
     }
 }
 
