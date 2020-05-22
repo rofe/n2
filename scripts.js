@@ -1204,7 +1204,7 @@ function initCart() {
                 <a id="receipt-link" target="_new" href="">show receipt</a>
                 </p>
                 <h3>
-                we will call your name in as soon as your order is ready
+                we will call your name as soon as your order is ready
                 </h3>
             </div>
         </div>`;
