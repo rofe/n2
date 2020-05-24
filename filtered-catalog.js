@@ -2707,46 +2707,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "BIDUAEHUTIPKNKDNXUNAXGCW",
-  "type": "ITEM",
-  "item_data": {
-   "name": "cold brew coffee",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
-    },
-    {
-     "modifier_list_id": "IK4DNCZY5UIQOQ2OTZQUSVSR"
-    },
-    {
-     "modifier_list_id": "GMLBLMQXTTDEI7P3CGPL2VHC"
-    }
-   ],
-   "variations": [
-    {
-     "id": "XTUDQ5UIB3EDTAWG5S7SY2GG",
-     "item_variation_data": {
-      "item_id": "BIDUAEHUTIPKNKDNXUNAXGCW",
-      "name": "regular",
-      "price_money": {
-       "amount": 400
-      }
-     }
-    },
-    {
-     "id": "KGITTM6AJ6A6BW6JLNZEJIGX",
-     "item_variation_data": {
-      "item_id": "BIDUAEHUTIPKNKDNXUNAXGCW",
-      "name": "coconut",
-      "price_money": {
-       "amount": 400
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "GEP5AQODEKJACXUKVH5X75FG",
   "type": "ITEM",
   "item_data": {
@@ -3033,16 +2993,10 @@ var catalog_raw=[
   "id": "5PIEM4Q2FWQKEY4JQA4IFG2G",
   "type": "ITEM",
   "item_data": {
-   "name": "root beer",
+   "name": "root beer float",
    "modifier_list_info": [
     {
      "modifier_list_id": "GMLBLMQXTTDEI7P3CGPL2VHC"
-    },
-    {
-     "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
-    },
-    {
-     "modifier_list_id": "IK4DNCZY5UIQOQ2OTZQUSVSR"
     }
    ],
    "variations": [
@@ -3050,9 +3004,19 @@ var catalog_raw=[
      "id": "PFEUQWCHDIPLLVUVIIRZADPR",
      "item_variation_data": {
       "item_id": "5PIEM4Q2FWQKEY4JQA4IFG2G",
-      "name": "Regular",
+      "name": "12 oz",
       "price_money": {
        "amount": 200
+      }
+     }
+    },
+    {
+     "id": "5AOOTW24FUX3PAJITQXGSUAZ",
+     "item_variation_data": {
+      "item_id": "5PIEM4Q2FWQKEY4JQA4IFG2G",
+      "name": "16 oz",
+      "price_money": {
+       "amount": 300
       }
      }
     }
