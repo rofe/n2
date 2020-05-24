@@ -7512,7 +7512,19 @@ var catalog_raw=[
   "id": "TVYWNPVN5GEFAWAWOQDGYYUV",
   "type": "ITEM",
   "item_data": {
-   "name": "beltex pint"
+   "name": "beltex pint",
+   "variations": [
+    {
+     "id": "FM6XKJHCMOSVDSKTOID7TL3P",
+     "item_variation_data": {
+      "item_id": "TVYWNPVN5GEFAWAWOQDGYYUV",
+      "name": "regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
   }
  },
  {
@@ -7527,7 +7539,7 @@ var catalog_raw=[
       "item_id": "ZNSFQW2NYHQOR4RGWB5EADXK",
       "name": "Regular",
       "price_money": {
-       "amount": 900
+       "amount": 1000
       }
      }
     }
