@@ -2292,8 +2292,7 @@ var catalog_raw=[
      }
     }
    ]
-  },
-  "image_id": "FAYRWA6LEPGN6KV2NYBXDCDW"
+  }
  },
  {
   "id": "VPXU6536DTFIZXM3RNJRXVQ3",
@@ -3675,7 +3674,19 @@ var catalog_raw=[
   "id": "7PQQNK5MNEVGK32U5QP7P6SE",
   "type": "ITEM",
   "item_data": {
-   "name": "whiskey + honey ice cream"
+   "name": "whiskey + honey ice cream",
+   "variations": [
+    {
+     "id": "MSKQAKSJUD4W3ZRCMXUBA3NY",
+     "item_variation_data": {
+      "item_id": "7PQQNK5MNEVGK32U5QP7P6SE",
+      "name": "Regular",
+      "price_money": {
+       "amount": 2400
+      }
+     }
+    }
+   ]
   }
  },
  {
@@ -6405,13 +6416,6 @@ var catalog_raw=[
   "image_id": "WQEJFP5OHCHR3NCUI7LWL6YZ"
  },
  {
-  "id": "KY2AMJZKG5QKEASZRFRWLRAX",
-  "type": "IMAGE",
-  "image_data": {
-   "url": "https://square-production.s3.amazonaws.com/files/5c6a8d8d2fdea62575f105978db80baadf502422/original.jpeg"
-  }
- },
- {
   "id": "A27FMLO6LCQUMRQLI3HU2HH3",
   "type": "ITEM",
   "item_data": {
@@ -6486,8 +6490,7 @@ var catalog_raw=[
      }
     }
    ]
-  },
-  "image_id": "KY2AMJZKG5QKEASZRFRWLRAX"
+  }
  },
  {
   "id": "WQEJFP5OHCHR3NCUI7LWL6YZ",
@@ -7548,13 +7551,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "FAYRWA6LEPGN6KV2NYBXDCDW",
-  "type": "IMAGE",
-  "image_data": {
-   "url": "https://square-production.s3.amazonaws.com/files/33f6e0abfc4b52f6b156308a810c5a28a27221aa/original.jpeg"
   }
  },
  {
