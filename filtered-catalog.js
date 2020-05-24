@@ -2344,25 +2344,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "3S2GHMTVZREGAGIPF3P23JQ4",
-  "type": "ITEM",
-  "item_data": {
-   "name": "cinnamon roll",
-   "variations": [
-    {
-     "id": "BVI5DY3QQ4OZWFIWIFGLWFD2",
-     "item_variation_data": {
-      "item_id": "3S2GHMTVZREGAGIPF3P23JQ4",
-      "name": "Regular",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "QLMWU5WBGEW4XW2APHJHPWU5",
   "type": "ITEM",
   "item_data": {
@@ -4102,7 +4083,7 @@ var catalog_raw=[
   "id": "MSTDZKMPVOKITPMHKFM2RR6U",
   "type": "ITEM",
   "item_data": {
-   "name": "Cooler Rental",
+   "name": "cooler rental",
    "variations": [
     {
      "id": "B2H3MW25RIHZ74WEZOH3ONQR",
@@ -5950,8 +5931,7 @@ var catalog_raw=[
      }
     }
    ]
-  },
-  "image_id": "3JCCEPUFUF2XY427HE45SA52"
+  }
  },
  {
   "id": "G7MYMIMDCVGWMAUCEVK4A4XA",
@@ -6040,8 +6020,7 @@ var catalog_raw=[
      }
     }
    ]
-  },
-  "image_id": "VI5PS4KCUEOBTRCUPTOMFWMV"
+  }
  },
  {
   "id": "BJ477UAFT44XPN5FDXKSH57Z",
@@ -6250,21 +6229,6 @@ var catalog_raw=[
      }
     }
    ]
-  },
-  "image_id": "T7DF24QMNAZ3EQWZS3DJCYOM"
- },
- {
-  "id": "T7DF24QMNAZ3EQWZS3DJCYOM",
-  "type": "IMAGE",
-  "image_data": {
-   "url": "https://square-production.s3.amazonaws.com/files/6b3be5713e1130894c0eb18036ffa368591db282/original.jpeg"
-  }
- },
- {
-  "id": "3JCCEPUFUF2XY427HE45SA52",
-  "type": "IMAGE",
-  "image_data": {
-   "url": "https://square-production.s3.amazonaws.com/files/6f0f9e628b4e8764b8f95fa27f9a31a89e78a156/original.jpeg"
   }
  },
  {
@@ -6272,13 +6236,6 @@ var catalog_raw=[
   "type": "IMAGE",
   "image_data": {
    "url": "https://square-production.s3.amazonaws.com/files/65f3ce8642d13a29eb27eec447b23719d4de0717/original.jpeg"
-  }
- },
- {
-  "id": "VI5PS4KCUEOBTRCUPTOMFWMV",
-  "type": "IMAGE",
-  "image_data": {
-   "url": "https://square-production.s3.amazonaws.com/files/836cc1ea67fa13e17de9140d4e8e88e62a773e39/original.jpeg"
   }
  },
  {
@@ -6336,8 +6293,7 @@ var catalog_raw=[
      }
     }
    ]
-  },
-  "image_id": "WQEJFP5OHCHR3NCUI7LWL6YZ"
+  }
  },
  {
   "id": "A27FMLO6LCQUMRQLI3HU2HH3",
@@ -6414,13 +6370,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "WQEJFP5OHCHR3NCUI7LWL6YZ",
-  "type": "IMAGE",
-  "image_data": {
-   "url": "https://square-production.s3.amazonaws.com/files/4f67335317da18f2ab0c65003bd767dc92a3d510/original.jpeg"
   }
  },
  {
@@ -6580,73 +6529,6 @@ var catalog_raw=[
    "price_money": {
     "amount": 300
    }
-  }
- },
- {
-  "id": "2NYBUBTAJJJMIW6P42VV3O7C",
-  "type": "ITEM",
-  "item_data": {
-   "name": "NORMAL® swag",
-   "variations": [
-    {
-     "id": "VN3RAXCT632CNNHFSQKRVLNE",
-     "item_variation_data": {
-      "item_id": "2NYBUBTAJJJMIW6P42VV3O7C",
-      "name": "ice cream cone enamel pin",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "JAU32B2WKMHGW4KF3EXL45QW",
-     "item_variation_data": {
-      "item_id": "2NYBUBTAJJJMIW6P42VV3O7C",
-      "name": "smiley logo enamel pin",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "CI4CM6VX2LUFD7GRZKYX5AVR",
-     "item_variation_data": {
-      "item_id": "2NYBUBTAJJJMIW6P42VV3O7C",
-      "name": "NORMAL® truck pin",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "L66PWDJ346NSVWHJAGJ7PIXQ",
-     "item_variation_data": {
-      "item_id": "2NYBUBTAJJJMIW6P42VV3O7C",
-      "name": "water witch x NORMAL® pin",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "325XYLYOAW3H4AYRNXVHO5MC",
-     "item_variation_data": {
-      "item_id": "2NYBUBTAJJJMIW6P42VV3O7C",
-      "name": "ice cream cone patch",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    }
-   ]
-  },
-  "image_id": "KA57PIC742IF7DUTYAQI2NRA"
- },
- {
-  "id": "KA57PIC742IF7DUTYAQI2NRA",
-  "type": "IMAGE",
-  "image_data": {
-   "url": "https://square-production.s3.amazonaws.com/files/ec17430cc9b49426a138b5008ed5990590bba0b2/original.jpeg"
   }
  },
  {
@@ -7007,25 +6889,6 @@ var catalog_raw=[
       "name": "the chocolate bomb",
       "price_money": {
        "amount": 900
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "E7SOF4FMZHHI5AS72RRZDEYA",
-  "type": "ITEM",
-  "item_data": {
-   "name": "pint club",
-   "variations": [
-    {
-     "id": "OZG3O5EOTA4GP3CIO4SXCCUK",
-     "item_variation_data": {
-      "item_id": "E7SOF4FMZHHI5AS72RRZDEYA",
-      "name": "Regular",
-      "price_money": {
-       "amount": 3600
       }
      }
     }
