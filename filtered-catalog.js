@@ -2295,82 +2295,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "VPXU6536DTFIZXM3RNJRXVQ3",
-  "type": "ITEM",
-  "item_data": {
-   "name": "ice cream cone pin",
-   "variations": [
-    {
-     "id": "PNEG6F7XOL37WS2FFJGEUW7O",
-     "item_variation_data": {
-      "item_id": "VPXU6536DTFIZXM3RNJRXVQ3",
-      "name": "Regular",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "SWAUD727J3FU47RNJIZTBK5M",
-  "type": "ITEM",
-  "item_data": {
-   "name": "smiley face pin",
-   "variations": [
-    {
-     "id": "6RQ7LGUW2P3TPKFAR7ZHD5AJ",
-     "item_variation_data": {
-      "item_id": "SWAUD727J3FU47RNJIZTBK5M",
-      "name": "Regular",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "HY246PQGG5T2WOGQSE5ENIGO",
-  "type": "ITEM",
-  "item_data": {
-   "name": "water witch pin",
-   "variations": [
-    {
-     "id": "CWT6N7BHCCRMQZZQITXZVXCI",
-     "item_variation_data": {
-      "item_id": "HY246PQGG5T2WOGQSE5ENIGO",
-      "name": "Regular",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "RQWYJQ6K6G2BN4KRL3RLROMH",
-  "type": "ITEM",
-  "item_data": {
-   "name": "truck pin",
-   "variations": [
-    {
-     "id": "ENVJDBIW3Z5JJ6BAQFROKVBQ",
-     "item_variation_data": {
-      "item_id": "RQWYJQ6K6G2BN4KRL3RLROMH",
-      "name": "Regular",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "6IKBVSZV2JOTUFVZNNQSANM4",
   "type": "ITEM",
   "item_data": {
@@ -7509,25 +7433,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "TVYWNPVN5GEFAWAWOQDGYYUV",
-  "type": "ITEM",
-  "item_data": {
-   "name": "beltex pint",
-   "variations": [
-    {
-     "id": "FM6XKJHCMOSVDSKTOID7TL3P",
-     "item_variation_data": {
-      "item_id": "TVYWNPVN5GEFAWAWOQDGYYUV",
-      "name": "regular",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "ZNSFQW2NYHQOR4RGWB5EADXK",
   "type": "ITEM",
   "item_data": {
@@ -8001,6 +7906,25 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
+  }
+ },
+ {
+  "id": "DHOH4HXXKH5PNGVLZKYRYCM2",
+  "type": "ITEM",
+  "item_data": {
+   "name": "beltex pint",
+   "variations": [
+    {
+     "id": "GNKYC6ROBSWBMQQE2DZMEDTS",
+     "item_variation_data": {
+      "item_id": "DHOH4HXXKH5PNGVLZKYRYCM2",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
   }
  }
 ]
