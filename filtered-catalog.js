@@ -7722,22 +7722,22 @@ var catalog_raw=[
    ],
    "variations": [
     {
+     "id": "6VCVAVGJ3QUOOIJQAPBQXQ6B",
+     "item_variation_data": {
+      "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
+      "name": "normal size",
+      "price_money": {
+       "amount": 400
+      }
+     }
+    },
+    {
      "id": "4UQDTZSNNB5F4L6R242D6JPP",
      "item_variation_data": {
       "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
       "name": "small size",
       "price_money": {
        "amount": 300
-      }
-     }
-    },
-    {
-     "id": "6VCVAVGJ3QUOOIJQAPBQXQ6B",
-     "item_variation_data": {
-      "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
-      "name": "regular size",
-      "price_money": {
-       "amount": 400
       }
      }
     }
