@@ -372,6 +372,10 @@ main>div:last-of-type {
 
 }
 
+code {
+    display: none;
+}
+
 .form {
     background-color:  var(--text-color);
     color: var(--background-highlight-color);

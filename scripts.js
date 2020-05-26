@@ -235,21 +235,22 @@ function fixSmsUrls() {
 
 }
 
+function setColors() {
+    let root = document.documentElement;
+    document.querySelectorAll('code').forEach(($code) => {
+        $code.innerText.split('\n').forEach((line)=>{
+            var splits=line.split(':');
+            if (splits[1]) root.style.setProperty(splits[0].trim(), splits[1].trim());
+        })    
+    })
+}
+
 function setLocation() {
     if (window.location.pathname.indexOf('/lab.')==0) {
         storeLocation='lab';
     } else {
         storeLocation='store';
     }
-    
-    var cssVars=storeLocations[storeLocation].cssVars;
-    if (cssVars) {
-        let root = document.documentElement;
-        cssVars.forEach((e) => {
-            root.style.setProperty(e.name, e.value);
-        })
-    }
-
 }
 
 function setCookie(cname, cvalue, exdays) {
@@ -859,12 +860,7 @@ storeLocations={
             closing: [22,22,22,22,22,22,22],
             lastOrderFromClose: 10,
             prepTime: 10
-        },
-        cssVars: [
-            { name: '--text-color', value: '#fc00fc' },
-            { name: '--background-color', value: '#e1ffff' },
-            { name: '--background-highlight-color', value: 'white' },
-        ]    
+        }    
     }
 }
 
@@ -1591,6 +1587,7 @@ general setup
 window.addEventListener('DOMContentLoaded', (event) => {
     //resizeImages();
     setLocation();
+    setColors();
     fixIcons();
     classify();
     //wrapMenus();
