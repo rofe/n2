@@ -408,10 +408,12 @@ function getConeBuilderHTML(item, callout) {
     let html='';
     html+=`<div class="close" onclick="hideConfig()"><svg class="icon icon-next"><use href="/icons.svg#close"></use></svg></div><div class="wrapper">`;
     html+=`<div id="cone-builder">
+            <div id="cb-vessel-back">
             <div id="cb-soft-serve">
             <div id="cb-dip">
             <div id="cb-topping">
-            <div id="cb-vessel">
+            <div id="cb-vessel-front">
+            </div>
             </div>
             </div>
             </div>
@@ -514,7 +516,7 @@ function configItem(item, callout) {
     document.body.classList.add("noscroll");
     var html='';
     var name=item.item_data.name;
-    if ((name == "lab cone") || (name == "soft serve")) {
+    if (name == "lab cone") {
         html=getConeBuilderHTML(item, callout);
         config.classList.add('cone-builder');
         config.innerHTML=html;
@@ -541,8 +543,10 @@ function showConfig() {
             }
             if (ml.includes('vessel')) {
                 let name=stripName(catalog.byId[id].modifier_data.name);
-                let bg=`url(/cone-builder/${name}.png)`;
-                document.getElementById('cb-vessel').style.backgroundImage=bg;
+                let bg=`url(/cone-builder/${name}-front.png)`;
+                document.getElementById('cb-vessel-front').style.backgroundImage=bg;
+                bg=`url(/cone-builder/${name}-back.png)`;
+                document.getElementById('cb-vessel-back').style.backgroundImage=bg;
             }
             if (ml.includes('dip')) {
                 let name=stripName(catalog.byId[id].modifier_data.name);
@@ -551,7 +555,22 @@ function showConfig() {
             }
             if (ml.includes('topping')) {
                 let name=stripName(catalog.byId[id].modifier_data.name);
+                
                 let bg=`url(/cone-builder/${name}-topping.png)`;
+
+                if (name.includes('cotton')) {        
+                    document.querySelectorAll('#config.cone-builder .cb-options .selected').forEach(($v) => {
+                        var vml=$v.parentNode.parentNode.getAttribute('data-name');
+                        if (vml.includes('vessel')) {
+                            let vname=stripName(catalog.byId[$v.getAttribute('data-id')].modifier_data.name);
+                            if (vname.includes('cup')) {
+                                bg=`url(/cone-builder/${name}-topping-cup.png)`;
+                        
+                            }    
+                        }
+                    })
+                }
+
                 document.getElementById('cb-topping').style.backgroundImage=bg;
             }
         });
@@ -836,7 +855,7 @@ storeLocations={
     lab: {
         endpoint: "https://script.google.com/macros/s/AKfycbyQ1tQesQanw1Dd13t0c7KLxBRwKTesCfbHJQdHMMvc02aWiLGZ/exec",
         locationId: "3HQZPV73H8BHM",
-        openingHours: { opening: [12,12,12,12,12,7,12],
+        openingHours: { opening: [12,12,7   ,12,12,12,12],
             closing: [22,22,22,22,22,22,22],
             lastOrderFromClose: 10,
             prepTime: 10
@@ -1187,8 +1206,8 @@ function initCart() {
                 </select></div>
                 <div id="form-container">
                     <div class="wegotyourorder warning hidden">
-                    <p>* we got your order. we will start working on it as soon as you are here.</p>
-                    <p>so feel free to enter all your credit card details, and click the button when you are here</p>
+                    <p>we are ready for you!</p>
+                    <p>please process payment once you have arrived and we’ll call your name when your order is ready</p>
                     </div>
                     <div id="sq-card-number"></div>
                     <div class="third" id="sq-expiration-date"></div>
@@ -1199,7 +1218,7 @@ function initCart() {
                 </div>             
             </div>
             <div class="thankyou order-ahead hidden">
-                <h3>thank you SO much, we REALLY appreciate you &#9825;</h3>
+                <h3 class="warning">thank you SO much, we REALLY appreciate you &#9825;</h3>
                 <p>
                 <a id="receipt-link" target="_new" href="">show receipt</a>
                 </p>
@@ -1208,13 +1227,10 @@ function initCart() {
                 </p>
             </div>
             <div class="thankyou callyourname hidden">
-                <h3>thank you SO much, we REALLY appreciate you &#9825;</h3>
+                <h3 class="warning">thank you SO much! We’ll call your name when your order is ready :)</h3>
                 <p>
                 <a id="receipt-link" target="_new" href="">show receipt</a>
                 </p>
-                <h3>
-                we will call your name as soon as your order is ready
-                </h3>
             </div>
         </div>`;
 
