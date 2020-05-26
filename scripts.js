@@ -298,7 +298,9 @@ function indexCatalog() {
         discounts: {}
 };
     catalog_raw.forEach((e) => {
-        catalog.byId[e.id]=e;
+        
+        if (!catalog.byId[e.id]) catalog.byId[e.id]=e;
+
         if (e.type=="ITEM") {
             catalog.items.push(e);
             if (e.item_data.variations) e.item_data.variations.forEach((v) => {
@@ -307,6 +309,8 @@ function indexCatalog() {
         }
         if (e.type=="MODIFIER_LIST") {
             if (e.modifier_list_data.modifiers) e.modifier_list_data.modifiers.forEach((m) => {
+                m.modifier_data.modifier_list_id=e.id;
+                console.log(m.modifier_data.modifier_list_id);
                 catalog.byId[m.id]=m;
             })
         }
@@ -352,6 +356,43 @@ function coneBuilderSelect($sel) {
     adjustScrolling($sel);
 }
 
+function createConeFromConfig(mods) {
+    var coneconfig={};
+    mods.forEach((m) => {
+        var mod=catalog.byId[m];
+        console.log(`${m}::${mod}::${mod.modifier_data.name}::${mod.modifier_data.modifier_list_id}`);
+        var mlname=catalog.byId[mod.modifier_data.modifier_list_id].modifier_list_data.name;
+        var modname=stripName(mod.modifier_data.name);
+        if (mlname.includes('vessel')) name='vessel';
+        if (mlname.includes('flavor')) name='flavor';
+        if (mlname.includes('dip')) name='dip';
+        if (mlname.includes('topping')) name='topping';
+        coneconfig[name]=modname;
+    });
+
+    const flavor=`url(/cone-builder/${coneconfig.flavor}-soft-serve.png)`;
+    const vesself=`url(/cone-builder/${coneconfig.vessel}-front.png)`;
+    const vesselb=`url(/cone-builder/${coneconfig.vessel}-back.png)`;
+    const dip=`url(/cone-builder/${coneconfig.dip}-dip.png)`;
+    let topping=`url(/cone-builder/${coneconfig.topping}-topping.png)`;
+    if (coneconfig.topping.includes('cotton') && coneconfig.vessel.includes('cup')) {
+        topping=`url(/cone-builder/${coneconfig.topping}-topping-cup.png)`;
+    }    
+
+    html=`<div style="background-image: ${vesselb}">
+        <div style="background-image: ${flavor}">
+        <div style="background-image: ${dip}">
+        <div style="background-image: ${topping}">
+        <div style="background-image: ${vesself}"">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>`;
+    
+    return html;
+
+}
 
 function coneBuilderFlow() {
     return ["variation", "vessel", "flavor", "dip", "topping"];
@@ -1291,8 +1332,15 @@ function updateCart() {
         var v=catalog.byId[li.variation];
         var i=catalog.byId[v.item_variation_data.item_id];
         var mods="";
+        var cone="";
+        if (i.item_data.name == 'lab cone') cone=createConeFromConfig(li.mods);
         li.mods.forEach((m, i) => mods+=", "+catalog.byId[m].modifier_data.name);
-        html+=`<div class="line item" data-id="${li.fp}"><div class="q"><span onclick="minus(this)" class="control">-</span> ${li.quantity} <span class="control" onclick="plus(this)">+</span></div><div class="desc">${i.item_data.name} : ${v.item_variation_data.name} ${mods}</div><div class="amount">$${formatMoney(li.quantity*li.price)}</div></div>`;
+        html+=`<div class="line item" data-id="${li.fp}">
+            <div class="q"><span onclick="minus(this)" class="control">-</span> ${li.quantity} <span class="control" onclick="plus(this)">+</span></div>
+            <div class="desc"><div class="cone">${cone}</div> 
+            ${i.item_data.name} : ${v.item_variation_data.name} ${mods}</div>
+            <div class="amount">$${formatMoney(li.quantity*li.price)}</div>
+            </div>`;
     })
     html+=`<div class="line total"><div class="q"></div><div class="desc">total</div><div>$${formatMoney(cart.totalAmount())}</div>`;
 
