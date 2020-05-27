@@ -356,18 +356,54 @@ function coneBuilderSelect($sel) {
     adjustScrolling($sel);
 }
 
+flyingCones=[];
+flyingConesCounter=0;
+
+function flyLabCone() {
+    var $a=document.querySelector('a.labcone');
+    var rot=flyingConesCounter%32*2*Math.PI/32;
+    flyingConesCounter++;
+
+    if ($a) {
+        var itemid=$a.getAttribute('data-id');
+        var mods=createRandomConfig(itemid);
+        var $div=document.createElement('div');
+        $div.classList.add('flying-cone');
+        $div.innerHTML=createConeFromConfig(mods);
+        $a.parentNode.appendChild($div);
+        $div.style.transform=`translate(${Math.sin(rot)*150}px,${Math.cos(rot)*150}px) rotate(${Math.PI-rot}rad)`;
+        flyingCones.push($div);
+        if (flyingCones.length>32) {
+            flyingCones[0].remove;
+            flyingCones.shift();
+        }
+    }
+    setTimeout(flyLabCone,100);
+}
+
+function createRandomConfig(itemid) {
+    var item=catalog.byId[itemid];
+    var config=[];
+    item.item_data.modifier_list_info.forEach((ml) => {
+        var mods=catalog.byId[ml.modifier_list_id].modifier_list_data.modifiers;
+        config.push(mods[Math.floor(Math.random()*mods.length)].id);
+    })
+    return (config);
+}
+
 function createConeFromConfig(mods) {
     var coneconfig={};
     mods.forEach((m) => {
         var mod=catalog.byId[m];
-        console.log(`${m}::${mod}::${mod.modifier_data.name}::${mod.modifier_data.modifier_list_id}`);
-        var mlname=catalog.byId[mod.modifier_data.modifier_list_id].modifier_list_data.name;
-        var modname=stripName(mod.modifier_data.name);
-        if (mlname.includes('vessel')) name='vessel';
-        if (mlname.includes('flavor')) name='flavor';
-        if (mlname.includes('dip')) name='dip';
-        if (mlname.includes('topping')) name='topping';
-        coneconfig[name]=modname;
+        if (mod.modifier_data) {
+            var mlname=catalog.byId[mod.modifier_data.modifier_list_id].modifier_list_data.name;
+            var modname=stripName(mod.modifier_data.name);
+            if (mlname.includes('vessel')) name='vessel';
+            if (mlname.includes('flavor')) name='flavor';
+            if (mlname.includes('dip')) name='dip';
+            if (mlname.includes('topping')) name='topping';
+            coneconfig[name]=modname;    
+        }
     });
 
     const flavor=`url(/cone-builder/${coneconfig.flavor}-soft-serve.png)`;
@@ -383,7 +419,7 @@ function createConeFromConfig(mods) {
         <div style="background-image: ${flavor}">
         <div style="background-image: ${dip}">
         <div style="background-image: ${topping}">
-        <div style="background-image: ${vesself}"">
+        <div style="background-image: ${vesself}">
         </div>
         </div>
         </div>
@@ -575,47 +611,11 @@ function configItem(item, callout) {
 function showConfig() {
     const cb=document.getElementById("cone-builder");
     if (cb) {
+        var mods=[];
         document.querySelectorAll('#config.cone-builder .cb-options .selected').forEach((e) => {
-            var ml=e.parentNode.parentNode.getAttribute('data-name');
-            var id=e.getAttribute('data-id');
-            if (ml.includes('flavor')) {
-                let name=stripName(catalog.byId[id].modifier_data.name);
-                let bg=`url(/cone-builder/${name}-soft-serve.png)`;
-                document.getElementById('cb-soft-serve').style.backgroundImage=bg;
-            }
-            if (ml.includes('vessel')) {
-                let name=stripName(catalog.byId[id].modifier_data.name);
-                let bg=`url(/cone-builder/${name}-front.png)`;
-                document.getElementById('cb-vessel-front').style.backgroundImage=bg;
-                bg=`url(/cone-builder/${name}-back.png)`;
-                document.getElementById('cb-vessel-back').style.backgroundImage=bg;
-            }
-            if (ml.includes('dip')) {
-                let name=stripName(catalog.byId[id].modifier_data.name);
-                let bg=`url(/cone-builder/${name}-dip.png)`;
-                document.getElementById('cb-dip').style.backgroundImage=bg;
-            }
-            if (ml.includes('topping')) {
-                let name=stripName(catalog.byId[id].modifier_data.name);
-                
-                let bg=`url(/cone-builder/${name}-topping.png)`;
-
-                if (name.includes('cotton')) {        
-                    document.querySelectorAll('#config.cone-builder .cb-options .selected').forEach(($v) => {
-                        var vml=$v.parentNode.parentNode.getAttribute('data-name');
-                        if (vml.includes('vessel')) {
-                            let vname=stripName(catalog.byId[$v.getAttribute('data-id')].modifier_data.name);
-                            if (vname.includes('cup')) {
-                                bg=`url(/cone-builder/${name}-topping-cup.png)`;
-                        
-                            }    
-                        }
-                    })
-                }
-
-                document.getElementById('cb-topping').style.backgroundImage=bg;
-            }
+            mods.push(e.getAttribute('data-id'));
         });
+        cb.innerHTML=createConeFromConfig(mods);
     }
 }
 
@@ -1488,6 +1488,9 @@ function makeShoppable() {
             $a.removeAttribute('href');
             $a.classList.add('item');
             $a.classList.add(stripName(catalog.byId[itemid].item_data.name));
+            if (catalog.byId[itemid].item_data.name == 'lab cone') {
+                flyLabCone();
+            }
         }
     })
 }

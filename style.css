@@ -100,7 +100,7 @@ main div.default {
     box-sizing: border-box;
 }
 
-main div:first-of-type {
+main>div:first-of-type {
     margin-top: 50px;
 }
 
@@ -252,6 +252,35 @@ main .fine ul {
 main>div {
     padding: 20px;
     text-align: center;
+}
+
+main a.labcone {
+    display: inline-block;
+    animation: heartbeat 2.5s ease-in-out infinite both;
+    color: var(--background-color);
+    background-color: var(--text-color);
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+main .flying-cone {
+    display: flex;
+    height: 200px;
+    width: 150px;
+    transition: all 2s;
+    position: absolute; 
+    animation: zoomfade 2.5s ease-in-out 1 forwards;
+    top: 0;
+    left: 30%;
+}
+
+main .flying-cone div {
+    display: flex;
+    flex: 1;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+
 }
 
 header div:first-of-type {
@@ -869,6 +898,46 @@ select:disabled:hover, select[aria-disabled=true] {
               transform: rotate(30deg);
     }
   }
+
+
+@keyframes zoomfade {
+    from {
+      opacity: 0;
+    }
+
+    10% {
+        opacity: 1;
+    }
+
+    100% {
+      opacity: 0;
+    }
+  }
+
+@keyframes heartbeat {
+    from {
+      transform: scale(1);
+      transform-origin: center center;
+      animation-timing-function: ease-out;
+    }
+    5% {
+      transform: scale(0.91);
+      animation-timing-function: ease-in;
+    }
+    9% {
+      transform: scale(0.98);
+      animation-timing-function: ease-out;
+    }
+    17% {
+      transform: scale(0.87);
+      animation-timing-function: ease-in;
+    }
+    25% {
+      transform: scale(1);
+      animation-timing-function: ease-out;
+    }
+  }
+    
   
 
 
