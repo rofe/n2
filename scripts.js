@@ -897,7 +897,7 @@ storeLocations={
     lab: {
         endpoint: "https://script.google.com/macros/s/AKfycbyQ1tQesQanw1Dd13t0c7KLxBRwKTesCfbHJQdHMMvc02aWiLGZ/exec",
         locationId: "3HQZPV73H8BHM",
-        openingHours: { opening: [12,12,7   ,12,12,12,12],
+        openingHours: { opening: [12,12,12,12,12,12,12],
             closing: [22,22,22,22,22,22,22],
             lastOrderFromClose: 10,
             prepTime: 10
@@ -1474,6 +1474,22 @@ function makeShoppable() {
             }            
         }
     });
+
+    // square links
+
+    const squareprefix='https://squareup.com/dashboard/items/library/';
+
+    document.querySelectorAll("main a").forEach(($a) => {
+        var href=$a.getAttribute('href');
+        if (href.indexOf(squareprefix)==0) {
+            var itemid=href.substr(squareprefix.length);
+            $a.setAttribute('data-id', itemid);
+            $a.setAttribute('onclick', 'addToCart(this)');
+            $a.removeAttribute('href');
+            $a.classList.add('item');
+            $a.classList.add(stripName(catalog.byId[itemid].item_data.name));
+        }
+    })
 }
 
 var cart={
