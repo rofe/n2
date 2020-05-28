@@ -487,6 +487,10 @@ code {
     flex-grow: 1;
     align-self: center;
 }
+#cart .line.total .desc {
+    text-align: right;
+    padding-right: 10px;
+}
 #cart .line .q {
     flex: 0 0 60px;
     align-self: center;
@@ -712,9 +716,12 @@ code {
     flex-wrap: nowrap;
     white-space: nowrap;
     color: var(--background-color);
-    transition: transform 0.4s ease;
     cursor: pointer;
     user-select: none;
+}
+
+#config.cone-builder .cb-selections .cb-selection .cb-options.smooth {
+    transition: transform 0.4s ease;
 }
 
 #config.cone-builder .selected {

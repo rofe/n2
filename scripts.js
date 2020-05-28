@@ -348,11 +348,18 @@ function isFixedPickup(item) {
     return false;
 }
 
-function adjustScrolling($sel) {
+function getScrollingOffset($sel) {
     var selpos = $sel.offsetLeft-$sel.parentNode.firstChild.offsetLeft;
     var selwidth = $sel.offsetWidth;
     var wrapperwidth=document.querySelector("#config.cone-builder .wrapper").offsetWidth;
-    $sel.parentNode.style=`transform: translateX(${-Math.round(selpos+(selwidth-wrapperwidth)/2)}px)`;
+    var newOffset=-Math.round(selpos+(selwidth-wrapperwidth)/2);
+    return newOffset;
+}
+
+function adjustScrolling($sel) {
+    var newOffset=getScrollingOffset($sel);
+    $sel.parentNode.style=`transform: translateX(${newOffset}px)`;
+    scrollOffsets[$sel.parentNode.parentNode.getAttribute('data-name')]=newOffset;
 }
 
 function coneBuilderSelect($sel) {
@@ -481,20 +488,10 @@ function getConeBuilderHTML(item, callout) {
     let html='';
     html+=`<div class="close" onclick="hideConfig()"><svg class="icon icon-next"><use href="/icons.svg#close"></use></svg></div><div class="wrapper">`;
     html+=`<div id="cone-builder">
-            <div id="cb-vessel-back">
-            <div id="cb-soft-serve">
-            <div id="cb-dip">
-            <div id="cb-topping">
-            <div id="cb-vessel-front">
-            </div>
-            </div>
-            </div>
-            </div>
-            </div>
         </div>`;
 
         html+=`<div class="cb-controls"><div class="cb-selections">`;
-        html+=`<div class="cb-selection visible" data-name="variation" value=""><h4>pick your size</h4><div class="cb-options">`;
+        html+=`<div class="cb-selection visible" data-name="variation" value=""><h4>pick your size</h4><div class="cb-options smooth">`;
         item.item_data.variations.forEach((v, i) => {
             var price=v.item_variation_data.price_money.amount;
             price=price?`<br><span class="price">($${formatMoney(price)})</span>`:'';
@@ -511,7 +508,7 @@ function getConeBuilderHTML(item, callout) {
                 if (name.includes('topping')) name='topping';
 
                 // html+=`<h3>${ml.modifier_list_data.name}</h3>`;
-                html+=`<div class="cb-selection hidden" data-name="${name}"><h4>pick your ${name}</h4><div class="cb-options">`;
+                html+=`<div class="cb-selection hidden" data-name="${name}"><h4>pick your ${name}</h4><div class="cb-options smooth">`;
                 ml.modifier_list_data.modifiers.forEach((mod, i) => {
                     var price=mod.modifier_data.price_money.amount;
                     price=price?`<br><span class="price">(+$${formatMoney(price)})</span>`:'';
@@ -583,6 +580,46 @@ function getConfigHTML(item, callout) {
     return html;
 }
 
+var touchStartX=0;
+var touchEndX=0;
+var touchSpeed=0;
+var scrollOffsets=[];
+
+function scrollSelection(ev) {
+    var $cbs=ev.target.parentNode.parentNode;
+    var $options=ev.target.parentNode;
+    
+    
+    if (ev.type == 'touchstart') {
+        touchStartX=ev.touches[0].screenX;
+        $options.classList.remove("smooth");
+    }
+    if (ev.type == 'touchmove') {
+        var delta=0;
+        delta=touchStartX-ev.touches[0].screenX;
+        touchSpeed=touchEndX-ev.touches[0].screenX;
+        touchEndX=ev.touches[0].screenX;
+        newOffset=scrollOffsets[$cbs.getAttribute('data-name')]-delta;
+        $options.style=`transform: translateX(${newOffset}px)`;
+        console.log(scrollOffsets[$cbs.getAttribute('data-name')]-delta);
+    }
+
+    if (ev.type == 'touchend') {
+        var delta=touchStartX-touchEndX;
+        $options.classList.add("smooth");
+        newOffset=scrollOffsets[$cbs.getAttribute('data-name')]-delta-touchSpeed*10;
+        var left=getScrollingOffset($options.firstChild);
+        var right=getScrollingOffset($options.lastChild);
+
+        if (newOffset > left) newOffset=left;
+        if (newOffset < right) newOffset=right;
+
+
+        $options.style=`transform: translateX(${newOffset}px)`;
+        scrollOffsets[$cbs.getAttribute('data-name')]=newOffset;
+    }
+}
+
 function configItem(item, callout) {
     var config=document.getElementById("config");
     config.classList.remove("hidden");
@@ -593,6 +630,12 @@ function configItem(item, callout) {
         html=getConeBuilderHTML(item, callout);
         config.classList.add('cone-builder');
         config.innerHTML=html;
+        document.querySelectorAll('#config .cb-selection').forEach(($cbs) => {
+            $cbs.addEventListener('touchstart', scrollSelection, true);
+            $cbs.addEventListener('touchmove', scrollSelection, true);
+            $cbs.addEventListener('touchcancel', scrollSelection, true);
+            $cbs.addEventListener('touchend', scrollSelection, true);
+        });
         showConfig();
         adjustScrolling(document.querySelector('#config.cone-builder .cb-options .selected'));
     } else {
