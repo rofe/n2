@@ -915,16 +915,16 @@ function checkDiscount(e) {
 
 async function checkCart() {
 
+    var nomore=[];
     console.log("checking cart");
     var menuurl='/index.plain.html';
     if (storeLocation=='lab') {
-        menuurl='/lab.plain.html';
+        return (nomore);
     }
     var resp = await fetch(menuurl);
     var html = await resp.text(); 
    
     //console.log(html);
-    var nomore=[];
     $cartCheck=document.createElement('div');
     $cartCheck.id = "cart-check";
     $cartCheck.innerHTML = html;
