@@ -303,7 +303,7 @@ header>ul>li {
     font-size: 1.2em;
 }
 
-header a:any-link {
+header ul a:any-link {
     color: var(--background-color);
 }
 
