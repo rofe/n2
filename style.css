@@ -56,7 +56,7 @@ main h2 {
     margin-bottom: 5px;
 }
 
-main .current, main .normal {
+main .current, main .normal, .build {
     background-color: var(--background-highlight-color);
 }
 
@@ -281,19 +281,43 @@ main #labconepreview div {
 
 }
 
-header div:first-of-type {
-    display: flex;
+header {
+    display: grid;
     width: 100%;
-    justify-content: space-between;
+    grid-template-columns: 80px 1fr 80px;
+    background-color: var(--background-highlight-color);
+}
+
+
+header>ul {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+}
+
+header>ul>li {
+    list-style: none;
+    padding: 10px;
+    transition: all 1s;
+    font-size: 1.2em;
+}
+
+header a:any-link {
+    color: var(--background-color);
+}
+
+header .selected a:any-link {
+    color: var(--text-color);
 }
 
 header svg {
-    margin: 20px;
+    margin: 0 20px;
 }
 
 header svg.icon-normal {
-    height: 65px;
-    width: 65px;
+    height: 45px;
+    width: 45px;
 
 }
 

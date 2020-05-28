@@ -142,8 +142,14 @@ function fixIcons() {
     document.querySelectorAll("use").forEach ((e) => {
         var a=e.getAttribute("href");
         var name=a.split("/")[2].split(".")[0];
-
-        e.setAttribute("href", `/icons.svg#${name}`);
+        if (name == 'lab-cone') {
+            var $div=document.createElement('div');
+            $div.id='labconepreview';
+            e.parentNode.parentNode.replaceChild($div, e.parentNode);
+            setTimeout(randomizeLabCone, 1000);
+        } else {
+            e.setAttribute("href", `/icons.svg#${name}`);
+        }
     });
 }
 
@@ -248,8 +254,10 @@ function setColors() {
 function setLocation() {
     if (window.location.pathname.indexOf('/lab.')==0) {
         storeLocation='lab';
+        document.querySelector('header>ul>li:nth-of-type(2)').classList.add('selected')
     } else {
         storeLocation='store';
+        document.querySelector('header>ul>li:nth-of-type(1)').classList.add('selected')
     }
 }
 
@@ -1475,12 +1483,6 @@ function makeShoppable() {
             $a.removeAttribute('href');
             $a.classList.add('item');
             $a.classList.add(stripName(catalog.byId[itemid].item_data.name));
-            if (catalog.byId[itemid].item_data.name == 'lab cone') {
-                var $div=document.createElement('div');
-                $div.id='labconepreview';
-                $a.parentNode.appendChild($div);
-                randomizeLabCone();
-            }
         }
     })
 }
