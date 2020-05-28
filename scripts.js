@@ -588,7 +588,7 @@ var scrollOffsets=[];
 function scrollSelection(ev) {
     var $cbs=ev.target.parentNode.parentNode;
     var $options=ev.target.parentNode;
-    
+
     
     if (ev.type == 'touchstart') {
         touchStartX=ev.touches[0].screenX;
@@ -601,7 +601,7 @@ function scrollSelection(ev) {
         touchEndX=ev.touches[0].screenX;
         newOffset=scrollOffsets[$cbs.getAttribute('data-name')]-delta;
         $options.style=`transform: translateX(${newOffset}px)`;
-        console.log(scrollOffsets[$cbs.getAttribute('data-name')]-delta);
+        ev.preventDefault();
     }
 
     if (ev.type == 'touchend') {
