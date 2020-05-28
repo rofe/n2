@@ -1328,11 +1328,11 @@ function updateCart() {
         var i=catalog.byId[v.item_variation_data.item_id];
         var mods="";
         var cone="";
-        if (i.item_data.name == 'lab cone') cone=createConeFromConfig(li.mods);
+        if (i.item_data.name == 'lab cone') cone=`<div class="cone">${createConeFromConfig(li.mods)}</div>`;
         li.mods.forEach((m, i) => mods+=", "+catalog.byId[m].modifier_data.name);
         html+=`<div class="line item" data-id="${li.fp}">
             <div class="q"><span onclick="minus(this)" class="control">-</span> ${li.quantity} <span class="control" onclick="plus(this)">+</span></div>
-            <div class="desc"><div class="cone">${cone}</div> 
+            <div class="desc">${cone} 
             ${i.item_data.name} : ${v.item_variation_data.name} ${mods}</div>
             <div class="amount">$${formatMoney(li.quantity*li.price)}</div>
             </div>`;
