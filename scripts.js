@@ -252,7 +252,7 @@ function setColors() {
 }
 
 function setLocation() {
-    if (window.location.pathname.indexOf('/lab.')==0) {
+    if (window.location.pathname.indexOf('/lab')==0) {
         storeLocation='lab';
         document.querySelector('header>ul>li:nth-of-type(2)').classList.add('selected')
     } else {
