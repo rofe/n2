@@ -256,25 +256,23 @@ main>div {
 
 main a.labcone {
     display: inline-block;
-    animation: heartbeat 2.5s ease-in-out infinite both;
+    animation: heartbeat 2.5s ease-in-out 1s infinite both;
     color: var(--background-color);
     background-color: var(--text-color);
     padding: 10px 20px;
     border-radius: 30px;
 }
 
-main .flying-cone {
+main #labconepreview {
     display: flex;
     height: 200px;
     width: 150px;
     transition: all 2s;
-    position: absolute; 
-    animation: zoomfade 2.5s ease-in-out 1 forwards;
-    top: 0;
-    left: 30%;
+    margin: auto;
+    animation: heartbeat 2.5s ease-in-out infinite both;
 }
 
-main .flying-cone div {
+main #labconepreview div {
     display: flex;
     flex: 1;
     background-size: cover;

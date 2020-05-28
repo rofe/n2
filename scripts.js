@@ -356,29 +356,16 @@ function coneBuilderSelect($sel) {
     adjustScrolling($sel);
 }
 
-flyingCones=[];
-flyingConesCounter=0;
 
-function flyLabCone() {
-    var $a=document.querySelector('a.labcone');
-    var rot=flyingConesCounter%32*2*Math.PI/32;
-    flyingConesCounter++;
-
-    if ($a) {
+function randomizeLabCone() {
+    var $labcone=document.getElementById('labconepreview');
+    if ($labcone) {
+        var $a=document.querySelector('a.labcone');
         var itemid=$a.getAttribute('data-id');
         var mods=createRandomConfig(itemid);
-        var $div=document.createElement('div');
-        $div.classList.add('flying-cone');
-        $div.innerHTML=createConeFromConfig(mods);
-        $a.parentNode.appendChild($div);
-        $div.style.transform=`translate(${Math.sin(rot)*150}px,${Math.cos(rot)*150}px) rotate(${Math.PI-rot}rad)`;
-        flyingCones.push($div);
-        if (flyingCones.length>32) {
-            flyingCones[0].remove;
-            flyingCones.shift();
-        }
+        $labcone.innerHTML=createConeFromConfig(mods);
     }
-    setTimeout(flyLabCone,100);
+    setTimeout(randomizeLabCone,300);
 }
 
 function createRandomConfig(itemid) {
@@ -1489,7 +1476,10 @@ function makeShoppable() {
             $a.classList.add('item');
             $a.classList.add(stripName(catalog.byId[itemid].item_data.name));
             if (catalog.byId[itemid].item_data.name == 'lab cone') {
-                flyLabCone();
+                var $div=document.createElement('div');
+                $div.id='labconepreview';
+                $a.parentNode.appendChild($div);
+                randomizeLabCone();
             }
         }
     })
