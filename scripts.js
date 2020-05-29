@@ -697,7 +697,7 @@ function setPickupTimes () {
     if (today == date && (now.getTime()>openingTime)) {
         startTime=new Date(now.getTime()+(conf.prepTime*60000));
         time=new Date(startTime.getTime()+(10*60000-startTime.getTime()%(10*60000)));
-        timeSelect.innerHTML=`<option value="now">i am here now! ready to eat.</option>`;
+        timeSelect.innerHTML="";
     } else {
         var openingTime=new Date(date);
         openingTime.setHours(conf.opening[openingTime.getDay()]);
