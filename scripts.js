@@ -972,7 +972,7 @@ async function checkCart() {
     $cartCheck.id = "cart-check";
     $cartCheck.innerHTML = html;
 
-    $menu=$cartCheck.querySelector("#current-menu").parentNode;
+    $menu=$cartCheck.querySelector("#store-menu").parentNode;
 
     cart.line_items.forEach((e) => {
         var variation=catalog.byId[e.variation];
