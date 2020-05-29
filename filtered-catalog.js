@@ -2625,7 +2625,7 @@ var catalog_raw=[
   "id": "5PIEM4Q2FWQKEY4JQA4IFG2G",
   "type": "ITEM",
   "item_data": {
-   "name": "root beer float",
+   "name": "normal root beer float",
    "modifier_list_info": [
     {
      "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
