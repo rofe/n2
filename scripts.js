@@ -388,7 +388,12 @@ function createRandomConfig(itemid) {
     var config=[];
     item.item_data.modifier_list_info.forEach((ml) => {
         var mods=catalog.byId[ml.modifier_list_id].modifier_list_data.modifiers;
-        config.push(mods[Math.floor(Math.random()*mods.length)].id);
+        var mlname=catalog.byId[ml.modifier_list_id].modifier_list_data.name;
+        if (mlname.includes('vessel')) {
+            config.push(mods[0].id);
+        } else {
+            config.push(mods[Math.floor(Math.random()*mods.length)].id);
+        }
     })
     return (config);
 }
@@ -486,7 +491,7 @@ function coneBuilderNext() {
 
 function getConeBuilderHTML(item, callout) {
     let html='';
-    html+=`<div class="close" onclick="hideConfig()"><svg class="icon icon-next"><use href="/icons.svg#close"></use></svg></div><div class="wrapper">`;
+    html+=`<div class="close" onclick="hideConfig()"><svg class="icon icon-close"><use href="/icons.svg#close"></use></svg></div><div class="wrapper">`;
     html+=`<div id="cone-builder">
         </div>`;
 
@@ -512,7 +517,8 @@ function getConeBuilderHTML(item, callout) {
                 ml.modifier_list_data.modifiers.forEach((mod, i) => {
                     var price=mod.modifier_data.price_money.amount;
                     price=price?`<br><span class="price">(+$${formatMoney(price)})</span>`:'';
-                    html+=`<span onclick="coneBuilderSelect(this)" data-id="${mod.id}" class="${i?"":"selected"}">${mod.modifier_data.name}${price}</span>`;
+                    var modname=mod.modifier_data.name.replace('(v)','<svg><use href="/icons.svg#v"></use></svg>');
+                    html+=`<span onclick="coneBuilderSelect(this)" data-id="${mod.id}" class="${i?"":"selected"}">${modname}${price}</span>`;
                 })
             html+=`</div></div>`;
             });    
@@ -719,21 +725,27 @@ function setPickupTimes () {
 
 function displayThanks(payment){
     var cartEl=document.getElementById("cart");
+    var $receipt;
+
     cartEl.querySelector(".payment").classList.add("hidden");
     if (storeLocations[storeLocation].orderAhead) {
-        cartEl.querySelector(".thankyou.order-ahead").classList.remove("hidden");
+        var $thankyou=cartEl.querySelector(".thankyou.order-ahead");
+        $thankyou.classList.remove("hidden");
+        $receipt=$thankyou.querySelector('.receipt-link');
     } else {
-        cartEl.querySelector(".thankyou.callyourname").classList.remove("hidden");
+        var $thankyou=cartEl.querySelector(".thankyou.callyourname");
+        $thankyou.classList.remove("hidden");
+        $receipt=$thankyou.querySelector('.receipt-link');
     }
 
-    var receiptElem=document.getElementById("receipt-link");
+    var $receiptElem=document.getElementById("receipt-link");
     var receiptLink="/receipt"
 
     if (payment) {
             receiptLink=payment.receipt_url;
     }
 
-    receiptElem.setAttribute("href", receiptLink);
+    $receipt.setAttribute("href", receiptLink);
 
     var textElem=document.getElementById("text-link");
     var msg=`hi normal, this is ${order.fulfillments[0].pickup_details.recipient.display_name}, picking up my order in a (describe car)`;
@@ -1258,13 +1270,13 @@ function initCart() {
                     <nobr>
                         <select id="pickup-date" onchange="setPickupTimes()"></select><select id="pickup-time"></select>
                     </nobr>
-                    <div class="warning hidden">* we are so sorry, but we don't accept orders anymore for today, but of course you can order normal for later.</div>
+                    <div class="warning hidden">i’m so sorry! we are not accepting orders after hours, but of course you can order normal&reg; for tomorrow... or the next day</div>
                 </div>
                 <input id="discount" data-id="" type="text" placeholder="discount code?" onkeyup="checkDiscount(this)">
                 <button onclick="submitOrder()">order</button>
             </div>
             <div class="warning hidden toolate">
-            <p>* we are so sorry, but we don't accept orders anymore for today, we will keep all your ice-cream in your cart, so you can just easily check-out tomorrow.</p>
+            <p>i’m so sorry! we are not accepting orders after hours, we'll keep our cones in your cart though :) hope to see you tomorrow!</p>
             </div>
             <div class="warning hidden tooearly">
             <p>* we are not open yet, but we will keep your cart around, just reload the page once we are open and complete the checkout.</p> 
@@ -1293,18 +1305,18 @@ function initCart() {
                 </div>             
             </div>
             <div class="thankyou order-ahead hidden">
-                <h3 class="warning">thank you SO much, we REALLY appreciate you &#9825;</h3>
+                <h3 class="warning">thank you SO much, text us when you arrive at our STORE and ready for pick up</h3>
                 <p>
-                <a id="receipt-link" target="_new" href="">show receipt</a>
+                <a id="text-link" href="sms://+13852995418/">(395)299-5418</a>
                 </p>
                 <p>
-                <a id="text-link" href="sms://+13852995418/">text us when you arrive!</a>
+                <a class="receipt-link" target="_new" href="">show receipt</a>
                 </p>
             </div>
             <div class="thankyou callyourname hidden">
                 <h3 class="warning">thank you SO much! We’ll call your name when your order is ready :)</h3>
                 <p>
-                <a id="receipt-link" target="_new" href="">show receipt</a>
+                <a class="receipt-link" target="_new" href="">show receipt</a>
                 </p>
             </div>
         </div>`;
