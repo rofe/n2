@@ -90,7 +90,7 @@ general purpose helix pages / display scripts
 
 function classify() {
     document.querySelectorAll("main h1").forEach((e) => {
-        var label=e.textContent.split(" ")[0].toLowerCase();
+        var label=stripName(e.textContent);
         e.parentElement.classList.add(label);
     })
     document.querySelectorAll("div.image").forEach((e, i) => {
@@ -1447,7 +1447,7 @@ function variationByName(item, name) {
 function makeShoppable() {
     initCart();
     indexCatalog();
-    var itemElems=document.querySelectorAll("div.current > *");
+    var itemElems=document.querySelectorAll("div.storemenu > *");
     var currentItem={};
     
     var div=document.createElement("div");

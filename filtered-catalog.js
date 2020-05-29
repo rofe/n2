@@ -494,33 +494,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "4OVAXCOIEXEK66PZ4C6E34SU",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "make it lab style",
-   "modifiers": [
-    {
-     "id": "NOZG4LFRLZWVSAY6NKT3GII4",
-     "modifier_data": {
-      "name": "lab style",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "NOZG4LFRLZWVSAY6NKT3GII4",
-  "modifier_data": {
-   "name": "lab style",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "MR66BS3WFKZZ5QH4VRLZMNKC",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
@@ -596,204 +569,6 @@ var catalog_raw=[
   "id": "URNBDPQWXHBN66P23QJG4OBV",
   "modifier_data": {
    "name": "taiyaki",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "GMLBLMQXTTDEI7P3CGPL2VHC",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "+ soft serve store",
-   "modifiers": [
-    {
-     "id": "2SAWFEYNGKATTGQLZOCOG3WB",
-     "modifier_data": {
-      "name": "vanilla",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "VNCIM424JSVP45P3AL7MNYGW",
-     "modifier_data": {
-      "name": "milk chocolate",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "B7UVONLHYFGIKDE6CVNHEHMX",
-     "modifier_data": {
-      "name": "greek yogurt",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "3TT2QHNHIAGKKNZ6B7XSZEWX",
-     "modifier_data": {
-      "name": "coffee + irish cream",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "S2CTRZIH7UPSRVDJOFORWA4E",
-     "modifier_data": {
-      "name": "passionfruit (v)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "X7CFEVYIQOADMWHEIH7MO2N3",
-     "modifier_data": {
-      "name": "smoked caramel (v)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "2SAWFEYNGKATTGQLZOCOG3WB",
-  "modifier_data": {
-   "name": "vanilla",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "VNCIM424JSVP45P3AL7MNYGW",
-  "modifier_data": {
-   "name": "milk chocolate",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "B7UVONLHYFGIKDE6CVNHEHMX",
-  "modifier_data": {
-   "name": "greek yogurt",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "3TT2QHNHIAGKKNZ6B7XSZEWX",
-  "modifier_data": {
-   "name": "coffee + irish cream",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "S2CTRZIH7UPSRVDJOFORWA4E",
-  "modifier_data": {
-   "name": "passionfruit (v)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "X7CFEVYIQOADMWHEIH7MO2N3",
-  "modifier_data": {
-   "name": "smoked caramel (v)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "IK4DNCZY5UIQOQ2OTZQUSVSR",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "+ soft serve lab",
-   "modifiers": [
-    {
-     "id": "3E5VYV7Z3L2CTDKY7QRP7HBG",
-     "modifier_data": {
-      "name": "salt",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "5T4UY2RUF5GNJFL22EMKAK74",
-     "modifier_data": {
-      "name": "fruity pebble",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "WAURIMKAZIHOCJE6YCKAG74D",
-     "modifier_data": {
-      "name": "cocoa pebble (v)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "EQOLWW6D4MPYZ2AC7TDLBJR6",
-     "modifier_data": {
-      "name": "cinnamon toast",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "3E5VYV7Z3L2CTDKY7QRP7HBG",
-  "modifier_data": {
-   "name": "salt",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "5T4UY2RUF5GNJFL22EMKAK74",
-  "modifier_data": {
-   "name": "fruity pebble",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "WAURIMKAZIHOCJE6YCKAG74D",
-  "modifier_data": {
-   "name": "cocoa pebble (v)",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "EQOLWW6D4MPYZ2AC7TDLBJR6",
-  "modifier_data": {
-   "name": "cinnamon toast",
    "price_money": {
     "amount": 300
    }
@@ -1289,9 +1064,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "SA4VTU3B6BG67REI5ULSWM6W"
-    },
-    {
-     "modifier_list_id": "4OVAXCOIEXEK66PZ4C6E34SU"
     }
    ],
    "variations": [
@@ -1332,9 +1104,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "SA4VTU3B6BG67REI5ULSWM6W"
-    },
-    {
-     "modifier_list_id": "4OVAXCOIEXEK66PZ4C6E34SU"
     }
    ],
    "variations": [
@@ -1375,9 +1144,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "SA4VTU3B6BG67REI5ULSWM6W"
-    },
-    {
-     "modifier_list_id": "4OVAXCOIEXEK66PZ4C6E34SU"
     }
    ],
    "variations": [
@@ -1418,9 +1184,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "SA4VTU3B6BG67REI5ULSWM6W"
-    },
-    {
-     "modifier_list_id": "4OVAXCOIEXEK66PZ4C6E34SU"
     }
    ],
    "variations": [
@@ -2367,11 +2130,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "pup cup",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "IK4DNCZY5UIQOQ2OTZQUSVSR"
-    }
-   ],
    "variations": [
     {
      "id": "2UPTTZJKGF3HVJKA6I7BGPER",
@@ -2412,9 +2170,6 @@ var catalog_raw=[
    "name": "espresso",
    "modifier_list_info": [
     {
-     "modifier_list_id": "GMLBLMQXTTDEI7P3CGPL2VHC"
-    },
-    {
      "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
     },
     {
@@ -2444,9 +2199,6 @@ var catalog_raw=[
   "item_data": {
    "name": "americano",
    "modifier_list_info": [
-    {
-     "modifier_list_id": "GMLBLMQXTTDEI7P3CGPL2VHC"
-    },
     {
      "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
     },
@@ -2481,9 +2233,6 @@ var catalog_raw=[
      "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
     },
     {
-     "modifier_list_id": "GMLBLMQXTTDEI7P3CGPL2VHC"
-    },
-    {
      "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
     },
     {
@@ -2512,9 +2261,6 @@ var catalog_raw=[
    "modifier_list_info": [
     {
      "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
-    },
-    {
-     "modifier_list_id": "GMLBLMQXTTDEI7P3CGPL2VHC"
     },
     {
      "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
@@ -2620,9 +2366,6 @@ var catalog_raw=[
      "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
     },
     {
-     "modifier_list_id": "GMLBLMQXTTDEI7P3CGPL2VHC"
-    },
-    {
      "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
     },
     {
@@ -2719,9 +2462,6 @@ var catalog_raw=[
    "name": "drip coffee",
    "modifier_list_info": [
     {
-     "modifier_list_id": "GMLBLMQXTTDEI7P3CGPL2VHC"
-    },
-    {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
     },
     {
@@ -2759,9 +2499,6 @@ var catalog_raw=[
    "name": "hot chocolate",
    "modifier_list_info": [
     {
-     "modifier_list_id": "GMLBLMQXTTDEI7P3CGPL2VHC"
-    },
-    {
      "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
     },
     {
@@ -2791,9 +2528,6 @@ var catalog_raw=[
   "item_data": {
    "name": "latte",
    "modifier_list_info": [
-    {
-     "modifier_list_id": "GMLBLMQXTTDEI7P3CGPL2VHC"
-    },
     {
      "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
     },
@@ -2831,9 +2565,6 @@ var catalog_raw=[
      "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
     },
     {
-     "modifier_list_id": "GMLBLMQXTTDEI7P3CGPL2VHC"
-    },
-    {
      "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
     },
     {
@@ -2867,9 +2598,6 @@ var catalog_raw=[
      "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
     },
     {
-     "modifier_list_id": "GMLBLMQXTTDEI7P3CGPL2VHC"
-    },
-    {
      "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
     },
     {
@@ -2897,7 +2625,7 @@ var catalog_raw=[
   "id": "5PIEM4Q2FWQKEY4JQA4IFG2G",
   "type": "ITEM",
   "item_data": {
-   "name": "root beer float",
+   "name": "normal root beer float",
    "modifier_list_info": [
     {
      "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
@@ -3080,87 +2808,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "YB56URCOMB3TGA7ZIMDKPGWA",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "lab flavors",
-   "modifiers": [
-    {
-     "id": "VC5NDTDV6T676VATUJFXHOPW",
-     "modifier_data": {
-      "name": "apricot (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "ZHUTLC5ZH6I4NFGF6LV6PLBM",
-     "modifier_data": {
-      "name": "thai tea",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "66IE7CAE5I5BLFZNI6IHO3E3",
-     "modifier_data": {
-      "name": "earl grey",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "BZWTTZGJ6AO5J5UYFLNBFBMN",
-     "modifier_data": {
-      "name": "lavender + honey",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "VC5NDTDV6T676VATUJFXHOPW",
-  "modifier_data": {
-   "name": "apricot (v)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "ZHUTLC5ZH6I4NFGF6LV6PLBM",
-  "modifier_data": {
-   "name": "thai tea",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "66IE7CAE5I5BLFZNI6IHO3E3",
-  "modifier_data": {
-   "name": "earl grey",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "BZWTTZGJ6AO5J5UYFLNBFBMN",
-  "modifier_data": {
-   "name": "lavender + honey",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "RYNRMVD5XK4FLVZA3UB3QSZC",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
@@ -3270,13 +2917,7 @@ var catalog_raw=[
      "modifier_list_id": "EXX7SQAD5YC3XMG77RJUXJNV"
     },
     {
-     "modifier_list_id": "YB56URCOMB3TGA7ZIMDKPGWA"
-    },
-    {
      "modifier_list_id": "SA4VTU3B6BG67REI5ULSWM6W"
-    },
-    {
-     "modifier_list_id": "4OVAXCOIEXEK66PZ4C6E34SU"
     }
    ],
    "variations": [
@@ -3308,14 +2949,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "doughnut",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "GMLBLMQXTTDEI7P3CGPL2VHC"
-    },
-    {
-     "modifier_list_id": "IK4DNCZY5UIQOQ2OTZQUSVSR"
-    }
-   ],
    "variations": [
     {
      "id": "RKQMAK7PUYZSD3R6IMKNFPFS",
@@ -4396,9 +4029,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "SA4VTU3B6BG67REI5ULSWM6W"
-    },
-    {
-     "modifier_list_id": "4OVAXCOIEXEK66PZ4C6E34SU"
     }
    ],
    "variations": [
@@ -4439,9 +4069,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "SA4VTU3B6BG67REI5ULSWM6W"
-    },
-    {
-     "modifier_list_id": "4OVAXCOIEXEK66PZ4C6E34SU"
     }
    ],
    "variations": [
@@ -4482,9 +4109,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "SA4VTU3B6BG67REI5ULSWM6W"
-    },
-    {
-     "modifier_list_id": "4OVAXCOIEXEK66PZ4C6E34SU"
     }
    ],
    "variations": [
@@ -4525,9 +4149,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "SA4VTU3B6BG67REI5ULSWM6W"
-    },
-    {
-     "modifier_list_id": "4OVAXCOIEXEK66PZ4C6E34SU"
     }
    ],
    "variations": [
@@ -5252,9 +4873,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "SA4VTU3B6BG67REI5ULSWM6W"
-    },
-    {
-     "modifier_list_id": "4OVAXCOIEXEK66PZ4C6E34SU"
     }
    ],
    "variations": [
@@ -5295,9 +4913,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "SA4VTU3B6BG67REI5ULSWM6W"
-    },
-    {
-     "modifier_list_id": "4OVAXCOIEXEK66PZ4C6E34SU"
     }
    ],
    "variations": [
@@ -5338,9 +4953,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "SA4VTU3B6BG67REI5ULSWM6W"
-    },
-    {
-     "modifier_list_id": "4OVAXCOIEXEK66PZ4C6E34SU"
     }
    ],
    "variations": [
@@ -5381,9 +4993,6 @@ var catalog_raw=[
     },
     {
      "modifier_list_id": "SA4VTU3B6BG67REI5ULSWM6W"
-    },
-    {
-     "modifier_list_id": "4OVAXCOIEXEK66PZ4C6E34SU"
     }
    ],
    "variations": [
@@ -6032,7 +5641,7 @@ var catalog_raw=[
      "id": "5KV7PC2YOEEMOPZOCSZVXTEL",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "apple cider ice cream",
+      "name": "apple cider sorbet (v)",
       "price_money": {
        "amount": 1000
       }
@@ -6493,6 +6102,15 @@ var catalog_raw=[
    "name": "add soft serve",
    "modifiers": [
     {
+     "id": "DAU35H5KFM55Z6QFODCQIDBK",
+     "modifier_data": {
+      "name": "no soft serve",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "R42VX2AH6AO4PXF62VJHIZPN",
      "modifier_data": {
       "name": "blood orange sorbet (v)",
@@ -6901,6 +6519,15 @@ var catalog_raw=[
   "modifier_list_data": {
    "name": "taco dip",
    "modifiers": [
+    {
+     "id": "EPUTNMXXPP467JTJRW7FOCVX",
+     "modifier_data": {
+      "name": "no dip",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
     {
      "id": "NRGI7KGRKOBOGDOGDENHAZBZ",
      "modifier_data": {
@@ -7788,6 +7415,24 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "DAU35H5KFM55Z6QFODCQIDBK",
+  "modifier_data": {
+   "name": "no soft serve",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "EPUTNMXXPP467JTJRW7FOCVX",
+  "modifier_data": {
+   "name": "no dip",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]

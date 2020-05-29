@@ -56,11 +56,11 @@ main h2 {
     margin-bottom: 5px;
 }
 
-main .current, main .normal, .build {
+main .storemenu, main .normalpintclub, .buildyourowncomposedcone {
     background-color: var(--background-highlight-color);
 }
 
-main .current h2 {
+main .storemenu h2 {
     border: currentColor 2px solid;
     padding: 7px 20px;
     display: inline-block;
@@ -721,7 +721,7 @@ code {
 }
 
 #config.cone-builder .cb-selections .cb-selection .cb-options.smooth {
-    transition: transform 0.4s ease;
+    transition: transform 0.4s ease-out;
 }
 
 #config.cone-builder .selected {
