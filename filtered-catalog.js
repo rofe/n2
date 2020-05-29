@@ -446,6 +446,15 @@ var catalog_raw=[
    "name": "dip",
    "modifiers": [
     {
+     "id": "RK6BJKAS3V753NS6YSDJV5PX",
+     "modifier_data": {
+      "name": "no dip",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "SUP72PEZSFGZ5UDS7CEIOPZ6",
      "modifier_data": {
       "name": "dulcey",
@@ -5988,6 +5997,15 @@ var catalog_raw=[
    "name": "cone",
    "modifiers": [
     {
+     "id": "JQP2HR4KUCHRGQG7WUIHDF2N",
+     "modifier_data": {
+      "name": "no cone",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "BFI7QOYM7VD3SZDZN3DDVETH",
      "modifier_data": {
       "name": "add cone on top",
@@ -7428,6 +7446,24 @@ var catalog_raw=[
  },
  {
   "id": "EPUTNMXXPP467JTJRW7FOCVX",
+  "modifier_data": {
+   "name": "no dip",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "JQP2HR4KUCHRGQG7WUIHDF2N",
+  "modifier_data": {
+   "name": "no cone",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "RK6BJKAS3V753NS6YSDJV5PX",
   "modifier_data": {
    "name": "no dip",
    "price_money": {
