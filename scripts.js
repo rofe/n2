@@ -738,7 +738,6 @@ function displayThanks(payment){
         $receipt=$thankyou.querySelector('.receipt-link');
     }
 
-    var $receiptElem=document.getElementById("receipt-link");
     var receiptLink="/receipt"
 
     if (payment) {
@@ -1177,7 +1176,7 @@ function displayOrder(o) {
     var paymentEl=document.querySelector("#cart .payment");
     paymentEl.classList.remove("hidden");
     initPaymentForm();
-    if (storelocation =='lab') document.getElementById('sq-creditcard').innerHTML='i am here, ready to pick-up my order';
+    if (storeLocation =='lab') document.getElementById('sq-creditcard').innerHTML='i am here, ready to pick-up my order';
 }
 
 
@@ -1187,7 +1186,6 @@ shopping cart (configs, variations, modifiers, price, quantity)
 --------- */
 
 function addConeToCart(e) {
-    hideConfig();
     var variation="";
     var mods=[];
     document.querySelectorAll(`#config.cone-builder .cb-options .selected`).forEach((e, i) => {
@@ -1197,6 +1195,9 @@ function addConeToCart(e) {
             if (e.getAttribute('data-id')) mods.push(e.getAttribute('data-id'));
         }
     })
+    
+    document.getElementById('cone-builder').classList.add('flyout');
+    hideConfig();
     cart.add(variation, mods)
     updateCart();
 }
@@ -1232,7 +1233,8 @@ function toggleCartDisplay() {
     cartEl.querySelector(".info").classList.remove("hidden");
     cartEl.querySelector(".order").classList.add("hidden");
     cartEl.querySelector(".payment").classList.add("hidden");
-    cartEl.querySelector(".thankyou").classList.add("hidden");
+    cartEl.querySelector(".thankyou.callyourname").classList.add("hidden");
+    cartEl.querySelector(".thankyou.order-ahead").classList.add("hidden");
     setPickupDates();
 
     var hidePickup=true;
@@ -1314,7 +1316,7 @@ function initCart() {
                 </p>
             </div>
             <div class="thankyou callyourname hidden">
-                <h3 class="warning">thank you SO much! We’ll call your name when your order is ready :)</h3>
+                <h3 class="warning">thank you SO much! we’ll call your name when your order is ready :)</h3>
                 <p>
                 <a class="receipt-link" target="_new" href="">show receipt</a>
                 </p>

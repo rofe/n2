@@ -684,7 +684,14 @@ code {
     margin: 20px;
     display: flex;
     flex: 1;
+    transition: all 0.5s;
 }
+
+#config.cone-builder #cone-builder.flyout {
+    transform: translateY(100%) translateX(100%) scale(0.2);
+    opacity: 0;
+}
+
 
 #config.cone-builder #cone-builder div {
     display: flex;
@@ -701,6 +708,8 @@ code {
     height: 80px;
     align-items: stretch;
     cursor: pointer;
+    padding-bottom: 20px;
+
 }
 
 #config.cone-builder .cb-buttons>div {
@@ -710,7 +719,7 @@ code {
 }
 
 #config.cone-builder .cb-controls {
-    height: 195px;
+    height: 215px;
     flex-grow: 0;
 }
 
@@ -824,6 +833,11 @@ select:disabled, select[aria-disabled=true] {
 
 select:disabled:hover, select[aria-disabled=true] {
 	border-color: var(--background-highlight-color);
+}
+
+#cart .ordering svg {
+    width: 100px;
+    height: 100px;
 }
 
 #signup .ordering svg {
