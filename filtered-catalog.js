@@ -5641,7 +5641,7 @@ var catalog_raw=[
      "id": "5KV7PC2YOEEMOPZOCSZVXTEL",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "apple sorbet (v)",
+      "name": "apple cider sorbet (v)",
       "price_money": {
        "amount": 1000
       }
