@@ -398,8 +398,9 @@ footer svg {
 main svg.icon-normal {
     height: 70px;
     width: 70px;
-    animation: rotate-center 1.5s ease-in-out infinite alternate both;
+    animation: pong 2s linear infinite alternate both;
     padding: 20px;
+    color: var(--smiley-color);
 }
 
 main div.image {
@@ -942,6 +943,32 @@ select:disabled:hover, select[aria-disabled=true] {
     }
     100% {
               transform: rotate(30deg);
+    }
+  }
+
+  @keyframes pong {
+    0% {
+        transform: translate(80%,-30px) rotate(0deg);
+        }
+
+    20% {
+        transform: translate(-80%,0px) rotate(90deg);
+    }
+
+    40% {
+        transform: translate(80%,60px) rotate(180deg);
+    }
+
+    60% {
+        transform: translate(-80%,120px) rotate(235deg);
+    }
+
+    80% {
+        transform: translate(80%,180px) rotate(290deg);
+    }
+
+    100% {
+        transform: translate(-80%,120px) rotate(360deg);
     }
   }
 
