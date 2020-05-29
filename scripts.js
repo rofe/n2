@@ -1165,7 +1165,7 @@ function displayOrder(o) {
     var paymentEl=document.querySelector("#cart .payment");
     paymentEl.classList.remove("hidden");
     initPaymentForm();
-    document.getElementById('sq-creditcard').innerHTML='i am here, ready to pick-up my order';
+    if (storelocation =='lab') document.getElementById('sq-creditcard').innerHTML='i am here, ready to pick-up my order';
 }
 
 
