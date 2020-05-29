@@ -90,7 +90,7 @@ general purpose helix pages / display scripts
 
 function classify() {
     document.querySelectorAll("main h1").forEach((e) => {
-        var label=e.textContent.split(" ")[0].toLowerCase();
+        var label=stripName(e.textContent);
         e.parentElement.classList.add(label);
     })
     document.querySelectorAll("div.image").forEach((e, i) => {
@@ -142,8 +142,14 @@ function fixIcons() {
     document.querySelectorAll("use").forEach ((e) => {
         var a=e.getAttribute("href");
         var name=a.split("/")[2].split(".")[0];
-
-        e.setAttribute("href", `/icons.svg#${name}`);
+        if (name == 'lab-cone') {
+            var $div=document.createElement('div');
+            $div.id='labconepreview';
+            e.parentNode.parentNode.replaceChild($div, e.parentNode);
+            setTimeout(randomizeLabCone, 1000);
+        } else {
+            e.setAttribute("href", `/icons.svg#${name}`);
+        }
     });
 }
 
@@ -235,6 +241,26 @@ function fixSmsUrls() {
 
 }
 
+function setColors() {
+    let root = document.documentElement;
+    document.querySelectorAll('code').forEach(($code) => {
+        $code.innerText.split('\n').forEach((line)=>{
+            var splits=line.split(':');
+            if (splits[1]) root.style.setProperty(splits[0].trim(), splits[1].trim());
+        })    
+    })
+}
+
+function setLocation() {
+    if (window.location.pathname.indexOf('/lab')==0) {
+        storeLocation='lab';
+        document.querySelector('header>ul>li:nth-of-type(2)').classList.add('selected')
+    } else {
+        storeLocation='store';
+        document.querySelector('header>ul>li:nth-of-type(1)').classList.add('selected')
+    }
+}
+
 function setCookie(cname, cvalue, exdays) {
     var d = new Date();
     d.setTime(d.getTime() + (exdays*24*60*60*1000));
@@ -280,7 +306,9 @@ function indexCatalog() {
         discounts: {}
 };
     catalog_raw.forEach((e) => {
-        catalog.byId[e.id]=e;
+        
+        if (!catalog.byId[e.id]) catalog.byId[e.id]=e;
+
         if (e.type=="ITEM") {
             catalog.items.push(e);
             if (e.item_data.variations) e.item_data.variations.forEach((v) => {
@@ -289,6 +317,8 @@ function indexCatalog() {
         }
         if (e.type=="MODIFIER_LIST") {
             if (e.modifier_list_data.modifiers) e.modifier_list_data.modifiers.forEach((m) => {
+                m.modifier_data.modifier_list_id=e.id;
+                console.log(m.modifier_data.modifier_list_id);
                 catalog.byId[m.id]=m;
             })
         }
@@ -318,12 +348,189 @@ function isFixedPickup(item) {
     return false;
 }
 
-function configItem(item, callout) {
-    var config=document.getElementById("config");
-    config.classList.remove("hidden");
-    document.body.classList.add("noscroll");
-    var html='';
+function getScrollingOffset($sel) {
+    var selpos = $sel.offsetLeft-$sel.parentNode.firstChild.offsetLeft;
+    var selwidth = $sel.offsetWidth;
+    var wrapperwidth=document.querySelector("#config.cone-builder .wrapper").offsetWidth;
+    var newOffset=-Math.round(selpos+(selwidth-wrapperwidth)/2);
+    return newOffset;
+}
+
+function adjustScrolling($sel) {
+    var newOffset=getScrollingOffset($sel);
+    $sel.parentNode.style=`transform: translateX(${newOffset}px)`;
+    scrollOffsets[$sel.parentNode.parentNode.getAttribute('data-name')]=newOffset;
+}
+
+function coneBuilderSelect($sel) {
+    $sel.parentNode.querySelectorAll("span").forEach(($e) => {
+        $e.classList.remove('selected');
+    })
+    $sel.classList.add('selected');
+    showConfig();
+    adjustScrolling($sel);
+}
+
+
+function randomizeLabCone() {
+    var $labcone=document.getElementById('labconepreview');
+    if ($labcone) {
+        var $a=document.querySelector('a.labcone');
+        var itemid=$a.getAttribute('data-id');
+        var mods=createRandomConfig(itemid);
+        $labcone.innerHTML=createConeFromConfig(mods);
+    }
+    setTimeout(randomizeLabCone,300);
+}
+
+function createRandomConfig(itemid) {
+    var item=catalog.byId[itemid];
+    var config=[];
+    item.item_data.modifier_list_info.forEach((ml) => {
+        var mods=catalog.byId[ml.modifier_list_id].modifier_list_data.modifiers;
+        config.push(mods[Math.floor(Math.random()*mods.length)].id);
+    })
+    return (config);
+}
+
+function createConeFromConfig(mods) {
+    var coneconfig={};
+    mods.forEach((m) => {
+        var mod=catalog.byId[m];
+        if (mod.modifier_data) {
+            var mlname=catalog.byId[mod.modifier_data.modifier_list_id].modifier_list_data.name;
+            var modname=stripName(mod.modifier_data.name);
+            if (mlname.includes('vessel')) name='vessel';
+            if (mlname.includes('flavor')) name='flavor';
+            if (mlname.includes('dip')) name='dip';
+            if (mlname.includes('topping')) name='topping';
+            coneconfig[name]=modname;    
+        }
+    });
+
+    const flavor=`url(/cone-builder/${coneconfig.flavor}-soft-serve.png)`;
+    const vesself=`url(/cone-builder/${coneconfig.vessel}-front.png)`;
+    const vesselb=`url(/cone-builder/${coneconfig.vessel}-back.png)`;
+    const dip=`url(/cone-builder/${coneconfig.dip}-dip.png)`;
+    let topping=`url(/cone-builder/${coneconfig.topping}-topping.png)`;
+    if (coneconfig.topping.includes('cotton') && coneconfig.vessel.includes('cup')) {
+        topping=`url(/cone-builder/${coneconfig.topping}-topping-cup.png)`;
+    }    
+
+    html=`<div style="background-image: ${vesselb}">
+        <div style="background-image: ${flavor}">
+        <div style="background-image: ${dip}">
+        <div style="background-image: ${topping}">
+        <div style="background-image: ${vesself}">
+        </div>
+        </div>
+        </div>
+        </div>
+        </div>`;
     
+    return html;
+
+}
+
+function coneBuilderFlow() {
+    return ["variation", "vessel", "flavor", "dip", "topping"];
+}
+
+function coneBuilderShow(name) {
+    var $current=document.querySelectorAll("div.cb-selection").forEach(($e) => {
+        if ($e.getAttribute('data-name') == name) {
+            $e.classList.remove('hidden');
+            $e.classList.add('visible');
+            adjustScrolling($e.querySelector('.selected'));
+        } else {
+            $e.classList.add('hidden');
+            $e.classList.remove('visible');
+        }
+    })
+
+    var flow=coneBuilderFlow();
+
+    if (name==flow[0]) hide("cb-back");
+    else show("cb-back");
+
+    if (name==flow[flow.length-1]) {
+        hide("cb-next");
+        show("cb-addtocart");
+    } else {
+        show("cb-next");
+        hide("cb-addtocart");
+    }
+}
+
+function coneBuilderBack() {
+    var $current=document.querySelector("div.cb-selection.visible");
+    var flow=coneBuilderFlow()
+    var index=flow.indexOf($current.getAttribute('data-name'));
+    if (index>=1) coneBuilderShow(flow[index-1]);
+}
+function show(id) {
+    document.getElementById(id).classList.remove("hidden");
+}
+
+function hide(id) {
+    document.getElementById(id).classList.add("hidden");
+}
+
+function coneBuilderNext() {
+    var $current=document.querySelector("div.cb-selection.visible");
+    var flow=coneBuilderFlow()
+    var index=flow.indexOf($current.getAttribute('data-name'));
+    if (index<flow.length-1) coneBuilderShow(flow[index+1]);
+}
+
+
+function getConeBuilderHTML(item, callout) {
+    let html='';
+    html+=`<div class="close" onclick="hideConfig()"><svg class="icon icon-next"><use href="/icons.svg#close"></use></svg></div><div class="wrapper">`;
+    html+=`<div id="cone-builder">
+        </div>`;
+
+        html+=`<div class="cb-controls"><div class="cb-selections">`;
+        html+=`<div class="cb-selection visible" data-name="variation" value=""><h4>pick your size</h4><div class="cb-options smooth">`;
+        item.item_data.variations.forEach((v, i) => {
+            var price=v.item_variation_data.price_money.amount;
+            price=price?`<br><span class="price">($${formatMoney(price)})</span>`:'';
+            html+=`<span data-id="${v.id}" class="${i?"":"selected"}" onclick="coneBuilderSelect(this)">${v.item_variation_data.name}${price}</span>`;
+        });
+        html+=`</div></div>`;
+        if (item.item_data.modifier_list_info) {
+            item.item_data.modifier_list_info.forEach((m) => {
+                var ml=catalog.byId[m.modifier_list_id];
+                var name=ml.modifier_list_data.name;
+                if (name.includes('vessel')) name='vessel';
+                if (name.includes('flavor')) name='flavor';
+                if (name.includes('dip')) name='dip';
+                if (name.includes('topping')) name='topping';
+
+                // html+=`<h3>${ml.modifier_list_data.name}</h3>`;
+                html+=`<div class="cb-selection hidden" data-name="${name}"><h4>pick your ${name}</h4><div class="cb-options smooth">`;
+                ml.modifier_list_data.modifiers.forEach((mod, i) => {
+                    var price=mod.modifier_data.price_money.amount;
+                    price=price?`<br><span class="price">(+$${formatMoney(price)})</span>`:'';
+                    html+=`<span onclick="coneBuilderSelect(this)" data-id="${mod.id}" class="${i?"":"selected"}">${mod.modifier_data.name}${price}</span>`;
+                })
+            html+=`</div></div>`;
+            });    
+        }
+        html+=`</div>
+            <div class="cb-buttons">
+               <div id="cb-back" class="hidden" onclick="coneBuilderBack()"><svg class="icon icon-back"><use href="/icons.svg#back"></use></svg></div>
+               <div id="cb-next" onclick="coneBuilderNext()"><svg class="icon icon-next"><use href="/icons.svg#next"></use></svg></div>
+               <div id="cb-addtocart" class="hidden" onclick="addConeToCart()"><h3>add to cart</h3></div>
+            </div>
+          </div>
+        </div>`;
+
+        return (html);
+    }
+
+function getConfigHTML(item, callout) {
+    let html='';
     var pickupVars=isFixedPickup(item);
     var image="";
 
@@ -351,7 +558,7 @@ function configItem(item, callout) {
 
     html+=callout;
 
-    html+=`<select>`;
+    html+=`<select name="variation">`;
     item.item_data.variations.forEach((v) => {
         html+=`<option value="${v.id}">${v.item_variation_data.name} ($${formatMoney(v.item_variation_data.price_money.amount)})</option>`;
     });
@@ -359,9 +566,8 @@ function configItem(item, callout) {
     if (item.item_data.modifier_list_info) {
         item.item_data.modifier_list_info.forEach((m) => {
             var ml=catalog.byId[m.modifier_list_id];
-            html+=`<h3>${ml.modifier_list_data.name}</h3>`;
-            html+=`<div><select>`;
-            html+=`<option value="" >no ${ml.modifier_list_data.name}</option>`;
+            // html+=`<h3>${ml.modifier_list_data.name}</h3>`;
+            html+=`<div><select name="${ml.modifier_list_data.name}">`;
             ml.modifier_list_data.modifiers.forEach((mod) => {
                 html+=`<option value="${mod.id}">${mod.modifier_data.name} (+$${formatMoney(mod.modifier_data.price_money.amount)})</option>`;
             })
@@ -370,7 +576,85 @@ function configItem(item, callout) {
     }
     html+=`<button onclick="addConfigToCart()">add to cart</button>
            </div>`;
-    config.innerHTML=html;
+    
+    return html;
+}
+
+var touchStartX=0;
+var touchEndX=0;
+var touchSpeed=0;
+var scrollOffsets=[];
+
+function scrollSelection(ev) {
+    var $cbs=ev.target.parentNode.parentNode;
+    var $options=ev.target.parentNode;
+
+    
+    if (ev.type == 'touchstart') {
+        touchStartX=ev.touches[0].screenX;
+        $options.classList.remove("smooth");
+    }
+    if (ev.type == 'touchmove') {
+        var delta=0;
+        delta=touchStartX-ev.touches[0].screenX;
+        touchSpeed=touchEndX-ev.touches[0].screenX;
+        touchEndX=ev.touches[0].screenX;
+        newOffset=scrollOffsets[$cbs.getAttribute('data-name')]-delta;
+        $options.style=`transform: translateX(${newOffset}px)`;
+        ev.preventDefault();
+    }
+
+    if (ev.type == 'touchend') {
+        var delta=touchStartX-touchEndX;
+        $options.classList.add("smooth");
+        newOffset=scrollOffsets[$cbs.getAttribute('data-name')]-delta-touchSpeed*10;
+        var left=getScrollingOffset($options.firstChild);
+        var right=getScrollingOffset($options.lastChild);
+
+        if (newOffset > left) newOffset=left;
+        if (newOffset < right) newOffset=right;
+
+
+        $options.style=`transform: translateX(${newOffset}px)`;
+        scrollOffsets[$cbs.getAttribute('data-name')]=newOffset;
+    }
+}
+
+function configItem(item, callout) {
+    var config=document.getElementById("config");
+    config.classList.remove("hidden");
+    document.body.classList.add("noscroll");
+    var html='';
+    var name=item.item_data.name;
+    if (name == "lab cone") {
+        html=getConeBuilderHTML(item, callout);
+        config.classList.add('cone-builder');
+        config.innerHTML=html;
+        document.querySelectorAll('#config .cb-selection').forEach(($cbs) => {
+            $cbs.addEventListener('touchstart', scrollSelection, true);
+            $cbs.addEventListener('touchmove', scrollSelection, true);
+            $cbs.addEventListener('touchcancel', scrollSelection, true);
+            $cbs.addEventListener('touchend', scrollSelection, true);
+        });
+        showConfig();
+        adjustScrolling(document.querySelector('#config.cone-builder .cb-options .selected'));
+    } else {
+        html=getConfigHTML(item, callout);
+        config.classList.remove('cone-builder');
+        config.innerHTML=html;
+    }
+}
+    
+
+function showConfig() {
+    const cb=document.getElementById("cone-builder");
+    if (cb) {
+        var mods=[];
+        document.querySelectorAll('#config.cone-builder .cb-options .selected').forEach((e) => {
+            mods.push(e.getAttribute('data-id'));
+        });
+        cb.innerHTML=createConeFromConfig(mods);
+    }
 }
 
 /* ------
@@ -390,11 +674,7 @@ function formatTime(date) {
 }
 
 function getOpeningHoursConfig() {
-    return { opening: [12,12,12,12,12,12,12],
-             closing: [20,20,20,20,20,20,20],
-             lastOrderFromClose: 10,
-             prepTime: 10
-    }
+    return storeLocations[storeLocation].openingHours;
 }
 
 function setPickupTimes () {
@@ -417,15 +697,15 @@ function setPickupTimes () {
     if (today == date && (now.getTime()>openingTime)) {
         startTime=new Date(now.getTime()+(conf.prepTime*60000));
         time=new Date(startTime.getTime()+(10*60000-startTime.getTime()%(10*60000)));
+        timeSelect.innerHTML=`<option value="now">i am here now! ready to eat.</option>`;
     } else {
         var openingTime=new Date(date);
         openingTime.setHours(conf.opening[openingTime.getDay()]);
         startTime=new Date(openingTime.getTime()+(conf.prepTime*60000));
         time=new Date(startTime.getTime());
+        timeSelect.innerHTML="";
     }
 
-
-    timeSelect.innerHTML="";
 
     while (time<=closingTime) {
         var option = document.createElement("option");
@@ -440,7 +720,11 @@ function setPickupTimes () {
 function displayThanks(payment){
     var cartEl=document.getElementById("cart");
     cartEl.querySelector(".payment").classList.add("hidden");
-    cartEl.querySelector(".thankyou").classList.remove("hidden");
+    if (storeLocations[storeLocation].orderAhead) {
+        cartEl.querySelector(".thankyou.order-ahead").classList.remove("hidden");
+    } else {
+        cartEl.querySelector(".thankyou.callyourname").classList.remove("hidden");
+    }
 
     var receiptElem=document.getElementById("receipt-link");
     var receiptLink="/receipt"
@@ -480,28 +764,53 @@ function setPickupDates () {
     var weekdays = ["sun","mon","tue","wed","thu","fri","sat"];
     var months = ['jan', 'feb', 'mar', 'apr', 'may', 'jun', 'jul', 'aug', 'sep', 'oct', 'nov', 'dec'];
     var dateSelect=document.getElementById("pickup-date");
+    var closedForToday=false;
 
-    while (i<10) {
-        if (i==0) {
-            /* check if we are past cutoff for today */
-            var closingDate=new Date();
-            closingDate.setHours(conf.closing[day.getDay()],0,0,0);
-            if (now>closingDate-conf.lastOrderFromClose*60000) {
-                day.setDate(day.getDate()+1);
-                document.querySelector("#cart .info .pickup-time .warning.hidden").classList.remove("hidden");
+    if (storeLocations[storeLocation].orderAhead) {
+
+        while (i<storeLocations[storeLocation].orderAhead) {
+            if (i==0) {
+                /* check if we are past cutoff for today */
+                var closingDate=new Date();
+                closingDate.setHours(conf.closing[day.getDay()],0,0,0);
+                if (now>closingDate-conf.lastOrderFromClose*60000) {
+                    day.setDate(day.getDate()+1);
+                    document.querySelector("#cart .info .pickup-time .warning.hidden").classList.remove("hidden");
+                }
             }
-        }
-        if(conf.opening[day.getDay()]) {
-            var option = document.createElement("option");
-            option.text = weekdays[day.getDay()]+", "+months[day.getMonth()]+" "+day.getDate();
-            option.value=day.getFullYear()+"/"+(day.getMonth()+1)+"/"+day.getDate();
-            dateSelect.add(option);
-        }
+            if(conf.opening[day.getDay()]) {
+                var option = document.createElement("option");
+                option.text = (i==0)?'today':weekdays[day.getDay()]+", "+months[day.getMonth()]+" "+day.getDate();
+                option.value=day.getFullYear()+"/"+(day.getMonth()+1)+"/"+day.getDate();
+                dateSelect.add(option);
+            }
 
-        day.setDate(day.getDate()+1);
-        i++;
+            day.setDate(day.getDate()+1);
+            i++;
+        }
+        setPickupTimes();
+    } else {
+        var closingDate=new Date();
+        var openingDate=new Date();
+        closingDate.setHours(conf.closing[day.getDay()],0,0,0);
+        openingDate.setHours(conf.opening[day.getDay()],0,0,0);
+
+        var option = document.createElement("option");
+        option.text = 'today';
+        option.value=day.getFullYear()+"/"+(day.getMonth()+1)+"/"+day.getDate();
+        dateSelect.add(option);
+
+        setPickupTimes();
+
+        if (now>closingDate-conf.lastOrderFromClose*60000) {
+            document.querySelector("#cart .info").classList.add("hidden");
+            document.querySelector("#cart .warning.toolate").classList.remove("hidden");
+        }
+        if (now<openingDate) {
+            document.querySelector("#cart .info").classList.add("hidden");
+            document.querySelector("#cart .warning.tooearly").classList.remove("hidden");
+        }
     }
-    setPickupTimes();
 }
 
 var paymentForm;
@@ -513,7 +822,7 @@ function initPaymentForm() {
             // Initialize the payment form elements
             
             applicationId: "sq0idp-q-NmavFwDX6MRLzzd5q-sg",
-            locationId: '6EXJXZ644ND0E',
+            locationId: storeLocations[storeLocation].locationId,
 
             inputClass: 'sq-input',
             autoBuild: false,
@@ -523,6 +832,7 @@ function initPaymentForm() {
                 lineHeight: '24px',
                 padding: '16px',
                 placeholderColor: '#a0a0a0',
+                color: getComputedStyle(document.documentElement).getPropertyValue('--text-color').trim(),
                 backgroundColor: 'transparent',
             }],
             // Initialize the credit card placeholders
@@ -566,7 +876,7 @@ function initPaymentForm() {
       
                    var qs=`nonce=${encodeURIComponent(nonce)}&order_id=${encodeURIComponent(order.id)}&reference_id=${encodeURIComponent(order.reference_id)}&order_amount=${order.total_money.amount}&tip_amount=${tipAmount}`;   
       
-                   fetch(orderEndpoint+'?'+qs, {
+                   fetch(storeLocations[storeLocation].endpoint+'?'+qs, {
                       method: 'GET',
                       headers: {
                         'Accept': 'application/json',
@@ -610,7 +920,29 @@ function onGetCardNonce(event) {
     }
   }
 
-orderEndpoint="https://script.google.com/macros/s/AKfycbzPFOTS5HT-Vv1mAYv3ktpZfNhGtRPdHz00Qi9Alw/exec";
+storeLocation="";
+storeLocations={
+    store: { 
+        endpoint: "https://script.google.com/macros/s/AKfycbzPFOTS5HT-Vv1mAYv3ktpZfNhGtRPdHz00Qi9Alw/exec",
+        locationId: "6EXJXZ644ND0E",
+        openingHours: { opening: [12,12,12,12,12,12,12],
+            closing: [20,20,20,20,20,20,20],
+            lastOrderFromClose: 10,
+            prepTime: 10
+        },
+        orderAhead: 10
+    },
+    lab: {
+        endpoint: "https://script.google.com/macros/s/AKfycbyQ1tQesQanw1Dd13t0c7KLxBRwKTesCfbHJQdHMMvc02aWiLGZ/exec",
+        locationId: "3HQZPV73H8BHM",
+        openingHours: { opening: [12,12,12,12,12,12,12],
+            closing: [22,22,22,22,22,22,22],
+            lastOrderFromClose: 10,
+            prepTime: 10
+        }    
+    }
+}
+
 order={};
 submittingPayment=false;
 
@@ -626,12 +958,16 @@ function checkDiscount(e) {
 
 async function checkCart() {
 
+    var nomore=[];
     console.log("checking cart");
-    var resp = await fetch("/index.plain.html");
+    var menuurl='/index.plain.html';
+    if (storeLocation=='lab') {
+        return (nomore);
+    }
+    var resp = await fetch(menuurl);
     var html = await resp.text(); 
    
     //console.log(html);
-    var nomore=[];
     $cartCheck=document.createElement('div');
     $cartCheck.id = "cart-check";
     $cartCheck.innerHTML = html;
@@ -694,7 +1030,13 @@ async function submitOrder() {
     var cartEl=document.getElementById("cart");
 
     var orderParams={};
+    var now=false;
     orderParams.pickup_at=document.getElementById("pickup-time").value;
+    if (orderParams.pickup_at=="now") {
+        now=true;
+        orderParams.pickup_at=new Date().toISOString();
+        orderParams.now="yes";
+    } 
     orderParams.display_name=document.getElementById("name").value;
     orderParams.cell=document.getElementById("cell").value;
     orderParams.reference_id=generateId();
@@ -768,7 +1110,7 @@ async function submitOrder() {
 
     console.log ("order qs: "+qs);
 
-    fetch(orderEndpoint+'?'+qs, {
+    fetch(storeLocations[storeLocation].endpoint+'?'+qs, {
         method: 'GET',
         headers: {
           'Accept': 'application/json',
@@ -816,9 +1158,14 @@ function displayOrder(o) {
     html+=`<div class="line tip"><span class="desc">tip</span><span class="amount">$${formatMoney(getTip())}</span></div>`;
     html+=`<div class="line total"><span class="desc">total</span><span class="amount">$${formatMoney(order.total_money.amount+getTip())}</span></div>`;
     document.querySelector("#cart .order").innerHTML=html;
+    if (!storeLocations[storeLocation].orderAhead) {
+        document.querySelector('#cart .payment .wegotyourorder').classList.remove('hidden');
+    }
+
     var paymentEl=document.querySelector("#cart .payment");
     paymentEl.classList.remove("hidden");
     initPaymentForm();
+    document.getElementById('sq-creditcard').innerHTML='i am here, ready to pick-up my order';
 }
 
 
@@ -826,6 +1173,21 @@ function displayOrder(o) {
 /* ------
 shopping cart (configs, variations, modifiers, price, quantity)
 --------- */
+
+function addConeToCart(e) {
+    hideConfig();
+    var variation="";
+    var mods=[];
+    document.querySelectorAll(`#config.cone-builder .cb-options .selected`).forEach((e, i) => {
+        if (!i) {
+            variation=e.getAttribute('data-id');
+        } else {
+            if (e.getAttribute('data-id')) mods.push(e.getAttribute('data-id'));
+        }
+    })
+    cart.add(variation, mods)
+    updateCart();
+}
 
 function addConfigToCart(e) {
     hideConfig();
@@ -863,13 +1225,16 @@ function toggleCartDisplay() {
 
     var hidePickup=true;
 
-    cart.line_items.forEach((e) => {
-        var variation=catalog.byId[e.variation];
-        var item=catalog.byId[variation.item_variation_data.item_id];
-        if (hidePickup && !isFixedPickup(item)) {
-            hidePickup=false;
-        }
-    })
+    if (storeLocations[storeLocation].orderAhead) {
+        cart.line_items.forEach((e) => {
+            var variation=catalog.byId[e.variation];
+            var item=catalog.byId[variation.item_variation_data.item_id];
+            if (hidePickup && !isFixedPickup(item)) {
+                hidePickup=false;
+            }
+        })    
+    }
+
 
     if (hidePickup) {
         document.querySelector("#cart .pickup-time").classList.add("hidden");
@@ -898,6 +1263,13 @@ function initCart() {
                 <input id="discount" data-id="" type="text" placeholder="discount code?" onkeyup="checkDiscount(this)">
                 <button onclick="submitOrder()">order</button>
             </div>
+            <div class="warning hidden toolate">
+            <p>* we are so sorry, but we don't accept orders anymore for today, we will keep all your ice-cream in your cart, so you can just easily check-out tomorrow.</p>
+            </div>
+            <div class="warning hidden tooearly">
+            <p>* we are not open yet, but we will keep your cart around, just reload the page once we are open and complete the checkout.</p> 
+            <p>we are excited to see you.</p>
+            </div>
             <div class="order hidden"></div>
             <div class="payment hidden">
                 <div class="tip"><select onchange="displayOrder(order)" id="tip">
@@ -908,6 +1280,10 @@ function initCart() {
                     <option value="25">25%</option>
                 </select></div>
                 <div id="form-container">
+                    <div class="wegotyourorder warning hidden">
+                    <p>we are ready for you!</p>
+                    <p>please process payment once you have arrived and we’ll call your name when your order is ready</p>
+                    </div>
                     <div id="sq-card-number"></div>
                     <div class="third" id="sq-expiration-date"></div>
                     <div class="third" id="sq-cvv"></div>
@@ -916,13 +1292,19 @@ function initCart() {
                     <button id="sq-apple-pay"></button>
                 </div>             
             </div>
-            <div class="thankyou hidden">
-                <h3>thank you SO much, we REALLY appreciate you &#9825;</h3>
+            <div class="thankyou order-ahead hidden">
+                <h3 class="warning">thank you SO much, we REALLY appreciate you &#9825;</h3>
                 <p>
                 <a id="receipt-link" target="_new" href="">show receipt</a>
                 </p>
                 <p>
                 <a id="text-link" href="sms://+13852995418/">text us when you arrive!</a>
+                </p>
+            </div>
+            <div class="thankyou callyourname hidden">
+                <h3 class="warning">thank you SO much! We’ll call your name when your order is ready :)</h3>
+                <p>
+                <a id="receipt-link" target="_new" href="">show receipt</a>
                 </p>
             </div>
         </div>`;
@@ -988,8 +1370,15 @@ function updateCart() {
         var v=catalog.byId[li.variation];
         var i=catalog.byId[v.item_variation_data.item_id];
         var mods="";
+        var cone="";
+        if (i.item_data.name == 'lab cone') cone=`<div class="cone">${createConeFromConfig(li.mods)}</div>`;
         li.mods.forEach((m, i) => mods+=", "+catalog.byId[m].modifier_data.name);
-        html+=`<div class="line item" data-id="${li.fp}"><div class="q"><span onclick="minus(this)" class="control">-</span> ${li.quantity} <span class="control" onclick="plus(this)">+</span></div><div class="desc">${i.item_data.name} : ${v.item_variation_data.name} ${mods}</div><div class="amount">$${formatMoney(li.quantity*li.price)}</div></div>`;
+        html+=`<div class="line item" data-id="${li.fp}">
+            <div class="q"><span onclick="minus(this)" class="control">-</span> ${li.quantity} <span class="control" onclick="plus(this)">+</span></div>
+            <div class="desc">${cone} 
+            ${i.item_data.name} : ${v.item_variation_data.name} ${mods}</div>
+            <div class="amount">$${formatMoney(li.quantity*li.price)}</div>
+            </div>`;
     })
     html+=`<div class="line total"><div class="q"></div><div class="desc">total</div><div>$${formatMoney(cart.totalAmount())}</div>`;
 
@@ -1058,7 +1447,7 @@ function variationByName(item, name) {
 function makeShoppable() {
     initCart();
     indexCatalog();
-    var itemElems=document.querySelectorAll("div.current > *");
+    var itemElems=document.querySelectorAll("div.storemenu > *");
     var currentItem={};
     
     var div=document.createElement("div");
@@ -1123,6 +1512,22 @@ function makeShoppable() {
             }            
         }
     });
+
+    // square links
+
+    const squareprefix='https://squareup.com/dashboard/items/library/';
+
+    document.querySelectorAll("main a").forEach(($a) => {
+        var href=$a.getAttribute('href');
+        if (href.indexOf(squareprefix)==0) {
+            var itemid=href.substr(squareprefix.length);
+            $a.setAttribute('data-id', itemid);
+            $a.setAttribute('onclick', 'addToCart(this)');
+            $a.removeAttribute('href');
+            $a.classList.add('item');
+            $a.classList.add(stripName(catalog.byId[itemid].item_data.name));
+        }
+    })
 }
 
 var cart={
@@ -1175,11 +1580,11 @@ var cart={
     },
 
     store: () => {
-        localStorage.setItem("cart",JSON.stringify({lastUpdate: new Date(), line_items: cart.line_items}));
+        localStorage.setItem("cart-"+storeLocation,JSON.stringify({lastUpdate: new Date(), line_items: cart.line_items}));
     },
 
     load: () => {
-        var cartobj=JSON.parse(localStorage.getItem("cart"));
+        var cartobj=JSON.parse(localStorage.getItem("cart-"+storeLocation));
         cart.line_items=[];
 
         if (cartobj && cartobj.line_items) {
@@ -1283,6 +1688,8 @@ general setup
 
 window.addEventListener('DOMContentLoaded', (event) => {
     //resizeImages();
+    setLocation();
+    setColors();
     fixIcons();
     classify();
     //wrapMenus();
