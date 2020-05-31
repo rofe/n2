@@ -7380,7 +7380,7 @@ var catalog_raw=[
      "id": "4UQDTZSNNB5F4L6R242D6JPP",
      "item_variation_data": {
       "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
-      "name": "small size",
+      "name": "half size",
       "price_money": {
        "amount": 300
       }
