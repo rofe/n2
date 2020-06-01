@@ -1,5 +1,5 @@
 
 [:normal:](/)
 
-- [store](/)
-- [lab](/lab.html)
+- [:arrow: store](/)
+- [:arrow: lab](/lab.html)

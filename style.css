@@ -306,6 +306,17 @@ header>ul>li {
     font-size: 1.2em;
 }
 
+header>ul>li svg {
+    height: 0.8em;
+    width: 0.8em;
+    margin: 0;
+    transform: rotate(180deg);
+}
+
+header>ul>li.selected svg {
+    display: none;
+}
+
 header ul a:any-link {
     color: var(--background-color);
 }
