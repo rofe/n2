@@ -988,50 +988,34 @@ async function checkCart() {
     cart.line_items.forEach((e) => {
         var variation=catalog.byId[e.variation];
         var item=catalog.byId[variation.item_variation_data.item_id];
-        if (item.item_data.modifier_list_info) {
-            //check for item name
-            var found=false;
-            var name=item.item_data.name;
-            name=stripName(name);
-            $menu.querySelectorAll("h2").forEach((e) => {
-                var hname=stripName(e.innerText);
-                var valid=e.firstChild.tagName != "DEL";
-                if (name == hname && valid) {
-                    found=true;
-                }
-            })
-            if (!found) nomore.push(e); 
-        } else {
-            //check for variation name
-            var found=false;
-            var name=variation.item_variation_data.name;
-            name=stripName(name);
 
-            // check for h3 variation name
+        //check for variation name
+        var deleted=false;
+        var name=variation.item_variation_data.name;
+        name=stripName(name);
 
-            $menu.querySelectorAll("h3").forEach((e) => {
-                var hname=stripName(e.innerText);
-                var valid=e.firstChild.tagName != "DEL";
-                if (name == hname && e.firstChild.tagName != "DEL") {
-                    found=true;
-                }
-            })
+        // check for h3 variation name
 
-            //check for h3 item name
+        $menu.querySelectorAll("h3 del").forEach((e) => {
+            var hname=stripName(e.innerHTML);
+            if (name == hname) {
+                deleted=true;
+            }
+        })
 
-            var iname=item.item_data.name;
-            iname=stripName(iname);
+        //check for h3/h2 item name
+        
+        var iname=item.item_data.name;
+        iname=stripName(iname);
 
-            $menu.querySelectorAll("h3").forEach((e) => {
-                var hname=stripName(e.innerText);
-                var valid=e.firstChild.tagName != "DEL";
-                if (iname == hname && e.firstChild.tagName != "DEL") {
-                    found=true;
-                }
-            })
+        $menu.querySelectorAll("h3 del, h2 del").forEach((e) => {
+            var hname=stripName(e.innerHTML);
+            if (iname == hname) {
+                deleted=true;
+            }
+        })
 
-            if (!found) nomore.push(e); 
-        }
+        if (deleted) nomore.push(e); 
     })
         
     return nomore;
