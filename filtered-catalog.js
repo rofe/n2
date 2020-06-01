@@ -115,7 +115,7 @@ var catalog_raw=[
     {
      "id": "BFMGXRVR3YA6HYDKAHW7TFAE",
      "modifier_data": {
-      "name": "green apple cotton candy",
+      "name": "green apple cotton candy (v)",
       "price_money": {
        "amount": 75
       }
@@ -124,7 +124,7 @@ var catalog_raw=[
     {
      "id": "PIJPWBQ25FYH23WIX7X3LXWU",
      "modifier_data": {
-      "name": "strawberry cotton candy",
+      "name": "strawberry cotton candy (v)",
       "price_money": {
        "amount": 75
       }
@@ -160,7 +160,7 @@ var catalog_raw=[
     {
      "id": "HNI5W3JCDMENH6WYMM4RLGCI",
      "modifier_data": {
-      "name": "toasted meringue",
+      "name": "toasted meringue (v)",
       "price_money": {
        "amount": 75
       }
@@ -7169,7 +7169,7 @@ var catalog_raw=[
  {
   "id": "BFMGXRVR3YA6HYDKAHW7TFAE",
   "modifier_data": {
-   "name": "green apple cotton candy",
+   "name": "green apple cotton candy (v)",
    "price_money": {
     "amount": 75
    }
@@ -7178,7 +7178,7 @@ var catalog_raw=[
  {
   "id": "PIJPWBQ25FYH23WIX7X3LXWU",
   "modifier_data": {
-   "name": "strawberry cotton candy",
+   "name": "strawberry cotton candy (v)",
    "price_money": {
     "amount": 75
    }
@@ -7214,7 +7214,7 @@ var catalog_raw=[
  {
   "id": "HNI5W3JCDMENH6WYMM4RLGCI",
   "modifier_data": {
-   "name": "toasted meringue",
+   "name": "toasted meringue (v)",
    "price_money": {
     "amount": 75
    }
@@ -7380,7 +7380,7 @@ var catalog_raw=[
      "id": "4UQDTZSNNB5F4L6R242D6JPP",
      "item_variation_data": {
       "item_id": "2NQSD2Q7EQP23Q2MADGONRAX",
-      "name": "small size",
+      "name": "half size",
       "price_money": {
        "amount": 300
       }
