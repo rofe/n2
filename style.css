@@ -257,10 +257,13 @@ main>div {
 main a.labcone {
     display: inline-block;
     animation: heartbeat 2.5s ease-in-out 1s infinite both;
-    color: var(--background-color);
+    color: var(--background-highlight-color);
     background-color: var(--text-color);
     padding: 10px 20px;
     border-radius: 30px;
+    border-width: 0;
+    cursor: pointer;
+    user-select: none;
 }
 
 main #labconepreview {
@@ -387,6 +390,19 @@ footer svg.icon-instagram {
     width: 20px;
 }
 
+footer svg {
+    height: 0.8em;
+    width: 0.8em;
+}
+
+main svg.icon-normal {
+    height: 70px;
+    width: 70px;
+    animation: pong 2s linear infinite alternate both;
+    padding: 20px;
+    color: var(--smiley-color);
+}
+
 main div.image {
     z-index: 1;
     position: relative;
@@ -420,7 +436,6 @@ main div.image.right img {
 
 main>div:last-of-type {
     margin-bottom: 200px;
-
 }
 
 code {
@@ -669,7 +684,14 @@ code {
     margin: 20px;
     display: flex;
     flex: 1;
+    transition: all 0.5s;
 }
+
+#config.cone-builder #cone-builder.flyout {
+    transform: translateY(100%) translateX(100%) scale(0.2);
+    opacity: 0.7;
+}
+
 
 #config.cone-builder #cone-builder div {
     display: flex;
@@ -685,19 +707,23 @@ code {
     color: var(--background-highlight-color);
     height: 80px;
     align-items: stretch;
+    cursor: pointer;
+    padding-bottom: 20px;
+
 }
 
 #config.cone-builder .cb-buttons>div {
     flex-grow: 1;
     align-self: center;
+    user-select: none;
 }
 
 #config.cone-builder .cb-controls {
-    height: 195px;
+    height: 215px;
     flex-grow: 0;
 }
 
-#config.cone-builder svg.icon {
+#config.cone-builder .cb-buttons svg.icon, #config svg.icon-close {
     height: 2em;
     width: 2em;
 }
@@ -718,6 +744,7 @@ code {
     color: var(--background-color);
     cursor: pointer;
     user-select: none;
+    align-items: baseline;
 }
 
 #config.cone-builder .cb-selections .cb-selection .cb-options.smooth {
@@ -806,6 +833,11 @@ select:disabled, select[aria-disabled=true] {
 
 select:disabled:hover, select[aria-disabled=true] {
 	border-color: var(--background-highlight-color);
+}
+
+#cart .ordering svg {
+    width: 100px;
+    height: 100px;
 }
 
 #signup .ordering svg {
@@ -925,6 +957,32 @@ select:disabled:hover, select[aria-disabled=true] {
     }
     100% {
               transform: rotate(30deg);
+    }
+  }
+
+  @keyframes pong {
+    0% {
+        transform: translate(80%,-30px) rotate(0deg);
+        }
+
+    20% {
+        transform: translate(-80%,0px) rotate(90deg);
+    }
+
+    40% {
+        transform: translate(80%,60px) rotate(180deg);
+    }
+
+    60% {
+        transform: translate(-80%,120px) rotate(235deg);
+    }
+
+    80% {
+        transform: translate(80%,180px) rotate(290deg);
+    }
+
+    100% {
+        transform: translate(-80%,120px) rotate(360deg);
     }
   }
 
