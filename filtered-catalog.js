@@ -2635,11 +2635,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "normal root beer float",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
-    }
-   ],
    "variations": [
     {
      "id": "PFEUQWCHDIPLLVUVIIRZADPR",
@@ -2647,7 +2642,7 @@ var catalog_raw=[
       "item_id": "5PIEM4Q2FWQKEY4JQA4IFG2G",
       "name": "12 oz",
       "price_money": {
-       "amount": 200
+       "amount": 500
       }
      }
     },
@@ -2657,7 +2652,7 @@ var catalog_raw=[
       "item_id": "5PIEM4Q2FWQKEY4JQA4IFG2G",
       "name": "16 oz",
       "price_money": {
-       "amount": 300
+       "amount": 600
       }
      }
     }
@@ -2834,7 +2829,7 @@ var catalog_raw=[
     {
      "id": "B4YKKKWOISWXVYCZRX5PQHD2",
      "modifier_data": {
-      "name": "blood orange (v)",
+      "name": "coconut (v)",
       "price_money": {
        "amount": 0
       }
@@ -2855,7 +2850,7 @@ var catalog_raw=[
  {
   "id": "B4YKKKWOISWXVYCZRX5PQHD2",
   "modifier_data": {
-   "name": "blood orange (v)",
+   "name": "coconut (v)",
    "price_money": {
     "amount": 0
    }
@@ -6131,7 +6126,7 @@ var catalog_raw=[
     {
      "id": "R42VX2AH6AO4PXF62VJHIZPN",
      "modifier_data": {
-      "name": "blood orange sorbet (v)",
+      "name": "coconut (v)",
       "price_money": {
        "amount": 300
       }
@@ -6198,7 +6193,7 @@ var catalog_raw=[
  {
   "id": "R42VX2AH6AO4PXF62VJHIZPN",
   "modifier_data": {
-   "name": "blood orange sorbet (v)",
+   "name": "coconut (v)",
    "price_money": {
     "amount": 300
    }
