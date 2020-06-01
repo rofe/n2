@@ -113,63 +113,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "BFMGXRVR3YA6HYDKAHW7TFAE",
-     "modifier_data": {
-      "name": "green apple cotton candy (v)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "PIJPWBQ25FYH23WIX7X3LXWU",
-     "modifier_data": {
-      "name": "strawberry cotton candy (v)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "E4QWC3WZ3UAJSWVU46TVRQTW",
      "modifier_data": {
       "name": "butter cake",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "DQI5ZXHHHHTRSGV6CHZXRZ2E",
-     "modifier_data": {
-      "name": "fudge bits (v)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "XRO5TYSM65RKXZF4G76OLHPO",
-     "modifier_data": {
-      "name": "peanut brittle",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "HNI5W3JCDMENH6WYMM4RLGCI",
-     "modifier_data": {
-      "name": "toasted meringue (v)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "APEW55N7JFU4WVDRL72CFYGJ",
-     "modifier_data": {
-      "name": "cookie dough bits",
       "price_money": {
        "amount": 75
       }
@@ -185,9 +131,63 @@ var catalog_raw=[
      }
     },
     {
+     "id": "APEW55N7JFU4WVDRL72CFYGJ",
+     "modifier_data": {
+      "name": "cookie dough bits",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "DQI5ZXHHHHTRSGV6CHZXRZ2E",
+     "modifier_data": {
+      "name": "fudge bits (v)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "BFMGXRVR3YA6HYDKAHW7TFAE",
+     "modifier_data": {
+      "name": "lime cotton candy (v)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "PIJPWBQ25FYH23WIX7X3LXWU",
+     "modifier_data": {
+      "name": "grapefruit cotton candy (v)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "XRO5TYSM65RKXZF4G76OLHPO",
+     "modifier_data": {
+      "name": "peanut brittle",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "RXUS4VJ5RQAR26IOKVJKVWR4",
      "modifier_data": {
       "name": "rainbow sprinkles",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "HNI5W3JCDMENH6WYMM4RLGCI",
+     "modifier_data": {
+      "name": "toasted meringue (v)",
       "price_money": {
        "amount": 75
       }
@@ -7164,7 +7164,7 @@ var catalog_raw=[
  {
   "id": "BFMGXRVR3YA6HYDKAHW7TFAE",
   "modifier_data": {
-   "name": "green apple cotton candy (v)",
+   "name": "lime cotton candy (v)",
    "price_money": {
     "amount": 75
    }
@@ -7173,7 +7173,7 @@ var catalog_raw=[
  {
   "id": "PIJPWBQ25FYH23WIX7X3LXWU",
   "modifier_data": {
-   "name": "strawberry cotton candy (v)",
+   "name": "grapefruit cotton candy (v)",
    "price_money": {
     "amount": 75
    }
