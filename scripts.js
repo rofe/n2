@@ -413,13 +413,15 @@ function createConeFromConfig(mods) {
         }
     });
 
-    const flavor=`url(/cone-builder/${coneconfig.flavor}-soft-serve.png)`;
-    const vesself=`url(/cone-builder/${coneconfig.vessel}-front.png)`;
-    const vesselb=`url(/cone-builder/${coneconfig.vessel}-back.png)`;
-    const dip=`url(/cone-builder/${coneconfig.dip}-dip.png)`;
-    let topping=`url(/cone-builder/${coneconfig.topping}-topping.png)`;
+    const postfix='?width=1024&auto=webp';
+
+    const flavor=`url(/cone-builder/${coneconfig.flavor}-soft-serve.png${postfix})`;
+    const vesself=`url(/cone-builder/${coneconfig.vessel}-front.png${postfix})`;
+    const vesselb=`url(/cone-builder/${coneconfig.vessel}-back.png${postfix})`;
+    const dip=`url(/cone-builder/${coneconfig.dip}-dip.png${postfix})`;
+    let topping=`url(/cone-builder/${coneconfig.topping}-topping.png${postfix})`;
     if (coneconfig.topping.includes('cotton') && coneconfig.vessel.includes('cup')) {
-        topping=`url(/cone-builder/${coneconfig.topping}-topping-cup.png)`;
+        topping=`url(/cone-builder/${coneconfig.topping}-topping-cup.png${postfix})`;
     }    
 
     html=`<div style="background-image: ${vesselb}">
@@ -1004,7 +1006,7 @@ async function checkCart() {
         })
 
         //check for h3/h2 item name
-        
+
         var iname=item.item_data.name;
         iname=stripName(iname);
 
