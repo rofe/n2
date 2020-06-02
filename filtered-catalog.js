@@ -113,63 +113,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "BFMGXRVR3YA6HYDKAHW7TFAE",
-     "modifier_data": {
-      "name": "green apple cotton candy (v)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "PIJPWBQ25FYH23WIX7X3LXWU",
-     "modifier_data": {
-      "name": "strawberry cotton candy (v)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "E4QWC3WZ3UAJSWVU46TVRQTW",
      "modifier_data": {
       "name": "butter cake",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "DQI5ZXHHHHTRSGV6CHZXRZ2E",
-     "modifier_data": {
-      "name": "fudge bits (v)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "XRO5TYSM65RKXZF4G76OLHPO",
-     "modifier_data": {
-      "name": "peanut brittle",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "HNI5W3JCDMENH6WYMM4RLGCI",
-     "modifier_data": {
-      "name": "toasted meringue (v)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "APEW55N7JFU4WVDRL72CFYGJ",
-     "modifier_data": {
-      "name": "cookie dough bits",
       "price_money": {
        "amount": 75
       }
@@ -185,9 +131,63 @@ var catalog_raw=[
      }
     },
     {
+     "id": "APEW55N7JFU4WVDRL72CFYGJ",
+     "modifier_data": {
+      "name": "cookie dough bits",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "DQI5ZXHHHHTRSGV6CHZXRZ2E",
+     "modifier_data": {
+      "name": "fudge bits (v)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "BFMGXRVR3YA6HYDKAHW7TFAE",
+     "modifier_data": {
+      "name": "lime cotton candy (v)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "PIJPWBQ25FYH23WIX7X3LXWU",
+     "modifier_data": {
+      "name": "grapefruit cotton candy (v)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "XRO5TYSM65RKXZF4G76OLHPO",
+     "modifier_data": {
+      "name": "peanut brittle",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
      "id": "RXUS4VJ5RQAR26IOKVJKVWR4",
      "modifier_data": {
       "name": "rainbow sprinkles",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "HNI5W3JCDMENH6WYMM4RLGCI",
+     "modifier_data": {
+      "name": "toasted meringue (v)",
       "price_money": {
        "amount": 75
       }
@@ -2635,11 +2635,6 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "normal root beer float",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
-    }
-   ],
    "variations": [
     {
      "id": "PFEUQWCHDIPLLVUVIIRZADPR",
@@ -2647,7 +2642,7 @@ var catalog_raw=[
       "item_id": "5PIEM4Q2FWQKEY4JQA4IFG2G",
       "name": "12 oz",
       "price_money": {
-       "amount": 200
+       "amount": 500
       }
      }
     },
@@ -2657,7 +2652,7 @@ var catalog_raw=[
       "item_id": "5PIEM4Q2FWQKEY4JQA4IFG2G",
       "name": "16 oz",
       "price_money": {
-       "amount": 300
+       "amount": 600
       }
      }
     }
@@ -2834,7 +2829,7 @@ var catalog_raw=[
     {
      "id": "B4YKKKWOISWXVYCZRX5PQHD2",
      "modifier_data": {
-      "name": "blood orange (v)",
+      "name": "coconut (v)",
       "price_money": {
        "amount": 0
       }
@@ -2855,7 +2850,7 @@ var catalog_raw=[
  {
   "id": "B4YKKKWOISWXVYCZRX5PQHD2",
   "modifier_data": {
-   "name": "blood orange (v)",
+   "name": "coconut (v)",
    "price_money": {
     "amount": 0
    }
@@ -5931,7 +5926,7 @@ var catalog_raw=[
      "id": "SVOGJI7K7PZAR7T62LN5QSBM",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "blood orange sorbet (v) - half size",
+      "name": "coconut (v) - half size",
       "price_money": {
        "amount": 300
       }
@@ -5941,7 +5936,7 @@ var catalog_raw=[
      "id": "GEAPVQHNDXIZ36TSEHM46NYX",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "blood orange sorbet (v) - normal size",
+      "name": "coconut (v) - normal size",
       "price_money": {
        "amount": 400
       }
@@ -6131,7 +6126,7 @@ var catalog_raw=[
     {
      "id": "R42VX2AH6AO4PXF62VJHIZPN",
      "modifier_data": {
-      "name": "blood orange sorbet (v)",
+      "name": "coconut (v)",
       "price_money": {
        "amount": 300
       }
@@ -6198,7 +6193,7 @@ var catalog_raw=[
  {
   "id": "R42VX2AH6AO4PXF62VJHIZPN",
   "modifier_data": {
-   "name": "blood orange sorbet (v)",
+   "name": "coconut (v)",
    "price_money": {
     "amount": 300
    }
@@ -7169,7 +7164,7 @@ var catalog_raw=[
  {
   "id": "BFMGXRVR3YA6HYDKAHW7TFAE",
   "modifier_data": {
-   "name": "green apple cotton candy (v)",
+   "name": "lime cotton candy (v)",
    "price_money": {
     "amount": 75
    }
@@ -7178,7 +7173,7 @@ var catalog_raw=[
  {
   "id": "PIJPWBQ25FYH23WIX7X3LXWU",
   "modifier_data": {
-   "name": "strawberry cotton candy (v)",
+   "name": "grapefruit cotton candy (v)",
    "price_money": {
     "amount": 75
    }
