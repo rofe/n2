@@ -5840,6 +5840,16 @@ var catalog_raw=[
        "amount": 1000
       }
      }
+    },
+    {
+     "id": "WEGM7YXMCLVWBXRXN5ZJ42HO",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "blackberry ice cream (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
     }
    ]
   }
