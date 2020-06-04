@@ -5840,6 +5840,16 @@ var catalog_raw=[
        "amount": 1000
       }
      }
+    },
+    {
+     "id": "WEGM7YXMCLVWBXRXN5ZJ42HO",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "blackberry ice cream (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
     }
    ]
   }
@@ -7301,6 +7311,24 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "LCAR2VNBKZ3TAWU4AGOGRFNP",
+     "modifier_data": {
+      "name": "vanilla + strawberry lemonade",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "IKY273J3CK4GGJR7FWHV6M4Q",
+     "modifier_data": {
+      "name": "brownie batter + coffee",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -7461,6 +7489,24 @@ var catalog_raw=[
   "id": "RK6BJKAS3V753NS6YSDJV5PX",
   "modifier_data": {
    "name": "no dip",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "LCAR2VNBKZ3TAWU4AGOGRFNP",
+  "modifier_data": {
+   "name": "vanilla + strawberry lemonade",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "IKY273J3CK4GGJR7FWHV6M4Q",
+  "modifier_data": {
+   "name": "brownie batter + coffee",
    "price_money": {
     "amount": 0
    }
