@@ -414,10 +414,6 @@ main svg.icon-normal {
     color: var(--smiley-color);
 }
 
-main {
-    visibility: hidden
-}
-
 main div.image {
     z-index: 1;
     position: relative;
