@@ -1295,7 +1295,7 @@ function initCart() {
             <div class="thankyou order-ahead hidden">
                 <h3 class="warning">thank you SO much, text us when you arrive at our STORE and ready for pick up</h3>
                 <p>
-                <a id="text-link" href="sms://+13852995418/">(395)299-5418</a>
+                <a id="text-link" href="sms://+13852995418/">(385)299-5418</a>
                 </p>
                 <p>
                 <a class="receipt-link" target="_new" href="">show receipt</a>
