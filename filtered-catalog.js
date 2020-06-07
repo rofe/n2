@@ -5953,6 +5953,26 @@ var catalog_raw=[
      }
     },
     {
+     "id": "SSMKQHXX2VBWMIPDOXCLR663",
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "milk chocolate - half size",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "CNTK6NGR2SXDR4VBE6PHO7GE",
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "milk chocolate - normal size",
+      "price_money": {
+       "amount": 400
+      }
+     }
+    },
+    {
      "id": "T5IUEXEGD6WJOGUNVB353WBB",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
