@@ -6434,6 +6434,16 @@ var catalog_raw=[
        "amount": 1000
       }
      }
+    },
+    {
+     "id": "LJEDVWWDIXBLAJSRTLRYGUWM",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "snickerdoode",
+      "price_money": {
+       "amount": 1000
+      }
+     }
     }
    ]
   }
