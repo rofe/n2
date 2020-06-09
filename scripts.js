@@ -949,8 +949,8 @@ storeLocations={
         endpoint: "https://script.google.com/macros/s/AKfycbyQ1tQesQanw1Dd13t0c7KLxBRwKTesCfbHJQdHMMvc02aWiLGZ/exec",
         locationId: "3HQZPV73H8BHM",
         openingHours: { opening: [12,12,12,12,12,12,12],
-            closing: [22,22,22,22,22,22,22],
-            lastOrderFromClose: 10,
+            closing: [20,20,20,20,20,20,20],
+            lastOrderFromClose: 0,
             prepTime: 10
         }    
     }
