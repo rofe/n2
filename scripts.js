@@ -940,7 +940,7 @@ storeLocations={
         locationId: "6EXJXZ644ND0E",
         openingHours: { opening: [12,12,12,12,12,12,12],
             closing: [20,20,20,20,20,20,20],
-            lastOrderFromClose: 10,
+            lastOrderFromClose: 0,
             prepTime: 10
         },
         orderAhead: 10
@@ -949,7 +949,7 @@ storeLocations={
         endpoint: "https://script.google.com/macros/s/AKfycbyQ1tQesQanw1Dd13t0c7KLxBRwKTesCfbHJQdHMMvc02aWiLGZ/exec",
         locationId: "3HQZPV73H8BHM",
         openingHours: { opening: [12,12,12,12,12,12,12],
-            closing: [20,20,20,20,20,20,20],
+            closing: [22,22,22,22,22,22,22],
             lastOrderFromClose: 0,
             prepTime: 10
         }    
