@@ -881,9 +881,9 @@ function initPaymentForm() {
                     // Log errors from nonce generation to the browser developer console.   
                     console.error('Encountered errors:');
                     errors.forEach(function (error) {
+                        alert(error.message);
                         console.error('  ' + error.message);
                     });
-                    alert('Encountered errors, check browser developer console for more details');
                     submittingPayment=false;
                     return;
                 }
@@ -913,7 +913,26 @@ function initPaymentForm() {
                       console.log(data);
                       var obj=JSON.parse(data);
                       if (typeof obj.errors != "undefined") {
-                        alert('Payment failed to complete!\nCheck browser developer console for more details');
+                          var message='Payment failed to complete!\nCheck browser developer console for more details';
+                          if (obj.errors[0].category=='PAYMENT_METHOD_ERROR') {
+                              message='Credit Card declined, please check your entries';
+                          }
+                          if (obj.errors[0].code =='CVV_FAILURE') {
+                            message='Credit Card declined, please check your CVV';
+                          }
+                          if (obj.errors[0].code =='PAN_FAILURE') {
+                            message='Credit Card declined, please check your card number';
+                          }
+
+                          if (obj.errors[0].code =='VOICE_FAILURE') {
+                            message='Credit Card declined, issuer requires voice authorization, try a different card';
+                          }
+
+                          if (obj.errors[0].code =='TRANSACTION_LIMIT') {
+                            message='Credit Card declined, limit exceeded';
+                          }
+
+                          alert(message);
                         submittingPayment=false;
                       } else {
                         displayThanks(obj.payment);
