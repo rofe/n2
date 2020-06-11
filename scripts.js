@@ -1397,7 +1397,7 @@ function updateCart() {
 
     var coCategory=catalog.categories.find(e => e.category_data.name == 'checkout items '+storeLocation);
     if (coCategory) {
-        html='<div>add these items to my order</div>';
+        html='<div>add to order</div>';
         var coItems=catalog.items.filter(i => i.item_data.category_id == coCategory.id);
         coItems.forEach((i) => {
             var price=formatMoney(i.item_data.variations[0].item_variation_data.price_money.amount);
