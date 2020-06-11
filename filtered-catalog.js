@@ -1,9 +1,17 @@
 var catalog_raw=[
  {
+  "id": "M2K5IIO5YF37GPU35BGCHCEX",
+  "type": "CATEGORY",
+  "category_data": {
+   "name": "soft serve flavor"
+  }
+ },
+ {
   "id": "JHXGR67LAV6YHS4OPESIOSEX",
   "type": "ITEM",
   "item_data": {
    "name": "salted vanilla bean",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -44,6 +52,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "milk chocolate",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -872,6 +881,41 @@ var catalog_raw=[
   }
  },
  {
+  "id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
+  "type": "CATEGORY",
+  "category_data": {
+   "name": "ice cream bar"
+  }
+ },
+ {
+  "id": "OHOKU5LSGXMJBSLE6HRKBLIS",
+  "type": "CATEGORY",
+  "category_data": {
+   "name": "ice cream sando"
+  }
+ },
+ {
+  "id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+  "type": "CATEGORY",
+  "category_data": {
+   "name": "pint"
+  }
+ },
+ {
+  "id": "I3C6NDB7GDQJZKMCMXPXSMR4",
+  "type": "CATEGORY",
+  "category_data": {
+   "name": "bulk ice cream"
+  }
+ },
+ {
+  "id": "FQ53PBZ53MF7J3W47L5VI4PC",
+  "type": "CATEGORY",
+  "category_data": {
+   "name": "ice cream cake"
+  }
+ },
+ {
   "id": "XTV2HWGVBOMXBPDOUVYC6LN5",
   "type": "DISCOUNT",
   "discount_data": {
@@ -900,10 +944,32 @@ var catalog_raw=[
   }
  },
  {
+  "id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
+  "type": "CATEGORY",
+  "category_data": {
+   "name": "coffee + tea"
+  }
+ },
+ {
+  "id": "HEH4X5LRMX57JKGAFLQACNGH",
+  "type": "CATEGORY",
+  "category_data": {
+   "name": "composed cone"
+  }
+ },
+ {
+  "id": "FS3LVXIXJBYYKL7R6TYZM3QR",
+  "type": "CATEGORY",
+  "category_data": {
+   "name": "retail"
+  }
+ },
+ {
   "id": "HHL5FR6RH4MOSCS5WHTR355I",
   "type": "ITEM",
   "item_data": {
    "name": "banana",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -944,6 +1010,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "mango",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -984,6 +1051,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "coconut",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -1024,6 +1092,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "lemon cheesecake",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -1064,6 +1133,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "ube (purple sweet potato)",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -1104,6 +1174,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "adzuki (red bean)",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -1144,6 +1215,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "wasabi + white chocolate",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -1184,6 +1256,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "matcha (green tea)",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -1224,6 +1297,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "wasabi + white chocolate pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "CR65NH5DAMSKODYLSXMM2PWD",
@@ -1243,6 +1317,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "adzuki (red bean) pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "FSJHH5NBXJNVVUVYQ4TLPUNC",
@@ -1262,6 +1337,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "matcha (green tea) pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "EHRW7UKN63JML4QW2SL7CLVN",
@@ -1281,6 +1357,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "banana pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "Y5AAUI54NAFIWCYWAAREFKXY",
@@ -1300,6 +1377,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "milk chocolate pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "6D3TJUDP6LHFNMKDAJAV3CNF",
@@ -1319,6 +1397,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "coconut pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "Y5WYZKLOHC572S33PL7C3F6U",
@@ -1338,6 +1417,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "lemon cheesecake pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "SI4CYNYMVPKZGCNJSSTXBDF5",
@@ -1357,6 +1437,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "mango pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "SF2QDKYBFYV2DK3Z5SOIPYKI",
@@ -1376,6 +1457,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "salted vanilla bean pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "LP62U3I5G5N5VITGFYKGMODQ",
@@ -1395,6 +1477,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "ube (purple sweet potato) pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "72JABP3GH2WWATYC3YSIOTA5",
@@ -1414,6 +1497,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "strawberry milk pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "LS5O5PWS636Y54QAQ3XTH74U",
@@ -1433,6 +1517,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "earl grey tea pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "M5CSVAECRIFCBPSCLTKZO7M4",
@@ -1452,6 +1537,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "olive oil pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "RX5IPOINVOMQPSCRDXS2DTXY",
@@ -1471,6 +1557,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "dark chocolate pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "WCLKUEZZXSHLGVQJ57YY6UEE",
@@ -1490,6 +1577,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "blood orange pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "PB7DDU2C4YUOVCOCP4YFE56C",
@@ -1509,6 +1597,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "coconut + honeycomb + chocolate pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "FGC5VNCDJF7NENWGSJWQRMVW",
@@ -1528,6 +1617,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "milk + cookies pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "RZ6HCAIMYOSH4OAQ6BODOCYK",
@@ -1547,6 +1637,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "normal mint chip pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "3N2RTTFFKEOI2FDVHX2YWAVP",
@@ -1566,6 +1657,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "malted coffee pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "ZXI6RNKLTDEBE6P7DRQD5FP4",
@@ -1585,6 +1677,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "sweet corn + passionfruit pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "LL6SKFDENU6A6Y3TFPTTMJV7",
@@ -1604,6 +1697,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "chocolate chip + sweet cream sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
      "id": "U37T47IF6IPIORBRMQ2NJ5GH",
@@ -1623,6 +1717,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "gingersnap + cream cheese sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
      "id": "BBB37W5DU6KFB4Z5WMOFZL6F",
@@ -1642,6 +1737,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "mocha sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
      "id": "DNAKSFT2PO5CVZGK6POAHL26",
@@ -1661,6 +1757,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "chocolate wasted sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
      "id": "ZZJM6CQD34WQUW65TJUPKESJ",
@@ -1680,6 +1777,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "snickerdoodle + brown butter sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
      "id": "6V66W6NFMIAUNRKRNWDGRWJJ",
@@ -1699,6 +1797,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "anti chocolate chip + dark chocolate sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
      "id": "NV3SSZSZW7WGYABWPXNVGRSM",
@@ -1718,6 +1817,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "banana cream sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
      "id": "OQ5RSNPXXPYQZVEESEP2OBC7",
@@ -1737,6 +1837,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "strawberry shortcake bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
      "id": "HRZLVE2DGQGU3TLOL2NFRARF",
@@ -1756,6 +1857,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "earl grey + passion bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
      "id": "IICICDMPZBG5WF4R74HWWDAB",
@@ -1775,6 +1877,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "kix cereal bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
      "id": "ACKBASOEB5EM7PAOQ2CW3XGY",
@@ -1794,6 +1897,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "cookies + cream bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
      "id": "VVGFR7CLUD5DFFYTIBW2IRHR",
@@ -1813,6 +1917,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "\"handle\" salted maple bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
      "id": "KKZTAOC3ZR5UCACRHYW2QGVX",
@@ -1832,6 +1937,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "key lime pie bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
      "id": "BK5BRMV5F2SWY72JEVNYIZVG",
@@ -1851,6 +1957,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "norm s'more bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
      "id": "PD67PXND5QHCW5PKG2NBUSPA",
@@ -1870,6 +1977,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "trashberry bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
      "id": "NQNUUEFPPK7WR4IIEGGURAG2",
@@ -1889,6 +1997,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "normal mint chip bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
      "id": "Z6W3XGVJHO6C46V3J6YSXFWG",
@@ -1908,6 +2017,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "almond joy bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
      "id": "5QXNTLPBW5XJ5B363EQL5ZEN",
@@ -1927,6 +2037,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "strawberry + funfetti ice cream cake",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
    "variations": [
     {
      "id": "YZHOPRD6G2RFEZLAHLNWG2CL",
@@ -1966,6 +2077,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "chocolate + brown butter ice cream cake",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
    "variations": [
     {
      "id": "ZKFPLJH7QNLAK5ZSJRXS64TO",
@@ -2005,6 +2117,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "banana cream ice cream cake",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
    "variations": [
     {
      "id": "2YV5LIZQDG6RBNX4D65AJ7FD",
@@ -2044,6 +2157,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "custom choco taco",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "modifier_list_info": [
     {
      "modifier_list_id": "XKJLMJRKJ6BRSJVJRD6UP4NV"
@@ -2071,6 +2185,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "COAVA coffee beans",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
      "id": "ZZBE6XOSAL6C6JVJFRQ2NSTB",
@@ -2116,10 +2231,18 @@ var catalog_raw=[
   }
  },
  {
+  "id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+  "type": "CATEGORY",
+  "category_data": {
+   "name": "specials"
+  }
+ },
+ {
   "id": "QLMWU5WBGEW4XW2APHJHPWU5",
   "type": "ITEM",
   "item_data": {
    "name": "lactaid",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
      "id": "ABB5ODD5LZPGBPK37SBWMYTN",
@@ -2139,6 +2262,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "pup cup",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "variations": [
     {
      "id": "2UPTTZJKGF3HVJKA6I7BGPER",
@@ -2158,6 +2282,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "hot chocolate pack",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
      "id": "5AVKNYYTKFPNDMDNZB7IJKGI",
@@ -2177,6 +2302,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "espresso",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
      "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
@@ -2207,6 +2333,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "americano",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
      "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
@@ -2237,6 +2364,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "cappuccino",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
      "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
@@ -2267,6 +2395,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "chai tea latte",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
      "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
@@ -2300,6 +2429,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "tea",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
      "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
@@ -2370,6 +2500,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "cortado",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
      "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
@@ -2403,6 +2534,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "monthly tea latte special",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
      "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
@@ -2436,6 +2568,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "monthly latte special",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
      "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
@@ -2469,6 +2602,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "drip coffee",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
      "modifier_list_id": "M7QUOZOMTZPBJ4I2OXP2KRB5"
@@ -2506,6 +2640,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "hot chocolate",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
      "modifier_list_id": "2MUFXZ5SDSXC3FSR7AAOT6XH"
@@ -2536,6 +2671,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "latte",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
      "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
@@ -2569,6 +2705,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "macchiato",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
      "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
@@ -2602,6 +2739,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "mocha",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
      "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
@@ -2635,6 +2773,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "normal root beer float",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "variations": [
     {
      "id": "PFEUQWCHDIPLLVUVIIRZADPR",
@@ -2664,6 +2803,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "normal tote",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
      "id": "KHUKTKUUTKETPKMYHBTBDWXF",
@@ -2683,6 +2823,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "feel NORMAL® yet tie dye tee",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
      "id": "LDW4FEKBUV43TM5ILEHZJWRE",
@@ -2702,6 +2843,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "composed cone store",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
      "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
@@ -2870,6 +3012,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "twist store",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -2913,6 +3056,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "twist lab",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -2953,6 +3097,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "doughnut",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "variations": [
     {
      "id": "RKQMAK7PUYZSD3R6IMKNFPFS",
@@ -3008,6 +3153,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "mango ice cream",
+   "category_id": "I3C6NDB7GDQJZKMCMXPXSMR4",
    "variations": [
     {
      "id": "CEHMTGCYJGDTZC3UMPI3AIKA",
@@ -3027,6 +3173,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "labneh + honey ice cream",
+   "category_id": "I3C6NDB7GDQJZKMCMXPXSMR4",
    "variations": [
     {
      "id": "DR2UGWQH3OS2PXLPNSR37GYY",
@@ -3046,6 +3193,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "turkish coffee ice cream",
+   "category_id": "I3C6NDB7GDQJZKMCMXPXSMR4",
    "variations": [
     {
      "id": "2J2XQMF7EUSDEPERMRSJSKRX",
@@ -3065,6 +3213,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "tahini + fig ice cream",
+   "category_id": "I3C6NDB7GDQJZKMCMXPXSMR4",
    "variations": [
     {
      "id": "OUR6FYLLDZJ3GWRR4OLZAIP3",
@@ -3084,6 +3233,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "salted caramel ice cream",
+   "category_id": "I3C6NDB7GDQJZKMCMXPXSMR4",
    "variations": [
     {
      "id": "T3MEWJV4Z446P7IWYYLJ72OH",
@@ -3103,6 +3253,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "malt ice cream",
+   "category_id": "I3C6NDB7GDQJZKMCMXPXSMR4",
    "variations": [
     {
      "id": "76ZN7EGWQQ3SJSJSFGTJ2LME",
@@ -3122,6 +3273,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "salted vanilla bean ice cream",
+   "category_id": "I3C6NDB7GDQJZKMCMXPXSMR4",
    "variations": [
     {
      "id": "ZM4EDBTIA5WGWSRVAIBWI7TP",
@@ -3141,6 +3293,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "pear sorbet",
+   "category_id": "I3C6NDB7GDQJZKMCMXPXSMR4",
    "variations": [
     {
      "id": "ABEJHOOH7GFXJFQPYIBDP2XK",
@@ -3160,6 +3313,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "chocolate + cardamom ice cream",
+   "category_id": "I3C6NDB7GDQJZKMCMXPXSMR4",
    "variations": [
     {
      "id": "N47I4YYDRQZW3TXMFSTFP2NP",
@@ -3179,6 +3333,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "vanilla bean + rose water ice cream",
+   "category_id": "I3C6NDB7GDQJZKMCMXPXSMR4",
    "variations": [
     {
      "id": "43RHCXMKQ2MJYFOU3XGVYV43",
@@ -3198,6 +3353,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "butter pecan ice cream",
+   "category_id": "I3C6NDB7GDQJZKMCMXPXSMR4",
    "variations": [
     {
      "id": "T7KLT3DG7L2B5FE3KYSIL3B4",
@@ -3217,6 +3373,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "whiskey + honey ice cream",
+   "category_id": "I3C6NDB7GDQJZKMCMXPXSMR4",
    "variations": [
     {
      "id": "MSKQAKSJUD4W3ZRCMXUBA3NY",
@@ -3236,6 +3393,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "roasted white chocolate ice cream",
+   "category_id": "I3C6NDB7GDQJZKMCMXPXSMR4",
    "variations": [
     {
      "id": "IVHYD6LY5PCDHABU76M7NUNH",
@@ -3255,6 +3413,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "dark chocolate",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -3295,6 +3454,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "rosemary + olive oil",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -3335,6 +3495,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "burnt honey",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -3375,6 +3536,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "grapefruit",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -3415,6 +3577,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "egg nog",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -3455,6 +3618,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "burnt honey pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "GW6LKGZGETIPNE2GEUNYE4SC",
@@ -3474,6 +3638,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "strawberry lemonade pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "EJVY2A7HYVNXFVBZ5SOQJJWV",
@@ -3493,6 +3658,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "pomegranate sorbet",
+   "category_id": "I3C6NDB7GDQJZKMCMXPXSMR4",
    "variations": [
     {
      "id": "3X5OJ36AOCP6Q55UQTODIWPS",
@@ -3512,6 +3678,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "cherry pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "J7OIARDZ2R2KDON5OW3AL6YM",
@@ -3531,6 +3698,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "pomegranate pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "4CVEQMC77XQKMXZT4RNMOWOW",
@@ -3550,6 +3718,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "mastic + fig + pine nut ice cream",
+   "category_id": "I3C6NDB7GDQJZKMCMXPXSMR4",
    "variations": [
     {
      "id": "UW4QQTBZJRG3O4HVYUHDGFRI",
@@ -3569,6 +3738,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "egg nog pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "6KU6TVO77ZSDTJRSP6RCYYGY",
@@ -3588,6 +3758,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "brown butter pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "P2EC5UJHM4HCV2OMQ6E2WGJO",
@@ -3607,6 +3778,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "rosemary + olive oil pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "SFY4SMORSSOSL7KNDS3SO73I",
@@ -3626,6 +3798,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "salted date pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "ZJX3KR73SP3H77ZODO6VMMP5",
@@ -3645,6 +3818,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "molasses pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "IDDXPSYVOUV6SSQQRWP3OULE",
@@ -3664,6 +3838,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "sweet potato pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "RKH5CPWQBSL6PDSHENZZT7CY",
@@ -3679,10 +3854,18 @@ var catalog_raw=[
   }
  },
  {
+  "id": "5HKCEJOA7MBZOY4LBDCZPDU2",
+  "type": "CATEGORY",
+  "category_data": {
+   "name": "workshop"
+  }
+ },
+ {
   "id": "W4VCGR5T7LOUWHWREOBQT4XZ",
   "type": "ITEM",
   "item_data": {
    "name": "ice cream sando workshop",
+   "category_id": "5HKCEJOA7MBZOY4LBDCZPDU2",
    "variations": [
     {
      "id": "GCEKLRTHGKO5WH53MCKO45SS",
@@ -3702,6 +3885,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "cone patch",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
      "id": "MFLLJJW32E3GKW324WPHHNRR",
@@ -3721,6 +3905,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "cooler rental",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
      "id": "B2H3MW25RIHZ74WEZOH3ONQR",
@@ -3740,6 +3925,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "sprinkle workshop",
+   "category_id": "5HKCEJOA7MBZOY4LBDCZPDU2",
    "variations": [
     {
      "id": "NGD2Z54DDR5J7ZVPJDGQMWYE",
@@ -3759,6 +3945,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "ice cream cake workshop",
+   "category_id": "5HKCEJOA7MBZOY4LBDCZPDU2",
    "variations": [
     {
      "id": "MQYXNF6BVVSFMUYWDE2GYYSM",
@@ -3798,6 +3985,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "the broadway bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
      "id": "ZNPAKAYQ4VWSCAI3QRHWCHIY",
@@ -3817,6 +4005,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "salted caramel sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
      "id": "VHIWOSX3RHKEBRIU6O6VS6AS",
@@ -3843,6 +4032,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "delivery charge",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
      "id": "GJIGZ7L32RO2T4YBRP6RBIYB",
@@ -3862,6 +4052,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "blueberry pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "OHGDREJZ5DK6RCW36QYBNFJH",
@@ -3881,6 +4072,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "black sesame bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
      "id": "DHBX2OEZMZUBDPMBVKKX6QFZ",
@@ -3900,6 +4092,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "strawberry lemonade bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
      "id": "WFVA4OQDOG5WXPTIWFR3A2ZU",
@@ -3919,6 +4112,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "pear pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "WWUTCAZPOGW3U2RC67H3OSSV",
@@ -3938,6 +4132,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "apple crisp bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
      "id": "NBYW5OJHSGPPDKD36NIW44HY",
@@ -3957,6 +4152,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "pina colada bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
      "id": "XZL3JEAX44DW6SHRDIFB5O6H",
@@ -3976,6 +4172,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "blueberry + dark chocolate + coconut",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
      "id": "S5BFLLSBGADA55OD4DXUIAFX",
@@ -3995,6 +4192,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "candles",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
      "id": "UIDL4VIPZ7P4C6CADM5IPOZW",
@@ -4024,6 +4222,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "fruity pebble milk",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -4064,6 +4263,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "cocoa pebble milk",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -4104,6 +4304,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "cinnamon toast milk",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -4144,6 +4345,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "jacobsen sea salt",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -4184,6 +4386,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "normal, but make it fancy",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "variations": [
     {
      "id": "MSYXM6QNT3JQLOJTWCC7TYK5",
@@ -4203,6 +4406,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "cream cheese",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -4243,6 +4447,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "buttered popcorn",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -4283,6 +4488,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "raspberry (v)",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -4323,6 +4529,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "lemon (v)",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -4363,6 +4570,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "red velvet + cream cheese norm core",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
    "variations": [
     {
      "id": "NRI4ILM6NKGGVYCZ43RUV2Q7",
@@ -4382,6 +4590,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "macaron ice cream sando box",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "variations": [
     {
      "id": "WZSX434AC4HXA4ETAVVI7JZH",
@@ -4401,6 +4610,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "valentine's ice cream cake",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
    "variations": [
     {
      "id": "FMYQWQNHAP3B2PZKAXONTLF3",
@@ -4490,6 +4700,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "jacobsen baby salt",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
      "id": "BQU7MUUIADMBCO5VML5QDG4Z",
@@ -4509,6 +4720,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "dots pup cup",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "variations": [
     {
      "id": "5VZH5HPMZR5AALELKSZJLX6B",
@@ -4537,6 +4749,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "monthly soda special",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "variations": [
     {
      "id": "D64LQBINQWP5RKCNXO2VCD3W",
@@ -4556,6 +4769,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "choco taco",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
      "id": "UZVF7KVBCGBPO34J4F6DNKVH",
@@ -4575,6 +4789,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "carrot cake ice cream",
+   "category_id": "I3C6NDB7GDQJZKMCMXPXSMR4",
    "variations": [
     {
      "id": "ORL6GETY4RGUWGQYO7E6NM4E",
@@ -4594,6 +4809,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "jacobsen sea salt pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "5VUO3IBX4YXS5H76NN2ARCCJ",
@@ -4613,6 +4829,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "cinnamon toast crunch milk pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "CJHOAV5JM7XWNRIJN3HKBAO4",
@@ -4632,6 +4849,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "grapefruit sorbet pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "PXX5TYYGGFB7OYYM6QYL4UFS",
@@ -4651,6 +4869,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "pumpkin spice latte bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
      "id": "WLNBBZ75ZTS47FQ44OEZJCOT",
@@ -4670,6 +4889,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "raspberry pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "INVZZ3BXQC3ADUQWAEI5DNTO",
@@ -4689,6 +4909,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "grasshopper pie slice",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "variations": [
     {
      "id": "JVBAPEDDX7W7BKGTK7VYAY24",
@@ -4708,6 +4929,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "passion fruit",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -4748,6 +4970,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "greek yogurt",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -4788,6 +5011,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "smoked sea salt caramel",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -4828,6 +5052,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "coffee + irish cream",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -4868,6 +5093,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "apricot + black tea",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -4908,6 +5134,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "earl grey tea",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -4948,6 +5175,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "thai tea",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -4988,6 +5216,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "honey + lavender",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
@@ -5028,6 +5257,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "cream cheese pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "BFMTOYNUTIMIJYA5MFLLL4II",
@@ -5047,6 +5277,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "smoked sea salt + caramel pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "JFPMHCYPAYIJJGQL3WBIA3KP",
@@ -5066,6 +5297,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "lemon sorbet pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "GSHBLSK6NRQTUIF26CB3QXJX",
@@ -5085,6 +5317,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "grasshopper pie",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "variations": [
     {
      "id": "UZGDU5OZ7QPHAONFSWIPA2BX",
@@ -5264,6 +5497,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "salted vanilla bean soft serve",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "variations": [
     {
      "id": "TE2GK4QHPH2JGQNYKAYQLODO",
@@ -5313,6 +5547,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "milk chocolate soft serve",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "variations": [
     {
      "id": "PRQH23FYQG2BLB5GMLGG5Y54",
@@ -5362,6 +5597,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "NORMAL® gift card",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
      "id": "WJKP4HUD3KUT6EEBFG6XUKEB",
@@ -5422,6 +5658,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "ice cream bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
      "id": "GFEYV3J345N3MFIJWDERFKTZ",
@@ -5551,6 +5788,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "ice cream sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
      "id": "VHB4D7IJZ2T4IPQQV3NP7BDQ",
@@ -5640,6 +5878,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "ice cream pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "5KV7PC2YOEEMOPZOCSZVXTEL",
@@ -5866,6 +6105,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "fruity pebble milk ice cream pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "UQEYRQ5UDIMVQHBKHY6IBAME",
@@ -5885,6 +6125,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "passionfruit sorbet pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "TXKMRBYIMPGIV4G5DMEHE3RG",
@@ -5904,6 +6145,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "coffee beans",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
      "id": "JJKWSDKX6C4UNFS7EFKVTWJB",
@@ -5923,6 +6165,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "soft serve",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
      "modifier_list_id": "EXX7SQAD5YC3XMG77RJUXJNV"
@@ -5953,7 +6196,7 @@ var catalog_raw=[
      }
     },
     {
-     "id": "QP26ZCJRXPIYDK3ISJLKVW3R",
+     "id": "SSMKQHXX2VBWMIPDOXCLR663",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
       "name": "milk chocolate - half size",
@@ -5963,7 +6206,7 @@ var catalog_raw=[
      }
     },
     {
-     "id": "Z2QIYSNMECE2TKPSXRESIJJL",
+     "id": "CNTK6NGR2SXDR4VBE6PHO7GE",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
       "name": "milk chocolate - normal size",
@@ -6035,7 +6278,8 @@ var catalog_raw=[
   "id": "IRLGXWAJUEL3FGOC76NU7KTD",
   "type": "ITEM",
   "item_data": {
-   "name": "salted vanilla bean mini"
+   "name": "salted vanilla bean mini",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN"
   }
  },
  {
@@ -6043,6 +6287,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "milk chocolate mini",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "EI5SQZ2SEQJJONHFYV7NWWQ2",
@@ -6062,6 +6307,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "apricot + black tea mini",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "VISQUQUUTZQOSTBUNH6H33JY",
@@ -6088,6 +6334,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "COAVA cold brew coffee",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "modifier_list_info": [
     {
      "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
@@ -6186,6 +6433,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "coconut sorbet mini",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "VYXZXR4NDGMALYL67EDBXZVO",
@@ -6214,6 +6462,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "composed pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "ZEB4ZLCYQOKT3PW6I7DEUKM3",
@@ -6434,6 +6683,16 @@ var catalog_raw=[
        "amount": 1000
       }
      }
+    },
+    {
+     "id": "LJEDVWWDIXBLAJSRTLRYGUWM",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "snickerdoode",
+      "price_money": {
+       "amount": 1000
+      }
+     }
     }
    ]
   }
@@ -6443,6 +6702,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "ice cream cake slice",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
    "variations": [
     {
      "id": "WOBKXP5JODN6CJIHNIKXWNNU",
@@ -6492,6 +6752,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "ice cream cake 6\" cake",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
    "variations": [
     {
      "id": "4KRE5USQMNPXQPNX5NDIFV22",
@@ -6613,6 +6874,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "feel NORMAL® yet long sleeve",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
      "id": "RCPV5TFXPHHYPFRB2SGMI3HN",
@@ -6662,6 +6924,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "NORMAL® enamel pin",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
      "id": "HRA775WYODXYCJ2WY75SSIFL",
@@ -6711,6 +6974,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "make it a NORMAL® day baggu bag",
+   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
      "id": "4KCKUPIMNL6RJEC3VQJ3KMPG",
@@ -6780,10 +7044,18 @@ var catalog_raw=[
   }
  },
  {
+  "id": "EE7SCYZUIS64LGXIEQFGFBOX",
+  "type": "CATEGORY",
+  "category_data": {
+   "name": "mother's day specials"
+  }
+ },
+ {
   "id": "KTPHPYPG6KWULPWTZWZ7PSW5",
   "type": "ITEM",
   "item_data": {
    "name": "the honey cake",
+   "category_id": "EE7SCYZUIS64LGXIEQFGFBOX",
    "variations": [
     {
      "id": "UJB5EB5FZX4CCM23KPAVNSNP",
@@ -6833,6 +7105,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "the chocolate bomb",
+   "category_id": "EE7SCYZUIS64LGXIEQFGFBOX",
    "variations": [
     {
      "id": "WLIAQ3WFI7WX6WAN2CQ3E5EB",
@@ -6882,6 +7155,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "the blood orange cake",
+   "category_id": "EE7SCYZUIS64LGXIEQFGFBOX",
    "variations": [
     {
      "id": "JZT7ELS7PQX33ZSVBJMC7IVT",
@@ -6931,6 +7205,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "pint packs",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "N6A2Y733WHSQ6T7LY2HQOKVT",
@@ -6950,6 +7225,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "nutella pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "3PVPTSXIVCALB7OZCFAXFGH5",
@@ -6969,6 +7245,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "free 8oz COAVA coffee",
+   "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "variations": [
     {
      "id": "32AULJRRFNI4NWPCGLUBNN5M",
@@ -6995,6 +7272,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "PINT CLUB",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "variations": [
     {
      "id": "MM3E66XXHJQL6TYTLGOI6KV2",
@@ -7444,6 +7722,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "beltex pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
      "id": "GNKYC6ROBSWBMQQE2DZMEDTS",
@@ -7510,6 +7789,33 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
+  }
+ },
+ {
+  "id": "D5N63SZJBEDN7WJ526TTBM5X",
+  "type": "CATEGORY",
+  "category_data": {
+   "name": "checkout items store"
+  }
+ },
+ {
+  "id": "KENWD25IW5DAY6WG6IXV7XDA",
+  "type": "ITEM",
+  "item_data": {
+   "name": "BLACK LIVES MATTER sticker",
+   "category_id": "D5N63SZJBEDN7WJ526TTBM5X",
+   "variations": [
+    {
+     "id": "YAQ6ZWNXSMX3565MNBE5BEGP",
+     "item_variation_data": {
+      "item_id": "KENWD25IW5DAY6WG6IXV7XDA",
+      "name": "Regular",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    }
+   ]
   }
  }
 ]
