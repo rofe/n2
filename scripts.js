@@ -303,6 +303,7 @@ function indexCatalog() {
     catalog={
         byId: {},
         items: [],
+        categories: [],
         discounts: {}
 };
     catalog_raw.forEach((e) => {
@@ -326,6 +327,9 @@ function indexCatalog() {
             if (e.discount_data.name) {
                 catalog.discounts[e.discount_data.name.toLowerCase()]={ id: e.id };
             }
+        }
+        if (e.type=="CATEGORY") {
+            catalog.categories.push(e);
         }
     })
 } 
@@ -1059,6 +1063,7 @@ async function submitOrder() {
     localStorage.setItem("cell",orderParams.cell);
 
     cartEl.querySelector(".lineitems").classList.add("hidden");
+    cartEl.querySelector(".checkoutitems").classList.add("hidden");
     cartEl.querySelector(".info").classList.add("hidden");
     var orderEl=cartEl.querySelector(".order");
     orderEl.classList.remove("hidden");
@@ -1216,6 +1221,7 @@ function toggleCartDisplay() {
         cartEl.querySelector(".details").classList.add("hidden");
     }
     cartEl.querySelector(".lineitems").classList.remove("hidden");
+    cartEl.querySelector(".checkoutitems").classList.remove("hidden");
     cartEl.querySelector(".info").classList.remove("hidden");
     cartEl.querySelector(".order").classList.add("hidden");
     cartEl.querySelector(".payment").classList.add("hidden");
@@ -1251,6 +1257,7 @@ function initCart() {
     html+=`<div class="details hidden">
             <div class="back" onclick="toggleCartDisplay()">&lt; back to shop</div>
             <div class="lineitems"></div>
+            <div class="checkoutitems"></div>
             <div class="info">
                 <input id="name" type="text" placeholder="your name">
                 <input id="cell" type="text" placeholder="cell phone">
@@ -1383,8 +1390,25 @@ function updateCart() {
     html+=`<div class="line total"><div class="q"></div><div class="desc">total</div><div>$${formatMoney(cart.totalAmount())}</div>`;
 
     lineitemsEl.innerHTML=html;
-    
     console.log(JSON.stringify(cart.line_items));
+
+    var checkoutItemsEl=cartEl.querySelector(".checkoutitems");
+    html='';
+
+    var coCategory=catalog.categories.find(e => e.category_data.name == 'checkout items '+storeLocation);
+    if (coCategory) {
+        html='<div>add to order</div>';
+        var coItems=catalog.items.filter(i => i.item_data.category_id == coCategory.id);
+        coItems.forEach((i) => {
+            var price=formatMoney(i.item_data.variations[0].item_variation_data.price_money.amount);
+            var id=i.item_data.variations[0].id;
+            var name=i.item_data.name;
+            var checked=cart.find(id,[])?"checked":"";
+            html+=`<div><input type="checkbox" ${checked} value="${id}" onclick="toggleCart(this)">${name} ($${price})</input></div>`; 
+        });
+    }
+    checkoutItemsEl.innerHTML=html;
+
 }
 
 function findCallout($parent) {
@@ -1398,6 +1422,17 @@ function findCallout($parent) {
         $e=$e.nextSibling;
     }
     return callout;
+}
+
+function toggleCart(e) {
+    var id=e.getAttribute("value");
+    if (e.checked) {
+        cart.add(id);
+        updateCart();    
+    } else {
+        cart.remove(id);
+        updateCart();    
+    }
 }
 
 function addToCart(e) {
