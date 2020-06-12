@@ -964,7 +964,7 @@ storeLocations={
         openingHours: { opening: [12,12,12,12,12,12,12],
             closing: [20,20,20,20,20,20,20],
             lastOrderFromClose: 0,
-            prepTime: 10
+            prepTime: 0
         },
         orderAhead: 10
     },
@@ -974,7 +974,7 @@ storeLocations={
         openingHours: { opening: [12,12,12,12,12,12,12],
             closing: [22,22,22,22,22,22,22],
             lastOrderFromClose: 0,
-            prepTime: 10
+            prepTime: 0
         }    
     }
 }
