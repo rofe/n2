@@ -901,7 +901,7 @@ function initPaymentForm() {
                     })
                     .catch(err => {
                       alert('Network error: ' + err);
-                      submittingPayment==false;
+                      submittingPayment=false;
                     })
                     .then(response => {
                       if (!response.ok) {
