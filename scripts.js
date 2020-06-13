@@ -1444,15 +1444,17 @@ function updateCart() {
 
     var coCategory=catalog.categories.find(e => e.category_data.name == 'checkout items '+storeLocation);
     if (coCategory) {
-        html='<div>add to order</div>';
         var coItems=catalog.items.filter(i => i.item_data.category_id == coCategory.id);
-        coItems.forEach((i) => {
-            var price=formatMoney(i.item_data.variations[0].item_variation_data.price_money.amount);
-            var id=i.item_data.variations[0].id;
-            var name=i.item_data.name;
-            var checked=cart.find(id,[])?"checked":"";
-            html+=`<div><input type="checkbox" ${checked} value="${id}" onclick="toggleCart(this)">${name} ($${price})</input></div>`; 
-        });
+        if (coItems.length) {
+            html='<div>add to order</div>';
+            coItems.forEach((i) => {
+                var price=formatMoney(i.item_data.variations[0].item_variation_data.price_money.amount);
+                var id=i.item_data.variations[0].id;
+                var name=i.item_data.name;
+                var checked=cart.find(id,[])?"checked":"";
+                html+=`<div><input type="checkbox" ${checked} value="${id}" onclick="toggleCart(this)">${name} ($${price})</input></div>`; 
+            });    
+        }
     }
     checkoutItemsEl.innerHTML=html;
 
