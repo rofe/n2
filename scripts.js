@@ -155,7 +155,15 @@ function fixIcons() {
             var json=await fetchJSON('/blm-fundraiser.txt');
             html='';
             json.forEach((r) => {
-                if (r[name]) html+=`<p>${r[name]}</p>`;
+                var text=r[name];
+                var link=r[name+'-link']
+                if (text) {
+                    if (link) {
+                        html+=`<p><a href="${link}">${text}</a></p>`;
+                    } else {
+                        html+=`<p>${text}</p>`;
+                    }
+                }
             })
             var div=document.createElement('div');
             div.innerHTML=html;
