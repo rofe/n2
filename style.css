@@ -56,7 +56,7 @@ main h2 {
     margin-bottom: 5px;
 }
 
-main .storemenu, main .normalpintclub, .buildyourowncomposedcone {
+main .storemenu, main .normalpintclub, .buildyourowncomposedcone, .participants, .donations {
     background-color: var(--background-highlight-color);
 }
 
