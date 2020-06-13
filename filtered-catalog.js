@@ -7797,25 +7797,5 @@ var catalog_raw=[
   "category_data": {
    "name": "checkout items store"
   }
- },
- {
-  "id": "KENWD25IW5DAY6WG6IXV7XDA",
-  "type": "ITEM",
-  "item_data": {
-   "name": "BLACK LIVES MATTER sticker",
-   "category_id": "D5N63SZJBEDN7WJ526TTBM5X",
-   "variations": [
-    {
-     "id": "YAQ6ZWNXSMX3565MNBE5BEGP",
-     "item_variation_data": {
-      "item_id": "KENWD25IW5DAY6WG6IXV7XDA",
-      "name": "Regular",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    }
-   ]
-  }
  }
 ]
