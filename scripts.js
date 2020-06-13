@@ -138,10 +138,30 @@ function hWrap(el, maxlevel) {
     el.appendChild(wrapped.firstChild);
 };
 
+async function fetchJSON(url) {
+    let response=await fetch(url);
+    let json={};
+    if (response.ok) { 
+      json = await response.json();
+    }
+    return (json)
+}
+
 function fixIcons() {
-    document.querySelectorAll("use").forEach ((e) => {
+    document.querySelectorAll("use").forEach (async (e) => {
         var a=e.getAttribute("href");
         var name=a.split("/")[2].split(".")[0];
+        if (name == 'participant' || name == 'donations') {
+            var json=await fetchJSON('/blm-fundraiser.json');
+            html='';
+            json.forEach((r) => {
+                if (r[name]) html+=`<p>${r[name]}</p>`;
+            })
+            var div=document.createElement('div');
+            div.innerHTML=html;
+
+            e.parentNode.parentNode.replaceChild(div,e.parentNode);
+        }
         if (name == 'lab-cone') {
             var $div=document.createElement('div');
             $div.id='labconepreview';
