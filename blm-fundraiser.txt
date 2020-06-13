@@ -1,0 +1,601 @@
+[{
+  "donations": "Tanya Hunt",
+  "participant": "22 SPA MD"
+}, {
+  "donations": "Greta Sommerfeld",
+  "participant": "3CUPS"
+}, {
+  "donations": "Andrew Geurrero",
+  "participant": "AMOUR CAFE"
+}, {
+  "donations": "Hailee Henson",
+  "participant": "ANIMALIA"
+}, {
+  "donations": "Dory Trimble",
+  "participant": "ATELIER"
+}, {
+  "donations": "Lindsey Moore",
+  "participant": "BABE LASH"
+}, {
+  "donations": "Emily Newsome",
+  "participant": "BACKDROP STOCK"
+}, {
+  "donations": "Abbey Mansfield",
+  "participant": "BAR X"
+}, {
+  "donations": "Britnee Bartlett",
+  "participant": "BEEHIVE GIN"
+}, {
+  "donations": "Dani Day",
+  "participant": "BEER BAR"
+}, {
+  "donations": "Monique Skordas",
+  "participant": "BELTEX"
+}, {
+  "donations": "Marisa Milstead",
+  "participant": "BLENDED TABLE"
+}, {
+  "donations": "Angie Mar Velez",
+  "participant": "BLUE COPPER "
+}, {
+  "donations": "Emma Roberts",
+  "participant": "BODEGA"
+}, {
+  "donations": "Jamie Gross",
+  "participant": "BRASS"
+}, {
+  "donations": "Kayla Bertagnolli",
+  "participant": "BREAD RIOT BAKEHOUSE"
+}, {
+  "donations": "Jordan Roebuck",
+  "participant": "CANELLAS"
+}, {
+  "donations": "Truc Tran",
+  "participant": "CAPUTOS "
+}, {
+  "donations": "Spencer Oliphant",
+  "participant": "CITY OF INDUSTRY"
+}, {
+  "donations": "Rachel Katz",
+  "participant": "COPPER GROUP"
+}, {
+  "donations": "Gracie James",
+  "participant": "COPPER HIVE VINTAGE"
+}, {
+  "donations": "Megan Dunn",
+  "participant": "CUCINA"
+}, {
+  "donations": "Athena Schwartz",
+  "participant": "CURRENT"
+}, {
+  "donations": "Richelle Medellin",
+  "participant": "CURRICULUM"
+}, {
+  "donations": "Kayla Belnap",
+  "participant": "DIABOLICAL "
+}, {
+  "donations": "Olivia Anderson",
+  "participant": "EAST LIBERTY TAP HOUSE"
+}, {
+  "donations": "Kali Wills",
+  "participant": "EATING ESTABLISHMENT"
+}, {
+  "donations": "Savina Buendia",
+  "participant": "EMIGRATION BREW"
+}, {
+  "donations": "Ashley Hull",
+  "participant": "EMILIE GOLIE"
+}, {
+  "donations": "Kaitlin Lento",
+  "participant": "EVAS "
+}, {
+  "donations": "Vicky Weaver",
+  "participant": "FISHER BREWING"
+}, {
+  "donations": "Kodi Frost",
+  "participant": "GINGER STREET"
+}, {
+  "donations": "Ashley Wilkinson",
+  "participant": "HANDLE/HSL"
+}, {
+  "donations": "Danielle Ludwig",
+  "participant": "KOODEKER"
+}, {
+  "donations": "Lacey Smith",
+  "participant": "HARVEY SKILL SHOP"
+}, {
+  "donations": "Sam Starr",
+  "participant": "HEART OF GOLD TATTOO"
+}, {
+  "donations": "Prajit Ravindran",
+  "participant": "HEARTH + HILL"
+}, {
+  "donations": "Melese Miller",
+  "participant": "HELEN KNOWS BEST"
+}, {
+  "donations": "Jennifer Orrock",
+  "participant": "HIP & HUMBLE"
+}, {
+  "donations": "Kelsey Clement",
+  "participant": "HONEST JOHN"
+}, {
+  "donations": "Carly Lundgren",
+  "participant": "HUB AND SPOKE DINER"
+}, {
+  "donations": "Tai Biesinger",
+  "participant": "JIMMY JOHNS"
+}, {
+  "donations": "Seva Haung-Baltzell",
+  "participant": "LAND OF SALT"
+}, {
+  "donations": "Lyndi Turpin",
+  "participant": "LAZIZ "
+}, {
+  "donations": "Stacey Zasadny",
+  "participant": "LES MADELEINE "
+}, {
+  "donations": "Zebediah Watson",
+  "participant": "LOOM AND KILN"
+}, {
+  "donations": "Kelly Himle",
+  "participant": "LUNATIC FRINGE"
+}, {
+  "donations": "Zoe Barlow",
+  "participant": "MAVEN"
+}, {
+  "donations": "Scott Varner",
+  "participant": "MAZZA"
+}, {
+  "donations": "Jordan Duke",
+  "participant": "MERCY TATTOO"
+}, {
+  "donations": "Dana Klanderud",
+  "participant": "MILLCREEK COFFEE"
+}, {
+  "donations": "Mandy Madsen",
+  "participant": "MOCHI KIDS"
+}, {
+  "donations": "Shannah Tan",
+  "participant": "NICHE"
+}, {
+  "donations": "Kyle Mortensen",
+  "participant": "NOHM"
+}, {
+  "donations": "Danielle Endow",
+  "participant": "NOMAD"
+}, {
+  "donations": "Maky Di Vita",
+  "participant": "NORMAL"
+}, {
+  "donations": "Emily Koons",
+  "participant": "OAKWOOD FIRE KITCHEN"
+}, {
+  "donations": "Katherine Powers",
+  "participant": "ORCHID DYNASTY"
+}, {
+  "donations": "Dallen Slaugh",
+  "participant": "OQUIRRH"
+}, {
+  "donations": "Gretchen Devine",
+  "participant": "PALLET"
+}, {
+  "donations": "Jess Haws",
+  "participant": "PASSIONFLOWER"
+}, {
+  "donations": "Lauren Najar",
+  "participant": "PEAK 45"
+}, {
+  "donations": "Nicholas Klinkefus",
+  "participant": "PIE PARTY"
+}, {
+  "donations": "Lindsey Anderson",
+  "participant": "PIG + JELLY JAR "
+}, {
+  "donations": "Diana Grant",
+  "participant": "PIXEL AND TORCH"
+}, {
+  "donations": "Carissa Watanabe",
+  "participant": "PIZZA NONO"
+}, {
+  "donations": "Sadie Nitcy",
+  "participant": "POST OFFICE PLACE"
+}, {
+  "donations": "Kacie Wilks",
+  "participant": "PRETTY BIRD"
+}, {
+  "donations": "Leah Smith",
+  "participant": "PROVISIONS"
+}, {
+  "donations": "Stephanie Black",
+  "participant": "PUBLIK COFFEE"
+}, {
+  "donations": "Jaymison Petersen",
+  "participant": "PUBLIK ED'S"
+}, {
+  "donations": "Callie Canlas",
+  "participant": "PUBLIK KITCHEN"
+}, {
+  "donations": "Molli Guthrie",
+  "participant": "PULP LIFESTYLE KITCHEN"
+}, {
+  "donations": "Emily Kam",
+  "participant": "RICO"
+}, {
+  "donations": "Kalina Duncan",
+  "participant": "SALT LAKE POWER YOGA"
+}, {
+  "donations": "BobbiJo Kanter",
+  "participant": "SAPA"
+}, {
+  "donations": "Megan Foley",
+  "participant": "SARA MATSON WESTOVER"
+}, {
+  "donations": "Carlie Harris",
+  "participant": "SARAH WINWARD"
+}, {
+  "donations": "Kelsey Rayborn",
+  "participant": "SLC EATERY"
+}, {
+  "donations": "Celia Pietsch",
+  "participant": "STOCKIST"
+}, {
+  "donations": "Tayla Mayes",
+  "participant": "SUPER TOP SECRET"
+}, {
+  "donations": "Tiffany Fritz",
+  "participant": "TABLE X"
+}, {
+  "donations": "Remlee Robbins",
+  "participant": "TACO TACO"
+}, {
+  "donations": "Heather Roberge",
+  "participant": "TAKASHI"
+}, {
+  "donations": "Amber Gentry",
+  "participant": "THE BEAN YARD "
+}, {
+  "donations": "Damien Powers",
+  "participant": "THE BLENDED TABLE"
+}, {
+  "donations": "Robert Rex",
+  "participant": "THE DENTAL SPA"
+}, {
+  "donations": "Olivia Sunday",
+  "participant": "THE KURA DOOR"
+}, {
+  "donations": "Janae Palmer",
+  "participant": "THE REST"
+}, {
+  "donations": "Maureen Botoman",
+  "participant": "THE ROSE ESTB"
+}, {
+  "donations": "Katrina Johnson",
+  "participant": "THE RUIN"
+}, {
+  "donations": "Samual Bush",
+  "participant": "THE TEA GROTTO"
+}, {
+  "donations": "Bonnie Kaminsky",
+  "participant": "THE SALT LAKE BARBER CO"
+}, {
+  "donations": "Brittany Berg",
+  "participant": "THE STORE - GATEWAY"
+}, {
+  "donations": "Lanie Cheatham",
+  "participant": "THREE PINES"
+}, {
+  "donations": "Jillian Ogilvie",
+  "participant": "TOP SHELF"
+}, {
+  "donations": "Helen Cox",
+  "participant": "TRIO "
+}, {
+  "donations": "Erin Casale",
+  "participant": "TULIE"
+}, {
+  "donations": "Emily Bunge",
+  "participant": "TUNEIN MINDFULNESS"
+}, {
+  "donations": "Kesley Hayes",
+  "participant": "TYSON DANIEL HAIRDRESSING"
+}, {
+  "donations": "James Martak",
+  "participant": "VESSEL KITCHEN"
+}, {
+  "donations": "Michelle Noel",
+  "participant": "VIS. "
+}, {
+  "donations": "Ann Chen",
+  "participant": "VIVE JUICERY"
+}, {
+  "donations": "Renne Dunne",
+  "participant": "ZEST KITCHEN"
+}, {
+  "donations": "Ally Marringa",
+  "participant": ""
+}, {
+  "donations": "JW Trull",
+  "participant": ""
+}, {
+  "donations": "Troy Domstead",
+  "participant": ""
+}, {
+  "donations": "Summer Wilkinson",
+  "participant": ""
+}, {
+  "donations": "Eliza Hogan",
+  "participant": ""
+}, {
+  "donations": "Jonathan NG",
+  "participant": ""
+}, {
+  "donations": "Anne Kilgore",
+  "participant": ""
+}, {
+  "donations": "Connor Harris",
+  "participant": "TOTAL $ IN DONATIONS"
+}, {
+  "donations": "Kaisa Cardall",
+  "participant": "TOTAL # OF WINNERS"
+}, {
+  "donations": "Holly Stewart",
+  "participant": ""
+}, {
+  "donations": "Rich Patch",
+  "participant": ""
+}, {
+  "donations": "Kimberly Long",
+  "participant": ""
+}, {
+  "donations": "Becca Di Sera",
+  "participant": ""
+}, {
+  "donations": "Heidi Sorgenfrei",
+  "participant": ""
+}, {
+  "donations": "Angela Grange",
+  "participant": ""
+}, {
+  "donations": "Nathalie Skibine",
+  "participant": ""
+}, {
+  "donations": "Jenny West",
+  "participant": ""
+}, {
+  "donations": "Nathan Straight",
+  "participant": ""
+}, {
+  "donations": "Sohee Yu",
+  "participant": ""
+}, {
+  "donations": "Sydney Ryan",
+  "participant": ""
+}, {
+  "donations": "Marina Knysheva",
+  "participant": ""
+}, {
+  "donations": "David Guidry",
+  "participant": ""
+}, {
+  "donations": "Sara Day",
+  "participant": ""
+}, {
+  "donations": "Kyra Socronsky",
+  "participant": ""
+}, {
+  "donations": "Jenny Westphal",
+  "participant": ""
+}, {
+  "donations": "Emily Wilson",
+  "participant": ""
+}, {
+  "donations": "Marissa Rose",
+  "participant": ""
+}, {
+  "donations": "Breanna Goff",
+  "participant": ""
+}, {
+  "donations": "Victorai Dower",
+  "participant": ""
+}, {
+  "donations": "Ambreen Khan",
+  "participant": ""
+}, {
+  "donations": "Dave Hart",
+  "participant": ""
+}, {
+  "donations": "Erica Rolston",
+  "participant": ""
+}, {
+  "donations": "Caitlin Braithwaite",
+  "participant": ""
+}, {
+  "donations": "Anna Gallegos",
+  "participant": ""
+}, {
+  "donations": "Mark Keller",
+  "participant": ""
+}, {
+  "donations": "Andi Pearson",
+  "participant": ""
+}, {
+  "donations": "Miguel Trujilio",
+  "participant": ""
+}, {
+  "donations": "Sarah Oyler",
+  "participant": ""
+}, {
+  "donations": "Meredith Taylor",
+  "participant": ""
+}, {
+  "donations": "Emily Syme",
+  "participant": ""
+}, {
+  "donations": "Vanessa Bryant",
+  "participant": ""
+}, {
+  "donations": "Matthew Kastellec",
+  "participant": ""
+}, {
+  "donations": "Jordyn Canady",
+  "participant": ""
+}, {
+  "donations": "Derek Cohen",
+  "participant": ""
+}, {
+  "donations": "Josh Wangrud",
+  "participant": ""
+}, {
+  "donations": "Randi Rawson",
+  "participant": ""
+}, {
+  "donations": "Amy Stephens",
+  "participant": ""
+}, {
+  "donations": "Michaela Hutchinson",
+  "participant": ""
+}, {
+  "donations": "Amy Mils",
+  "participant": ""
+}, {
+  "donations": "Peter Margulies",
+  "participant": ""
+}, {
+  "donations": "Audrey Gallegos",
+  "participant": ""
+}, {
+  "donations": "Morgan Scibetta",
+  "participant": ""
+}, {
+  "donations": "Tara Sanchez",
+  "participant": ""
+}, {
+  "donations": "Crystal Grover",
+  "participant": ""
+}, {
+  "donations": "Tyson Grover",
+  "participant": ""
+}, {
+  "donations": "Jon Van Buren",
+  "participant": ""
+}, {
+  "donations": "Anne Snuggerud",
+  "participant": ""
+}, {
+  "donations": "Maria Millet",
+  "participant": ""
+}, {
+  "donations": "Catherine Bergstrom",
+  "participant": ""
+}, {
+  "donations": "Jennifer Baernathy",
+  "participant": ""
+}, {
+  "donations": "Rhiannon Lawrence",
+  "participant": ""
+}, {
+  "donations": "Lindsay Makowicki",
+  "participant": ""
+}, {
+  "donations": "Andrew Westlake",
+  "participant": ""
+}, {
+  "donations": "Dennis Mcmahon",
+  "participant": ""
+}, {
+  "donations": "Joseph Tayor",
+  "participant": ""
+}, {
+  "donations": "Madison Hansen",
+  "participant": ""
+}, {
+  "donations": "Kari Buchholz",
+  "participant": ""
+}, {
+  "donations": "Anna Madsen",
+  "participant": ""
+}, {
+  "donations": "Laura McDonough",
+  "participant": ""
+}, {
+  "donations": "Sam Fullmer",
+  "participant": ""
+}, {
+  "donations": "Michele Causer",
+  "participant": ""
+}, {
+  "donations": "Anne Canavan",
+  "participant": ""
+}, {
+  "donations": "Ashley Hayes",
+  "participant": ""
+}, {
+  "donations": "Cuauhtemoc Sandoval",
+  "participant": ""
+}, {
+  "donations": "Sarah Avila",
+  "participant": ""
+}, {
+  "donations": "Julee Attig",
+  "participant": ""
+}, {
+  "donations": "Jantzen Matthews",
+  "participant": ""
+}, {
+  "donations": "Syndey Sell",
+  "participant": ""
+}, {
+  "donations": "Cole Walkenhorst",
+  "participant": ""
+}, {
+  "donations": "Deveree Partridge",
+  "participant": ""
+}, {
+  "donations": "Sadie Muhlestein",
+  "participant": ""
+}, {
+  "donations": "Jennifer Fei",
+  "participant": ""
+}, {
+  "donations": "Dustin Garret",
+  "participant": ""
+}, {
+  "donations": "Devin Hirschi",
+  "participant": ""
+}, {
+  "donations": "Megan Sparrow",
+  "participant": ""
+}, {
+  "donations": "Liza Zhang",
+  "participant": ""
+}, {
+  "donations": "Elisabeth Mathis",
+  "participant": ""
+}, {
+  "donations": "Emily Kay",
+  "participant": ""
+}, {
+  "donations": "Mckenna Winterholler",
+  "participant": ""
+}, {
+  "donations": "Josie Byer",
+  "participant": ""
+}, {
+  "donations": "Hanna Omar",
+  "participant": ""
+}, {
+  "donations": "Rachel Fullterton",
+  "participant": ""
+}, {
+  "donations": "Sheri Dearden",
+  "participant": ""
+}, {
+  "donations": "Amber Pless",
+  "participant": ""
+}, {
+  "donations": "Nicki + Eric Nixon Smith",
+  "participant": ""
+}, {
+  "donations": "Lauren Mack",
+  "participant": ""
+}]
