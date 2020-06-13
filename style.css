@@ -60,6 +60,10 @@ main .storemenu, main .normalpintclub, .buildyourowncomposedcone, .participants,
     background-color: var(--background-highlight-color);
 }
 
+main .participants a:any-link {
+    border: 0;
+}
+
 main .storemenu h2 {
     border: currentColor 2px solid;
     padding: 7px 20px;
