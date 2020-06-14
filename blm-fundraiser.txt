@@ -305,7 +305,7 @@
   "participant-link": "www.nomad-eatery.com"
 }, {
   "donations": "Lauren Najar",
-  "participant": "NORMAL® ICE CREAM - 1 year subscription to normal® PINT CLUB",
+  "participant": "NORMAL® ICE CREAM",
   "participant-description": "1 year suscription to PINT CLUB",
   "participant-link": "https://normal.club"
 }, {
@@ -1619,7 +1619,10 @@
   "participant-description": "",
   "participant-link": ""
 }, {
-
+  "donations": "Genevieve Bennett",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
 }, {
   "donations": "Jennifer Lazzara",
   "participant": "",
