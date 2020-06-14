@@ -162,7 +162,7 @@ function fixIcons() {
                     if (link) {
                         html+=`<p><a href="${link}"><b>${text}</b></a>`;
                     } else {
-                        html+=`<p>${text}</p>`;
+                        html+=`<p><b>${text}</b></p>`;
                     }
                     if (desc) html+=`<br>${desc}</p>`;
                 }
