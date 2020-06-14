@@ -161,10 +161,13 @@ function fixIcons() {
                 if (text) {
                     if (link) {
                         html+=`<p><a href="${link}"><b>${text}</b></a>`;
+                        if (desc) html+=`<br>${desc}`;
+                        html+=`</p>`;
                     } else {
-                        html+=`<p><b>${text}</b></p>`;
+                        html+=`<p><b>${text}</b>`;
+                        if (desc) html+=`<br>${desc}`;
+                        html+=`</p>`;
                     }
-                    if (desc) html+=`<br>${desc}</p>`;
                 }
             })
             var div=document.createElement('div');
