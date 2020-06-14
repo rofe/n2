@@ -157,12 +157,14 @@ function fixIcons() {
             json.forEach((r) => {
                 var text=r[name];
                 var link=r[name+'-link']
+                var desc=r[name+'-description']
                 if (text) {
                     if (link) {
-                        html+=`<p><a href="${link}">${text}</a></p>`;
+                        html+=`<p><a href="${link}"><b>${text}</b></a>`;
                     } else {
                         html+=`<p>${text}</p>`;
                     }
+                    if (desc) html+=`<br>${desc}</p>`;
                 }
             })
             var div=document.createElement('div');
