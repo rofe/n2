@@ -1,7 +1,7 @@
 [{
   "donations": "Tanya Hunt",
   "participant": "22 SPA MD",
-  "participant-description": "gift card *used toward any treatment not including injectables",
+  "participant-description": "$250 gift card *used toward any treatment not including injectables",
   "participant-link": "https://22plasticsurgery.com"
 }, {
   "donations": "Greta Sommerfeld",
@@ -11,7 +11,7 @@
 }, {
   "donations": "Andrew Guerrero",
   "participant": "ALIBI BAR & PLACE",
-  "participant-description": "gift card",
+  "participant-description": "$100 gift card",
   "participant-link": "https://www.instagram.com/alibislc/?hl=en"
 }, {
   "donations": "Hailee Henson",
@@ -26,7 +26,7 @@
 }, {
   "donations": "Lindsey Moore",
   "participant": "ATELIER",
-  "participant-description": "gift card",
+  "participant-description": "$100 gift card",
   "participant-link": "https://www.atelierslc.com"
 }, {
   "donations": "Emily Newsome",
@@ -36,7 +36,7 @@
 }, {
   "donations": "Abbey Mansfield",
   "participant": "BAR X",
-  "participant-description": "gift card",
+  "participant-description": "$100 gift card",
   "participant-link": "http://www.beerbarslc.com"
 }, {
   "donations": "Britnee Bartlett",
@@ -46,12 +46,12 @@
 }, {
   "donations": "Dani Day",
   "participant": "BEER BAR",
-  "participant-description": "gift card",
+  "participant-description": "$100 gift card",
   "participant-link": "http://www.beerbarslc.com"
 }, {
   "donations": "Monique Skordas",
   "participant": "BELTEX",
-  "participant-description": "Beltex Butchers Basics Package",
+  "participant-description": "butchers basics package",
   "participant-link": "https://www.beltexmeats.com"
 }, {
   "donations": "Marisa Milstead",
@@ -81,7 +81,7 @@
 }, {
   "donations": "Jordan Roebuck",
   "participant": "BREAD RIOT BAKEHOUSE",
-  "participant-description": "gift certificate",
+  "participant-description": "$120 gift certificate",
   "participant-link": "https://breadriotbakehouse.com"
 }, {
   "donations": "Truc T",
@@ -91,7 +91,7 @@
 }, {
   "donations": "Spencer Oliphant",
   "participant": "CANNELLA'S",
-  "participant-description": "gift card",
+  "participant-description": "$50 gift card",
   "participant-link": "https://www.cannellas.com"
 }, {
   "donations": "Rachael Katz",
@@ -101,7 +101,7 @@
 }, {
   "donations": "Gracie James",
   "participant": "CITY OF INDUSTRY",
-  "participant-description": "gift certificate",
+  "participant-description": "$100 gift certificate",
   "participant-link": "http://cityofindustryshop.com/"
 }, {
   "donations": "Megan Dunn",
@@ -111,7 +111,7 @@
 }, {
   "donations": "Athena Schwartz",
   "participant": "COPPERHIVE VINTAGE",
-  "participant-description": "gift card",
+  "participant-description": "$100 gift card",
   "participant-link": "https://www.copperhivevintage.com"
 }, {
   "donations": "Richelle Medellin",
@@ -131,7 +131,7 @@
 }, {
   "donations": "Kali Wills",
   "participant": "DIABOLICAL RECORDS",
-  "participant-description": "gift card",
+  "participant-description": "$100 gift card",
   "participant-link": "http://diabolicalrecords.com"
 }, {
   "donations": "Savina Buendia",
@@ -146,12 +146,12 @@
 }, {
   "donations": "Kaitlin Lento",
   "participant": "EMIGRATION BREWING",
-  "participant-description": "gift card",
+  "participant-description": "$100 gift card",
   "participant-link": "https://emigrationbrewing.com"
 }, {
   "donations": "Vicky Weaver",
   "participant": "EMILEY GOLIE HAIRSTYLIST @ LUNATIC FRINGE SALON",
-  "participant-description": "cut + color",
+  "participant-description": "cut + color up to $400",
   "participant-link": ""
 }, {
   "donations": "Kodi Frost",
@@ -161,12 +161,12 @@
 }, {
   "donations": "Ashley Wilkinson",
   "participant": "EVA'S BAKERY",
-  "participant-description": "gift card",
+  "participant-description": "$100 gift card",
   "participant-link": "https://www.evasbakeryslc.com"
 }, {
   "donations": "Danielle Ludwig Miller",
   "participant": "EVA",
-  "participant-description": "gift card",
+  "participant-description": "$100 gift card",
   "participant-link": "https://www.evaslc.com/eat"
 }, {
   "donations": "Lacey Smith",
@@ -191,7 +191,7 @@
 }, {
   "donations": "Jennifer Orrock",
   "participant": "KOODEKER",
-  "participant-description": "gift card",
+  "participant-description": "$50 gift card",
   "participant-link": "https://www.koodeker.com"
 }, {
   "donations": "Kelsey Clement",
@@ -201,7 +201,7 @@
 }, {
   "donations": "Carly Lundgren",
   "participant": "HEART OF GOLD TATTOO",
-  "participant-description": "gift card",
+  "participant-description": "$200 gift card",
   "participant-link": "https://www.instagram.com/heartofgoldtattoo/"
 }, {
   "donations": "Tai Biesinger",
@@ -211,7 +211,7 @@
 }, {
   "donations": "Seva Haug-Baltzell",
   "participant": "HIP & HUMBLE",
-  "participant-description": "gift card",
+  "participant-description": "$100 gift card",
   "participant-link": "https://hipandhumble.com"
 }, {
   "donations": "Lyndi Turpin",
@@ -231,12 +231,12 @@
 }, {
   "donations": "Kelly Himle",
   "participant": "THE LAND OF SALT",
-  "participant-description": "gift card",
+  "participant-description": "$75 gift card",
   "participant-link": "https://www.thelandofsalt.com"
 }, {
   "donations": "Zoe Barlow",
   "participant": "LAZIZ KITCHEN",
-  "participant-description": "gift card",
+  "participant-description": "$100 gift card",
   "participant-link": "https://www.lazizkitchen.com"
 }, {
   "donations": "Scott Varner",
@@ -246,12 +246,12 @@
 }, {
   "donations": "Jordan Duke",
   "participant": "LOOK LOOK TATTOO",
-  "participant-description": "gift card",
+  "participant-description": "$200 gift card",
   "participant-link": "https://looklooktattoo.com"
 }, {
   "donations": "Dana Klanderud",
   "participant": "LOOM + KILN",
-  "participant-description": "gift card",
+  "participant-description": "$200 gift card",
   "participant-link": "https://loomandkiln.com"
 }, {
   "donations": "Mad Dough",
@@ -286,12 +286,12 @@
 }, {
   "donations": "Katherine Powers",
   "participant": "MOCHI KIDS",
-  "participant-description": "gift card",
+  "participant-description": "$300 gift card",
   "participant-link": "www.mochikids.com"
 }, {
   "donations": "Dallen Slaugh",
   "participant": "CAFE NICHE",
-  "participant-description": "gift card",
+  "participant-description": "$100 gift card",
   "participant-link": "https://www.caffeniche.com"
 }, {
   "donations": "Gretchen Devine",
@@ -365,9 +365,9 @@
   "participant-link": "https://www.instagram.com/postslc/?hl=en"
 }, {
   "donations": "Emily Kam",
-  "participant": "PRETTY BIRD",
+  "participant": "",
   "participant-description": "$50 gift card",
-  "participant-link": "www.prettybirdchicken.com"
+  "participant-link": ""
 }, {
   "donations": "Kalina Duncan",
   "participant": "PROVISIONS",
@@ -441,12 +441,12 @@
 }, {
   "donations": "Janae Palmer",
   "participant": "TACO TACO",
-  "participant-description": "gift card",
+  "participant-description": "$50 gift card",
   "participant-link": "https://www.tacotacoslc.com"
 }, {
   "donations": "Maureen Botoman",
   "participant": "TAKASHI",
-  "participant-description": "gift card *alcohol not included",
+  "participant-description": "$100 gift card *alcohol not included",
   "participant-link": "http://takashisushi.com"
 }, {
   "donations": "Katrina Johnson",
@@ -461,12 +461,12 @@
 }, {
   "donations": "Bonnie Kaminsky",
   "participant": "THE KURA DOOR",
-  "participant-description": "gift certificate",
+  "participant-description": "$250 gift certificate",
   "participant-link": "https://www.thekuradoor.com"
 }, {
   "donations": "brittany berg",
   "participant": "THE REST",
-  "participant-description": "(2) $100 gift cards",
+  "participant-description": "$100 gift cards",
   "participant-link": "https://bodegaslc.com"
 }, {
   "donations": "Lanie Cheatham",
@@ -481,18 +481,18 @@
 }, {
   "donations": "Helen Cox",
   "participant": "THE TEA GROTTO",
-  "participant-description": "gift card",
+  "participant-description": "$50 gift card",
   "participant-link": "https://www.teagrotto.com"
 }, {
   "donations": "Erin Casale",
   "participant": "THE SALT LAKE BARBER CO",
-  "participant-description": "gift certificate",
+  "participant-description": "$150 gift card",
   "participant-link": "https://saltlakebarberco.com"
 }, {
   "donations": "Emily Bunge",
-  "participant": "THE STORE - GATEWAY",
+  "participant": "",
   "participant-description": "gift certificate",
-  "participant-link": "thestoreutah.com"
+  "participant-link": ""
 }, {
   "donations": "Kelsey Hayes",
   "participant": "THYME AND PLACE",
@@ -506,17 +506,17 @@
 }, {
   "donations": "Michelle Noel",
   "participant": "TOP SHELF PROFESSIONAL BAR SERVICES",
-  "participant-description": "Bartender's Box \"The freshest-easiest-most fun experience you've ever had!\" ",
+  "participant-description": "bartender's box \"The freshest-easiest-most fun experience you've ever had!\" ",
   "participant-link": "https://www.topshelfutah.com"
 }, {
   "donations": "Ann Chen",
   "participant": "TRIO ",
-  "participant-description": "gift card",
+  "participant-description": "$75 gift card",
   "participant-link": "https://www.triodining.com"
 }, {
   "donations": "Renee Dunne",
   "participant": "TULIE BAKERY",
-  "participant-description": "gift card",
+  "participant-description": "$250 gift card",
   "participant-link": "http://tuliebakery.com"
 }, {
   "donations": "Ally Marringa",
@@ -526,7 +526,7 @@
 }, {
   "donations": "JW Trull",
   "participant": "TYSON DANIEL HAIRDRESSING",
-  "participant-description": "Cut + color + style up to $250",
+  "participant-description": "cut + color + style up to $250",
   "participant-link": "https://tysondanielhairdressing.com"
 }, {
   "donations": "Troy Domstead",
@@ -546,7 +546,7 @@
 }, {
   "donations": "Jonathan Ng",
   "participant": "YELLOW ROSE TATTOO",
-  "participant-description": "gift card",
+  "participant-description": "$200 gift card",
   "participant-link": "https://yellowrosetattoos.com"
 }, {
   "donations": "Anne Kilgore",
