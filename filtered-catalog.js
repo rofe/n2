@@ -2978,7 +2978,7 @@ var catalog_raw=[
      }
     },
     {
-     "id": "OC63TYXM7XN74EWS4VPJZQR3",
+     "id": "7PV4BOQWBD43K6SP7L4DQJH6",
      "modifier_data": {
       "name": "salted vanilla bean",
       "price_money": {
@@ -6216,17 +6216,17 @@ var catalog_raw=[
      }
     },
     {
-     "id": "T5IUEXEGD6WJOGUNVB353WBB",
+     "id": "U63CIQIXJLSTBDPQTLOVJHGU",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "salted vanilla bean - half size",
+      "name": "salted vanila bean - half size",
       "price_money": {
        "amount": 300
       }
      }
     },
     {
-     "id": "AXJGW3M5TECBQXZ44ZGZON7T",
+     "id": "3TH4IWQCM3XS6FMY3YHMFTK6",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
       "name": "salted vanilla bean - normal size",
@@ -6399,7 +6399,7 @@ var catalog_raw=[
      }
     },
     {
-     "id": "4HLENF3TX6KX663CDFACUXXC",
+     "id": "CGAN2H32QKZ27B43FAOB6Z5O",
      "modifier_data": {
       "name": "salted vanilla bean",
       "price_money": {
@@ -7288,24 +7288,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "4HLENF3TX6KX663CDFACUXXC",
-  "modifier_data": {
-   "name": "salted vanilla bean",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "OC63TYXM7XN74EWS4VPJZQR3",
-  "modifier_data": {
-   "name": "salted vanilla bean",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "TL73TNO3AQ25SL72KPU7OAGF",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
@@ -7796,6 +7778,24 @@ var catalog_raw=[
   "type": "CATEGORY",
   "category_data": {
    "name": "checkout items store"
+  }
+ },
+ {
+  "id": "CGAN2H32QKZ27B43FAOB6Z5O",
+  "modifier_data": {
+   "name": "salted vanilla bean",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "7PV4BOQWBD43K6SP7L4DQJH6",
+  "modifier_data": {
+   "name": "salted vanilla bean",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]
