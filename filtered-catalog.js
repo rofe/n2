@@ -3116,7 +3116,7 @@ var catalog_raw=[
   "id": "JATGZLWSKOF4YPGV4WFJ2LW6",
   "type": "ITEM",
   "item_data": {
-   "name": "add-ons",
+   "name": "add-ons ...",
    "modifier_list_info": [
     {
      "modifier_list_id": "UTJ4KKU6NI74TL37AS6FJFAZ"
