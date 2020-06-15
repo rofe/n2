@@ -496,7 +496,7 @@
 }, {
   "donations": "Kelsey Hayes",
   "participant": "THYME AND PLACE",
-  "participant-description": "",
+  "participant-description": "$100 gift card",
   "participant-link": "https://www.thymeandplaceshop.com"
 }, {
   "donations": "James Martak",
@@ -536,12 +536,12 @@
 }, {
   "donations": "Summer Wilkinson",
   "participant": "VIS. ",
-  "participant-description": "gift card to include eye exam, one frame (up to $300), one clear single vision lense",
+  "participant-description": "gift card to include eye exam + one frame (up to $300) + clear, single vision lenses",
   "participant-link": "http://visoptics.co"
 }, {
   "donations": "Eliza Hogan",
   "participant": "VIVE JUICERY",
-  "participant-description": "3 day cleanse or 4 week subscription or an abundance box",
+  "participant-description": "3 day cleanse + 4 week subscription + an abundance box",
   "participant-link": "https://www.vivejuicery.com"
 }, {
   "donations": "Jonathan Ng",
@@ -2135,6 +2135,481 @@
   "participant-link": ""
 }, {
   "donations": "Kelly Ganzen",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Samantha Cook",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Michael Montoya",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Sadie Robinson",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Danielle Babbel",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Mackenzi Squier",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Greydon Benzmiller",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Shireen Ghorbani",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Dan Mason",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Cortni Wimberley",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Harriet Shuler",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Ryan Sparks",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Haleigh Larmer",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Katherine Faber",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "alexandra chopine",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Steve Espinosa",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Casey Anderson",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Ben Kuhns",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Hollie Hinkins",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Shaye Taeoalii",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Natasha Fett",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Jesse Sheets",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Nicole Sumner",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Ethan Perkins",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Benjamin Lawhorn",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Laura Hui",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Ericka Aguilar",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Emilee Scholl",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Heidi ODonoghue",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Kira Golding",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Keith Johnson",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Karen DuBroff",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Julia Camp",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Andrea Bowden",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Sarah white",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Sarah white",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Jeremiah Roth",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Cassandra Betar",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Vreni Romang",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Zeena Lindsey",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Cassandra Mogusar",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Christina Lam",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Jessica Keddington",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Jonathan Holmgren",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Jenny Milligan",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Nicki Hill",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Alex Youre-Moses",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Molly Harper",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Mara Lemesany",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Lydia Keenan",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "adrienne nakamura",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Tayler Preece",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Caitlin Brown",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Jared Harris",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Rachel Simari",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Jennifer Jakubek",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Eamon Burrell",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Nicole Sherman",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Samuel Hendry",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Adam Hoch",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Sue Lynn Bailey",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "John Jacquez",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Lauren Smith",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Nicole Stagg",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Rita Cornish",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Rachel Rawle",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Andi Tyler",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Jennifer Pennington",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Heather Nan Parkinson",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Baylee Olds",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Lindsay Selk",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Cari Dietrich",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "#REF! (Reference does not exist.)",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "J Templeton",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Kiera Ohrn",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Michelle Zundel",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Phillip Istomin",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Cori Ward",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Karla Barton",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Lauren Hansen",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Annie Kramer",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "paige wightman",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Shauna Au",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Isabell Drake",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Ruel Brown",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Pablo Rosas",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Aroha Dobson",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Sean Winskowski",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Danielle Susi",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Linzie Middleton",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Sarah Aezer",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Raja Bella Hicks",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Kaydee Volpi",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Megan McDowell",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Francisco Olmos",
+  "participant": "",
+  "participant-description": "",
+  "participant-link": ""
+}, {
+  "donations": "Courtney McDonald",
   "participant": "",
   "participant-description": "",
   "participant-link": ""
