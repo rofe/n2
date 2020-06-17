@@ -965,6 +965,39 @@ select:disabled:hover, select[aria-disabled=true] {
         display: none;
       }
 
+#alert {
+    position: fixed;
+    bottom: 0;
+    height: 100%;
+    width: 100VW;
+    background-color: var(--text-color);
+    color: var(--background-highlight-color);
+    box-sizing: border-box;    
+    text-align: center;
+    transition: all 0.5s ease-in;
+    z-index: 5;
+    padding: 20px;
+}
+
+#alert button {
+    background-color: var(--background-highlight-color);
+    color: var(--text-color);
+    padding: 12px;
+    padding: 10px 20px;
+    margin-left: 0;
+}
+
+#alert a:any-link {
+    border: 2px var(--background-highlight-color) solid;
+    border-radius: 20px; 
+    padding: 10px 20px;
+}
+
+#alert svg {
+    height: 200px;
+    width: 200px;
+}
+
 
 @keyframes rotate-center {
     0% {
