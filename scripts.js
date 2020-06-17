@@ -152,7 +152,7 @@ function fixIcons() {
         var a=e.getAttribute("href");
         var name=a.split("/")[2].split(".")[0];
         if (name == 'participant' || name == 'donations') {
-            var json=await fetchJSON('/blm-fundraiser-data.json');
+            var json=await fetchJSON('/blm-fundraiser-data-new.json');
             html='';
             json.forEach((r) => {
                 var text=r[name];
