@@ -999,7 +999,9 @@ storeLocations={
             lastOrderFromClose: 0,
             prepTime: 0
         },
-        orderAhead: 10
+        orderAhead: 10,
+        link: "/",
+        address: "169 E 900 S in SLC"
     },
     lab: {
         endpoint: "https://script.google.com/macros/s/AKfycbyQ1tQesQanw1Dd13t0c7KLxBRwKTesCfbHJQdHMMvc02aWiLGZ/exec",
@@ -1008,7 +1010,9 @@ storeLocations={
             closing: [22,22,22,22,22,22,22],
             lastOrderFromClose: 0,
             prepTime: 0
-        }    
+        },    
+        link: "/lab.html",
+        address: "inside the east entrance of trolley square, 602 700 E in SLC, UTC"
     }
 }
 
@@ -1079,7 +1083,23 @@ async function checkCart() {
     return nomore;
 }
 
+function displayStoreAlert() {
+    var other=(storeLocation=='lab')?'store':'lab';
+    console.log(other);
+    var otherLink=storeLocations[other].link;
+    var storealert=document.createElement('div');
+    storealert.id="alert";
+    storealert.innerHTML=`<h3>you are ordering from our ${storeLocation}</h3>
+    <svg><use href="/icons.svg#${storeLocation}"></use></svg>
+    <p>we are located ${storeLocations[storeLocation].address}</p>
+    <p><button onclick="submitOrder()">yes, i that's what i want</button></p>
+    <p><a href="${otherLink}">oh no, take me to the ${other}</a></p>
+    `
+    document.querySelector('footer').appendChild(storealert);
+}
+
 async function submitOrder() {
+    var alertEl=document.getElementById("alert").remove();
     var cartEl=document.getElementById("cart");
 
     var orderParams={};
@@ -1320,7 +1340,7 @@ function initCart() {
                     <div class="warning hidden">i’m so sorry! we are not accepting orders after hours, but of course you can order normal&reg; for tomorrow... or the next day</div>
                 </div>
                 <input id="discount" data-id="" type="text" placeholder="discount code?" onkeyup="checkDiscount(this)">
-                <button onclick="submitOrder()">order</button>
+                <button onclick="displayStoreAlert()">order</button>
             </div>
             <div class="warning hidden toolate">
             <p>i’m so sorry! we are not accepting orders after hours, we'll keep our cones in your cart though :) hope to see you tomorrow!</p>
