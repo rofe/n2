@@ -2188,40 +2188,20 @@ var catalog_raw=[
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
-     "id": "ZZBE6XOSAL6C6JVJFRQ2NSTB",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "ETHIOPIA kilenso",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
-     "id": "WHZ6I2AFGCDA37MX3OFX55XD",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "ETHIOPIA bukisa",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
-     "id": "GC7JJ76SEFMUEWI7CEVRBYAW",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "HONDURAS la peña",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
      "id": "GBVKDOXROD3O7JLPXPGCL3ZO",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
       "name": "GUATEMALA nayo ovalle",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "B6CZ456HOXG6LP7ORREEHEYM",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "COLUMBIA robinson figueroa",
       "price_money": {
        "amount": 1600
       }
