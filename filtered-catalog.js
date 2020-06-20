@@ -2201,7 +2201,7 @@ var catalog_raw=[
      "id": "B6CZ456HOXG6LP7ORREEHEYM",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "COLUMBIA robinson figueroa",
+      "name": "ETHIOPIA kilenso",
       "price_money": {
        "amount": 1600
       }
@@ -5757,6 +5757,16 @@ var catalog_raw=[
       "name": "pina colada bar",
       "price_money": {
        "amount": 500
+      }
+     }
+    },
+    {
+     "id": "P7JAPAZZXG3OBV2SX4CHXSHY",
+     "item_variation_data": {
+      "item_id": "WN35EZKZ5VHRPBC7OXUGOTP5",
+      "name": "POP pops",
+      "price_money": {
+       "amount": 2800
       }
      }
     }
