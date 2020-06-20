@@ -6683,6 +6683,16 @@ var catalog_raw=[
        "amount": 1000
       }
      }
+    },
+    {
+     "id": "DHY4KZNPEKZBTYBOWYMUV4ZZ",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "honey whiskey + pretzels",
+      "price_money": {
+       "amount": 1000
+      }
+     }
     }
    ]
   }
