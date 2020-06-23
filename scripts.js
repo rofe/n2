@@ -1092,7 +1092,7 @@ function displayStoreAlert() {
     storealert.innerHTML=`<h3>you are ordering from our ${storeLocation}</h3>
     <svg><use href="/icons.svg#${storeLocation}"></use></svg>
     <p>we are located ${storeLocations[storeLocation].address}</p>
-    <p><button onclick="submitOrder()">yes, i that's what i want</button></p>
+    <p><button onclick="submitOrder()">yes, that's what i want</button></p>
     <p><a href="${otherLink}">oh no, take me to the ${other}</a></p>
     `
     document.querySelector('footer').appendChild(storealert);
