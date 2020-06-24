@@ -1138,12 +1138,13 @@ function displayStoreAlert() {
     console.log(other);
     var otherLink=storeLocations[other].link;
     var storealert=document.createElement('div');
+    labels=window.labels;
     storealert.id="alert";
-    storealert.innerHTML=`<h3>you are ordering from our ${storeLocation}</h3>
+    storealert.innerHTML=`<h3>${labels[storeLocation+'_youareorderingfrom']}</h3>
     <svg><use href="/icons.svg#${storeLocation}"></use></svg>
-    <p>we are located ${storeLocations[storeLocation].address}</p>
-    <p><button onclick="submitOrder()">yes, that's what i want</button></p>
-    <p><a href="${otherLink}">oh no, take me to the ${other}</a></p>
+    <p>${labels[storeLocation+'_ourlocationis']}</p>
+    <p><button onclick="submitOrder()">${labels[storeLocation+'_yes']}</button></p>
+    <p><a href="${otherLink}">${labels[storeLocation+'_ohno']}</a></p>
     `
     document.querySelector('footer').appendChild(storealert);
 }
@@ -1371,13 +1372,26 @@ function toggleCartDisplay() {
     }
 }
 
+async function fetchLabels() {
+    if (!window.labels) {
+        var resp=await fetch('/labels.json');
+        var json=await resp.json();
+        window.labels={};
+        json.forEach((e) => {
+            window.labels[e.key]=e.text;
+            console.log(e.text);
+        })   
+    }
+    return (window.labels);
+}
 
 function initCart() {
     var cartEl=document.getElementById("cart");
-    
+    var labels=window.labels;
+
     var html=`<div class="summary">items in your cart ($) <button onclick="toggleCartDisplay()">check out</button></div>`;
     html+=`<div class="details hidden">
-            <div class="back" onclick="toggleCartDisplay()">&lt; back to shop</div>
+            <div class="back" onclick="toggleCartDisplay()">&lt; ${labels.checkout_backtoshop}</div>
             <div class="lineitems"></div>
             <div class="checkoutitems"></div>
             <div class="info">
@@ -1387,17 +1401,16 @@ function initCart() {
                     <nobr>
                         <select id="pickup-date" onchange="setPickupTimes()"></select><select id="pickup-time"></select>
                     </nobr>
-                    <div class="warning hidden">i’m so sorry! we are not accepting orders after hours, but of course you can order normal&reg; for tomorrow... or the next day</div>
+                    <div class="warning hidden">${labels.checkout_afterhours}</div>
                 </div>
                 <input id="discount" data-id="" type="text" placeholder="discount code?" onkeyup="checkDiscount(this)">
                 <button onclick="displayStoreAlert()">order</button>
             </div>
             <div class="warning hidden toolate">
-            <p>i’m so sorry! we are not accepting orders after hours, we'll keep our cones in your cart though :) hope to see you tomorrow!</p>
+            <p>${labels.checkout_toolate}</p>
             </div>
             <div class="warning hidden tooearly">
-            <p>* we are not open yet, but we will keep your cart around, just reload the page once we are open and complete the checkout.</p> 
-            <p>we are excited to see you.</p>
+            <p>${labels.checkout_tooearly}</p> 
             </div>
             <div class="order hidden"></div>
             <div class="payment hidden">
@@ -1410,8 +1423,8 @@ function initCart() {
                 </select></div>
                 <div id="form-container">
                     <div class="wegotyourorder warning hidden">
-                    <p>we are ready for you!</p>
-                    <p>please process payment once you have arrived and we’ll call your name when your order is ready</p>
+                    <p>${labels.checkout_ready}</p>
+                    <p>${labels.checkout_callyourname}</p>
                     </div>
                     <div id="sq-card-number"></div>
                     <div class="third" id="sq-expiration-date"></div>
@@ -1422,7 +1435,7 @@ function initCart() {
                 </div>             
             </div>
             <div class="thankyou order-ahead hidden">
-                <h3 class="warning">thank you SO much, text us when you arrive at our STORE and ready for pick up</h3>
+                <h3 class="warning">${labels.checkout_orderaheadthanks}</h3>
                 <p>
                 <a id="text-link" href="sms://+13852995418/">(385)299-5418</a>
                 </p>
@@ -1431,7 +1444,7 @@ function initCart() {
                 </p>
             </div>
             <div class="thankyou callyourname hidden">
-                <h3 class="warning">thank you SO much! we’ll call your name when your order is ready :)</h3>
+                <h3 class="warning">${labels.checkout_pickupnowthanks}</h3>
                 <p>
                 <a class="receipt-link" target="_new" href="">show receipt</a>
                 </p>
@@ -1521,7 +1534,7 @@ function updateCart() {
     if (coCategory) {
         var coItems=catalog.items.filter(i => i.item_data.category_id == coCategory.id);
         if (coItems.length) {
-            html='<div>add to order</div>';
+            html=`<div>${checkout_addtoorder}</div>`;
             coItems.forEach((i) => {
                 var price=formatMoney(i.item_data.variations[0].item_variation_data.price_money.amount);
                 var id=i.item_data.variations[0].id;
@@ -1845,8 +1858,9 @@ function signup() {
 general setup
 --- */
 
-window.addEventListener('DOMContentLoaded', (event) => {
+window.addEventListener('DOMContentLoaded', async (event) => {
     //resizeImages();
+    await fetchLabels();
     setLocation();
     setColors();
     fixIcons();
