@@ -398,17 +398,23 @@ function adjustScrolling($sel) {
     $sel.parentNode.style=`transform: translateX(${newOffset}px)`;
     scrollOffsets[$sel.parentNode.parentNode.getAttribute('data-name')]=newOffset;
 }
-
+function hasDip() {
+    const dips=document.querySelector('div[data-name="dip"]');
+    if (dips) {
+        const seldip=dips.querySelector('.selected');
+        const nodip=dips.querySelector('.cb-options span:first-of-type');
+        const dip=(seldip==nodip)?0:1;
+        return dip;    
+    }
+    return (0);
+}
 function coneBuilderSelect($sel) {
     if (($sel.parentNode.parentNode.getAttribute('data-name')=='topping') && ($sel != $sel.parentNode.firstChild)) {
         $sel.parentNode.firstChild.classList.remove('selected');
         if (!$sel.classList.contains('selected')) {
             //check for too many toppings
             const numToppings=$sel.parentNode.querySelectorAll('.selected').length;
-            const dips=document.querySelector('div[data-name="dip"]');
-            const seldip=dips.querySelector('.selected');
-            const nodip=dips.querySelector('.cb-options span:first-of-type');
-            const dip=(seldip==nodip)?0:1;
+            const dip=hasDip();
             if (dip+numToppings>=3) {
                 alert ('sorry, 2 toppings+dip or 3 toppings without a dip');
             } else {
@@ -425,6 +431,13 @@ function coneBuilderSelect($sel) {
         })    
         $sel.classList.add('selected');
     }
+
+    var dip=hasDip();
+    title=`pick up to ${dip?2:3} toppings`;
+    const toppingTitle=document.querySelector('div[data-name="topping"] h4');
+    toppingTitle.innerHTML=title;
+
+
     showConfig();
     adjustScrolling($sel);
 }
@@ -581,8 +594,10 @@ function getConeBuilderHTML(item, callout) {
                 if (name.includes('dip')) name='dip';
                 if (name.includes('topping')) name='topping';
 
+                let title=`pick your ${name}`;
+                
                 // html+=`<h3>${ml.modifier_list_data.name}</h3>`;
-                html+=`<div class="cb-selection hidden" data-name="${name}"><h4>pick your ${name}</h4><div class="cb-options smooth">`;
+                html+=`<div class="cb-selection hidden" data-name="${name}"><h4>${title}</h4><div class="cb-options smooth">`;
                 ml.modifier_list_data.modifiers.forEach((mod, i) => {
                     var price=mod.modifier_data.price_money.amount;
                     price=price?`<br><span class="price">(+$${formatMoney(price)})</span>`:'';
