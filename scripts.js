@@ -408,6 +408,14 @@ function hasDip() {
     }
     return (0);
 }
+
+function updateNumberOfToppings() {
+    var dip=hasDip();
+    title=`pick up to ${dip?2:3} toppings`;
+    const toppingTitle=document.querySelector('div[data-name="topping"] h4');
+    toppingTitle.innerHTML=title;
+}
+
 function coneBuilderSelect($sel) {
     if (($sel.parentNode.parentNode.getAttribute('data-name')=='topping') && ($sel != $sel.parentNode.firstChild)) {
         $sel.parentNode.firstChild.classList.remove('selected');
@@ -432,11 +440,7 @@ function coneBuilderSelect($sel) {
         $sel.classList.add('selected');
     }
 
-    var dip=hasDip();
-    title=`pick up to ${dip?2:3} toppings`;
-    const toppingTitle=document.querySelector('div[data-name="topping"] h4');
-    toppingTitle.innerHTML=title;
-
+    updateNumberOfToppings();
 
     showConfig();
     adjustScrolling($sel);
@@ -726,6 +730,7 @@ function configItem(item, callout) {
             $cbs.addEventListener('touchcancel', scrollSelection, true);
             $cbs.addEventListener('touchend', scrollSelection, true);
         });
+        updateNumberOfToppings();
         showConfig();
         adjustScrolling(document.querySelector('#config.cone-builder .cb-options .selected'));
     } else {
