@@ -400,10 +400,31 @@ function adjustScrolling($sel) {
 }
 
 function coneBuilderSelect($sel) {
-    $sel.parentNode.querySelectorAll("span").forEach(($e) => {
-        $e.classList.remove('selected');
-    })
-    $sel.classList.add('selected');
+    if (($sel.parentNode.parentNode.getAttribute('data-name')=='topping') && ($sel != $sel.parentNode.firstChild)) {
+        $sel.parentNode.firstChild.classList.remove('selected');
+        if (!$sel.classList.contains('selected')) {
+            //check for too many toppings
+            const numToppings=$sel.parentNode.querySelectorAll('.selected').length;
+            const dips=document.querySelector('div[data-name="dip"]');
+            const seldip=dips.querySelector('.selected');
+            const nodip=dips.querySelector('.cb-options span:first-of-type');
+            const dip=(seldip==nodip)?0:1;
+            if (dip+numToppings>=3) {
+                alert ('sorry, 2 toppings+dip or 3 toppings without a dip');
+            } else {
+                $sel.classList.add('selected');
+            }
+        } else {
+            $sel.classList.remove('selected');
+            if (!$sel.parentNode.querySelector('.selected'))
+                $sel.parentNode.firstChild.classList.add('selected');
+        }
+    } else {
+        $sel.parentNode.querySelectorAll("span").forEach(($e) => {
+            $e.classList.remove('selected');
+        })    
+        $sel.classList.add('selected');
+    }
     showConfig();
     adjustScrolling($sel);
 }
@@ -436,17 +457,22 @@ function createRandomConfig(itemid) {
 }
 
 function createConeFromConfig(mods) {
-    var coneconfig={};
+    var coneconfig={toppings:[]};
     mods.forEach((m) => {
         var mod=catalog.byId[m];
         if (mod.modifier_data) {
             var mlname=catalog.byId[mod.modifier_data.modifier_list_id].modifier_list_data.name;
             var modname=stripName(mod.modifier_data.name);
-            if (mlname.includes('vessel')) name='vessel';
-            if (mlname.includes('flavor')) name='flavor';
-            if (mlname.includes('dip')) name='dip';
-            if (mlname.includes('topping')) name='topping';
-            coneconfig[name]=modname;    
+            if (mlname.includes('topping')) {
+                coneconfig.toppings.push(modname);
+            }
+
+            else {
+                if (mlname.includes('vessel')) name='vessel';
+                if (mlname.includes('flavor')) name='flavor';
+                if (mlname.includes('dip')) name='dip';    
+                coneconfig[name]=modname;    
+            }
         }
     });
 
@@ -456,15 +482,19 @@ function createConeFromConfig(mods) {
     const vesself=`url(/cone-builder/${coneconfig.vessel}-front.png${postfix})`;
     const vesselb=`url(/cone-builder/${coneconfig.vessel}-back.png${postfix})`;
     const dip=`url(/cone-builder/${coneconfig.dip}-dip.png${postfix})`;
-    let topping=`url(/cone-builder/${coneconfig.topping}-topping.png${postfix})`;
-    if (coneconfig.topping.includes('cotton') && coneconfig.vessel.includes('cup')) {
-        topping=`url(/cone-builder/${coneconfig.topping}-topping-cup.png${postfix})`;
-    }    
+    let toppings='';
+    coneconfig.toppings.forEach((t, i) => {
+        let topping=`url(/cone-builder/${t}-topping.png${postfix})`;
+        if (t.includes('cotton') && coneconfig.vessel.includes('cup')) {
+            topping=`url(/cone-builder/${t}-topping-cup.png${postfix})`;
+        };
+        toppings=`${topping}`+(i?', ':'')+toppings;    
+    })
 
     html=`<div style="background-image: ${vesselb}">
         <div style="background-image: ${flavor}">
         <div style="background-image: ${dip}">
-        <div style="background-image: ${topping}">
+        <div style="background-image: ${toppings}">
         <div style="background-image: ${vesself}">
         </div>
         </div>
