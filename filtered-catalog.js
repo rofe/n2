@@ -2191,7 +2191,7 @@ var catalog_raw=[
      "id": "GBVKDOXROD3O7JLPXPGCL3ZO",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "GUATEMALA nayo ovalle",
+      "name": "BRASIL nathalia maria",
       "price_money": {
        "amount": 1600
       }
@@ -2201,7 +2201,17 @@ var catalog_raw=[
      "id": "B6CZ456HOXG6LP7ORREEHEYM",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "ETHIOPIA kilenso",
+      "name": "HONDURAS la pena",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "F6AIT42P32BD6UTLGWDDRWCT",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "COLUMBIA robinson figueroa",
       "price_money": {
        "amount": 1600
       }
