@@ -41,6 +41,11 @@ main svg + svg {
     margin-left: -0.3em;
 }
 
+main svg.icon-store, main svg.icon-lab {
+    height: 300px;
+    width: 300px;
+}
+
 
 main h1 {
     font-size: 34px;

@@ -1493,6 +1493,8 @@ function minus (el) {
 }
 
 function updateCart() {
+    const labels=window.labels;
+
     var cartEl=document.getElementById("cart");
 
     var count=cart.totalItems();
@@ -1534,7 +1536,7 @@ function updateCart() {
     if (coCategory) {
         var coItems=catalog.items.filter(i => i.item_data.category_id == coCategory.id);
         if (coItems.length) {
-            html=`<div>${checkout_addtoorder}</div>`;
+            html=`<div>${labels.checkout_addtoorder}</div>`;
             coItems.forEach((i) => {
                 var price=formatMoney(i.item_data.variations[0].item_variation_data.price_money.amount);
                 var id=i.item_data.variations[0].id;
