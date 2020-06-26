@@ -182,6 +182,9 @@ function fixIcons() {
             setTimeout(randomizeLabCone, 1000);
         } else {
             e.setAttribute("href", `/icons.svg#${name}`);
+            if (e.parentNode.parentNode.tagName=='A') {
+                e.parentNode.parentNode.classList.add('noborder');
+            }
         }
     });
 }
@@ -284,13 +287,19 @@ function setColors() {
     })
 }
 
+function highlightNav() {
+    var currentPath=window.location.pathname.split('.')[0];
+    document.querySelectorAll('header>ul>li>a').forEach((e) => {
+        var href=e.getAttribute('href').split('.')[0];
+        if (currentPath==href) e.parentNode.classList.add('selected');
+    })
+}
+
 function setLocation() {
     if (window.location.pathname.indexOf('/lab')==0) {
         storeLocation='lab';
-        document.querySelector('header>ul>li:nth-of-type(2)').classList.add('selected')
     } else {
         storeLocation='store';
-        document.querySelector('header>ul>li:nth-of-type(1)').classList.add('selected')
     }
 }
 
@@ -1864,6 +1873,7 @@ window.addEventListener('DOMContentLoaded', async (event) => {
     //resizeImages();
     await fetchLabels();
     setLocation();
+    highlightNav();
     setColors();
     fixIcons();
     classify();
