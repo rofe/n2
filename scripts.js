@@ -282,7 +282,12 @@ function setColors() {
     document.querySelectorAll('code').forEach(($code) => {
         $code.innerText.split('\n').forEach((line)=>{
             var splits=line.split(':');
-            if (splits[1]) root.style.setProperty(splits[0].trim(), splits[1].trim());
+            if (splits[1]) 
+                if (splits[0].startsWith('--')) {
+                    root.style.setProperty(splits[0].trim(), splits[1].trim());
+                } else if (splits[0].trim() == 'class') {
+                    $code.parentNode.parentNode.classList.add(splits[1].trim());
+                }
         })    
     })
 }

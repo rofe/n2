@@ -61,7 +61,7 @@ main h2 {
     margin-bottom: 5px;
 }
 
-main .storemenu, main .normalpintclub, .buildyourowncomposedcone, .participants, .donations {
+main .highlight {
     background-color: var(--background-highlight-color);
 }
 
@@ -264,7 +264,7 @@ main>div {
 }
 
 main a.noborder {
-    border-width: 0;    
+    border-width: 0;   
 }
 
 
@@ -433,6 +433,8 @@ main div.image {
     position: relative;
     width: 100vw;
     box-sizing: border-box;
+    opacity: 0;
+    transition: opacity 0.2s ease-in;
 }
 
 main div.default {
@@ -452,11 +454,13 @@ main div.image img {
 main div.image.left img {
     left: 0;
     object-position: right;
+    opacity: 1;
 }
 
 main div.image.right img {
     object-position: left;
     right: 0px;
+    opacity: 1;
 }
 
 main>div:last-of-type {
