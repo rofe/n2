@@ -44,6 +44,7 @@ main svg + svg {
 main svg.icon-store, main svg.icon-lab {
     height: 300px;
     width: 300px;
+    stroke-width: 0;
 }
 
 
