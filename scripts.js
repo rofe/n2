@@ -182,6 +182,9 @@ function fixIcons() {
             setTimeout(randomizeLabCone, 1000);
         } else {
             e.setAttribute("href", `/icons.svg#${name}`);
+            if (e.parentNode.parentNode.tagName=='A') {
+                e.parentNode.parentNode.classList.add('noborder');
+            }
         }
     });
 }
@@ -279,18 +282,29 @@ function setColors() {
     document.querySelectorAll('code').forEach(($code) => {
         $code.innerText.split('\n').forEach((line)=>{
             var splits=line.split(':');
-            if (splits[1]) root.style.setProperty(splits[0].trim(), splits[1].trim());
+            if (splits[1]) 
+                if (splits[0].startsWith('--')) {
+                    root.style.setProperty(splits[0].trim(), splits[1].trim());
+                } else if (splits[0].trim() == 'class') {
+                    $code.parentNode.parentNode.classList.add(splits[1].trim());
+                }
         })    
+    })
+}
+
+function highlightNav() {
+    var currentPath=window.location.pathname.split('.')[0];
+    document.querySelectorAll('header>ul>li>a').forEach((e) => {
+        var href=e.getAttribute('href').split('.')[0];
+        if (currentPath==href) e.parentNode.classList.add('selected');
     })
 }
 
 function setLocation() {
     if (window.location.pathname.indexOf('/lab')==0) {
         storeLocation='lab';
-        document.querySelector('header>ul>li:nth-of-type(2)').classList.add('selected')
     } else {
         storeLocation='store';
-        document.querySelector('header>ul>li:nth-of-type(1)').classList.add('selected')
     }
 }
 
@@ -398,12 +412,50 @@ function adjustScrolling($sel) {
     $sel.parentNode.style=`transform: translateX(${newOffset}px)`;
     scrollOffsets[$sel.parentNode.parentNode.getAttribute('data-name')]=newOffset;
 }
+function hasDip() {
+    const dips=document.querySelector('div[data-name="dip"]');
+    if (dips) {
+        const seldip=dips.querySelector('.selected');
+        const nodip=dips.querySelector('.cb-options span:first-of-type');
+        const dip=(seldip==nodip)?0:1;
+        return dip;    
+    }
+    return (0);
+}
+
+function updateNumberOfToppings() {
+    var dip=hasDip();
+    title=`pick up to ${dip?2:3} toppings`;
+    const toppingTitle=document.querySelector('div[data-name="topping"] h4');
+    toppingTitle.innerHTML=title;
+}
 
 function coneBuilderSelect($sel) {
-    $sel.parentNode.querySelectorAll("span").forEach(($e) => {
-        $e.classList.remove('selected');
-    })
-    $sel.classList.add('selected');
+    if (($sel.parentNode.parentNode.getAttribute('data-name')=='topping') && ($sel != $sel.parentNode.firstChild)) {
+        $sel.parentNode.firstChild.classList.remove('selected');
+        if (!$sel.classList.contains('selected')) {
+            //check for too many toppings
+            const numToppings=$sel.parentNode.querySelectorAll('.selected').length;
+            const dip=hasDip();
+            if (dip+numToppings>=3) {
+                alert ('sorry, 2 toppings+dip or 3 toppings without a dip');
+            } else {
+                $sel.classList.add('selected');
+            }
+        } else {
+            $sel.classList.remove('selected');
+            if (!$sel.parentNode.querySelector('.selected'))
+                $sel.parentNode.firstChild.classList.add('selected');
+        }
+    } else {
+        $sel.parentNode.querySelectorAll("span").forEach(($e) => {
+            $e.classList.remove('selected');
+        })    
+        $sel.classList.add('selected');
+    }
+
+    updateNumberOfToppings();
+
     showConfig();
     adjustScrolling($sel);
 }
@@ -436,17 +488,22 @@ function createRandomConfig(itemid) {
 }
 
 function createConeFromConfig(mods) {
-    var coneconfig={};
+    var coneconfig={toppings:[]};
     mods.forEach((m) => {
         var mod=catalog.byId[m];
         if (mod.modifier_data) {
             var mlname=catalog.byId[mod.modifier_data.modifier_list_id].modifier_list_data.name;
             var modname=stripName(mod.modifier_data.name);
-            if (mlname.includes('vessel')) name='vessel';
-            if (mlname.includes('flavor')) name='flavor';
-            if (mlname.includes('dip')) name='dip';
-            if (mlname.includes('topping')) name='topping';
-            coneconfig[name]=modname;    
+            if (mlname.includes('topping')) {
+                coneconfig.toppings.push(modname);
+            }
+
+            else {
+                if (mlname.includes('vessel')) name='vessel';
+                if (mlname.includes('flavor')) name='flavor';
+                if (mlname.includes('dip')) name='dip';    
+                coneconfig[name]=modname;    
+            }
         }
     });
 
@@ -456,15 +513,19 @@ function createConeFromConfig(mods) {
     const vesself=`url(/cone-builder/${coneconfig.vessel}-front.png${postfix})`;
     const vesselb=`url(/cone-builder/${coneconfig.vessel}-back.png${postfix})`;
     const dip=`url(/cone-builder/${coneconfig.dip}-dip.png${postfix})`;
-    let topping=`url(/cone-builder/${coneconfig.topping}-topping.png${postfix})`;
-    if (coneconfig.topping.includes('cotton') && coneconfig.vessel.includes('cup')) {
-        topping=`url(/cone-builder/${coneconfig.topping}-topping-cup.png${postfix})`;
-    }    
+    let toppings='';
+    coneconfig.toppings.forEach((t, i) => {
+        let topping=`url(/cone-builder/${t}-topping.png${postfix})`;
+        if (t.includes('cotton') && coneconfig.vessel.includes('cup')) {
+            topping=`url(/cone-builder/${t}-topping-cup.png${postfix})`;
+        };
+        toppings=`${topping}`+(i?', ':'')+toppings;    
+    })
 
     html=`<div style="background-image: ${vesselb}">
         <div style="background-image: ${flavor}">
         <div style="background-image: ${dip}">
-        <div style="background-image: ${topping}">
+        <div style="background-image: ${toppings}">
         <div style="background-image: ${vesself}">
         </div>
         </div>
@@ -551,8 +612,10 @@ function getConeBuilderHTML(item, callout) {
                 if (name.includes('dip')) name='dip';
                 if (name.includes('topping')) name='topping';
 
+                let title=`pick your ${name}`;
+                
                 // html+=`<h3>${ml.modifier_list_data.name}</h3>`;
-                html+=`<div class="cb-selection hidden" data-name="${name}"><h4>pick your ${name}</h4><div class="cb-options smooth">`;
+                html+=`<div class="cb-selection hidden" data-name="${name}"><h4>${title}</h4><div class="cb-options smooth">`;
                 ml.modifier_list_data.modifiers.forEach((mod, i) => {
                     var price=mod.modifier_data.price_money.amount;
                     price=price?`<br><span class="price">(+$${formatMoney(price)})</span>`:'';
@@ -681,6 +744,7 @@ function configItem(item, callout) {
             $cbs.addEventListener('touchcancel', scrollSelection, true);
             $cbs.addEventListener('touchend', scrollSelection, true);
         });
+        updateNumberOfToppings();
         showConfig();
         adjustScrolling(document.querySelector('#config.cone-builder .cb-options .selected'));
     } else {
@@ -1088,12 +1152,13 @@ function displayStoreAlert() {
     console.log(other);
     var otherLink=storeLocations[other].link;
     var storealert=document.createElement('div');
+    labels=window.labels;
     storealert.id="alert";
-    storealert.innerHTML=`<h3>you are ordering from our ${storeLocation}</h3>
+    storealert.innerHTML=`<h3>${labels[storeLocation+'_youareorderingfrom']}</h3>
     <svg><use href="/icons.svg#${storeLocation}"></use></svg>
-    <p>we are located ${storeLocations[storeLocation].address}</p>
-    <p><button onclick="submitOrder()">yes, that's what i want</button></p>
-    <p><a href="${otherLink}">oh no, take me to the ${other}</a></p>
+    <p>${labels[storeLocation+'_ourlocationis']}</p>
+    <p><button onclick="submitOrder()">${labels[storeLocation+'_yes']}</button></p>
+    <p><a href="${otherLink}">${labels[storeLocation+'_ohno']}</a></p>
     `
     document.querySelector('footer').appendChild(storealert);
 }
@@ -1321,13 +1386,26 @@ function toggleCartDisplay() {
     }
 }
 
+async function fetchLabels() {
+    if (!window.labels) {
+        var resp=await fetch('/labels.json');
+        var json=await resp.json();
+        window.labels={};
+        json.forEach((e) => {
+            window.labels[e.key]=e.text;
+            console.log(e.text);
+        })   
+    }
+    return (window.labels);
+}
 
 function initCart() {
     var cartEl=document.getElementById("cart");
-    
+    var labels=window.labels;
+
     var html=`<div class="summary">items in your cart ($) <button onclick="toggleCartDisplay()">check out</button></div>`;
     html+=`<div class="details hidden">
-            <div class="back" onclick="toggleCartDisplay()">&lt; back to shop</div>
+            <div class="back" onclick="toggleCartDisplay()">&lt; ${labels.checkout_backtoshop}</div>
             <div class="lineitems"></div>
             <div class="checkoutitems"></div>
             <div class="info">
@@ -1337,17 +1415,16 @@ function initCart() {
                     <nobr>
                         <select id="pickup-date" onchange="setPickupTimes()"></select><select id="pickup-time"></select>
                     </nobr>
-                    <div class="warning hidden">i’m so sorry! we are not accepting orders after hours, but of course you can order normal&reg; for tomorrow... or the next day</div>
+                    <div class="warning hidden">${labels.checkout_afterhours}</div>
                 </div>
                 <input id="discount" data-id="" type="text" placeholder="discount code?" onkeyup="checkDiscount(this)">
                 <button onclick="displayStoreAlert()">order</button>
             </div>
             <div class="warning hidden toolate">
-            <p>i’m so sorry! we are not accepting orders after hours, we'll keep our cones in your cart though :) hope to see you tomorrow!</p>
+            <p>${labels.checkout_toolate}</p>
             </div>
             <div class="warning hidden tooearly">
-            <p>* we are not open yet, but we will keep your cart around, just reload the page once we are open and complete the checkout.</p> 
-            <p>we are excited to see you.</p>
+            <p>${labels.checkout_tooearly}</p> 
             </div>
             <div class="order hidden"></div>
             <div class="payment hidden">
@@ -1360,8 +1437,8 @@ function initCart() {
                 </select></div>
                 <div id="form-container">
                     <div class="wegotyourorder warning hidden">
-                    <p>we are ready for you!</p>
-                    <p>please process payment once you have arrived and we’ll call your name when your order is ready</p>
+                    <p>${labels.checkout_ready}</p>
+                    <p>${labels.checkout_callyourname}</p>
                     </div>
                     <div id="sq-card-number"></div>
                     <div class="third" id="sq-expiration-date"></div>
@@ -1372,7 +1449,7 @@ function initCart() {
                 </div>             
             </div>
             <div class="thankyou order-ahead hidden">
-                <h3 class="warning">thank you SO much, text us when you arrive at our STORE and ready for pick up</h3>
+                <h3 class="warning">${labels.checkout_orderaheadthanks}</h3>
                 <p>
                 <a id="text-link" href="sms://+13852995418/">(385)299-5418</a>
                 </p>
@@ -1381,7 +1458,7 @@ function initCart() {
                 </p>
             </div>
             <div class="thankyou callyourname hidden">
-                <h3 class="warning">thank you SO much! we’ll call your name when your order is ready :)</h3>
+                <h3 class="warning">${labels.checkout_pickupnowthanks}</h3>
                 <p>
                 <a class="receipt-link" target="_new" href="">show receipt</a>
                 </p>
@@ -1430,6 +1507,8 @@ function minus (el) {
 }
 
 function updateCart() {
+    const labels=window.labels;
+
     var cartEl=document.getElementById("cart");
 
     var count=cart.totalItems();
@@ -1471,7 +1550,7 @@ function updateCart() {
     if (coCategory) {
         var coItems=catalog.items.filter(i => i.item_data.category_id == coCategory.id);
         if (coItems.length) {
-            html='<div>add to order</div>';
+            html=`<div>${labels.checkout_addtoorder}</div>`;
             coItems.forEach((i) => {
                 var price=formatMoney(i.item_data.variations[0].item_variation_data.price_money.amount);
                 var id=i.item_data.variations[0].id;
@@ -1795,9 +1874,11 @@ function signup() {
 general setup
 --- */
 
-window.addEventListener('DOMContentLoaded', (event) => {
+window.addEventListener('DOMContentLoaded', async (event) => {
     //resizeImages();
+    await fetchLabels();
     setLocation();
+    highlightNav();
     setColors();
     fixIcons();
     classify();
