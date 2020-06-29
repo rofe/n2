@@ -319,6 +319,7 @@ header>ul>li {
     padding: 10px;
     transition: all 1s;
     font-size: 1.2em;
+    white-space: nowrap;
 }
 
 header>ul>li svg {
@@ -326,6 +327,7 @@ header>ul>li svg {
     width: 0.8em;
     margin: 0;
     transform: rotate(180deg);
+    visibility: hidden;
 }
 
 header>ul>li.selected svg {
@@ -1097,12 +1099,8 @@ select:disabled:hover, select[aria-disabled=true] {
         max-height: 180px;
     }
     
-    main .menu {
-        display: none;
-    }    
-
-    main .menu.desktop {
-        display: block;
+    header>ul>li svg {
+        visibility: visible;
     }    
 }
 

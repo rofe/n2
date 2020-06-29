@@ -1097,7 +1097,7 @@ async function checkCart() {
 
     var nomore=[];
     console.log("checking cart");
-    var menuurl='/index.plain.html';
+    var menuurl='/store.plain.html';
     if (storeLocation=='lab') {
         return (nomore);
     }
