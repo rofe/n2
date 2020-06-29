@@ -323,7 +323,11 @@ header>ul>li {
 }
 
 header>ul>li svg {
-    display: none;
+    height: 0.8em;
+    width: 0.8em;
+    margin: 0;
+    transform: rotate(180deg);
+    visibility: hidden;
 }
 
 header>ul>li.selected svg {
@@ -1095,19 +1099,8 @@ select:disabled:hover, select[aria-disabled=true] {
         max-height: 180px;
     }
     
-    main .menu {
-        display: none;
-    }    
-
-    main .menu.desktop {
-        display: block;
-    }
-
     header>ul>li svg {
-        height: 0.8em;
-        width: 0.8em;
-        margin: 0;
-        transform: rotate(180deg);
+        visibility: visible;
     }    
 }
 
