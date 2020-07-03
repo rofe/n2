@@ -6089,6 +6089,16 @@ var catalog_raw=[
        "amount": 1000
       }
      }
+    },
+    {
+     "id": "QHQJ2KNBMTOVXKDWJGUARGUQ",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "grapefruit sorbet (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
     }
    ]
   }
@@ -6699,6 +6709,16 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
       "name": "honey whiskey + pretzels",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "UD5AXFFV6GWCRVXLAYIF66J7",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "bay leaf + salted caramel",
       "price_money": {
        "amount": 1000
       }
