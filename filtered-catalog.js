@@ -1170,47 +1170,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "DSFW2HSU4REU6FIXG5UNDC5B",
-  "type": "ITEM",
-  "item_data": {
-   "name": "adzuki (red bean)",
-   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
-    },
-    {
-     "modifier_list_id": "EXX7SQAD5YC3XMG77RJUXJNV"
-    },
-    {
-     "modifier_list_id": "SA4VTU3B6BG67REI5ULSWM6W"
-    }
-   ],
-   "variations": [
-    {
-     "id": "M7CB4ZRDF7ISJOUHYFHQHARE",
-     "item_variation_data": {
-      "item_id": "DSFW2HSU4REU6FIXG5UNDC5B",
-      "name": "half",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "HK6I4CF26FJ2FOOZCRQRBXD5",
-     "item_variation_data": {
-      "item_id": "DSFW2HSU4REU6FIXG5UNDC5B",
-      "name": "normal",
-      "price_money": {
-       "amount": 400
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "7K6HCSNCMWXRN46DAOZ6MQVU",
   "type": "ITEM",
   "item_data": {
