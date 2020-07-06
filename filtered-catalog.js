@@ -7759,42 +7759,22 @@ var catalog_raw=[
   }
  },
  {
-  "id": "KAPLH747OXSDTYENVQQ2XJRG",
+  "id": "QXRQNGNLL3BLPI3LTEARMIFC",
   "type": "ITEM",
   "item_data": {
-   "name": "composed cone",
+   "name": "april showers",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
    "modifier_list_info": [
     {
-     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+     "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
     }
    ],
    "variations": [
     {
-     "id": "GCAI7PJU44ZQOMBKVQB6FGSA",
+     "id": "RSC3RYU6GAMYJ7YE7YH7IOAE",
      "item_variation_data": {
-      "item_id": "KAPLH747OXSDTYENVQQ2XJRG",
-      "name": "april showers",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    },
-    {
-     "id": "UAWJEISRJUMLDRDOK7ATTGOC",
-     "item_variation_data": {
-      "item_id": "KAPLH747OXSDTYENVQQ2XJRG",
-      "name": "all about cookies",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    },
-    {
-     "id": "PQ7FHSLR36FD3SQTSWWNSHR4",
-     "item_variation_data": {
-      "item_id": "KAPLH747OXSDTYENVQQ2XJRG",
-      "name": "chocolate wasted",
+      "item_id": "QXRQNGNLL3BLPI3LTEARMIFC",
+      "name": "Regular",
       "price_money": {
        "amount": 700
       }
