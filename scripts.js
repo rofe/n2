@@ -620,6 +620,7 @@ function getConeBuilderHTML(item, callout) {
                     var price=mod.modifier_data.price_money.amount;
                     price=price?`<br><span class="price">(+$${formatMoney(price)})</span>`:'';
                     var modname=mod.modifier_data.name.replace('(v)','<svg><use href="/icons.svg#v"></use></svg>');
+                    modname=modname.replace('(gf)','<svg><use href="/icons.svg#gf"></use></svg>');
                     html+=`<span onclick="coneBuilderSelect(this)" data-id="${mod.id}" class="${i?"":"selected"}">${modname}${price}</span>`;
                 })
             html+=`</div></div>`;
