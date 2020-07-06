@@ -444,6 +444,15 @@ var catalog_raw=[
        "amount": 100
       }
      }
+    },
+    {
+     "id": "JX4ONOMDKABTGYL27N6TEQZA",
+     "modifier_data": {
+      "name": "dark chocolate crunch",
+      "price_money": {
+       "amount": 100
+      }
+     }
     }
    ]
   }
@@ -2864,9 +2873,9 @@ var catalog_raw=[
    "name": "store flavors",
    "modifiers": [
     {
-     "id": "2ODB3QSVELCV2PIOKOFMP3O5",
+     "id": "FPGER3KRXCCAQHDM5DAXYAT2",
      "modifier_data": {
-      "name": "milk chocolate",
+      "name": "blueberry (v)",
       "price_money": {
        "amount": 0
       }
@@ -2875,7 +2884,16 @@ var catalog_raw=[
     {
      "id": "B4YKKKWOISWXVYCZRX5PQHD2",
      "modifier_data": {
-      "name": "coconut (v)",
+      "name": "cookie butter (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "2ODB3QSVELCV2PIOKOFMP3O5",
+     "modifier_data": {
+      "name": "milk chocolate",
       "price_money": {
        "amount": 0
       }
@@ -2896,7 +2914,7 @@ var catalog_raw=[
  {
   "id": "B4YKKKWOISWXVYCZRX5PQHD2",
   "modifier_data": {
-   "name": "coconut (v)",
+   "name": "cookie butter (v)",
    "price_money": {
     "amount": 0
    }
@@ -6086,7 +6104,10 @@ var catalog_raw=[
      "modifier_list_id": "EXX7SQAD5YC3XMG77RJUXJNV"
     },
     {
-     "modifier_list_id": "HPPEARW2E5E6WN26UDBR2EEM"
+     "modifier_list_id": "RJ3SONFCEFFCEF67X7L3W6QI"
+    },
+    {
+     "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
     }
    ],
    "variations": [
@@ -6094,7 +6115,7 @@ var catalog_raw=[
      "id": "SVOGJI7K7PZAR7T62LN5QSBM",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "coconut (v) - half size",
+      "name": "blueberry (v) - half size",
       "price_money": {
        "amount": 300
       }
@@ -6104,7 +6125,27 @@ var catalog_raw=[
      "id": "GEAPVQHNDXIZ36TSEHM46NYX",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "coconut (v) - normal size",
+      "name": "blueberry (v) - normal size",
+      "price_money": {
+       "amount": 400
+      }
+     }
+    },
+    {
+     "id": "7BNRNZDZH5VJXCTGWTEU37CQ",
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "cookie butter (v) - half size",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "2ML4OQJBAMJERL2THJ3LSJSJ",
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "cookie butter (v) - normal size",
       "price_money": {
        "amount": 400
       }
@@ -6298,7 +6339,16 @@ var catalog_raw=[
     {
      "id": "R42VX2AH6AO4PXF62VJHIZPN",
      "modifier_data": {
-      "name": "coconut (v)",
+      "name": "blueberry (v)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "HS2EC7ZYJSH6RAK22H23CFBJ",
+     "modifier_data": {
+      "name": "cookie butter (v)",
       "price_money": {
        "amount": 300
       }
@@ -6366,7 +6416,7 @@ var catalog_raw=[
  {
   "id": "R42VX2AH6AO4PXF62VJHIZPN",
   "modifier_data": {
-   "name": "coconut (v)",
+   "name": "blueberry (v)",
    "price_money": {
     "amount": 300
    }
@@ -7751,6 +7801,33 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "HS2EC7ZYJSH6RAK22H23CFBJ",
+  "modifier_data": {
+   "name": "cookie butter (v)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "FPGER3KRXCCAQHDM5DAXYAT2",
+  "modifier_data": {
+   "name": "blueberry (v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "JX4ONOMDKABTGYL27N6TEQZA",
+  "modifier_data": {
+   "name": "dark chocolate crunch",
+   "price_money": {
+    "amount": 100
+   }
   }
  }
 ]
