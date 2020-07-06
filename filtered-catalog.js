@@ -498,24 +498,6 @@ var catalog_raw=[
        "amount": 100
       }
      }
-    },
-    {
-     "id": "KEO22W23TXRPYTHFMS7WBXWJ",
-     "modifier_data": {
-      "name": "waffle",
-      "price_money": {
-       "amount": 200
-      }
-     }
-    },
-    {
-     "id": "URNBDPQWXHBN66P23QJG4OBV",
-     "modifier_data": {
-      "name": "taiyaki",
-      "price_money": {
-       "amount": 300
-      }
-     }
     }
    ]
   }
@@ -535,24 +517,6 @@ var catalog_raw=[
    "name": "cone",
    "price_money": {
     "amount": 100
-   }
-  }
- },
- {
-  "id": "KEO22W23TXRPYTHFMS7WBXWJ",
-  "modifier_data": {
-   "name": "waffle",
-   "price_money": {
-    "amount": 200
-   }
-  }
- },
- {
-  "id": "URNBDPQWXHBN66P23QJG4OBV",
-  "modifier_data": {
-   "name": "taiyaki",
-   "price_money": {
-    "amount": 300
    }
   }
  },
@@ -579,24 +543,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "YWYVDV5SUSIYCZC7WFSU7KRG",
-     "modifier_data": {
-      "name": "waffle",
-      "price_money": {
-       "amount": 200
-      }
-     }
-    },
-    {
-     "id": "SGON34AO5EILQKOI6562SVQ5",
-     "modifier_data": {
-      "name": "taiyaki",
-      "price_money": {
-       "amount": 300
-      }
-     }
     }
    ]
   }
@@ -616,24 +562,6 @@ var catalog_raw=[
    "name": "cone",
    "price_money": {
     "amount": 0
-   }
-  }
- },
- {
-  "id": "YWYVDV5SUSIYCZC7WFSU7KRG",
-  "modifier_data": {
-   "name": "waffle",
-   "price_money": {
-    "amount": 200
-   }
-  }
- },
- {
-  "id": "SGON34AO5EILQKOI6562SVQ5",
-  "modifier_data": {
-   "name": "taiyaki",
-   "price_money": {
-    "amount": 300
    }
   }
  },
@@ -7828,6 +7756,51 @@ var catalog_raw=[
    "price_money": {
     "amount": 100
    }
+  }
+ },
+ {
+  "id": "KAPLH747OXSDTYENVQQ2XJRG",
+  "type": "ITEM",
+  "item_data": {
+   "name": "composed cone",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "GCAI7PJU44ZQOMBKVQB6FGSA",
+     "item_variation_data": {
+      "item_id": "KAPLH747OXSDTYENVQQ2XJRG",
+      "name": "april showers",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    },
+    {
+     "id": "UAWJEISRJUMLDRDOK7ATTGOC",
+     "item_variation_data": {
+      "item_id": "KAPLH747OXSDTYENVQQ2XJRG",
+      "name": "all about cookies",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    },
+    {
+     "id": "PQ7FHSLR36FD3SQTSWWNSHR4",
+     "item_variation_data": {
+      "item_id": "KAPLH747OXSDTYENVQQ2XJRG",
+      "name": "chocolate wasted",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
   }
  }
 ]
