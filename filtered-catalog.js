@@ -7762,13 +7762,8 @@ var catalog_raw=[
   "id": "QXRQNGNLL3BLPI3LTEARMIFC",
   "type": "ITEM",
   "item_data": {
-   "name": "april showers",
+   "name": "april showers (v)",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
-    }
-   ],
    "variations": [
     {
      "id": "RSC3RYU6GAMYJ7YE7YH7IOAE",
@@ -7784,6 +7779,66 @@ var catalog_raw=[
      "id": "NAC4VMTQ5YJ2TW7LEUCXKASG",
      "item_variation_data": {
       "item_id": "QXRQNGNLL3BLPI3LTEARMIFC",
+      "name": "cone",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "4QNNVRAYDLWIPGOBU2I6H3KU",
+  "type": "ITEM",
+  "item_data": {
+   "name": "all about cookies (v)",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "variations": [
+    {
+     "id": "NGJGV5Z47X7IGIQIGRTOEBNF",
+     "item_variation_data": {
+      "item_id": "4QNNVRAYDLWIPGOBU2I6H3KU",
+      "name": "cup",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    },
+    {
+     "id": "5ESTD5H57KU26GQVWTAFVZRP",
+     "item_variation_data": {
+      "item_id": "4QNNVRAYDLWIPGOBU2I6H3KU",
+      "name": "cone",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "XS7SGE326XBYV77NRAF6732R",
+  "type": "ITEM",
+  "item_data": {
+   "name": "chocolate wasted",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "variations": [
+    {
+     "id": "V75CU5FOPW6R7ORSNOMS46SJ",
+     "item_variation_data": {
+      "item_id": "XS7SGE326XBYV77NRAF6732R",
+      "name": "cup",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    },
+    {
+     "id": "HEQCFFPDEBM5PUJD7NVNYMNS",
+     "item_variation_data": {
+      "item_id": "XS7SGE326XBYV77NRAF6732R",
       "name": "cone",
       "price_money": {
        "amount": 700
