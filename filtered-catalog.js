@@ -106,7 +106,7 @@ var catalog_raw=[
     {
      "id": "2QIV3NVYJ3GMNRWDDZ7TMW6E",
      "modifier_data": {
-      "name": "brown butter crumble",
+      "name": "fruity pebbles :v: :gf:",
       "price_money": {
        "amount": 75
       }
@@ -115,7 +115,7 @@ var catalog_raw=[
     {
      "id": "3D7GUSPIRY74KLQ4U6WSXXWU",
      "modifier_data": {
-      "name": "brownie crumble",
+      "name": "cocoa pebbles :v: :gf:",
       "price_money": {
        "amount": 75
       }
@@ -124,7 +124,7 @@ var catalog_raw=[
     {
      "id": "E4QWC3WZ3UAJSWVU46TVRQTW",
      "modifier_data": {
-      "name": "butter cake",
+      "name": "funfetti cake bits",
       "price_money": {
        "amount": 75
       }
@@ -133,7 +133,7 @@ var catalog_raw=[
     {
      "id": "WPVUWUDCRWMKCFQ6GAI5UV76",
      "modifier_data": {
-      "name": "chocolate sprinkles (v)",
+      "name": "honeycomb :v: :gf:",
       "price_money": {
        "amount": 75
       }
@@ -142,7 +142,7 @@ var catalog_raw=[
     {
      "id": "APEW55N7JFU4WVDRL72CFYGJ",
      "modifier_data": {
-      "name": "cookie dough bits",
+      "name": "chocolate sprinkles :v: :gf:",
       "price_money": {
        "amount": 75
       }
@@ -151,7 +151,7 @@ var catalog_raw=[
     {
      "id": "DQI5ZXHHHHTRSGV6CHZXRZ2E",
      "modifier_data": {
-      "name": "fudge bits (v)",
+      "name": "rainbow sprinkles :gf:",
       "price_money": {
        "amount": 75
       }
@@ -160,16 +160,16 @@ var catalog_raw=[
     {
      "id": "BFMGXRVR3YA6HYDKAHW7TFAE",
      "modifier_data": {
-      "name": "lime cotton candy (v)",
+      "name": "normal dots - coconut :v: :gf:",
       "price_money": {
-       "amount": 75
+       "amount": 300
       }
      }
     },
     {
      "id": "PIJPWBQ25FYH23WIX7X3LXWU",
      "modifier_data": {
-      "name": "grapefruit cotton candy (v)",
+      "name": "candied BELTEX bacon",
       "price_money": {
        "amount": 75
       }
@@ -178,7 +178,7 @@ var catalog_raw=[
     {
      "id": "XRO5TYSM65RKXZF4G76OLHPO",
      "modifier_data": {
-      "name": "peanut brittle",
+      "name": "blue raz pop rocks",
       "price_money": {
        "amount": 75
       }
@@ -187,7 +187,7 @@ var catalog_raw=[
     {
      "id": "RXUS4VJ5RQAR26IOKVJKVWR4",
      "modifier_data": {
-      "name": "rainbow sprinkles",
+      "name": "coconut jam",
       "price_money": {
        "amount": 75
       }
@@ -196,16 +196,7 @@ var catalog_raw=[
     {
      "id": "HNI5W3JCDMENH6WYMM4RLGCI",
      "modifier_data": {
-      "name": "toasted meringue (v)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "AWKAGAEV7PLFTJGBDAR7DLEM",
-     "modifier_data": {
-      "name": "whipped mascarpone",
+      "name": "chocolate fudge",
       "price_money": {
        "amount": 75
       }
@@ -7227,7 +7218,7 @@ var catalog_raw=[
     {
      "id": "4T7MTOTZ2YCXDQSIMGQSVWBO",
      "modifier_data": {
-      "name": "dark chocolate (v)",
+      "name": "dark chocolate :v:",
       "price_money": {
        "amount": 100
       }
@@ -7257,7 +7248,7 @@ var catalog_raw=[
  {
   "id": "4T7MTOTZ2YCXDQSIMGQSVWBO",
   "modifier_data": {
-   "name": "dark chocolate (v)",
+   "name": "dark chocolate :v:",
    "price_money": {
     "amount": 100
    }
@@ -7329,7 +7320,7 @@ var catalog_raw=[
  {
   "id": "2QIV3NVYJ3GMNRWDDZ7TMW6E",
   "modifier_data": {
-   "name": "brown butter crumble",
+   "name": "fruity pebbles :v: :gf:",
    "price_money": {
     "amount": 75
    }
@@ -7338,7 +7329,7 @@ var catalog_raw=[
  {
   "id": "3D7GUSPIRY74KLQ4U6WSXXWU",
   "modifier_data": {
-   "name": "brownie crumble",
+   "name": "cocoa pebbles :v: :gf:",
    "price_money": {
     "amount": 75
    }
@@ -7347,16 +7338,16 @@ var catalog_raw=[
  {
   "id": "BFMGXRVR3YA6HYDKAHW7TFAE",
   "modifier_data": {
-   "name": "lime cotton candy (v)",
+   "name": "normal dots - coconut :v: :gf:",
    "price_money": {
-    "amount": 75
+    "amount": 300
    }
   }
  },
  {
   "id": "PIJPWBQ25FYH23WIX7X3LXWU",
   "modifier_data": {
-   "name": "grapefruit cotton candy (v)",
+   "name": "candied BELTEX bacon",
    "price_money": {
     "amount": 75
    }
@@ -7365,7 +7356,7 @@ var catalog_raw=[
  {
   "id": "E4QWC3WZ3UAJSWVU46TVRQTW",
   "modifier_data": {
-   "name": "butter cake",
+   "name": "funfetti cake bits",
    "price_money": {
     "amount": 75
    }
@@ -7374,7 +7365,7 @@ var catalog_raw=[
  {
   "id": "DQI5ZXHHHHTRSGV6CHZXRZ2E",
   "modifier_data": {
-   "name": "fudge bits (v)",
+   "name": "rainbow sprinkles :gf:",
    "price_money": {
     "amount": 75
    }
@@ -7383,7 +7374,7 @@ var catalog_raw=[
  {
   "id": "XRO5TYSM65RKXZF4G76OLHPO",
   "modifier_data": {
-   "name": "peanut brittle",
+   "name": "blue raz pop rocks",
    "price_money": {
     "amount": 75
    }
@@ -7392,7 +7383,7 @@ var catalog_raw=[
  {
   "id": "HNI5W3JCDMENH6WYMM4RLGCI",
   "modifier_data": {
-   "name": "toasted meringue (v)",
+   "name": "chocolate fudge",
    "price_money": {
     "amount": 75
    }
@@ -7401,7 +7392,7 @@ var catalog_raw=[
  {
   "id": "APEW55N7JFU4WVDRL72CFYGJ",
   "modifier_data": {
-   "name": "cookie dough bits",
+   "name": "chocolate sprinkles :v: :gf:",
    "price_money": {
     "amount": 75
    }
@@ -7419,7 +7410,7 @@ var catalog_raw=[
  {
   "id": "WPVUWUDCRWMKCFQ6GAI5UV76",
   "modifier_data": {
-   "name": "chocolate sprinkles (v)",
+   "name": "honeycomb :v: :gf:",
    "price_money": {
     "amount": 75
    }
@@ -7428,16 +7419,7 @@ var catalog_raw=[
  {
   "id": "RXUS4VJ5RQAR26IOKVJKVWR4",
   "modifier_data": {
-   "name": "rainbow sprinkles",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "AWKAGAEV7PLFTJGBDAR7DLEM",
-  "modifier_data": {
-   "name": "whipped mascarpone",
+   "name": "coconut jam",
    "price_money": {
     "amount": 75
    }
@@ -7452,7 +7434,7 @@ var catalog_raw=[
     {
      "id": "POR634QNMVAE4S4ADO2PU6PA",
      "modifier_data": {
-      "name": "salted vanilla bean",
+      "name": "green apple :v:",
       "price_money": {
        "amount": 0
       }
@@ -7461,7 +7443,7 @@ var catalog_raw=[
     {
      "id": "EEIGHDNY27I5SHME7HCBM5A5",
      "modifier_data": {
-      "name": "strawberry lemonade (v)",
+      "name": "jacobsen sea salt",
       "price_money": {
        "amount": 0
       }
@@ -7470,7 +7452,7 @@ var catalog_raw=[
     {
      "id": "5YMWVQ5ZKCZ5CFBEHIZVQZBH",
      "modifier_data": {
-      "name": "brownie batter",
+      "name": "salted caramel",
       "price_money": {
        "amount": 0
       }
@@ -7479,7 +7461,7 @@ var catalog_raw=[
     {
      "id": "UYGH6JOSRMX7WLBQJVK4B4XZ",
      "modifier_data": {
-      "name": "coffee",
+      "name": "watermelon sorbet :v:",
       "price_money": {
        "amount": 0
       }
@@ -7488,7 +7470,7 @@ var catalog_raw=[
     {
      "id": "LCAR2VNBKZ3TAWU4AGOGRFNP",
      "modifier_data": {
-      "name": "vanilla + strawberry lemonade",
+      "name": "green apple + salted caramel",
       "price_money": {
        "amount": 0
       }
@@ -7497,7 +7479,7 @@ var catalog_raw=[
     {
      "id": "IKY273J3CK4GGJR7FWHV6M4Q",
      "modifier_data": {
-      "name": "brownie batter + coffee",
+      "name": "watermelon + jacobsen sea salt",
       "price_money": {
        "amount": 0
       }
@@ -7509,7 +7491,7 @@ var catalog_raw=[
  {
   "id": "POR634QNMVAE4S4ADO2PU6PA",
   "modifier_data": {
-   "name": "salted vanilla bean",
+   "name": "green apple :v:",
    "price_money": {
     "amount": 0
    }
@@ -7518,7 +7500,7 @@ var catalog_raw=[
  {
   "id": "EEIGHDNY27I5SHME7HCBM5A5",
   "modifier_data": {
-   "name": "strawberry lemonade (v)",
+   "name": "jacobsen sea salt",
    "price_money": {
     "amount": 0
    }
@@ -7527,7 +7509,7 @@ var catalog_raw=[
  {
   "id": "5YMWVQ5ZKCZ5CFBEHIZVQZBH",
   "modifier_data": {
-   "name": "brownie batter",
+   "name": "salted caramel",
    "price_money": {
     "amount": 0
    }
@@ -7536,7 +7518,7 @@ var catalog_raw=[
  {
   "id": "UYGH6JOSRMX7WLBQJVK4B4XZ",
   "modifier_data": {
-   "name": "coffee",
+   "name": "watermelon sorbet :v:",
    "price_money": {
     "amount": 0
    }
@@ -7671,7 +7653,7 @@ var catalog_raw=[
  {
   "id": "LCAR2VNBKZ3TAWU4AGOGRFNP",
   "modifier_data": {
-   "name": "vanilla + strawberry lemonade",
+   "name": "green apple + salted caramel",
    "price_money": {
     "amount": 0
    }
@@ -7680,7 +7662,7 @@ var catalog_raw=[
  {
   "id": "IKY273J3CK4GGJR7FWHV6M4Q",
   "modifier_data": {
-   "name": "brownie batter + coffee",
+   "name": "watermelon + jacobsen sea salt",
    "price_money": {
     "amount": 0
    }
