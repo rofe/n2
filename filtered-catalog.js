@@ -7774,7 +7774,17 @@ var catalog_raw=[
      "id": "RSC3RYU6GAMYJ7YE7YH7IOAE",
      "item_variation_data": {
       "item_id": "QXRQNGNLL3BLPI3LTEARMIFC",
-      "name": "Regular",
+      "name": "cup",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    },
+    {
+     "id": "NAC4VMTQ5YJ2TW7LEUCXKASG",
+     "item_variation_data": {
+      "item_id": "QXRQNGNLL3BLPI3LTEARMIFC",
+      "name": "cone",
       "price_money": {
        "amount": 700
       }
