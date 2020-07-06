@@ -7218,7 +7218,7 @@ var catalog_raw=[
     {
      "id": "4T7MTOTZ2YCXDQSIMGQSVWBO",
      "modifier_data": {
-      "name": "dark chocolate :v:",
+      "name": "dark chocolate (v)",
       "price_money": {
        "amount": 100
       }
@@ -7248,7 +7248,7 @@ var catalog_raw=[
  {
   "id": "4T7MTOTZ2YCXDQSIMGQSVWBO",
   "modifier_data": {
-   "name": "dark chocolate :v:",
+   "name": "dark chocolate (v)",
    "price_money": {
     "amount": 100
    }
@@ -7432,18 +7432,18 @@ var catalog_raw=[
    "name": "lab flavor",
    "modifiers": [
     {
-     "id": "POR634QNMVAE4S4ADO2PU6PA",
+     "id": "EEIGHDNY27I5SHME7HCBM5A5",
      "modifier_data": {
-      "name": "green apple :v:",
+      "name": "jacobsen sea salt",
       "price_money": {
        "amount": 0
       }
      }
     },
     {
-     "id": "EEIGHDNY27I5SHME7HCBM5A5",
+     "id": "POR634QNMVAE4S4ADO2PU6PA",
      "modifier_data": {
-      "name": "jacobsen sea salt",
+      "name": "green apple (v)",
       "price_money": {
        "amount": 0
       }
@@ -7461,7 +7461,7 @@ var catalog_raw=[
     {
      "id": "UYGH6JOSRMX7WLBQJVK4B4XZ",
      "modifier_data": {
-      "name": "watermelon sorbet :v:",
+      "name": "watermelon sorbet (v)",
       "price_money": {
        "amount": 0
       }
@@ -7491,7 +7491,7 @@ var catalog_raw=[
  {
   "id": "POR634QNMVAE4S4ADO2PU6PA",
   "modifier_data": {
-   "name": "green apple :v:",
+   "name": "green apple (v)",
    "price_money": {
     "amount": 0
    }
@@ -7518,7 +7518,7 @@ var catalog_raw=[
  {
   "id": "UYGH6JOSRMX7WLBQJVK4B4XZ",
   "modifier_data": {
-   "name": "watermelon sorbet :v:",
+   "name": "watermelon sorbet (v)",
    "price_money": {
     "amount": 0
    }
