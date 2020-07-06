@@ -106,7 +106,7 @@ var catalog_raw=[
     {
      "id": "2QIV3NVYJ3GMNRWDDZ7TMW6E",
      "modifier_data": {
-      "name": "fruity pebbles :v: :gf:",
+      "name": "fruity pebbles (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -115,7 +115,7 @@ var catalog_raw=[
     {
      "id": "3D7GUSPIRY74KLQ4U6WSXXWU",
      "modifier_data": {
-      "name": "cocoa pebbles :v: :gf:",
+      "name": "cocoa pebbles (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -133,7 +133,7 @@ var catalog_raw=[
     {
      "id": "WPVUWUDCRWMKCFQ6GAI5UV76",
      "modifier_data": {
-      "name": "honeycomb :v: :gf:",
+      "name": "honeycomb (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -142,7 +142,7 @@ var catalog_raw=[
     {
      "id": "APEW55N7JFU4WVDRL72CFYGJ",
      "modifier_data": {
-      "name": "chocolate sprinkles :v: :gf:",
+      "name": "chocolate sprinkles (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -151,7 +151,7 @@ var catalog_raw=[
     {
      "id": "DQI5ZXHHHHTRSGV6CHZXRZ2E",
      "modifier_data": {
-      "name": "rainbow sprinkles :gf:",
+      "name": "rainbow sprinkles (gf)",
       "price_money": {
        "amount": 75
       }
@@ -160,7 +160,7 @@ var catalog_raw=[
     {
      "id": "BFMGXRVR3YA6HYDKAHW7TFAE",
      "modifier_data": {
-      "name": "normal dots - coconut :v: :gf:",
+      "name": "coconut normal dots (v) (gf)",
       "price_money": {
        "amount": 300
       }
@@ -169,7 +169,7 @@ var catalog_raw=[
     {
      "id": "PIJPWBQ25FYH23WIX7X3LXWU",
      "modifier_data": {
-      "name": "candied BELTEX bacon",
+      "name": "candied beltex bacon (gf)",
       "price_money": {
        "amount": 75
       }
@@ -178,7 +178,7 @@ var catalog_raw=[
     {
      "id": "XRO5TYSM65RKXZF4G76OLHPO",
      "modifier_data": {
-      "name": "blue raz pop rocks",
+      "name": "blue raz pop rocks  (gf)",
       "price_money": {
        "amount": 75
       }
@@ -187,7 +187,7 @@ var catalog_raw=[
     {
      "id": "RXUS4VJ5RQAR26IOKVJKVWR4",
      "modifier_data": {
-      "name": "coconut jam",
+      "name": "coconut jam (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -196,7 +196,7 @@ var catalog_raw=[
     {
      "id": "HNI5W3JCDMENH6WYMM4RLGCI",
      "modifier_data": {
-      "name": "chocolate fudge",
+      "name": "fudge sauce (gf)",
       "price_money": {
        "amount": 75
       }
@@ -7320,7 +7320,7 @@ var catalog_raw=[
  {
   "id": "2QIV3NVYJ3GMNRWDDZ7TMW6E",
   "modifier_data": {
-   "name": "fruity pebbles :v: :gf:",
+   "name": "fruity pebbles (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7329,7 +7329,7 @@ var catalog_raw=[
  {
   "id": "3D7GUSPIRY74KLQ4U6WSXXWU",
   "modifier_data": {
-   "name": "cocoa pebbles :v: :gf:",
+   "name": "cocoa pebbles (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7338,7 +7338,7 @@ var catalog_raw=[
  {
   "id": "BFMGXRVR3YA6HYDKAHW7TFAE",
   "modifier_data": {
-   "name": "normal dots - coconut :v: :gf:",
+   "name": "coconut normal dots (v) (gf)",
    "price_money": {
     "amount": 300
    }
@@ -7347,7 +7347,7 @@ var catalog_raw=[
  {
   "id": "PIJPWBQ25FYH23WIX7X3LXWU",
   "modifier_data": {
-   "name": "candied BELTEX bacon",
+   "name": "candied beltex bacon (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7365,7 +7365,7 @@ var catalog_raw=[
  {
   "id": "DQI5ZXHHHHTRSGV6CHZXRZ2E",
   "modifier_data": {
-   "name": "rainbow sprinkles :gf:",
+   "name": "rainbow sprinkles (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7374,7 +7374,7 @@ var catalog_raw=[
  {
   "id": "XRO5TYSM65RKXZF4G76OLHPO",
   "modifier_data": {
-   "name": "blue raz pop rocks",
+   "name": "blue raz pop rocks  (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7383,7 +7383,7 @@ var catalog_raw=[
  {
   "id": "HNI5W3JCDMENH6WYMM4RLGCI",
   "modifier_data": {
-   "name": "chocolate fudge",
+   "name": "fudge sauce (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7392,7 +7392,7 @@ var catalog_raw=[
  {
   "id": "APEW55N7JFU4WVDRL72CFYGJ",
   "modifier_data": {
-   "name": "chocolate sprinkles :v: :gf:",
+   "name": "chocolate sprinkles (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7410,7 +7410,7 @@ var catalog_raw=[
  {
   "id": "WPVUWUDCRWMKCFQ6GAI5UV76",
   "modifier_data": {
-   "name": "honeycomb :v: :gf:",
+   "name": "honeycomb (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7419,7 +7419,7 @@ var catalog_raw=[
  {
   "id": "RXUS4VJ5RQAR26IOKVJKVWR4",
   "modifier_data": {
-   "name": "coconut jam",
+   "name": "coconut jam (v) (gf)",
    "price_money": {
     "amount": 75
    }
