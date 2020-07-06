@@ -212,6 +212,15 @@ var catalog_raw=[
    "name": "store topping",
    "modifiers": [
     {
+     "id": "ZCXGP3RXDQMIM5FFHYDSYFFF",
+     "modifier_data": {
+      "name": "no toppings",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "Q4K37SM7KT7UREXNUWVRC6RT",
      "modifier_data": {
       "name": "chocolate cigarillo",
@@ -2822,6 +2831,24 @@ var catalog_raw=[
      "id": "7PV4BOQWBD43K6SP7L4DQJH6",
      "modifier_data": {
       "name": "salted vanilla bean",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "K3MPKBBGGFLWRGNID6FBX5XS",
+     "modifier_data": {
+      "name": "blueberry + cookie butter twist",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "X7X57F6CJEELFOKRX6VACOGY",
+     "modifier_data": {
+      "name": "vanilla + milk chocolate twist",
       "price_money": {
        "amount": 0
       }
@@ -7828,6 +7855,33 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "ZCXGP3RXDQMIM5FFHYDSYFFF",
+  "modifier_data": {
+   "name": "no toppings",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "K3MPKBBGGFLWRGNID6FBX5XS",
+  "modifier_data": {
+   "name": "blueberry + cookie butter twist",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "X7X57F6CJEELFOKRX6VACOGY",
+  "modifier_data": {
+   "name": "vanilla + milk chocolate twist",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]
