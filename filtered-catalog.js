@@ -7432,15 +7432,6 @@ var catalog_raw=[
    "name": "lab flavor",
    "modifiers": [
     {
-     "id": "EEIGHDNY27I5SHME7HCBM5A5",
-     "modifier_data": {
-      "name": "jacobsen sea salt",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "POR634QNMVAE4S4ADO2PU6PA",
      "modifier_data": {
       "name": "green apple (v)",
@@ -7459,15 +7450,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "UYGH6JOSRMX7WLBQJVK4B4XZ",
-     "modifier_data": {
-      "name": "watermelon sorbet (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "LCAR2VNBKZ3TAWU4AGOGRFNP",
      "modifier_data": {
       "name": "green apple + salted caramel",
@@ -7477,9 +7459,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "EEIGHDNY27I5SHME7HCBM5A5",
+     "modifier_data": {
+      "name": "jacobsen sea salt - sold out!",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "UYGH6JOSRMX7WLBQJVK4B4XZ",
+     "modifier_data": {
+      "name": "watermelon sorbet (v) - sold out!",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "IKY273J3CK4GGJR7FWHV6M4Q",
      "modifier_data": {
-      "name": "watermelon + jacobsen sea salt",
+      "name": "watermelon + jacobsen sea salt - sold out!",
       "price_money": {
        "amount": 0
       }
@@ -7500,7 +7500,7 @@ var catalog_raw=[
  {
   "id": "EEIGHDNY27I5SHME7HCBM5A5",
   "modifier_data": {
-   "name": "jacobsen sea salt",
+   "name": "jacobsen sea salt - sold out!",
    "price_money": {
     "amount": 0
    }
@@ -7518,7 +7518,7 @@ var catalog_raw=[
  {
   "id": "UYGH6JOSRMX7WLBQJVK4B4XZ",
   "modifier_data": {
-   "name": "watermelon sorbet (v)",
+   "name": "watermelon sorbet (v) - sold out!",
    "price_money": {
     "amount": 0
    }
@@ -7653,7 +7653,7 @@ var catalog_raw=[
  {
   "id": "IKY273J3CK4GGJR7FWHV6M4Q",
   "modifier_data": {
-   "name": "watermelon + jacobsen sea salt",
+   "name": "watermelon + jacobsen sea salt - sold out!",
    "price_money": {
     "amount": 0
    }
