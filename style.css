@@ -357,6 +357,7 @@ header div:nth-of-type(2) {
     transition: all 0.2s ease-out;
     right: 0px;
     overflow: hidden;
+    z-index: 5;
 }
 
 header div:nth-of-type(2).menu-open {
