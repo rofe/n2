@@ -7459,27 +7459,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "EEIGHDNY27I5SHME7HCBM5A5",
-     "modifier_data": {
-      "name": "jacobsen sea salt - sold out!",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "UYGH6JOSRMX7WLBQJVK4B4XZ",
      "modifier_data": {
-      "name": "watermelon sorbet (v) - sold out!",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "IKY273J3CK4GGJR7FWHV6M4Q",
-     "modifier_data": {
-      "name": "watermelon + jacobsen sea salt - sold out!",
+      "name": "watermelon sorbet (v)",
       "price_money": {
        "amount": 0
       }
@@ -7498,15 +7480,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "EEIGHDNY27I5SHME7HCBM5A5",
-  "modifier_data": {
-   "name": "jacobsen sea salt - sold out!",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "5YMWVQ5ZKCZ5CFBEHIZVQZBH",
   "modifier_data": {
    "name": "salted caramel",
@@ -7518,7 +7491,7 @@ var catalog_raw=[
  {
   "id": "UYGH6JOSRMX7WLBQJVK4B4XZ",
   "modifier_data": {
-   "name": "watermelon sorbet (v) - sold out!",
+   "name": "watermelon sorbet (v)",
    "price_money": {
     "amount": 0
    }
@@ -7645,15 +7618,6 @@ var catalog_raw=[
   "id": "LCAR2VNBKZ3TAWU4AGOGRFNP",
   "modifier_data": {
    "name": "green apple + salted caramel",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "IKY273J3CK4GGJR7FWHV6M4Q",
-  "modifier_data": {
-   "name": "watermelon + jacobsen sea salt - sold out!",
    "price_money": {
     "amount": 0
    }
