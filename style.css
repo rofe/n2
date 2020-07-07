@@ -42,8 +42,8 @@ main svg + svg {
 }
 
 main svg.icon-store, main svg.icon-lab {
-    height: 300px;
-    width: 300px;
+    height: 120px;
+    width: 200px;
     stroke-width: 0;
 }
 
@@ -111,7 +111,7 @@ main div.default {
 }
 
 main>div:first-of-type {
-    margin-top: 50px;
+    margin-top: 0px;
 }
 
 main .menu>div {
