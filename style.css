@@ -299,22 +299,14 @@ main #labconepreview div {
 
 }
 
-header {
-    display: grid;
-    width: 100%;
-    grid-template-columns: 80px 1fr 80px;
-    background-color: var(--background-highlight-color);
-}
 
-
-header>ul {
-    margin: auto;
+header>div:first-of-type {
     display: flex;
-    justify-content: center;
-    padding: 0;
+    width: 100%;
+    justify-content: space-between;
 }
 
-header>ul>li {
+header ul>li {
     list-style: none;
     padding: 10px;
     transition: all 1s;
@@ -322,7 +314,7 @@ header>ul>li {
     white-space: nowrap;
 }
 
-header>ul>li svg {
+header .icon-arrow {
     height: 0.8em;
     width: 0.8em;
     margin: 0;
@@ -330,16 +322,8 @@ header>ul>li svg {
     visibility: hidden;
 }
 
-header>ul>li.selected svg {
+header ul>li.selected svg {
     display: none;
-}
-
-header ul a:any-link {
-    color: var(--background-color);
-}
-
-header .selected a:any-link {
-    color: var(--text-color);
 }
 
 header svg {
@@ -349,13 +333,36 @@ header svg {
 header svg.icon-normal {
     height: 45px;
     width: 45px;
-
 }
 
 header svg.icon-hamburger {
     height: 24px;
     width: 17px;
 }
+
+header svg.icon-close {
+    height: 30px;
+    width: 30px;
+    position: absolute;
+    right: 0;
+}
+
+header div:nth-of-type(2) {
+    position: absolute;
+    top: 0;
+    width: 0px;
+    height: 100%;
+    background-color: var(--text-color);
+    color: var(--background-color);
+    transition: all 0.2s ease-out;
+    right: 0px;
+    overflow: hidden;
+}
+
+header div:nth-of-type(2).menu-open {
+    width: 300px;
+}
+
 
 a:any-link {
     text-decoration: none;
@@ -393,10 +400,6 @@ main ol, main ul {
 
 main li {
     margin: 5px;
-}
-
-header div:nth-of-type(2) {
-    display: none;
 }
 
 footer ul {
@@ -986,7 +989,7 @@ select:disabled:hover, select[aria-disabled=true] {
     position: fixed;
     bottom: 0;
     height: 100%;
-    width: 100VW;
+    width: 100vw;
     background-color: var(--text-color);
     color: var(--background-highlight-color);
     box-sizing: border-box;    
@@ -1098,10 +1101,6 @@ select:disabled:hover, select[aria-disabled=true] {
     #config img {
         max-height: 180px;
     }
-    
-    header>ul>li svg {
-        visibility: visible;
-    }    
 }
 
 
