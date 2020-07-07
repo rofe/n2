@@ -498,6 +498,15 @@ var catalog_raw=[
        "amount": 100
       }
      }
+    },
+    {
+     "id": "HGUHUOMLEGCK5QICXMMBXCLX",
+     "modifier_data": {
+      "name": "cup + cone on top!",
+      "price_money": {
+       "amount": 100
+      }
+     }
     }
    ]
   }
@@ -6141,42 +6150,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "HPPEARW2E5E6WN26UDBR2EEM",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "cone",
-   "modifiers": [
-    {
-     "id": "JQP2HR4KUCHRGQG7WUIHDF2N",
-     "modifier_data": {
-      "name": "no cone",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "BFI7QOYM7VD3SZDZN3DDVETH",
-     "modifier_data": {
-      "name": "add cone on top",
-      "price_money": {
-       "amount": 100
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "BFI7QOYM7VD3SZDZN3DDVETH",
-  "modifier_data": {
-   "name": "add cone on top",
-   "price_money": {
-    "amount": 100
-   }
-  }
- },
- {
   "id": "IRLGXWAJUEL3FGOC76NU7KTD",
   "type": "ITEM",
   "item_data": {
@@ -7660,15 +7633,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "JQP2HR4KUCHRGQG7WUIHDF2N",
-  "modifier_data": {
-   "name": "no cone",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "RK6BJKAS3V753NS6YSDJV5PX",
   "modifier_data": {
    "name": "no dip",
@@ -7881,6 +7845,15 @@ var catalog_raw=[
    "name": "vanilla + milk chocolate twist",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "HGUHUOMLEGCK5QICXMMBXCLX",
+  "modifier_data": {
+   "name": "cup + cone on top!",
+   "price_money": {
+    "amount": 100
    }
   }
  }
