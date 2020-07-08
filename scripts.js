@@ -96,6 +96,7 @@ function classify() {
     document.querySelectorAll("div.image").forEach((e, i) => {
         e.classList.add(i%2?"right":"left");
     })
+    document.querySelector("main").classList.add("appear");
 }
 function wrapMenus() {
     hWrap(document.querySelector("main div.menu"),5);
@@ -1887,7 +1888,6 @@ window.addEventListener('DOMContentLoaded', async (event) => {
     //resizeImages();
     await fetchLabels();
     setLocation();
-    highlightNav();
     setColors();
     fixIcons();
     classify();

@@ -37,6 +37,17 @@ main svg {
 
 }
 
+main {
+    opacity: 0;
+    transform: translateY(100);
+    transition: all 1s ease-out;
+}
+
+main.appear {
+    opacity: 1;
+    transform: translateY(0);
+}
+
 main svg + svg {
     margin-left: -0.3em;
 }
@@ -355,6 +366,7 @@ header div:nth-of-type(2) {
     background-color: var(--text-color);
     color: var(--background-color);
     transition: all 0.2s ease-out;
+    opacity: 0;
     right: 0px;
     overflow: hidden;
     z-index: 5;
@@ -362,6 +374,7 @@ header div:nth-of-type(2) {
 
 header div:nth-of-type(2).menu-open {
     width: 300px;
+    opacity: 1;
 }
 
 
