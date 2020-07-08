@@ -1780,7 +1780,13 @@ var cart={
         if (cartobj && cartobj.line_items) {
             // validate
             cartobj.line_items.forEach((li) => {
-                if (catalog.byId[li.variation]) cart.line_items.push(li);
+                if (catalog.byId[li.variation]) {
+                    var push=true;
+                    li.mods.forEach((m) => {
+                        if (!catalog.byId[m]) push=false;
+                    });
+                    if (push) cart.line_items.push(li);
+                }
             })
         }
     }
