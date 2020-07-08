@@ -6145,6 +6145,46 @@ var catalog_raw=[
        "amount": 400
       }
      }
+    },
+    {
+     "id": "F25JDRY5KMN6MZ7AWXNEGOIM",
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "twist - van + choc - half size",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "5OMI6B5E5NIZE35D4H4YTPJG",
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "twist - van + choc - normal size",
+      "price_money": {
+       "amount": 400
+      }
+     }
+    },
+    {
+     "id": "QRXULNYYUO25FCIMAEIBXGLF",
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "twist - blueberry + cookie butter (v) - half size",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "BLNYIWYHNDFZWSI27KPG74VL",
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "twist - blueberry + cookie butter (v) - normal size",
+      "price_money": {
+       "amount": 400
+      }
+     }
     }
    ]
   }
