@@ -1880,9 +1880,12 @@ function hamburger() {
         document.querySelector("header div:nth-of-type(2)").classList.remove("menu-open");       
     })
 
-    document.querySelectorAll("header li").forEach((li) => {
+    document.querySelectorAll("header li a").forEach((li) => {
         li.addEventListener("click", (e) => {
             document.querySelector("header div:nth-of-type(2)").classList.add("clicked");
+            e.preventDefault()
+            window.location.href=e.currentTarget.getAttribute('href');
+            return false;
         })
     })
 }
