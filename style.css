@@ -375,6 +375,11 @@ header div:nth-of-type(2).menu-open {
     opacity: 1;
 }
 
+header div:nth-of-type(2).menu-open.clicked {
+    width: 100vw;
+    background-color: var(--background-color);
+}
+
 
 a:any-link {
     text-decoration: none;

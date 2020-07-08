@@ -1875,8 +1875,15 @@ function hamburger() {
     document.querySelector("header .icon-hamburger").addEventListener("click", (e) => {
         document.querySelector("header div:nth-of-type(2)").classList.add("menu-open");       
     })
+    
     document.querySelector("header .icon-close").addEventListener("click", (e) => {
         document.querySelector("header div:nth-of-type(2)").classList.remove("menu-open");       
+    })
+
+    document.querySelectorAll("header li").forEach((li) => {
+        li.addEventListener("click", (e) => {
+            document.querySelector("header div:nth-of-type(2)").classList.add("clicked");
+        })
     })
 }
 
