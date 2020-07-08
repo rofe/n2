@@ -491,7 +491,7 @@ function createConeFromConfig(mods) {
     var coneconfig={toppings:[]};
     mods.forEach((m) => {
         var mod=catalog.byId[m];
-        if (mod.modifier_data) {
+        if (mod && mod.modifier_data) {
             var mlname=catalog.byId[mod.modifier_data.modifier_list_id].modifier_list_data.name;
             var modname=stripName(mod.modifier_data.name);
             if (mlname.includes('topping')) {
