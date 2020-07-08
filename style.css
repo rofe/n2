@@ -39,13 +39,11 @@ main svg {
 
 main {
     opacity: 0;
-    transform: translateY(100);
-    transition: all 1s ease-out;
+    transition: all 1s linear;
 }
 
 main.appear {
     opacity: 1;
-    transform: translateY(0);
 }
 
 main svg + svg {
