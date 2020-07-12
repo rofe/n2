@@ -176,15 +176,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "XRO5TYSM65RKXZF4G76OLHPO",
-     "modifier_data": {
-      "name": "blue raz pop rocks  (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "RXUS4VJ5RQAR26IOKVJKVWR4",
      "modifier_data": {
       "name": "coconut jam (v) (gf)",
@@ -7406,15 +7397,6 @@ var catalog_raw=[
   "id": "DQI5ZXHHHHTRSGV6CHZXRZ2E",
   "modifier_data": {
    "name": "rainbow sprinkles (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "XRO5TYSM65RKXZF4G76OLHPO",
-  "modifier_data": {
-   "name": "blue raz pop rocks  (gf)",
    "price_money": {
     "amount": 75
    }
