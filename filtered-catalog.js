@@ -6087,6 +6087,26 @@ var catalog_raw=[
      }
     },
     {
+     "id": "UGWGUYIMN57SRVJNKOGGA7DU",
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "cookie butter (v) - half size",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "PTVFN7TIODUZ664LQPNVVI26",
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "cookie butter (v) - normal size",
+      "price_money": {
+       "amount": 400
+      }
+     }
+    },
+    {
      "id": "SSMKQHXX2VBWMIPDOXCLR663",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
@@ -6141,6 +6161,26 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
       "name": "twist - van + choc - normal size",
+      "price_money": {
+       "amount": 400
+      }
+     }
+    },
+    {
+     "id": "KB4JLMFUA6MS26XIIP5ASKXG",
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "twist - blueberry + cookie butter (v) - half size",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "M2KU2JJ435Z6ISGDLS56GWFC",
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "twist - blueberry + cookie butter (v) - normal size",
       "price_money": {
        "amount": 400
       }
