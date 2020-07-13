@@ -230,15 +230,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "5MRSRN4GLDS2Y2HSCZZWCVGS",
-     "modifier_data": {
-      "name": "chocolate sprinkles",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "T6SNPMQHBKIQDBGSGCSDUAN6",
      "modifier_data": {
       "name": "cocoa krispies",
@@ -317,15 +308,6 @@ var catalog_raw=[
   "id": "JIH5BOBHV5W6EHVRLWGNXLWS",
   "modifier_data": {
    "name": "rainbow sprinkles",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "5MRSRN4GLDS2Y2HSCZZWCVGS",
-  "modifier_data": {
-   "name": "chocolate sprinkles",
    "price_money": {
     "amount": 75
    }
