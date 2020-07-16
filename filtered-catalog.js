@@ -7870,5 +7870,25 @@ var catalog_raw=[
     "amount": 75
    }
   }
+ },
+ {
+  "id": "KM2TCTW7LCTUGCAUXBYSPL5D",
+  "type": "ITEM",
+  "item_data": {
+   "name": "happy 3rd bday to us!",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "variations": [
+    {
+     "id": "PNE3B6WPDP5MIH4ZNCBZDG4Z",
+     "item_variation_data": {
+      "item_id": "KM2TCTW7LCTUGCAUXBYSPL5D",
+      "name": "Regular",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    }
+   ]
+  }
  }
 ]
