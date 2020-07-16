@@ -7882,13 +7882,30 @@ var catalog_raw=[
      "id": "PNE3B6WPDP5MIH4ZNCBZDG4Z",
      "item_variation_data": {
       "item_id": "KM2TCTW7LCTUGCAUXBYSPL5D",
-      "name": "Regular",
+      "name": "cup",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    },
+    {
+     "id": "FR5SS4W7KT3U4FRT3R72LXV2",
+     "item_variation_data": {
+      "item_id": "KM2TCTW7LCTUGCAUXBYSPL5D",
+      "name": "cone",
       "price_money": {
        "amount": 700
       }
      }
     }
    ]
+  }
+ },
+ {
+  "id": "MVSTX3D5VD4VLMFARTQZLB2O",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "HAPPY BDAY TO US"
   }
  }
 ]
