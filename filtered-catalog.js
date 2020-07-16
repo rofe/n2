@@ -6619,6 +6619,16 @@ var catalog_raw=[
        "amount": 1000
       }
      }
+    },
+    {
+     "id": "SVG3TTXM56HDUXI7BJKMHVM2",
+     "item_variation_data": {
+      "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
+      "name": "happy bday to US!",
+      "price_money": {
+       "amount": 1000
+      }
+     }
     }
    ]
   }
