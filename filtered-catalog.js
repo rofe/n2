@@ -7896,5 +7896,75 @@ var catalog_raw=[
   "category_data": {
    "name": "pies the limit"
   }
+ },
+ {
+  "id": "5FMEOKNVF6PEM5A2C64N7UN6",
+  "type": "ITEM",
+  "item_data": {
+   "name": "blueberry + sour cream pie",
+   "category_id": "BYZXYDN4Q5BVA3M35OE4SAQW",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
+    }
+   ],
+   "variations": [
+    {
+     "id": "2A2MOCCM5OASGGNLP7MEYDGE",
+     "item_variation_data": {
+      "item_id": "5FMEOKNVF6PEM5A2C64N7UN6",
+      "name": "slice",
+      "price_money": {
+       "amount": 450
+      }
+     }
+    },
+    {
+     "id": "ENI4TB4ETLSGXB5YWUBC7B3S",
+     "item_variation_data": {
+      "item_id": "5FMEOKNVF6PEM5A2C64N7UN6",
+      "name": "whole pie",
+      "price_money": {
+       "amount": 2500
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "OZU5RK745SN4PII3Q73EYZA5",
+  "type": "ITEM",
+  "item_data": {
+   "name": "rhubarb pie",
+   "category_id": "BYZXYDN4Q5BVA3M35OE4SAQW",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
+    }
+   ],
+   "variations": [
+    {
+     "id": "4VO5KJPFQSIV72UAS66W5SFT",
+     "item_variation_data": {
+      "item_id": "OZU5RK745SN4PII3Q73EYZA5",
+      "name": "slice",
+      "price_money": {
+       "amount": 450
+      }
+     }
+    },
+    {
+     "id": "XXDBNYFWCH6Z2IOAAUHUU22V",
+     "item_variation_data": {
+      "item_id": "OZU5RK745SN4PII3Q73EYZA5",
+      "name": "whole pie",
+      "price_money": {
+       "amount": 2500
+      }
+     }
+    }
+   ]
+  }
  }
 ]
