@@ -7918,16 +7918,6 @@ var catalog_raw=[
        "amount": 450
       }
      }
-    },
-    {
-     "id": "ENI4TB4ETLSGXB5YWUBC7B3S",
-     "item_variation_data": {
-      "item_id": "5FMEOKNVF6PEM5A2C64N7UN6",
-      "name": "whole pie",
-      "price_money": {
-       "amount": 2500
-      }
-     }
     }
    ]
   }
@@ -7951,16 +7941,6 @@ var catalog_raw=[
       "name": "slice",
       "price_money": {
        "amount": 450
-      }
-     }
-    },
-    {
-     "id": "XXDBNYFWCH6Z2IOAAUHUU22V",
-     "item_variation_data": {
-      "item_id": "OZU5RK745SN4PII3Q73EYZA5",
-      "name": "whole pie",
-      "price_money": {
-       "amount": 2500
       }
      }
     }
