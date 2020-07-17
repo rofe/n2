@@ -7898,31 +7898,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "5FMEOKNVF6PEM5A2C64N7UN6",
-  "type": "ITEM",
-  "item_data": {
-   "name": "blueberry + sour cream pie",
-   "category_id": "BYZXYDN4Q5BVA3M35OE4SAQW",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
-    }
-   ],
-   "variations": [
-    {
-     "id": "2A2MOCCM5OASGGNLP7MEYDGE",
-     "item_variation_data": {
-      "item_id": "5FMEOKNVF6PEM5A2C64N7UN6",
-      "name": "slice",
-      "price_money": {
-       "amount": 450
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "OZU5RK745SN4PII3Q73EYZA5",
   "type": "ITEM",
   "item_data": {
