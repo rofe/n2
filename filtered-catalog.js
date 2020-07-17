@@ -7889,5 +7889,12 @@ var catalog_raw=[
   "discount_data": {
    "name": "HAPPY BDAY TO US"
   }
+ },
+ {
+  "id": "BYZXYDN4Q5BVA3M35OE4SAQW",
+  "type": "CATEGORY",
+  "category_data": {
+   "name": "pies the limit"
+  }
  }
 ]
