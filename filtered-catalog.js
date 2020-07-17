@@ -192,15 +192,6 @@ var catalog_raw=[
        "amount": 75
       }
      }
-    },
-    {
-     "id": "H37OBB2JMIODAPKCCGW5AHZR",
-     "modifier_data": {
-      "name": "blue raz poprocks",
-      "price_money": {
-       "amount": 75
-      }
-     }
     }
    ]
   }
@@ -7859,15 +7850,6 @@ var catalog_raw=[
    "name": "watermelon + jacobsen sea salt",
    "price_money": {
     "amount": 0
-   }
-  }
- },
- {
-  "id": "H37OBB2JMIODAPKCCGW5AHZR",
-  "modifier_data": {
-   "name": "blue raz poprocks",
-   "price_money": {
-    "amount": 75
    }
   }
  },
