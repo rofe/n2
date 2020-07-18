@@ -192,6 +192,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "B3CSSPCSNR3Z5D3TQ6PKOSD5",
+     "modifier_data": {
+      "name": "blue raz poprocks",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -7900,6 +7909,15 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "B3CSSPCSNR3Z5D3TQ6PKOSD5",
+  "modifier_data": {
+   "name": "blue raz poprocks",
+   "price_money": {
+    "amount": 75
+   }
   }
  }
 ]
