@@ -2031,20 +2031,20 @@ var catalog_raw=[
      }
     },
     {
-     "id": "B6CZ456HOXG6LP7ORREEHEYM",
+     "id": "F6AIT42P32BD6UTLGWDDRWCT",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "HONDURAS la pena",
+      "name": "COLUMBIA nora pillimue",
       "price_money": {
        "amount": 1600
       }
      }
     },
     {
-     "id": "F6AIT42P32BD6UTLGWDDRWCT",
+     "id": "HLD2QUCB2BHLAPV7ZSLXPYUK",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "COLUMBIA robinson figueroa",
+      "name": "GUATEMALA nayo ovalle",
       "price_money": {
        "amount": 1600
       }
@@ -5995,26 +5995,6 @@ var catalog_raw=[
       "name": "Regular",
       "price_money": {
        "amount": 1000
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "BBX4UTUYF3HHZVXPHONTBYDQ",
-  "type": "ITEM",
-  "item_data": {
-   "name": "coffee beans",
-   "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
-   "variations": [
-    {
-     "id": "JJKWSDKX6C4UNFS7EFKVTWJB",
-     "item_variation_data": {
-      "item_id": "BBX4UTUYF3HHZVXPHONTBYDQ",
-      "name": "nathalia maria BRASIL 300g",
-      "price_money": {
-       "amount": 1600
       }
      }
     }
