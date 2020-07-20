@@ -158,15 +158,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "BFMGXRVR3YA6HYDKAHW7TFAE",
-     "modifier_data": {
-      "name": "coconut normal dots (v) (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "PIJPWBQ25FYH23WIX7X3LXWU",
      "modifier_data": {
       "name": "candied beltex bacon (gf)",
@@ -7317,15 +7308,6 @@ var catalog_raw=[
    "name": "cocoa pebbles (v) (gf)",
    "price_money": {
     "amount": 75
-   }
-  }
- },
- {
-  "id": "BFMGXRVR3YA6HYDKAHW7TFAE",
-  "modifier_data": {
-   "name": "coconut normal dots (v) (gf)",
-   "price_money": {
-    "amount": 300
    }
   }
  },
