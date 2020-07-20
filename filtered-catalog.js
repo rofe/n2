@@ -239,15 +239,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "HNM4TK42FEE5NT5X25EC3ZMV",
-     "modifier_data": {
-      "name": "cookie butter drizzle",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "R5W7UZ2JELMJFWTQGMRJVZMC",
      "modifier_data": {
       "name": "earl grey cotton candy",
@@ -362,15 +353,6 @@ var catalog_raw=[
   "id": "VYCUA2HJKTVJ3RR6IESRK7QN",
   "modifier_data": {
    "name": "passion fruit caramel",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "HNM4TK42FEE5NT5X25EC3ZMV",
-  "modifier_data": {
-   "name": "cookie butter drizzle",
    "price_money": {
     "amount": 75
    }
