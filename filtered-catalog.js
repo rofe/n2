@@ -5941,6 +5941,16 @@ var catalog_raw=[
        "amount": 1000
       }
      }
+    },
+    {
+     "id": "XTR6NZKMVCFEBD5HLMTQHQEW",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "brown butter ice cream",
+      "price_money": {
+       "amount": 1000
+      }
+     }
     }
    ]
   }
@@ -7843,13 +7853,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "MVSTX3D5VD4VLMFARTQZLB2O",
-  "type": "DISCOUNT",
-  "discount_data": {
-   "name": "HAPPY BDAY TO US"
   }
  },
  {
