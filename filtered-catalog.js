@@ -7918,16 +7918,6 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "CQ3JMUFK26OFGK26UPTHUS23",
-     "item_variation_data": {
-      "item_id": "4ZYUIMYR257DRGKN57RA3XAE",
-      "name": "rhubarb",
-      "price_money": {
-       "amount": 450
-      }
-     }
-    },
-    {
      "id": "4CWPFJ6C6F3FNLS67P5GKVED",
      "item_variation_data": {
       "item_id": "4ZYUIMYR257DRGKN57RA3XAE",
