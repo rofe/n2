@@ -2801,7 +2801,7 @@ var catalog_raw=[
      }
     },
     {
-     "id": "7PV4BOQWBD43K6SP7L4DQJH6",
+     "id": "UMJVQBV35FCSMQHTQRY3D6QU",
      "modifier_data": {
       "name": "salted vanilla bean",
       "price_money": {
@@ -7626,15 +7626,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "7PV4BOQWBD43K6SP7L4DQJH6",
-  "modifier_data": {
-   "name": "salted vanilla bean",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "D5JBUKKKA5K2WYM7WSIAKU73",
   "type": "ITEM",
   "item_data": {
@@ -7928,6 +7919,15 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "UMJVQBV35FCSMQHTQRY3D6QU",
+  "modifier_data": {
+   "name": "salted vanilla bean",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]
