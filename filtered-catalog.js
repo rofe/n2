@@ -7143,7 +7143,7 @@ var catalog_raw=[
   "id": "T6NK2P5S52EYVLY2LMRGH56E",
   "type": "ITEM",
   "item_data": {
-   "name": "free 12 oz COAVA coffee",
+   "name": "free 12 oz hot COAVA coffee",
    "category_id": "5USTUOOH7JYXC3RQ3OG2IEJQ",
    "variations": [
     {
@@ -7903,6 +7903,41 @@ var catalog_raw=[
    "price_money": {
     "amount": 75
    }
+  }
+ },
+ {
+  "id": "4ZYUIMYR257DRGKN57RA3XAE",
+  "type": "ITEM",
+  "item_data": {
+   "name": "pies the limit",
+   "category_id": "BYZXYDN4Q5BVA3M35OE4SAQW",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
+    }
+   ],
+   "variations": [
+    {
+     "id": "CQ3JMUFK26OFGK26UPTHUS23",
+     "item_variation_data": {
+      "item_id": "4ZYUIMYR257DRGKN57RA3XAE",
+      "name": "rhubarb",
+      "price_money": {
+       "amount": 450
+      }
+     }
+    },
+    {
+     "id": "4CWPFJ6C6F3FNLS67P5GKVED",
+     "item_variation_data": {
+      "item_id": "4ZYUIMYR257DRGKN57RA3XAE",
+      "name": "blueberry sour cream",
+      "price_money": {
+       "amount": 450
+      }
+     }
+    }
+   ]
   }
  }
 ]
