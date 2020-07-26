@@ -149,15 +149,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "DQI5ZXHHHHTRSGV6CHZXRZ2E",
-     "modifier_data": {
-      "name": "rainbow sprinkles (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "PIJPWBQ25FYH23WIX7X3LXWU",
      "modifier_data": {
       "name": "candied beltex bacon (gf)",
@@ -7343,15 +7334,6 @@ var catalog_raw=[
   "id": "E4QWC3WZ3UAJSWVU46TVRQTW",
   "modifier_data": {
    "name": "funfetti cake bits",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "DQI5ZXHHHHTRSGV6CHZXRZ2E",
-  "modifier_data": {
-   "name": "rainbow sprinkles (gf)",
    "price_money": {
     "amount": 75
    }
