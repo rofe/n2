@@ -7443,24 +7443,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "5IHTWUXPIL3IXJTEGHLJW4QK",
-     "modifier_data": {
-      "name": "jacobsen sea salt",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "XVVRWBGSV37575SSRT6SGX5R",
-     "modifier_data": {
-      "name": "watermelon + jacobsen sea salt",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
@@ -7795,24 +7777,6 @@ var catalog_raw=[
    "name": "cup + cone on top!",
    "price_money": {
     "amount": 100
-   }
-  }
- },
- {
-  "id": "5IHTWUXPIL3IXJTEGHLJW4QK",
-  "modifier_data": {
-   "name": "jacobsen sea salt",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "XVVRWBGSV37575SSRT6SGX5R",
-  "modifier_data": {
-   "name": "watermelon + jacobsen sea salt",
-   "price_money": {
-    "amount": 0
    }
   }
  },
