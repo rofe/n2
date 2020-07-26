@@ -7434,15 +7434,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "UYGH6JOSRMX7WLBQJVK4B4XZ",
-     "modifier_data": {
-      "name": "watermelon sorbet (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
@@ -7460,15 +7451,6 @@ var catalog_raw=[
   "id": "5YMWVQ5ZKCZ5CFBEHIZVQZBH",
   "modifier_data": {
    "name": "salted caramel",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "UYGH6JOSRMX7WLBQJVK4B4XZ",
-  "modifier_data": {
-   "name": "watermelon sorbet (v)",
    "price_money": {
     "amount": 0
    }
