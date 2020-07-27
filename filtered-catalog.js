@@ -7420,7 +7420,7 @@ var catalog_raw=[
     {
      "id": "O6TPY5GGNXYZA6HQ4J7BSWUS",
      "modifier_data": {
-      "name": "watermelon (v)",
+      "name": "watermelon sorbet (v)",
       "price_money": {
        "amount": 0
       }
@@ -7438,7 +7438,7 @@ var catalog_raw=[
     {
      "id": "ZUKIVWR3VBK2ZJ2KQUJBCG5N",
      "modifier_data": {
-      "name": "watermelon + sea salt",
+      "name": "watermelon + jacobsen sea salt",
       "price_money": {
        "amount": 0
       }
