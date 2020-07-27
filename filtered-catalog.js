@@ -7416,6 +7416,33 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "O6TPY5GGNXYZA6HQ4J7BSWUS",
+     "modifier_data": {
+      "name": "watermelon (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "DDVGIEWCW7ZI2AOB3NUG6ZGB",
+     "modifier_data": {
+      "name": "jacobsen sea salt",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "ZUKIVWR3VBK2ZJ2KQUJBCG5N",
+     "modifier_data": {
+      "name": "watermelon + sea salt",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -7853,6 +7880,33 @@ var catalog_raw=[
   "id": "UMJVQBV35FCSMQHTQRY3D6QU",
   "modifier_data": {
    "name": "salted vanilla bean",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "O6TPY5GGNXYZA6HQ4J7BSWUS",
+  "modifier_data": {
+   "name": "watermelon (v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "DDVGIEWCW7ZI2AOB3NUG6ZGB",
+  "modifier_data": {
+   "name": "jacobsen sea salt",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "ZUKIVWR3VBK2ZJ2KQUJBCG5N",
+  "modifier_data": {
+   "name": "watermelon + sea salt",
    "price_money": {
     "amount": 0
    }
