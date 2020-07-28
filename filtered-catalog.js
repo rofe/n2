@@ -5874,6 +5874,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "DKXBTZG7TZXQ7KKOPLCXVEEG",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "honeydew melon ice cream (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
      "id": "NBEQTYEVPP7AFGL4LGMRRSFB",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
@@ -5958,6 +5968,16 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
       "name": "tahini ice cream (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "IRLF74K7NAHQ42CTBBDHMSLC",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "watermelon sorbet (v)",
       "price_money": {
        "amount": 1000
       }
@@ -6657,9 +6677,9 @@ var catalog_raw=[
      "id": "LG6FIB3URIALY6Y3KC7MS6NC",
      "item_variation_data": {
       "item_id": "RDWFNM4AMFIJRXXWMMRQQT2J",
-      "name": "the chocolate bomb",
+      "name": "the cookies cake (v)",
       "price_money": {
-       "amount": 900
+       "amount": 600
       }
      }
     }
@@ -6704,12 +6724,12 @@ var catalog_raw=[
      }
     },
     {
-     "id": "6X2BR7BWEG556C73QYKCS3E2",
+     "id": "CY2VJBM57WYP2CBZHW7XXWOT",
      "item_variation_data": {
       "item_id": "GPK2TEIAKNVAPAMKEDBNJFJG",
-      "name": "the chocolate bomb",
+      "name": "the cookies cake (v)",
       "price_money": {
-       "amount": 900
+       "amount": 3500
       }
      }
     }
