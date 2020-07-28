@@ -5734,6 +5734,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "WEGM7YXMCLVWBXRXN5ZJ42HO",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "blackberry ice cream (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
      "id": "6XCEL4SH6O77RSCUHA3YRJGZ",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
@@ -5758,6 +5768,26 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
       "name": "blueberry + lemon cheesecake twist (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "XTR6NZKMVCFEBD5HLMTQHQEW",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "brown butter ice cream",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "PVGHRAJ5JHUHHRQZ6JER2OPX",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "brownie batter ice cream",
       "price_money": {
        "amount": 1000
       }
@@ -5808,6 +5838,36 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
       "name": "earl grey tea ice cream",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "T463PVTGIYG6N5XVVTBAH5HE",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "fresh mint ice cream",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "QHQJ2KNBMTOVXKDWJGUARGUQ",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "grapefruit sorbet (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
+     "id": "YB4VSRNU3H7IUEYWRRVKAK2T",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "greek yogurt ice cream",
       "price_money": {
        "amount": 1000
       }
@@ -5874,6 +5934,16 @@ var catalog_raw=[
      }
     },
     {
+     "id": "B45LV2EUX6MXQL2ZNIWNNC2L",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "strawberry lemonade sorbet (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    },
+    {
      "id": "VXSBNROWAAY3VMP2YM57IDT6",
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
@@ -5888,56 +5958,6 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
       "name": "tahini ice cream (v)",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
-     "id": "YB4VSRNU3H7IUEYWRRVKAK2T",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "greek yogurt ice cream",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
-     "id": "3KUHXSW3NQCGA4NPJWHZMFMK",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "\"carrot cake\" ice cream",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
-     "id": "WEGM7YXMCLVWBXRXN5ZJ42HO",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "blackberry ice cream (v)",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
-     "id": "QHQJ2KNBMTOVXKDWJGUARGUQ",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "grapefruit sorbet (v)",
-      "price_money": {
-       "amount": 1000
-      }
-     }
-    },
-    {
-     "id": "XTR6NZKMVCFEBD5HLMTQHQEW",
-     "item_variation_data": {
-      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
-      "name": "brown butter ice cream",
       "price_money": {
        "amount": 1000
       }
