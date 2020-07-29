@@ -7951,5 +7951,55 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "DKSQH4I77NQ4ZPIRH6WDR2SP",
+  "type": "ITEM",
+  "item_data": {
+   "name": "exclusive \"one-off\" pints",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "53AS56BYCAGGUD6MPPJGMJSM",
+     "item_variation_data": {
+      "item_id": "DKSQH4I77NQ4ZPIRH6WDR2SP",
+      "name": "j.salt + nougat",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    },
+    {
+     "id": "PXVOIVGEK4TGL4MIGDQIZR6I",
+     "item_variation_data": {
+      "item_id": "DKSQH4I77NQ4ZPIRH6WDR2SP",
+      "name": "cocoa nib ice cream",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    },
+    {
+     "id": "TUZ7LUAQQ6KPJHOK2CTGKUVU",
+     "item_variation_data": {
+      "item_id": "DKSQH4I77NQ4ZPIRH6WDR2SP",
+      "name": "bay leaf + grapefruit",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    },
+    {
+     "id": "CNF53KMQ3RYOLWHUQ7U2M44Q",
+     "item_variation_data": {
+      "item_id": "DKSQH4I77NQ4ZPIRH6WDR2SP",
+      "name": "PB+J (v)",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
  }
 ]
