@@ -140,15 +140,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "APEW55N7JFU4WVDRL72CFYGJ",
-     "modifier_data": {
-      "name": "chocolate sprinkles (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "PIJPWBQ25FYH23WIX7X3LXWU",
      "modifier_data": {
       "name": "candied beltex bacon (gf)",
@@ -170,15 +161,6 @@ var catalog_raw=[
      "id": "HNI5W3JCDMENH6WYMM4RLGCI",
      "modifier_data": {
       "name": "fudge sauce (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "B3CSSPCSNR3Z5D3TQ6PKOSD5",
-     "modifier_data": {
-      "name": "blue raz poprocks",
       "price_money": {
        "amount": 75
       }
@@ -7389,15 +7371,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "APEW55N7JFU4WVDRL72CFYGJ",
-  "modifier_data": {
-   "name": "chocolate sprinkles (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "MLIGVTKEILQAP5EI6YJ4I4PV",
   "modifier_data": {
    "name": "dulcey",
@@ -7871,15 +7844,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "B3CSSPCSNR3Z5D3TQ6PKOSD5",
-  "modifier_data": {
-   "name": "blue raz poprocks",
-   "price_money": {
-    "amount": 75
-   }
   }
  },
  {
