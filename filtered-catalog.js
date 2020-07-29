@@ -7438,6 +7438,24 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "BB24UU7MQNJU2AQJDDU7VUJ5",
+     "modifier_data": {
+      "name": "watermelon sorbet (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "7TS7UHI7ALVL7EWGHEDUH4KK",
+     "modifier_data": {
+      "name": "watermelon + jacobsen sea salt",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -7928,6 +7946,24 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "BB24UU7MQNJU2AQJDDU7VUJ5",
+  "modifier_data": {
+   "name": "watermelon sorbet (v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "7TS7UHI7ALVL7EWGHEDUH4KK",
+  "modifier_data": {
+   "name": "watermelon + jacobsen sea salt",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]
