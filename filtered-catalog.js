@@ -6649,7 +6649,7 @@ var catalog_raw=[
      "id": "LG6FIB3URIALY6Y3KC7MS6NC",
      "item_variation_data": {
       "item_id": "RDWFNM4AMFIJRXXWMMRQQT2J",
-      "name": "the cookies cake (v)",
+      "name": "the cookies cake slice (v)",
       "price_money": {
        "amount": 600
       }
