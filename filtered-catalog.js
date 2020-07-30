@@ -1985,16 +1985,6 @@ var catalog_raw=[
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
-     "id": "GBVKDOXROD3O7JLPXPGCL3ZO",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "BRASIL nathalia maria",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
      "id": "F6AIT42P32BD6UTLGWDDRWCT",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
