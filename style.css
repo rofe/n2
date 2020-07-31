@@ -37,6 +37,15 @@ main svg {
 
 }
 
+main {
+    opacity: 0;
+    transition: all 1s linear;
+}
+
+main.appear {
+    opacity: 1;
+}
+
 main svg + svg {
     margin-left: -0.3em;
 }
@@ -68,6 +77,10 @@ main .highlight {
 
 main .participants a:any-link {
     border: 0;
+}
+
+main>div:first-of-type.image {
+    padding-top: 80px;
 }
 
 main .storemenu h2 {
@@ -355,6 +368,7 @@ header div:nth-of-type(2) {
     background-color: var(--text-color);
     color: var(--background-color);
     transition: all 0.2s ease-out;
+    opacity: 0;
     right: 0px;
     overflow: hidden;
     z-index: 5;
@@ -362,6 +376,12 @@ header div:nth-of-type(2) {
 
 header div:nth-of-type(2).menu-open {
     width: 300px;
+    opacity: 1;
+}
+
+header div:nth-of-type(2).menu-open.clicked {
+    width: 100vw;
+    background-color: var(--background-color);
 }
 
 
@@ -370,7 +390,7 @@ a:any-link {
     color: currentColor;
 }
 
-button {
+button, a.add-to-cart {
     background-color: var(--text-color);
     color: var(--background-highlight-color);
     border-radius: 1em;
@@ -381,9 +401,10 @@ button {
     font-family: 'Roboto Condensed';
     font-weight: 700;
     font-size: 1em;
+    cursor: pointer;
 }
 
-main button.add-to-cart {
+main button.add-to-cart, main a.add-to-cart {
     font-size: 0.7em;
     vertical-align: top;
     box-sizing: border-box; 
