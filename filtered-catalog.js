@@ -1500,7 +1500,7 @@ var catalog_raw=[
      "id": "U37T47IF6IPIORBRMQ2NJ5GH",
      "item_variation_data": {
       "item_id": "QJAZTYZZSWL457OPU3RNQ2GD",
-      "name": "Regular",
+      "name": "chocolate chip cookies + sweet cream ice cream",
       "price_money": {
        "amount": 600
       }
@@ -1700,7 +1700,7 @@ var catalog_raw=[
      "id": "VVGFR7CLUD5DFFYTIBW2IRHR",
      "item_variation_data": {
       "item_id": "TQNEVPIGLGCO5YNNZJPD4CDO",
-      "name": "Regular",
+      "name": "salted vanilla bean ice cream + dark chocolate dip + chocolate cookie crumb",
       "price_money": {
        "amount": 500
       }
