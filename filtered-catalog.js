@@ -7815,7 +7815,7 @@ var catalog_raw=[
   "id": "OZU5RK745SN4PII3Q73EYZA5",
   "type": "ITEM",
   "item_data": {
-   "name": "rhubarb pie",
+   "name": "rhubarb slice",
    "category_id": "BYZXYDN4Q5BVA3M35OE4SAQW",
    "modifier_list_info": [
     {
@@ -7864,7 +7864,17 @@ var catalog_raw=[
      "id": "4CWPFJ6C6F3FNLS67P5GKVED",
      "item_variation_data": {
       "item_id": "4ZYUIMYR257DRGKN57RA3XAE",
-      "name": "slice of pie",
+      "name": "rhubarb",
+      "price_money": {
+       "amount": 450
+      }
+     }
+    },
+    {
+     "id": "ZX3JNX7QJ2UABN4AYF3XFZQK",
+     "item_variation_data": {
+      "item_id": "4ZYUIMYR257DRGKN57RA3XAE",
+      "name": "blueberry sour cream",
       "price_money": {
        "amount": 450
       }
@@ -8002,6 +8012,30 @@ var catalog_raw=[
    "price_money": {
     "amount": 450
    }
+  }
+ },
+ {
+  "id": "KQSKXASXRGBAAXUKURZ6KGFE",
+  "type": "ITEM",
+  "item_data": {
+   "name": "blueberry sour cream slice",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
+    }
+   ],
+   "variations": [
+    {
+     "id": "S4NJK25MUK6BR725TDSSQADH",
+     "item_variation_data": {
+      "item_id": "KQSKXASXRGBAAXUKURZ6KGFE",
+      "name": "Regular",
+      "price_money": {
+       "amount": 450
+      }
+     }
+    }
+   ]
   }
  }
 ]
