@@ -7864,17 +7864,7 @@ var catalog_raw=[
      "id": "4CWPFJ6C6F3FNLS67P5GKVED",
      "item_variation_data": {
       "item_id": "4ZYUIMYR257DRGKN57RA3XAE",
-      "name": "blueberry sour cream",
-      "price_money": {
-       "amount": 450
-      }
-     }
-    },
-    {
-     "id": "GTH4PH4SRKGDF7XOJLB4UP4K",
-     "item_variation_data": {
-      "item_id": "4ZYUIMYR257DRGKN57RA3XAE",
-      "name": "rhubarb",
+      "name": "slice of pie",
       "price_money": {
        "amount": 450
       }
