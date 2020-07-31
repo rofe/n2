@@ -79,6 +79,10 @@ main .participants a:any-link {
     border: 0;
 }
 
+main>div:first-of-type.image {
+    padding-top: 80px;
+}
+
 main .storemenu h2 {
     border: currentColor 2px solid;
     padding: 7px 20px;
