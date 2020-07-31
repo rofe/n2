@@ -1500,7 +1500,7 @@ var catalog_raw=[
      "id": "U37T47IF6IPIORBRMQ2NJ5GH",
      "item_variation_data": {
       "item_id": "QJAZTYZZSWL457OPU3RNQ2GD",
-      "name": "chocolate chip cookies + sweet cream ice cream",
+      "name": "",
       "price_money": {
        "amount": 600
       }
