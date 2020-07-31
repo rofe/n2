@@ -386,7 +386,7 @@ a:any-link {
     color: currentColor;
 }
 
-button {
+button, a.add-to-cart {
     background-color: var(--text-color);
     color: var(--background-highlight-color);
     border-radius: 1em;
@@ -397,9 +397,10 @@ button {
     font-family: 'Roboto Condensed';
     font-weight: 700;
     font-size: 1em;
+    cursor: pointer;
 }
 
-main button.add-to-cart {
+main button.add-to-cart, main a.add-to-cart {
     font-size: 0.7em;
     vertical-align: top;
     box-sizing: border-box; 

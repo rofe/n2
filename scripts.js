@@ -1596,8 +1596,14 @@ function addToCart(e) {
     if (id) {
         var obj=catalog.byId[id]
         if (obj.type=="ITEM") {
-            var callout=findCallout(e.parentNode);
-            configItem(obj, callout);
+            console.log(obj)
+            if (obj.item_data.modifiers || obj.item_data.variations.length>1) {
+                var callout=findCallout(e.parentNode);
+                configItem(obj, callout);    
+            } else {
+                cart.add(obj.item_data.variations[0].id);
+                updateCart();    
+            }
         } else {
             cart.add(obj.id);
             updateCart();
@@ -1894,6 +1900,14 @@ function hamburger() {
     })
 }
 
+function classifyAddToCartLinks() {
+    document.querySelectorAll('a').forEach(($a) => {
+        if ($a.innerHTML.toLowerCase().trim() == 'add to cart') {
+            $a.classList.add('add-to-cart');
+        }
+    })
+}
+
 /* ----
 general setup
 --- */
@@ -1906,6 +1920,7 @@ window.addEventListener('DOMContentLoaded', async (event) => {
     fixIcons();
     classify();
     hamburger();
+    classifyAddToCartLinks();
     //wrapMenus();
     //cloneMenuSwiper();
     fixSmsUrls();
