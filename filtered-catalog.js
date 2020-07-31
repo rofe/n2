@@ -7854,9 +7854,6 @@ var catalog_raw=[
    "modifier_list_info": [
     {
      "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
-    },
-    {
-     "modifier_list_id": "QP63IYXODFSSZ4HJ4MYLIVWH"
     }
    ],
    "variations": [
