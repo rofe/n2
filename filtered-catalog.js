@@ -7967,51 +7967,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "QP63IYXODFSSZ4HJ4MYLIVWH",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "pie flavor",
-   "modifiers": [
-    {
-     "id": "UMAL7T4UOMWVA2G4JEKTITN2",
-     "modifier_data": {
-      "name": "blueberry sour cream",
-      "price_money": {
-       "amount": 450
-      }
-     }
-    },
-    {
-     "id": "7Z5EHHJRUJHPJ66I6QCCERCN",
-     "modifier_data": {
-      "name": "rhubarb",
-      "price_money": {
-       "amount": 450
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "7Z5EHHJRUJHPJ66I6QCCERCN",
-  "modifier_data": {
-   "name": "rhubarb",
-   "price_money": {
-    "amount": 450
-   }
-  }
- },
- {
-  "id": "UMAL7T4UOMWVA2G4JEKTITN2",
-  "modifier_data": {
-   "name": "blueberry sour cream",
-   "price_money": {
-    "amount": 450
-   }
-  }
- },
- {
   "id": "KQSKXASXRGBAAXUKURZ6KGFE",
   "type": "ITEM",
   "item_data": {
