@@ -1700,7 +1700,7 @@ var catalog_raw=[
      "id": "VVGFR7CLUD5DFFYTIBW2IRHR",
      "item_variation_data": {
       "item_id": "TQNEVPIGLGCO5YNNZJPD4CDO",
-      "name": "salted vanilla bean ice cream + dark chocolate dip + chocolate cookie crumb",
+      "name": "cookies + cream bar",
       "price_money": {
        "amount": 500
       }
