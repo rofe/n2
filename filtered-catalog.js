@@ -7866,6 +7866,16 @@ var catalog_raw=[
        "amount": 450
       }
      }
+    },
+    {
+     "id": "GTH4PH4SRKGDF7XOJLB4UP4K",
+     "item_variation_data": {
+      "item_id": "4ZYUIMYR257DRGKN57RA3XAE",
+      "name": "rhubarb",
+      "price_money": {
+       "amount": 450
+      }
+     }
     }
    ]
   }
