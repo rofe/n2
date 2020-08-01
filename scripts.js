@@ -783,8 +783,18 @@ function formatTime(date) {
     var strTime = hours + ':' + minutes + ' ' + ampm;
     return strTime;
 }
-
+function toNumbersArray(str) {
+    return (str.split(',').map(e => +e.trim()));
+}
 function getOpeningHoursConfig() {
+    var opening=window.labels[storeLocation+'_openinghours'];
+    var closing=window.labels[storeLocation+'_closinghours']
+    if (opening) {
+        storeLocations[storeLocation].openingHours.opening=toNumbersArray(opening);
+    }
+    if (closing) {
+        storeLocations[storeLocation].openingHours.closing=toNumbersArray(closing);
+    }
     return storeLocations[storeLocation].openingHours;
 }
 
