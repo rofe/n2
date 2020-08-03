@@ -7706,14 +7706,19 @@ var catalog_raw=[
   "id": "QXRQNGNLL3BLPI3LTEARMIFC",
   "type": "ITEM",
   "item_data": {
-   "name": "april showers (v)",
+   "name": "peach crisp (v)",
    "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
    "variations": [
     {
      "id": "RSC3RYU6GAMYJ7YE7YH7IOAE",
      "item_variation_data": {
       "item_id": "QXRQNGNLL3BLPI3LTEARMIFC",
-      "name": "cup",
+      "name": "normal size",
       "price_money": {
        "amount": 700
       }
@@ -7723,9 +7728,9 @@ var catalog_raw=[
      "id": "NAC4VMTQ5YJ2TW7LEUCXKASG",
      "item_variation_data": {
       "item_id": "QXRQNGNLL3BLPI3LTEARMIFC",
-      "name": "cone",
+      "name": "half size",
       "price_money": {
-       "amount": 700
+       "amount": 500
       }
      }
     }
@@ -8186,6 +8191,61 @@ var catalog_raw=[
    "price_money": {
     "amount": 75
    }
+  }
+ },
+ {
+  "id": "JREYRBOPGVVZK6EJGQN4HZMD",
+  "type": "ITEM",
+  "item_data": {
+   "name": "farmer's market",
+   "category_id": "HEH4X5LRMX57JKGAFLQACNGH",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "2C6JVCDGCNAOQDEUPM4F6PNZ"
+    }
+   ],
+   "variations": [
+    {
+     "id": "UCCGDWXMG6OX7U4S632YMTI5",
+     "item_variation_data": {
+      "item_id": "JREYRBOPGVVZK6EJGQN4HZMD",
+      "name": "normal size - cup",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    },
+    {
+     "id": "SGUUVI7L4WIWSUEJRRQW3MFO",
+     "item_variation_data": {
+      "item_id": "JREYRBOPGVVZK6EJGQN4HZMD",
+      "name": "normal size - cone",
+      "price_money": {
+       "amount": 700
+      }
+     }
+    },
+    {
+     "id": "CQ22WFLFL2TKYGOXXEU3A2NU",
+     "item_variation_data": {
+      "item_id": "JREYRBOPGVVZK6EJGQN4HZMD",
+      "name": "half size - cup",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "PH2AWJHVDNRYQTDDBAX22OZE",
+     "item_variation_data": {
+      "item_id": "JREYRBOPGVVZK6EJGQN4HZMD",
+      "name": "half size - cone",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    }
+   ]
   }
  }
 ]
