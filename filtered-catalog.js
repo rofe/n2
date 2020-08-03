@@ -221,27 +221,9 @@ var catalog_raw=[
      }
     },
     {
-     "id": "Q4K37SM7KT7UREXNUWVRC6RT",
-     "modifier_data": {
-      "name": "chocolate cigarillo",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "T6SNPMQHBKIQDBGSGCSDUAN6",
      "modifier_data": {
-      "name": "cocoa krispies",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "R5W7UZ2JELMJFWTQGMRJVZMC",
-     "modifier_data": {
-      "name": "earl grey cotton candy",
+      "name": "cocoa krispies (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -250,16 +232,7 @@ var catalog_raw=[
     {
      "id": "XV7A4V6HQP3KFBBOO5DJTHNK",
      "modifier_data": {
-      "name": "fruity pebbles",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "VYCUA2HJKTVJ3RR6IESRK7QN",
-     "modifier_data": {
-      "name": "passion fruit caramel",
+      "name": "fruity pebbles (v) (gf)",
       "price_money": {
        "amount": 75
       }
@@ -268,34 +241,7 @@ var catalog_raw=[
     {
      "id": "JIH5BOBHV5W6EHVRLWGNXLWS",
      "modifier_data": {
-      "name": "rainbow sprinkles",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "DRZ5CCWVWB3KLTYXVHFAUZVF",
-     "modifier_data": {
-      "name": "roasted white chocolate bits",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "L5ANXV3GUJQYBAIYLDBJCIDW",
-     "modifier_data": {
-      "name": "vegan fudge bits",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
-     "id": "B6MNA6AICTXRT6HSFWAOSJWB",
-     "modifier_data": {
-      "name": "cookie butter",
+      "name": "rainbow sprinkles (gf)",
       "price_money": {
        "amount": 75
       }
@@ -304,7 +250,79 @@ var catalog_raw=[
     {
      "id": "OV2F2ZNGILOVXMD26R734MF7",
      "modifier_data": {
-      "name": "chocolate sprinkles",
+      "name": "chocolate sprinkles (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "BVJALISOB6XAAEPMBYEHBASF",
+     "modifier_data": {
+      "name": "chocolate ganache  (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "BILPL2AIPE7N6ARK6QEOAUJU",
+     "modifier_data": {
+      "name": "shortbread cookie crumb",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "MJ5ZB4HTMUZKXJC6Q6YKNT3Q",
+     "modifier_data": {
+      "name": "raspberry jam (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "4U2S44T53ULDDXGU4OLENS7G",
+     "modifier_data": {
+      "name": "whipped cream  (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "T52MWX6NBDOSFNROG3NCB7D5",
+     "modifier_data": {
+      "name": "peach jam (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "BMVJZYP3F7U6Y3KBBBJD2JLS",
+     "modifier_data": {
+      "name": "brown sugar streusel (v)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "3LPA34OEITVAH75K57U4HWGH",
+     "modifier_data": {
+      "name": "honeycomb (v) (gf)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "MN4YAKMHGUFUFNWK7KNMC7V6",
+     "modifier_data": {
+      "name": "burnt honey ganache (gf)",
       "price_money": {
        "amount": 75
       }
@@ -316,7 +334,7 @@ var catalog_raw=[
  {
   "id": "JIH5BOBHV5W6EHVRLWGNXLWS",
   "modifier_data": {
-   "name": "rainbow sprinkles",
+   "name": "rainbow sprinkles (gf)",
    "price_money": {
     "amount": 75
    }
@@ -325,7 +343,7 @@ var catalog_raw=[
  {
   "id": "XV7A4V6HQP3KFBBOO5DJTHNK",
   "modifier_data": {
-   "name": "fruity pebbles",
+   "name": "fruity pebbles (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -334,52 +352,7 @@ var catalog_raw=[
  {
   "id": "T6SNPMQHBKIQDBGSGCSDUAN6",
   "modifier_data": {
-   "name": "cocoa krispies",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "R5W7UZ2JELMJFWTQGMRJVZMC",
-  "modifier_data": {
-   "name": "earl grey cotton candy",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "DRZ5CCWVWB3KLTYXVHFAUZVF",
-  "modifier_data": {
-   "name": "roasted white chocolate bits",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "L5ANXV3GUJQYBAIYLDBJCIDW",
-  "modifier_data": {
-   "name": "vegan fudge bits",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "VYCUA2HJKTVJ3RR6IESRK7QN",
-  "modifier_data": {
-   "name": "passion fruit caramel",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "Q4K37SM7KT7UREXNUWVRC6RT",
-  "modifier_data": {
-   "name": "chocolate cigarillo",
+   "name": "cocoa krispies (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -7918,15 +7891,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "B6MNA6AICTXRT6HSFWAOSJWB",
-  "modifier_data": {
-   "name": "cookie butter",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "4ZYUIMYR257DRGKN57RA3XAE",
   "type": "ITEM",
   "item_data": {
@@ -8074,7 +8038,7 @@ var catalog_raw=[
  {
   "id": "OV2F2ZNGILOVXMD26R734MF7",
   "modifier_data": {
-   "name": "chocolate sprinkles",
+   "name": "chocolate sprinkles (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -8149,6 +8113,78 @@ var catalog_raw=[
    "name": "milk chocolate + banana twist",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "BVJALISOB6XAAEPMBYEHBASF",
+  "modifier_data": {
+   "name": "chocolate ganache  (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "BILPL2AIPE7N6ARK6QEOAUJU",
+  "modifier_data": {
+   "name": "shortbread cookie crumb",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "MJ5ZB4HTMUZKXJC6Q6YKNT3Q",
+  "modifier_data": {
+   "name": "raspberry jam (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "4U2S44T53ULDDXGU4OLENS7G",
+  "modifier_data": {
+   "name": "whipped cream  (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "T52MWX6NBDOSFNROG3NCB7D5",
+  "modifier_data": {
+   "name": "peach jam (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "BMVJZYP3F7U6Y3KBBBJD2JLS",
+  "modifier_data": {
+   "name": "brown sugar streusel (v)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "3LPA34OEITVAH75K57U4HWGH",
+  "modifier_data": {
+   "name": "honeycomb (v) (gf)",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "MN4YAKMHGUFUFNWK7KNMC7V6",
+  "modifier_data": {
+   "name": "burnt honey ganache (gf)",
+   "price_money": {
+    "amount": 75
    }
   }
  }
