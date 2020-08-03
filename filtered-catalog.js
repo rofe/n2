@@ -507,6 +507,15 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "AVCCZNFMX46OY3UXA3WC7HHQ",
+     "modifier_data": {
+      "name": "cup + cone on top!",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -6040,16 +6049,16 @@ var catalog_raw=[
    "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "modifier_list_info": [
     {
-     "modifier_list_id": "EXX7SQAD5YC3XMG77RJUXJNV"
-    },
-    {
-     "modifier_list_id": "RJ3SONFCEFFCEF67X7L3W6QI"
+     "modifier_list_id": "JEAVKSELLBC4LFKUJETJAXYV"
     },
     {
      "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
     },
     {
-     "modifier_list_id": "JEAVKSELLBC4LFKUJETJAXYV"
+     "modifier_list_id": "EXX7SQAD5YC3XMG77RJUXJNV"
+    },
+    {
+     "modifier_list_id": "RJ3SONFCEFFCEF67X7L3W6QI"
     }
    ],
    "variations": [
@@ -8308,6 +8317,15 @@ var catalog_raw=[
    "name": "normal size",
    "price_money": {
     "amount": 400
+   }
+  }
+ },
+ {
+  "id": "AVCCZNFMX46OY3UXA3WC7HHQ",
+  "modifier_data": {
+   "name": "cup + cone on top!",
+   "price_money": {
+    "amount": 0
    }
   }
  }
