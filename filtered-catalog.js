@@ -5990,6 +5990,16 @@ var catalog_raw=[
        "amount": 1000
       }
      }
+    },
+    {
+     "id": "GRU4QWLZTGXQD34RGIDYJO3O",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "cookie butter ice cream (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
     }
    ]
   }
@@ -7967,6 +7977,16 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "DKSQH4I77NQ4ZPIRH6WDR2SP",
       "name": "PB+J (v)",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    },
+    {
+     "id": "KVIU6QW77BQV3GEUL5JJQNAD",
+     "item_variation_data": {
+      "item_id": "DKSQH4I77NQ4ZPIRH6WDR2SP",
+      "name": "peaches!",
       "price_money": {
        "amount": 1200
       }
