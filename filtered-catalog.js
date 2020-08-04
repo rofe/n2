@@ -183,6 +183,24 @@ var catalog_raw=[
        "amount": 300
       }
      }
+    },
+    {
+     "id": "KO6OZTV2UXBUJZ2YU45V7GSN",
+     "modifier_data": {
+      "name": "brown butter crumble",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "62XEBWLYZELZ4SFORGKYKRZ4",
+     "modifier_data": {
+      "name": "potato chip crumb",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -8310,6 +8328,24 @@ var catalog_raw=[
    "name": "dark chocolate crunch",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "KO6OZTV2UXBUJZ2YU45V7GSN",
+  "modifier_data": {
+   "name": "brown butter crumble",
+   "price_money": {
+    "amount": 75
+   }
+  }
+ },
+ {
+  "id": "62XEBWLYZELZ4SFORGKYKRZ4",
+  "modifier_data": {
+   "name": "potato chip crumb",
+   "price_money": {
+    "amount": 75
    }
   }
  }
