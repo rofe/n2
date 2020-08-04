@@ -7454,15 +7454,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "DDVGIEWCW7ZI2AOB3NUG6ZGB",
-     "modifier_data": {
-      "name": "oreo milk (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
@@ -7912,15 +7903,6 @@ var catalog_raw=[
   "id": "UMJVQBV35FCSMQHTQRY3D6QU",
   "modifier_data": {
    "name": "banana",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "DDVGIEWCW7ZI2AOB3NUG6ZGB",
-  "modifier_data": {
-   "name": "oreo milk (v)",
    "price_money": {
     "amount": 0
    }
