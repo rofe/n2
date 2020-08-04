@@ -327,6 +327,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "RLDEPOFH3HYGKR3P5PGOJSWI",
+     "modifier_data": {
+      "name": "blue raz pop rocks",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -8310,6 +8319,15 @@ var catalog_raw=[
    "name": "cup + cone on top!",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "RLDEPOFH3HYGKR3P5PGOJSWI",
+  "modifier_data": {
+   "name": "blue raz pop rocks",
+   "price_money": {
+    "amount": 75
    }
   }
  }
