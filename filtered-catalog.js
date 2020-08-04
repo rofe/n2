@@ -167,15 +167,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "TAPOHONH7TPBTCIKSVY5G55U",
-     "modifier_data": {
-      "name": "potato chip crumb",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "SYLKJ574KP7QONMEIUV7XZRH",
      "modifier_data": {
       "name": "tomato jam",
@@ -8014,15 +8005,6 @@ var catalog_raw=[
   "id": "F4NQ5VWRW4TN2VEHI2QLQCZW",
   "modifier_data": {
    "name": "ritz bits",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "TAPOHONH7TPBTCIKSVY5G55U",
-  "modifier_data": {
-   "name": "potato chip crumb",
    "price_money": {
     "amount": 75
    }
