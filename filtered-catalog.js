@@ -140,15 +140,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "PIJPWBQ25FYH23WIX7X3LXWU",
-     "modifier_data": {
-      "name": "brown butter crumble (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "RXUS4VJ5RQAR26IOKVJKVWR4",
      "modifier_data": {
       "name": "cookie butter (v)",
@@ -7372,15 +7363,6 @@ var catalog_raw=[
   "id": "3D7GUSPIRY74KLQ4U6WSXXWU",
   "modifier_data": {
    "name": "cocoa pebbles (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "PIJPWBQ25FYH23WIX7X3LXWU",
-  "modifier_data": {
-   "name": "brown butter crumble (gf)",
    "price_money": {
     "amount": 75
    }
