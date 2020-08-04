@@ -1607,7 +1607,7 @@ function addToCart(e) {
         var obj=catalog.byId[id]
         if (obj.type=="ITEM") {
             console.log(obj)
-            if (obj.item_data.modifiers || obj.item_data.variations.length>1) {
+            if (obj.item_data.modifier_list_info || (obj.item_data.variations.length>1)) {
                 var callout=findCallout(e.parentNode);
                 configItem(obj, callout);    
             } else {
