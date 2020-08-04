@@ -6777,6 +6777,15 @@ var catalog_raw=[
      }
     },
     {
+     "id": "ZXY3QPE2NBPFPBXNKZ2CEV4W",
+     "modifier_data": {
+      "name": "dark chocolate crunch",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "UTS3EPW5FU3QKEKMSPP4QG4L",
      "modifier_data": {
       "name": "dulcey chocolate",
@@ -8328,6 +8337,15 @@ var catalog_raw=[
    "name": "blue raz pop rocks",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "ZXY3QPE2NBPFPBXNKZ2CEV4W",
+  "modifier_data": {
+   "name": "dark chocolate crunch",
+   "price_money": {
+    "amount": 0
    }
   }
  }
