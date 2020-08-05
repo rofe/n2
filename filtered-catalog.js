@@ -7454,6 +7454,33 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "YW7KLDST3U2ZEJZGZUYVXOV3",
+     "modifier_data": {
+      "name": "oreo milk (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "5VSDLLKIJW7KL4HPITXD3DYO",
+     "modifier_data": {
+      "name": "mascarpone",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "C54DF6KRBFCMNAWKHHCVHXHR",
+     "modifier_data": {
+      "name": "oreo milk mascarpone twist",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -8328,6 +8355,33 @@ var catalog_raw=[
    "name": "potato chip crumb",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "YW7KLDST3U2ZEJZGZUYVXOV3",
+  "modifier_data": {
+   "name": "oreo milk (v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "5VSDLLKIJW7KL4HPITXD3DYO",
+  "modifier_data": {
+   "name": "mascarpone",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "C54DF6KRBFCMNAWKHHCVHXHR",
+  "modifier_data": {
+   "name": "oreo milk mascarpone twist",
+   "price_money": {
+    "amount": 0
    }
   }
  }
