@@ -6009,6 +6009,16 @@ var catalog_raw=[
        "amount": 1000
       }
      }
+    },
+    {
+     "id": "HQOJ35KT5NF3OBLMKAN5TYQJ",
+     "item_variation_data": {
+      "item_id": "BJ477UAFT44XPN5FDXKSH57Z",
+      "name": "green apple ice cream (v)",
+      "price_money": {
+       "amount": 1000
+      }
+     }
     }
    ]
   }
