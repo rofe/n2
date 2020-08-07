@@ -8416,6 +8416,11 @@ var catalog_raw=[
   "item_data": {
    "name": "custom composed pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "D2EIWOESD763B4GZHF6FYJ7A"
+    }
+   ],
    "variations": [
     {
      "id": "SJPWTZ3YS57PZJGHUTO5HHB2",
