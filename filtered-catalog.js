@@ -8409,5 +8409,76 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "JEQTHPXYHSU7FCC5HTXEZOVD",
+  "type": "ITEM",
+  "item_data": {
+   "name": "custom composed pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN"
+  }
+ },
+ {
+  "id": "D2EIWOESD763B4GZHF6FYJ7A",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "custom composed pint mixins",
+   "modifiers": [
+    {
+     "id": "EXLNHVCXSRUKYGWJLJ2HEE6G",
+     "modifier_data": {
+      "name": "this",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "4LFRLB2VY6Z4CKK2VUWN4EJC",
+     "modifier_data": {
+      "name": "that",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "MVC3E36PGNIEH5GS3P642T3B",
+     "modifier_data": {
+      "name": "and the other",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "EXLNHVCXSRUKYGWJLJ2HEE6G",
+  "modifier_data": {
+   "name": "this",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "4LFRLB2VY6Z4CKK2VUWN4EJC",
+  "modifier_data": {
+   "name": "that",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "MVC3E36PGNIEH5GS3P642T3B",
+  "modifier_data": {
+   "name": "and the other",
+   "price_money": {
+    "amount": 0
+   }
+  }
  }
 ]
