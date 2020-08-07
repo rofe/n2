@@ -8415,7 +8415,19 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "custom composed pint",
-   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN"
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "SJPWTZ3YS57PZJGHUTO5HHB2",
+     "item_variation_data": {
+      "item_id": "JEQTHPXYHSU7FCC5HTXEZOVD",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
   }
  },
  {
