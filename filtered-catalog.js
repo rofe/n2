@@ -7473,6 +7473,24 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "5442TOTNLPW2LKCLHBJDXZVR",
+     "modifier_data": {
+      "name": "oreo milk (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "THFE42SQBVNV6EHD4BWLTZID",
+     "modifier_data": {
+      "name": "oreo milk mascarpone twist",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -8457,6 +8475,24 @@ var catalog_raw=[
   "id": "MVC3E36PGNIEH5GS3P642T3B",
   "modifier_data": {
    "name": "and the other",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "5442TOTNLPW2LKCLHBJDXZVR",
+  "modifier_data": {
+   "name": "oreo milk (v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "THFE42SQBVNV6EHD4BWLTZID",
+  "modifier_data": {
+   "name": "oreo milk mascarpone twist",
    "price_money": {
     "amount": 0
    }
