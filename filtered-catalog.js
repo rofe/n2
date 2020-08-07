@@ -8394,5 +8394,55 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "47GHWIWAG7XYC5THUPMTNEM6",
+  "type": "ITEM",
+  "item_data": {
+   "name": "raspberry key lime pie",
+   "category_id": "BYZXYDN4Q5BVA3M35OE4SAQW",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
+    }
+   ],
+   "variations": [
+    {
+     "id": "NT27XPGJLM26AOOG2CO4WXJE",
+     "item_variation_data": {
+      "item_id": "47GHWIWAG7XYC5THUPMTNEM6",
+      "name": "Regular",
+      "price_money": {
+       "amount": 450
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "EDJG6DVRFY5ECLINPH5P32D7",
+  "type": "ITEM",
+  "item_data": {
+   "name": "banana cream pie",
+   "category_id": "BYZXYDN4Q5BVA3M35OE4SAQW",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
+    }
+   ],
+   "variations": [
+    {
+     "id": "4JQYWNHY7FFAYXG3LWOBJKRJ",
+     "item_variation_data": {
+      "item_id": "EDJG6DVRFY5ECLINPH5P32D7",
+      "name": "Regular",
+      "price_money": {
+       "amount": 450
+      }
+     }
+    }
+   ]
+  }
  }
 ]
