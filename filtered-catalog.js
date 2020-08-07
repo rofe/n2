@@ -7902,41 +7902,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "4ZYUIMYR257DRGKN57RA3XAE",
-  "type": "ITEM",
-  "item_data": {
-   "name": "pies the limit",
-   "category_id": "BYZXYDN4Q5BVA3M35OE4SAQW",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
-    }
-   ],
-   "variations": [
-    {
-     "id": "4CWPFJ6C6F3FNLS67P5GKVED",
-     "item_variation_data": {
-      "item_id": "4ZYUIMYR257DRGKN57RA3XAE",
-      "name": "rhubarb",
-      "price_money": {
-       "amount": 450
-      }
-     }
-    },
-    {
-     "id": "ZX3JNX7QJ2UABN4AYF3XFZQK",
-     "item_variation_data": {
-      "item_id": "4ZYUIMYR257DRGKN57RA3XAE",
-      "name": "blueberry sour cream",
-      "price_money": {
-       "amount": 450
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "UMJVQBV35FCSMQHTQRY3D6QU",
   "modifier_data": {
    "name": "banana",
@@ -8411,7 +8376,7 @@ var catalog_raw=[
      "id": "NT27XPGJLM26AOOG2CO4WXJE",
      "item_variation_data": {
       "item_id": "47GHWIWAG7XYC5THUPMTNEM6",
-      "name": "Regular",
+      "name": "raspberry key lime slice",
       "price_money": {
        "amount": 450
       }
@@ -8436,7 +8401,7 @@ var catalog_raw=[
      "id": "4JQYWNHY7FFAYXG3LWOBJKRJ",
      "item_variation_data": {
       "item_id": "EDJG6DVRFY5ECLINPH5P32D7",
-      "name": "Regular",
+      "name": "banana cream slice",
       "price_money": {
        "amount": 450
       }
