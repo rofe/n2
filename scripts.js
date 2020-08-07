@@ -673,17 +673,33 @@ function getConfigHTML(item, callout) {
         html+=`<option value="${v.id}">${v.item_variation_data.name} ($${formatMoney(v.item_variation_data.price_money.amount)})</option>`;
     });
     html+=`</select>`;
+    var notemods=labels['note_modifiers'].split(',').map(e => e.trim());
+    console.log(notemods);
     if (item.item_data.modifier_list_info) {
         item.item_data.modifier_list_info.forEach((m) => {
             var ml=catalog.byId[m.modifier_list_id];
+            if (notemods.includes(ml.modifier_list_data.name)) {
+                html+=`<h3>${ml.modifier_list_data.name}</h3>`;
+                ml.modifier_list_data.modifiers.forEach((mod) => {
+                    html+=`<input name="note" type="checkbox" value="${mod.modifier_data.name}">${mod.modifier_data.name}</input><br>`;
+                })    
+            } else {
             // html+=`<h3>${ml.modifier_list_data.name}</h3>`;
-            html+=`<div><select name="${ml.modifier_list_data.name}">`;
-            ml.modifier_list_data.modifiers.forEach((mod) => {
-                html+=`<option value="${mod.id}">${mod.modifier_data.name} (+$${formatMoney(mod.modifier_data.price_money.amount)})</option>`;
-            })
+                html+=`<div><select name="${ml.modifier_list_data.name}">`;
+                ml.modifier_list_data.modifiers.forEach((mod) => {
+                    html+=`<option value="${mod.id}">${mod.modifier_data.name} (+$${formatMoney(mod.modifier_data.price_money.amount)})</option>`;
+                })
+            }
         html+=`</select></div>`;
         });    
     }
+
+    var noteitems=labels['note_items'].split(',').map(e => e.trim());
+
+    if (noteitems.includes(item.item_data.name)) {
+        html+=`<p><input type="text" name="note"></input></p>`;
+    }
+
     html+=`<button onclick="addConfigToCart()">add to cart</button>
            </div>`;
     
@@ -1240,6 +1256,7 @@ async function submitOrder() {
         var line_item={
             "catalog_object_id": li.variation,
             "quantity": ""+li.quantity };
+        if (li.note) line_item.note=li.note;
 
         if (mods.length) {
             line_item.modifiers=mods;
@@ -1346,6 +1363,7 @@ function addConfigToCart(e) {
     hideConfig();
     var variation="";
     var mods=[];
+    var note="";
     document.querySelectorAll(`#config select`).forEach((e, i) => {
         if (!i) {
             variation=e.value;
@@ -1353,7 +1371,13 @@ function addConfigToCart(e) {
             if (e.value) mods.push(e.value);
         }
     })
-    cart.add(variation, mods)
+    document.querySelectorAll(`#config [name="note"]`).forEach((e) => {
+        if (e.checked || e.getAttribute('type')=='text') {
+            note+=(note?', ':'')+e.value;
+        }
+    })
+
+    cart.add(variation, mods, note)
     updateCart();
 }
 
@@ -1546,7 +1570,7 @@ function updateCart() {
         html+=`<div class="line item" data-id="${li.fp}">
             <div class="q"><span onclick="minus(this)" class="control">-</span> ${li.quantity} <span class="control" onclick="plus(this)">+</span></div>
             <div class="desc">${cone} 
-            ${i.item_data.name} : ${v.item_variation_data.name} ${mods}</div>
+            ${i.item_data.name} : ${v.item_variation_data.name} ${mods}<br>${li.note?li.note:""}</div>
             <div class="amount">$${formatMoney(li.quantity*li.price)}</div>
             </div>`;
     })
@@ -1738,28 +1762,38 @@ function makeShoppable() {
 
 var cart={
     line_items: [],
+    hashCode: function(s) {
+        var h = 0, l = s.length, i = 0;
+        if ( l > 0 )
+          while (i < l)
+            h = (h << 5) - h + s.charCodeAt(i++) | 0;
+        return h;
+    },
+
     remove: (fp) => {
         var index=cart.line_items.findIndex((li) => fp == li.fp);
         cart.line_items.splice(index, 1);
         cart.store();
     },
-    add: (variation, mods) => {
+    add: (variation, mods, note) => {
         if (!mods) mods=[];
-        var li=cart.find(variation, mods);
+        var li=cart.find(variation, mods, note);
         if (li) {
             li.quantity++;
         } else {
             var fp=variation;
             var price=catalog.byId[variation].item_variation_data.price_money.amount;
             mods.forEach((m) => { fp+="-"+m; price+=catalog.byId[m].modifier_data.price_money.amount});
-            cart.line_items.push({fp: fp, variation: variation, mods: mods, quantity: 1, price:  price})
+            if (note) fp+='-'+cart.hashCode(note);
+            cart.line_items.push({fp: fp, variation: variation, mods: mods, quantity: 1, price:  price, note: note})
         }
         cart.store();
 
     },
-    find: (variation, mods) => {
+    find: (variation, mods, note) => {
         var fp=variation;
         mods.forEach((m) => { fp+="-"+m});
+        if (note) fp+='-'+cart.hashCode(note);
         return cart.line_items.find((li) => fp == li.fp)
     },
     setQuantity: (fp, q) => {
