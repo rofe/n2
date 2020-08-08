@@ -8359,31 +8359,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "EDJG6DVRFY5ECLINPH5P32D7",
-  "type": "ITEM",
-  "item_data": {
-   "name": "bananas + cream pie slice",
-   "category_id": "BYZXYDN4Q5BVA3M35OE4SAQW",
-   "modifier_list_info": [
-    {
-     "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
-    }
-   ],
-   "variations": [
-    {
-     "id": "4JQYWNHY7FFAYXG3LWOBJKRJ",
-     "item_variation_data": {
-      "item_id": "EDJG6DVRFY5ECLINPH5P32D7",
-      "name": "banana cream slice",
-      "price_money": {
-       "amount": 450
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "JEQTHPXYHSU7FCC5HTXEZOVD",
   "type": "ITEM",
   "item_data": {
