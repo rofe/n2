@@ -383,15 +383,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "SUP72PEZSFGZ5UDS7CEIOPZ6",
-     "modifier_data": {
-      "name": "dulcey",
-      "price_money": {
-       "amount": 100
-      }
-     }
-    },
-    {
      "id": "SVDK3RNWR7T4HNIGFYFHBBGJ",
      "modifier_data": {
       "name": "almond",
@@ -401,9 +392,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "LITR727XZC2FPDAJPUOUWWU7",
+     "modifier_data": {
+      "name": "dark chocolate",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    },
+    {
      "id": "JX4ONOMDKABTGYL27N6TEQZA",
      "modifier_data": {
       "name": "dark chocolate crunch",
+      "price_money": {
+       "amount": 100
+      }
+     }
+    },
+    {
+     "id": "SUP72PEZSFGZ5UDS7CEIOPZ6",
+     "modifier_data": {
+      "name": "dulcey",
       "price_money": {
        "amount": 100
       }
@@ -8477,6 +8486,15 @@ var catalog_raw=[
    "name": "oreo milk mascarpone twist",
    "price_money": {
     "amount": 0
+   }
+  }
+ },
+ {
+  "id": "LITR727XZC2FPDAJPUOUWWU7",
+  "modifier_data": {
+   "name": "dark chocolate",
+   "price_money": {
+    "amount": 100
    }
   }
  }
