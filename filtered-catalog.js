@@ -8497,5 +8497,30 @@ var catalog_raw=[
     "amount": 100
    }
   }
+ },
+ {
+  "id": "BTSMOL5GNKOPJ76HQVVBWUFA",
+  "type": "ITEM",
+  "item_data": {
+   "name": "banana cream pie",
+   "category_id": "BYZXYDN4Q5BVA3M35OE4SAQW",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "LPZTD3WMASMFYAJTC5YNFWP2"
+    }
+   ],
+   "variations": [
+    {
+     "id": "MOROGN4VYER6NQCQ2YDNLS62",
+     "item_variation_data": {
+      "item_id": "BTSMOL5GNKOPJ76HQVVBWUFA",
+      "name": "slice of pie",
+      "price_money": {
+       "amount": 450
+      }
+     }
+    }
+   ]
+  }
  }
 ]
