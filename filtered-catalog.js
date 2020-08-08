@@ -392,15 +392,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "T5IGPPH5DMRZ3FUYAUC2NNJK",
-     "modifier_data": {
-      "name": "dark chocolate",
-      "price_money": {
-       "amount": 100
-      }
-     }
-    },
-    {
      "id": "SVDK3RNWR7T4HNIGFYFHBBGJ",
      "modifier_data": {
       "name": "almond",
@@ -6342,15 +6333,6 @@ var catalog_raw=[
    "name": "milk chocolate",
    "price_money": {
     "amount": 300
-   }
-  }
- },
- {
-  "id": "T5IGPPH5DMRZ3FUYAUC2NNJK",
-  "modifier_data": {
-   "name": "dark chocolate",
-   "price_money": {
-    "amount": 100
    }
   }
  },
