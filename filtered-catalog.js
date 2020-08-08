@@ -8362,7 +8362,7 @@ var catalog_raw=[
   "id": "EDJG6DVRFY5ECLINPH5P32D7",
   "type": "ITEM",
   "item_data": {
-   "name": "banana cream pie",
+   "name": "bananas + cream pie slice",
    "category_id": "BYZXYDN4Q5BVA3M35OE4SAQW",
    "modifier_list_info": [
     {
