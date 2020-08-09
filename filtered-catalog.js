@@ -122,15 +122,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "E4QWC3WZ3UAJSWVU46TVRQTW",
-     "modifier_data": {
-      "name": "rainbow sprinkles (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "WPVUWUDCRWMKCFQ6GAI5UV76",
      "modifier_data": {
       "name": "chocolate sprinkles (v) (gf)",
@@ -7373,15 +7364,6 @@ var catalog_raw=[
   "id": "3D7GUSPIRY74KLQ4U6WSXXWU",
   "modifier_data": {
    "name": "cocoa pebbles (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "E4QWC3WZ3UAJSWVU46TVRQTW",
-  "modifier_data": {
-   "name": "rainbow sprinkles (gf)",
    "price_money": {
     "amount": 75
    }
