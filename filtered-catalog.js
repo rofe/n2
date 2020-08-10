@@ -6376,7 +6376,7 @@ var catalog_raw=[
      "id": "ZEB4ZLCYQOKT3PW6I7DEUKM3",
      "item_variation_data": {
       "item_id": "G6OGQXV4XFQ4YQXCX6DZXXVY",
-      "name": "baklava pint",
+      "name": "the beltex pint",
       "price_money": {
        "amount": 1000
       }
