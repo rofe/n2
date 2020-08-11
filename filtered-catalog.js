@@ -1979,7 +1979,7 @@ var catalog_raw=[
      "id": "F6AIT42P32BD6UTLGWDDRWCT",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "COLUMBIA nora pillimue",
+      "name": "COLUMBIA robinson figueroa",
       "price_money": {
        "amount": 1600
       }
@@ -1990,6 +1990,26 @@ var catalog_raw=[
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
       "name": "GUATEMALA nayo ovalle",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "BOU2XOFKGJ7UG23AIDG7JHM6",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "ETHIOPIA kilenso",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "JALRCNDNWQ2QGMFUBKGSWQWE",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "MEXICO los naranjos",
       "price_money": {
        "amount": 1600
       }
