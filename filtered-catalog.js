@@ -160,7 +160,7 @@ var catalog_raw=[
     {
      "id": "SYLKJ574KP7QONMEIUV7XZRH",
      "modifier_data": {
-      "name": "tomato jam",
+      "name": "tomato jam (v) (gv)",
       "price_money": {
        "amount": 75
       }
@@ -169,7 +169,7 @@ var catalog_raw=[
     {
      "id": "7UVSY5BUCHCNBR7VQO6YYZXJ",
      "modifier_data": {
-      "name": "sweet cream NORMAL DOTS",
+      "name": "sweet cream NORMAL DOTS (gf)",
       "price_money": {
        "amount": 300
       }
@@ -178,7 +178,7 @@ var catalog_raw=[
     {
      "id": "KO6OZTV2UXBUJZ2YU45V7GSN",
      "modifier_data": {
-      "name": "brown butter crumble",
+      "name": "brown butter crumble (gf)",
       "price_money": {
        "amount": 75
       }
@@ -187,7 +187,16 @@ var catalog_raw=[
     {
      "id": "62XEBWLYZELZ4SFORGKYKRZ4",
      "modifier_data": {
-      "name": "potato chip crumb",
+      "name": "potato chip crumb (v)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "FHFPCU6QHLIHTY6IJZDVQNM4",
+     "modifier_data": {
+      "name": "oreo crumble (v)",
       "price_money": {
        "amount": 75
       }
@@ -7981,7 +7990,7 @@ var catalog_raw=[
  {
   "id": "SYLKJ574KP7QONMEIUV7XZRH",
   "modifier_data": {
-   "name": "tomato jam",
+   "name": "tomato jam (v) (gv)",
    "price_money": {
     "amount": 75
    }
@@ -7990,7 +7999,7 @@ var catalog_raw=[
  {
   "id": "7UVSY5BUCHCNBR7VQO6YYZXJ",
   "modifier_data": {
-   "name": "sweet cream NORMAL DOTS",
+   "name": "sweet cream NORMAL DOTS (gf)",
    "price_money": {
     "amount": 300
    }
@@ -8284,7 +8293,7 @@ var catalog_raw=[
  {
   "id": "KO6OZTV2UXBUJZ2YU45V7GSN",
   "modifier_data": {
-   "name": "brown butter crumble",
+   "name": "brown butter crumble (gf)",
    "price_money": {
     "amount": 75
    }
@@ -8293,7 +8302,7 @@ var catalog_raw=[
  {
   "id": "62XEBWLYZELZ4SFORGKYKRZ4",
   "modifier_data": {
-   "name": "potato chip crumb",
+   "name": "potato chip crumb (v)",
    "price_money": {
     "amount": 75
    }
@@ -8497,6 +8506,15 @@ var catalog_raw=[
    "name": "dark chocolate",
    "price_money": {
     "amount": 100
+   }
+  }
+ },
+ {
+  "id": "FHFPCU6QHLIHTY6IJZDVQNM4",
+  "modifier_data": {
+   "name": "oreo crumble (v)",
+   "price_money": {
+    "amount": 75
    }
   }
  }
