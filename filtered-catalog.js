@@ -8737,5 +8737,105 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "UDO7X7RNF6HHD2HKSUPBSX4G",
+  "type": "ITEM",
+  "item_data": {
+   "name": "strawberry milk + brown butter pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "TXRA365DJNZRJXMM74GXTWSX",
+     "item_variation_data": {
+      "item_id": "UDO7X7RNF6HHD2HKSUPBSX4G",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "ZM3TGJSXCNGAXDMZ5UND66KX",
+  "type": "ITEM",
+  "item_data": {
+   "name": "green apple pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "XG4TJ5PHPOK5BMLLAYF6Y3IA",
+     "item_variation_data": {
+      "item_id": "ZM3TGJSXCNGAXDMZ5UND66KX",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "2UNAZSAVQELMGMVRJXXCH6LO",
+  "type": "ITEM",
+  "item_data": {
+   "name": "fresh mint pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "RY3FNXRPU72S7C5FUWV666MR",
+     "item_variation_data": {
+      "item_id": "2UNAZSAVQELMGMVRJXXCH6LO",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "NFDXZ3TDHV4UFSYA6JBKSTOM",
+  "type": "ITEM",
+  "item_data": {
+   "name": "coffee pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "GLXD32FZAX7YUVATRIGXSQLA",
+     "item_variation_data": {
+      "item_id": "NFDXZ3TDHV4UFSYA6JBKSTOM",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "JRH32TUH4YMPR5RKIDDY5GG4",
+  "type": "ITEM",
+  "item_data": {
+   "name": "cookie butter pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "GHFLGBVHORS5S2K2TSAQHFCI",
+     "item_variation_data": {
+      "item_id": "JRH32TUH4YMPR5RKIDDY5GG4",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
  }
 ]
