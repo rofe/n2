@@ -8837,5 +8837,87 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "J76YNLOTQ6VURU2URZUZQSNA",
+  "type": "ITEM",
+  "item_data": {
+   "name": "peach (v)",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
+    },
+    {
+     "modifier_list_id": "EXX7SQAD5YC3XMG77RJUXJNV"
+    },
+    {
+     "modifier_list_id": "RJ3SONFCEFFCEF67X7L3W6QI"
+    }
+   ],
+   "variations": [
+    {
+     "id": "6YON6BB6F6OAOONW2Q75E47U",
+     "item_variation_data": {
+      "item_id": "J76YNLOTQ6VURU2URZUZQSNA",
+      "name": "half size",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "HNYFAGVK4JLHYTDHPIHEWGVT",
+     "item_variation_data": {
+      "item_id": "J76YNLOTQ6VURU2URZUZQSNA",
+      "name": "normal size",
+      "price_money": {
+       "amount": 400
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "I52AALSGNQ5XUVVF6LHUM7X6",
+  "type": "ITEM",
+  "item_data": {
+   "name": "raspberry sour cream",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
+    },
+    {
+     "modifier_list_id": "EXX7SQAD5YC3XMG77RJUXJNV"
+    },
+    {
+     "modifier_list_id": "RJ3SONFCEFFCEF67X7L3W6QI"
+    }
+   ],
+   "variations": [
+    {
+     "id": "JCFMPSIA63HBYW4YYSVTVAVC",
+     "item_variation_data": {
+      "item_id": "I52AALSGNQ5XUVVF6LHUM7X6",
+      "name": "half size",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "47TL2SVKOPJ2ELTA6POFZZRK",
+     "item_variation_data": {
+      "item_id": "I52AALSGNQ5XUVVF6LHUM7X6",
+      "name": "normal size",
+      "price_money": {
+       "amount": 400
+      }
+     }
+    }
+   ]
+  }
  }
 ]
