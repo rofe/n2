@@ -1717,26 +1717,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "TQNEVPIGLGCO5YNNZJPD4CDO",
-  "type": "ITEM",
-  "item_data": {
-   "name": "cookies + cream bar",
-   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
-   "variations": [
-    {
-     "id": "4YHIN3PTHTIJKGS77YRV5T4R",
-     "item_variation_data": {
-      "item_id": "TQNEVPIGLGCO5YNNZJPD4CDO",
-      "name": "regular",
-      "price_money": {
-       "amount": 500
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "3QJIX4LIS6CEOXZRCVV7SCJQ",
   "type": "ITEM",
   "item_data": {
