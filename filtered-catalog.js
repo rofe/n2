@@ -8919,5 +8919,87 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "U3SYSYKA5IUG23XCNW2PE4BG",
+  "type": "ITEM",
+  "item_data": {
+   "name": "salted vanilla bean + peach twist",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
+    },
+    {
+     "modifier_list_id": "EXX7SQAD5YC3XMG77RJUXJNV"
+    },
+    {
+     "modifier_list_id": "RJ3SONFCEFFCEF67X7L3W6QI"
+    }
+   ],
+   "variations": [
+    {
+     "id": "SPW4JZ7YNM65KHPYYGCUI3QF",
+     "item_variation_data": {
+      "item_id": "U3SYSYKA5IUG23XCNW2PE4BG",
+      "name": "half size",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "7GFE7CY73VBIBGY4AKVHD5Z7",
+     "item_variation_data": {
+      "item_id": "U3SYSYKA5IUG23XCNW2PE4BG",
+      "name": "normal size",
+      "price_money": {
+       "amount": 400
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "4ZAPS4Q4HAEZC7R5L3ORXYHR",
+  "type": "ITEM",
+  "item_data": {
+   "name": "milk chocolate + banana twist",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "EXX7SQAD5YC3XMG77RJUXJNV"
+    },
+    {
+     "modifier_list_id": "MR66BS3WFKZZ5QH4VRLZMNKC"
+    },
+    {
+     "modifier_list_id": "RJ3SONFCEFFCEF67X7L3W6QI"
+    }
+   ],
+   "variations": [
+    {
+     "id": "X3XJ5GNPO46ETPCMJM23EYBF",
+     "item_variation_data": {
+      "item_id": "4ZAPS4Q4HAEZC7R5L3ORXYHR",
+      "name": "half size",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "LQAKUK7UBBRLO6TUL7Y764RA",
+     "item_variation_data": {
+      "item_id": "4ZAPS4Q4HAEZC7R5L3ORXYHR",
+      "name": "normal size",
+      "price_money": {
+       "amount": 400
+      }
+     }
+    }
+   ]
+  }
  }
 ]
