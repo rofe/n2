@@ -8517,5 +8517,45 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "QN2S75SWBVH4VUXHXJKP67F5",
+  "type": "ITEM",
+  "item_data": {
+   "name": "peanut butter + dark chocolate sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
+   "variations": [
+    {
+     "id": "SE2TDHT5CKN7NO2MTPTZOBTB",
+     "item_variation_data": {
+      "item_id": "QN2S75SWBVH4VUXHXJKP67F5",
+      "name": "Regular",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "F4XABKCDZRN5XKEFZRF2JEKR",
+  "type": "ITEM",
+  "item_data": {
+   "name": "banana cream cake slice",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
+   "variations": [
+    {
+     "id": "KFWXYYFRQVDXEH6CBX6LMLHW",
+     "item_variation_data": {
+      "item_id": "F4XABKCDZRN5XKEFZRF2JEKR",
+      "name": "Regular",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    }
+   ]
+  }
  }
 ]
