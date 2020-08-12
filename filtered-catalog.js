@@ -1724,10 +1724,10 @@ var catalog_raw=[
    "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
    "variations": [
     {
-     "id": "VVGFR7CLUD5DFFYTIBW2IRHR",
+     "id": "4YHIN3PTHTIJKGS77YRV5T4R",
      "item_variation_data": {
       "item_id": "TQNEVPIGLGCO5YNNZJPD4CDO",
-      "name": "cookies + cream bar",
+      "name": "regular",
       "price_money": {
        "amount": 500
       }
@@ -8516,6 +8516,26 @@ var catalog_raw=[
    "price_money": {
     "amount": 75
    }
+  }
+ },
+ {
+  "id": "ACCUCB4LZBBMIOFEUNH62EDZ",
+  "type": "ITEM",
+  "item_data": {
+   "name": "cookies + cream bar",
+   "category_id": "42UWQ3CM4P5GVZCRHLGJAHHZ",
+   "variations": [
+    {
+     "id": "OBCUVOAU3H3GBUNDHP7WEKUF",
+     "item_variation_data": {
+      "item_id": "ACCUCB4LZBBMIOFEUNH62EDZ",
+      "name": "Regular",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    }
+   ]
   }
  }
 ]
