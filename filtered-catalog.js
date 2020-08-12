@@ -3677,7 +3677,7 @@ var catalog_raw=[
   "id": "SUS2UHSBV7YPHWJIYEPHZBPO",
   "type": "ITEM",
   "item_data": {
-   "name": "sweet potato pint",
+   "name": "watermelon sorbet pint",
    "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
    "variations": [
     {
@@ -8692,6 +8692,46 @@ var catalog_raw=[
       "name": "Regular",
       "price_money": {
        "amount": 3500
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "SMHY6TBVOFCUM2XKJ6DD3WMN",
+  "type": "ITEM",
+  "item_data": {
+   "name": "choco taco pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "4VHCGTALVOONMSWCXKFFY2M4",
+     "item_variation_data": {
+      "item_id": "SMHY6TBVOFCUM2XKJ6DD3WMN",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "YLS5BZ6AS7JHWDNBZICYHP3T",
+  "type": "ITEM",
+  "item_data": {
+   "name": "snickerdoode pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "JFUNB6EYUIP2N7J2VFFBK2A6",
+     "item_variation_data": {
+      "item_id": "YLS5BZ6AS7JHWDNBZICYHP3T",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1000
       }
      }
     }
