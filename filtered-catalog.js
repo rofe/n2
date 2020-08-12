@@ -8557,5 +8557,145 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "CJ3WVOPUQWKMBRYVQE3J7DLJ",
+  "type": "ITEM",
+  "item_data": {
+   "name": "the cookies cake slice",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
+   "variations": [
+    {
+     "id": "HVGP3UU2XRCXUUCYDTNPFTUD",
+     "item_variation_data": {
+      "item_id": "CJ3WVOPUQWKMBRYVQE3J7DLJ",
+      "name": "Regular",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "NO2N4AGLTHYIVPVYLR2DJB2R",
+  "type": "ITEM",
+  "item_data": {
+   "name": "strawberry + funfetti cake slice",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
+   "variations": [
+    {
+     "id": "PWLCRPC77OPLSLTFIOB6EXJ4",
+     "item_variation_data": {
+      "item_id": "NO2N4AGLTHYIVPVYLR2DJB2R",
+      "name": "Regular",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "4YE5F3OSDMNKDQLJBRJTST4T",
+  "type": "ITEM",
+  "item_data": {
+   "name": "chocolate + brown butter cake slice",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
+   "variations": [
+    {
+     "id": "MN5CQBSV3XPZS5LAKDYYPMNX",
+     "item_variation_data": {
+      "item_id": "4YE5F3OSDMNKDQLJBRJTST4T",
+      "name": "Regular",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "5SYPWXIV6TZOCFSZZIWQPU6T",
+  "type": "ITEM",
+  "item_data": {
+   "name": "the cookies cake 6\" cake",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
+   "variations": [
+    {
+     "id": "TW3UKDVGTTKCA2TLK6KU7YZE",
+     "item_variation_data": {
+      "item_id": "5SYPWXIV6TZOCFSZZIWQPU6T",
+      "name": "Regular",
+      "price_money": {
+       "amount": 3500
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "4MEG6VILFFB6YH3C5DD23FAT",
+  "type": "ITEM",
+  "item_data": {
+   "name": "chocolate + brown butter 6\" cake",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
+   "variations": [
+    {
+     "id": "CBC3LT4BIUIXWJP5ZTBN4TKZ",
+     "item_variation_data": {
+      "item_id": "4MEG6VILFFB6YH3C5DD23FAT",
+      "name": "Regular",
+      "price_money": {
+       "amount": 3500
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "AOBX5FNT7BM23SONURC2RNKC",
+  "type": "ITEM",
+  "item_data": {
+   "name": "banana cream 6\" cake",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
+   "variations": [
+    {
+     "id": "BDKALAVQYUNMYGREOKGLCAWD",
+     "item_variation_data": {
+      "item_id": "AOBX5FNT7BM23SONURC2RNKC",
+      "name": "Regular",
+      "price_money": {
+       "amount": 3500
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "NO5VSUF2W6T6DXKHYRU6BMQY",
+  "type": "ITEM",
+  "item_data": {
+   "name": "strawberry + funfetti 6\" cake",
+   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
+   "variations": [
+    {
+     "id": "QZWJIHXKNLOGXPHSXXJH5CQH",
+     "item_variation_data": {
+      "item_id": "NO5VSUF2W6T6DXKHYRU6BMQY",
+      "name": "Regular",
+      "price_money": {
+       "amount": 3500
+      }
+     }
+    }
+   ]
+  }
  }
 ]
