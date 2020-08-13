@@ -9136,7 +9136,7 @@ var catalog_raw=[
     {
      "id": "QGEDQDCUZZPOYC56UHLUBQN4",
      "modifier_data": {
-      "name": "salted vanilla bean ice cream",
+      "name": "pint of salted vanilla bean ice cream",
       "price_money": {
        "amount": 0
       }
@@ -9145,7 +9145,7 @@ var catalog_raw=[
     {
      "id": "JGGSV6RDRISO3DJMT3LPH5OY",
      "modifier_data": {
-      "name": "peach ice cream (v)",
+      "name": "pint of peach ice cream (v)",
       "price_money": {
        "amount": 0
       }
@@ -9154,7 +9154,7 @@ var catalog_raw=[
     {
      "id": "YCQD3KNULXPUFOYT2D3ATKVY",
      "modifier_data": {
-      "name": "milk chocolate ice cream",
+      "name": "pint of milk chocolate ice cream",
       "price_money": {
        "amount": 0
       }
@@ -9163,7 +9163,7 @@ var catalog_raw=[
     {
      "id": "USBOZXRIPLWABHWMGDSJG4HH",
      "modifier_data": {
-      "name": "banana ice cream",
+      "name": "pint of banana ice cream",
       "price_money": {
        "amount": 0
       }
@@ -9172,7 +9172,7 @@ var catalog_raw=[
     {
      "id": "F4FN65E2K4VAHSII7UPTSXW6",
      "modifier_data": {
-      "name": "raspberry sour cream ice cream",
+      "name": "pint of raspberry sour cream ice cream",
       "price_money": {
        "amount": 0
       }
@@ -9184,7 +9184,7 @@ var catalog_raw=[
  {
   "id": "QGEDQDCUZZPOYC56UHLUBQN4",
   "modifier_data": {
-   "name": "salted vanilla bean ice cream",
+   "name": "pint of salted vanilla bean ice cream",
    "price_money": {
     "amount": 0
    }
@@ -9193,7 +9193,7 @@ var catalog_raw=[
  {
   "id": "JGGSV6RDRISO3DJMT3LPH5OY",
   "modifier_data": {
-   "name": "peach ice cream (v)",
+   "name": "pint of peach ice cream (v)",
    "price_money": {
     "amount": 0
    }
@@ -9202,7 +9202,7 @@ var catalog_raw=[
  {
   "id": "YCQD3KNULXPUFOYT2D3ATKVY",
   "modifier_data": {
-   "name": "milk chocolate ice cream",
+   "name": "pint of milk chocolate ice cream",
    "price_money": {
     "amount": 0
    }
@@ -9211,7 +9211,7 @@ var catalog_raw=[
  {
   "id": "USBOZXRIPLWABHWMGDSJG4HH",
   "modifier_data": {
-   "name": "banana ice cream",
+   "name": "pint of banana ice cream",
    "price_money": {
     "amount": 0
    }
@@ -9220,7 +9220,7 @@ var catalog_raw=[
  {
   "id": "F4FN65E2K4VAHSII7UPTSXW6",
   "modifier_data": {
-   "name": "raspberry sour cream ice cream",
+   "name": "pint of raspberry sour cream ice cream",
    "price_money": {
     "amount": 0
    }
@@ -9252,19 +9252,9 @@ var catalog_raw=[
      "id": "OENV5XLEXVZXEI5DDI6GBT7D",
      "item_variation_data": {
       "item_id": "GLZH26C34OAYGWTMS6PQX2M2",
-      "name": "12 cookies ( = 6 sandos)",
+      "name": "12 cookies + 1 pint of ice cream",
       "price_money": {
        "amount": 1800
-      }
-     }
-    },
-    {
-     "id": "D7DHWX6PBJRDBQHI6XD5GRFG",
-     "item_variation_data": {
-      "item_id": "GLZH26C34OAYGWTMS6PQX2M2",
-      "name": "24 cookies ( = 12 sandos)",
-      "price_money": {
-       "amount": 3500
       }
      }
     }
@@ -9874,7 +9864,7 @@ var catalog_raw=[
     {
      "id": "7IHFESG4NG46MFJW74VT2MAG",
      "modifier_data": {
-      "name": "extra small",
+      "name": "normal shirt: extra small",
       "price_money": {
        "amount": 0
       }
@@ -9883,7 +9873,7 @@ var catalog_raw=[
     {
      "id": "ECZ5DHABIGNWYK6NCZP4BTL3",
      "modifier_data": {
-      "name": "small",
+      "name": "normal shirt: small",
       "price_money": {
        "amount": 0
       }
@@ -9892,7 +9882,7 @@ var catalog_raw=[
     {
      "id": "XP6YZWF3ZHTCKIZIXL4X6UQ3",
      "modifier_data": {
-      "name": "medium",
+      "name": "normal shirt: medium",
       "price_money": {
        "amount": 0
       }
@@ -9901,7 +9891,7 @@ var catalog_raw=[
     {
      "id": "HM73V6WBCB5RDNM72WPVQ375",
      "modifier_data": {
-      "name": "large",
+      "name": "normal shirt: large",
       "price_money": {
        "amount": 0
       }
@@ -9910,7 +9900,7 @@ var catalog_raw=[
     {
      "id": "IBHMTSXOFXP3KX32NAAJYJZ5",
      "modifier_data": {
-      "name": "extra large",
+      "name": "normal shirt: extra large",
       "price_money": {
        "amount": 0
       }
@@ -9922,7 +9912,7 @@ var catalog_raw=[
  {
   "id": "7IHFESG4NG46MFJW74VT2MAG",
   "modifier_data": {
-   "name": "extra small",
+   "name": "normal shirt: extra small",
    "price_money": {
     "amount": 0
    }
@@ -9931,7 +9921,7 @@ var catalog_raw=[
  {
   "id": "ECZ5DHABIGNWYK6NCZP4BTL3",
   "modifier_data": {
-   "name": "small",
+   "name": "normal shirt: small",
    "price_money": {
     "amount": 0
    }
@@ -9940,7 +9930,7 @@ var catalog_raw=[
  {
   "id": "XP6YZWF3ZHTCKIZIXL4X6UQ3",
   "modifier_data": {
-   "name": "medium",
+   "name": "normal shirt: medium",
    "price_money": {
     "amount": 0
    }
@@ -9949,7 +9939,7 @@ var catalog_raw=[
  {
   "id": "HM73V6WBCB5RDNM72WPVQ375",
   "modifier_data": {
-   "name": "large",
+   "name": "normal shirt: large",
    "price_money": {
     "amount": 0
    }
@@ -9958,7 +9948,7 @@ var catalog_raw=[
  {
   "id": "IBHMTSXOFXP3KX32NAAJYJZ5",
   "modifier_data": {
-   "name": "extra large",
+   "name": "normal shirt: extra large",
    "price_money": {
     "amount": 0
    }
