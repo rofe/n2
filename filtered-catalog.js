@@ -9131,7 +9131,7 @@ var catalog_raw=[
   "id": "6FIUN6R47HWQU43NUNM7GSC4",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "pint of ice cream",
+   "name": "+ pint of ice cream 1",
    "modifiers": [
     {
      "id": "QGEDQDCUZZPOYC56UHLUBQN4",
@@ -9482,6 +9482,14 @@ var catalog_raw=[
   "item_data": {
    "name": "normal party pack",
    "category_id": "HCPXHYIFAFZ2VWX6YUCXECJD",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "IAYC7PNM6GQJKBEONGFFSDHJ"
+    },
+    {
+     "modifier_list_id": "ODK6IQGZLWBGEAY5POSYOKRY"
+    }
+   ],
    "variations": [
     {
      "id": "33H64YG5KCFOJCQBWBSWUZOI",
@@ -9524,6 +9532,295 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "IAYC7PNM6GQJKBEONGFFSDHJ",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "+ 6 pack of bars",
+   "modifiers": [
+    {
+     "id": "VKAK33SEMCYSZP6SBA7ZBI7G",
+     "modifier_data": {
+      "name": "almond joy bars (v)",
+      "price_money": {
+       "amount": 3000
+      }
+     }
+    },
+    {
+     "id": "GZWIT5LEKVUI73PWVWPCNQZG",
+     "modifier_data": {
+      "name": "trashberry bars (v)",
+      "price_money": {
+       "amount": 3000
+      }
+     }
+    },
+    {
+     "id": "CKSLD6D7LLPYVPAZHKAX2ZCW",
+     "modifier_data": {
+      "name": "earl grey + passionfruit bars",
+      "price_money": {
+       "amount": 2500
+      }
+     }
+    },
+    {
+     "id": "GS7MXKYRHWIBMRGDCJUBDF5R",
+     "modifier_data": {
+      "name": "cookies + cream bars",
+      "price_money": {
+       "amount": 2500
+      }
+     }
+    },
+    {
+     "id": "GS7EM4GA3YSOL7R5F2NGGEI7",
+     "modifier_data": {
+      "name": "strawberry shortcake bars",
+      "price_money": {
+       "amount": 2500
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "VKAK33SEMCYSZP6SBA7ZBI7G",
+  "modifier_data": {
+   "name": "almond joy bars (v)",
+   "price_money": {
+    "amount": 3000
+   }
+  }
+ },
+ {
+  "id": "GZWIT5LEKVUI73PWVWPCNQZG",
+  "modifier_data": {
+   "name": "trashberry bars (v)",
+   "price_money": {
+    "amount": 3000
+   }
+  }
+ },
+ {
+  "id": "CKSLD6D7LLPYVPAZHKAX2ZCW",
+  "modifier_data": {
+   "name": "earl grey + passionfruit bars",
+   "price_money": {
+    "amount": 2500
+   }
+  }
+ },
+ {
+  "id": "GS7MXKYRHWIBMRGDCJUBDF5R",
+  "modifier_data": {
+   "name": "cookies + cream bars",
+   "price_money": {
+    "amount": 2500
+   }
+  }
+ },
+ {
+  "id": "GS7EM4GA3YSOL7R5F2NGGEI7",
+  "modifier_data": {
+   "name": "strawberry shortcake bars",
+   "price_money": {
+    "amount": 2500
+   }
+  }
+ },
+ {
+  "id": "ODK6IQGZLWBGEAY5POSYOKRY",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "+ 6 pack of sandos",
+   "modifiers": [
+    {
+     "id": "UW4MKQEGKDQDFBX67Y3BXCUW",
+     "modifier_data": {
+      "name": "snickerdoodle + brown butter",
+      "price_money": {
+       "amount": 3000
+      }
+     }
+    },
+    {
+     "id": "YVLUJMOBMA2S6HQ6HFU2VGBO",
+     "modifier_data": {
+      "name": "chocolate chip + sweet cream",
+      "price_money": {
+       "amount": 3000
+      }
+     }
+    },
+    {
+     "id": "WZAYUJBUIRWBC3EJUQUAOXH7",
+     "modifier_data": {
+      "name": "peanut butter + dark chocolate",
+      "price_money": {
+       "amount": 3000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "UW4MKQEGKDQDFBX67Y3BXCUW",
+  "modifier_data": {
+   "name": "snickerdoodle + brown butter",
+   "price_money": {
+    "amount": 3000
+   }
+  }
+ },
+ {
+  "id": "YVLUJMOBMA2S6HQ6HFU2VGBO",
+  "modifier_data": {
+   "name": "chocolate chip + sweet cream",
+   "price_money": {
+    "amount": 3000
+   }
+  }
+ },
+ {
+  "id": "WZAYUJBUIRWBC3EJUQUAOXH7",
+  "modifier_data": {
+   "name": "peanut butter + dark chocolate",
+   "price_money": {
+    "amount": 3000
+   }
+  }
+ },
+ {
+  "id": "TUL63VH2WEPKSL7VGEC3DOCE",
+  "type": "ITEM",
+  "item_data": {
+   "name": "brownies a la normal",
+   "category_id": "HCPXHYIFAFZ2VWX6YUCXECJD",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "6FIUN6R47HWQU43NUNM7GSC4"
+    },
+    {
+     "modifier_list_id": "NBELUKHPO4TI7S47GILQLEPT"
+    }
+   ],
+   "variations": [
+    {
+     "id": "EG6RNNJYBAGRW7KZ7DBG62IB",
+     "item_variation_data": {
+      "item_id": "TUL63VH2WEPKSL7VGEC3DOCE",
+      "name": "Regular",
+      "price_money": {
+       "amount": 3000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "NBELUKHPO4TI7S47GILQLEPT",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "+ pint of ice cream 2",
+   "modifiers": [
+    {
+     "id": "2JFAM3CJS6KOCZIZWEF7KNF5",
+     "modifier_data": {
+      "name": "salted vanilla bean ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "53KXZW4CJNYLM252E6PZ6IJQ",
+     "modifier_data": {
+      "name": "peach ice cream (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "3CL6EDOPGU7AG77PIXAM2YMG",
+     "modifier_data": {
+      "name": "milk chocolate ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "2JBCCDMU5ZPW6E65KBYQKTH2",
+     "modifier_data": {
+      "name": "banana ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "TILS7WC6VLBA6CYESDWF3JY4",
+     "modifier_data": {
+      "name": "raspberry sour cream ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "2JFAM3CJS6KOCZIZWEF7KNF5",
+  "modifier_data": {
+   "name": "salted vanilla bean ice cream",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "53KXZW4CJNYLM252E6PZ6IJQ",
+  "modifier_data": {
+   "name": "peach ice cream (v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "3CL6EDOPGU7AG77PIXAM2YMG",
+  "modifier_data": {
+   "name": "milk chocolate ice cream",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "2JBCCDMU5ZPW6E65KBYQKTH2",
+  "modifier_data": {
+   "name": "banana ice cream",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "TILS7WC6VLBA6CYESDWF3JY4",
+  "modifier_data": {
+   "name": "raspberry sour cream ice cream",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]
