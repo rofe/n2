@@ -9395,5 +9395,135 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "IFPZRBGIPCC2UMGKLBGELQGZ",
+  "type": "ITEM",
+  "item_data": {
+   "name": "our 4 fav pints",
+   "category_id": "HCPXHYIFAFZ2VWX6YUCXECJD",
+   "variations": [
+    {
+     "id": "N64QK6LEPVCS4PXZGCX6M5CX",
+     "item_variation_data": {
+      "item_id": "IFPZRBGIPCC2UMGKLBGELQGZ",
+      "name": "Regular",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "J7VY7RHFB52G5NRFKQYF4LOK",
+  "type": "ITEM",
+  "item_data": {
+   "name": "our 4 fav vegan pints",
+   "category_id": "HCPXHYIFAFZ2VWX6YUCXECJD",
+   "variations": [
+    {
+     "id": "IYEHIS2OVGPQ6ACKEDVRPZGQ",
+     "item_variation_data": {
+      "item_id": "J7VY7RHFB52G5NRFKQYF4LOK",
+      "name": "Regular",
+      "price_money": {
+       "amount": 4000
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "TV75H6QDN4B4BMU64LKFVSAM",
+  "type": "ITEM",
+  "item_data": {
+   "name": "get me through the week pack",
+   "category_id": "HCPXHYIFAFZ2VWX6YUCXECJD",
+   "variations": [
+    {
+     "id": "ZVXEESFUPJSAY37QIC3LZPCT",
+     "item_variation_data": {
+      "item_id": "TV75H6QDN4B4BMU64LKFVSAM",
+      "name": "Regular",
+      "price_money": {
+       "amount": 5500
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "3TDC3QMHQZ35IPPKBZUZK3NL",
+  "type": "ITEM",
+  "item_data": {
+   "name": "get me through the week vegan pack",
+   "category_id": "HCPXHYIFAFZ2VWX6YUCXECJD",
+   "variations": [
+    {
+     "id": "M3N7AHTKMA3JRL24MCTCSVTF",
+     "item_variation_data": {
+      "item_id": "3TDC3QMHQZ35IPPKBZUZK3NL",
+      "name": "Regular",
+      "price_money": {
+       "amount": 5500
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "IYIFX3JXDR4LGOS6ZKI4FEUE",
+  "type": "ITEM",
+  "item_data": {
+   "name": "normal party pack",
+   "category_id": "HCPXHYIFAFZ2VWX6YUCXECJD",
+   "variations": [
+    {
+     "id": "33H64YG5KCFOJCQBWBSWUZOI",
+     "item_variation_data": {
+      "item_id": "IYIFX3JXDR4LGOS6ZKI4FEUE",
+      "name": "banana cream cake",
+      "price_money": {
+       "amount": 3500
+      }
+     }
+    },
+    {
+     "id": "7YMKBH4GMVDGNOJLKS3RKQWA",
+     "item_variation_data": {
+      "item_id": "IYIFX3JXDR4LGOS6ZKI4FEUE",
+      "name": "chocolate + brown butter cake",
+      "price_money": {
+       "amount": 3500
+      }
+     }
+    },
+    {
+     "id": "YW5YJCBTOHDGU34PGACHSADO",
+     "item_variation_data": {
+      "item_id": "IYIFX3JXDR4LGOS6ZKI4FEUE",
+      "name": "strawberry + funfetti cake",
+      "price_money": {
+       "amount": 3500
+      }
+     }
+    },
+    {
+     "id": "HQGYAYWJLADED4FARGTIJIBS",
+     "item_variation_data": {
+      "item_id": "IYIFX3JXDR4LGOS6ZKI4FEUE",
+      "name": "the cookies cake (v)",
+      "price_money": {
+       "amount": 3500
+      }
+     }
+    }
+   ]
+  }
  }
 ]
