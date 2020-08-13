@@ -9715,7 +9715,17 @@ var catalog_raw=[
      "id": "EG6RNNJYBAGRW7KZ7DBG62IB",
      "item_variation_data": {
       "item_id": "TUL63VH2WEPKSL7VGEC3DOCE",
-      "name": "Regular",
+      "name": "no nuts in my brownies!",
+      "price_money": {
+       "amount": 3000
+      }
+     }
+    },
+    {
+     "id": "VUC6INUTQZ7LHBFWMQ73QJVA",
+     "item_variation_data": {
+      "item_id": "TUL63VH2WEPKSL7VGEC3DOCE",
+      "name": "pls add walnuts to my brownie mix",
       "price_money": {
        "amount": 3000
       }
