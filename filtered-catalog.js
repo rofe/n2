@@ -4599,8 +4599,8 @@ var catalog_raw=[
   "id": "XBXM5EYMN3VDIP7CM7O6LHLA",
   "type": "ITEM",
   "item_data": {
-   "name": "choco taco",
-   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
+   "name": "normal choco taco",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
    "variations": [
     {
      "id": "UZVF7KVBCGBPO34J4F6DNKVH",
