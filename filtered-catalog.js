@@ -9088,6 +9088,11 @@ var catalog_raw=[
   "item_data": {
    "name": "normal x pizza nono",
    "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "6FIUN6R47HWQU43NUNM7GSC4"
+    }
+   ],
    "variations": [
     {
      "id": "DYI4BYDC4STYFJEB6ZM2Y6EN",
@@ -9120,6 +9125,105 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "6FIUN6R47HWQU43NUNM7GSC4",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "pint of ice cream",
+   "modifiers": [
+    {
+     "id": "QGEDQDCUZZPOYC56UHLUBQN4",
+     "modifier_data": {
+      "name": "salted vanilla bean ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "JGGSV6RDRISO3DJMT3LPH5OY",
+     "modifier_data": {
+      "name": "peach ice cream (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "YCQD3KNULXPUFOYT2D3ATKVY",
+     "modifier_data": {
+      "name": "milk chocolate ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "USBOZXRIPLWABHWMGDSJG4HH",
+     "modifier_data": {
+      "name": "banana ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "F4FN65E2K4VAHSII7UPTSXW6",
+     "modifier_data": {
+      "name": "raspberry sour cream ice cream",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "QGEDQDCUZZPOYC56UHLUBQN4",
+  "modifier_data": {
+   "name": "salted vanilla bean ice cream",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "JGGSV6RDRISO3DJMT3LPH5OY",
+  "modifier_data": {
+   "name": "peach ice cream (v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "YCQD3KNULXPUFOYT2D3ATKVY",
+  "modifier_data": {
+   "name": "milk chocolate ice cream",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "USBOZXRIPLWABHWMGDSJG4HH",
+  "modifier_data": {
+   "name": "banana ice cream",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "F4FN65E2K4VAHSII7UPTSXW6",
+  "modifier_data": {
+   "name": "raspberry sour cream ice cream",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]
