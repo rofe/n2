@@ -9081,5 +9081,45 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "GUZOTQHP5QMWZOI4TMER2MCR",
+  "type": "ITEM",
+  "item_data": {
+   "name": "normal x pizza nono",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "variations": [
+    {
+     "id": "DYI4BYDC4STYFJEB6ZM2Y6EN",
+     "item_variation_data": {
+      "item_id": "GUZOTQHP5QMWZOI4TMER2MCR",
+      "name": "margherita pizza",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "RK6VXA2O7MDZ4RABWNAYF23P",
+     "item_variation_data": {
+      "item_id": "GUZOTQHP5QMWZOI4TMER2MCR",
+      "name": "pepperoni pizza",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "AZZZKPVETWY2XGC34ENZZVLW",
+     "item_variation_data": {
+      "item_id": "GUZOTQHP5QMWZOI4TMER2MCR",
+      "name": "vegan pizza",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    }
+   ]
+  }
  }
 ]
