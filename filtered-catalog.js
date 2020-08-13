@@ -9822,5 +9822,189 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "67FCRFCXSOHCCZEO4ETYYQZQ",
+  "type": "ITEM",
+  "item_data": {
+   "name": "the normal care pack",
+   "category_id": "HCPXHYIFAFZ2VWX6YUCXECJD",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "6FIUN6R47HWQU43NUNM7GSC4"
+    },
+    {
+     "modifier_list_id": "NBELUKHPO4TI7S47GILQLEPT"
+    },
+    {
+     "modifier_list_id": "WS5C7BUPF7WXE6AOTP4KEGMX"
+    },
+    {
+     "modifier_list_id": "WQCTNZO4KDXBSEUGHMUCREJX"
+    }
+   ]
+  }
+ },
+ {
+  "id": "WQCTNZO4KDXBSEUGHMUCREJX",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "normal shirt size",
+   "modifiers": [
+    {
+     "id": "7IHFESG4NG46MFJW74VT2MAG",
+     "modifier_data": {
+      "name": "extra small",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "ECZ5DHABIGNWYK6NCZP4BTL3",
+     "modifier_data": {
+      "name": "small",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "XP6YZWF3ZHTCKIZIXL4X6UQ3",
+     "modifier_data": {
+      "name": "medium",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "HM73V6WBCB5RDNM72WPVQ375",
+     "modifier_data": {
+      "name": "large",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "IBHMTSXOFXP3KX32NAAJYJZ5",
+     "modifier_data": {
+      "name": "extra large",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "7IHFESG4NG46MFJW74VT2MAG",
+  "modifier_data": {
+   "name": "extra small",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "ECZ5DHABIGNWYK6NCZP4BTL3",
+  "modifier_data": {
+   "name": "small",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "XP6YZWF3ZHTCKIZIXL4X6UQ3",
+  "modifier_data": {
+   "name": "medium",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "HM73V6WBCB5RDNM72WPVQ375",
+  "modifier_data": {
+   "name": "large",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "IBHMTSXOFXP3KX32NAAJYJZ5",
+  "modifier_data": {
+   "name": "extra large",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "WS5C7BUPF7WXE6AOTP4KEGMX",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "normal enamel pin",
+   "modifiers": [
+    {
+     "id": "5QSC6KHMJ52M2PETKM3SGF6M",
+     "modifier_data": {
+      "name": "cone pin",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "7UF4RLRGDDU4PMUDB3DYDKX5",
+     "modifier_data": {
+      "name": "smiley pin",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "WYBULII6C3DI6NEYKPWUYITF",
+     "modifier_data": {
+      "name": "truck pin",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "5QSC6KHMJ52M2PETKM3SGF6M",
+  "modifier_data": {
+   "name": "cone pin",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "7UF4RLRGDDU4PMUDB3DYDKX5",
+  "modifier_data": {
+   "name": "smiley pin",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "WYBULII6C3DI6NEYKPWUYITF",
+  "modifier_data": {
+   "name": "truck pin",
+   "price_money": {
+    "amount": 0
+   }
+  }
  }
 ]
