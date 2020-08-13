@@ -9001,5 +9001,85 @@ var catalog_raw=[
     }
    ]
   }
+ },
+ {
+  "id": "A6XVEOGODBXK5BYFKQBXDBQ5",
+  "type": "ITEM",
+  "item_data": {
+   "name": "mad dough doughnuts",
+   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "variations": [
+    {
+     "id": "DG3V2KCWXCTIM63PMI3KPZQT",
+     "item_variation_data": {
+      "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
+      "name": "salted vanilla bean",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "Z23IIULXLJXFUBU7ECWIQV6S",
+     "item_variation_data": {
+      "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
+      "name": "peach sorbet",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "KLN5CSEY5BYI3RRZHAN73SQS",
+     "item_variation_data": {
+      "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
+      "name": "vanilla + peach TWIST",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "BNVTTXIX6JJWUC6IGIHZCUFQ",
+     "item_variation_data": {
+      "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
+      "name": "milk chocolate",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "I3S42KH2H6DAYIL3OWZIXETA",
+     "item_variation_data": {
+      "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
+      "name": "banana",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "B5NCY7UMFBRKOIHIPGIL2ETG",
+     "item_variation_data": {
+      "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
+      "name": "chocolate + banana TWIST",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    },
+    {
+     "id": "A4ERWWKC732EGOMGRUHMZODS",
+     "item_variation_data": {
+      "item_id": "A6XVEOGODBXK5BYFKQBXDBQ5",
+      "name": "raspberry sour cream",
+      "price_money": {
+       "amount": 500
+      }
+     }
+    }
+   ]
+  }
  }
 ]
