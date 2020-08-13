@@ -9249,12 +9249,22 @@ var catalog_raw=[
    ],
    "variations": [
     {
+     "id": "OENV5XLEXVZXEI5DDI6GBT7D",
+     "item_variation_data": {
+      "item_id": "GLZH26C34OAYGWTMS6PQX2M2",
+      "name": "12 cookies ( = 6 sandos)",
+      "price_money": {
+       "amount": 1800
+      }
+     }
+    },
+    {
      "id": "D7DHWX6PBJRDBQHI6XD5GRFG",
      "item_variation_data": {
       "item_id": "GLZH26C34OAYGWTMS6PQX2M2",
-      "name": "Regular",
+      "name": "24 cookies ( = 12 sandos)",
       "price_money": {
-       "amount": 1800
+       "amount": 3500
       }
      }
     }
@@ -9270,7 +9280,7 @@ var catalog_raw=[
     {
      "id": "B4RZKTIX4IZOWR7QPLBYTDQJ",
      "modifier_data": {
-      "name": "gingersnap",
+      "name": "gingersnap cookies",
       "price_money": {
        "amount": 0
       }
@@ -9279,7 +9289,7 @@ var catalog_raw=[
     {
      "id": "2VYE6L3QK6KXUNO6RLSMXTRZ",
      "modifier_data": {
-      "name": "chocolate shortbread",
+      "name": "chocolate shortbread cookies",
       "price_money": {
        "amount": 0
       }
@@ -9288,7 +9298,7 @@ var catalog_raw=[
     {
      "id": "MV665OPQBX7OG25NRMVSA426",
      "modifier_data": {
-      "name": "classic shortbread",
+      "name": "classic shortbread cookies",
       "price_money": {
        "amount": 0
       }
@@ -9297,7 +9307,7 @@ var catalog_raw=[
     {
      "id": "7Z3KUFJBKCY75OLVNX3LTS3U",
      "modifier_data": {
-      "name": "chocolate chip",
+      "name": "chocolate chip cookies",
       "price_money": {
        "amount": 0
       }
@@ -9306,7 +9316,7 @@ var catalog_raw=[
     {
      "id": "GIF3BXDVZWKU3UKYJAHUC6DI",
      "modifier_data": {
-      "name": "chocolate chip-less",
+      "name": "chocolate chip-less cookies",
       "price_money": {
        "amount": 0
       }
@@ -9315,7 +9325,7 @@ var catalog_raw=[
     {
      "id": "TJBKBFKI2N7WTOLZ23O3ZQZG",
      "modifier_data": {
-      "name": "peanut butter (v)",
+      "name": "peanut butter cookies (v)",
       "price_money": {
        "amount": 0
       }
@@ -9324,7 +9334,7 @@ var catalog_raw=[
     {
      "id": "HQ3HBA4LV6HBIYCD6P2MBTUO",
      "modifier_data": {
-      "name": "snickerdoodle",
+      "name": "snickerdoodle cookies",
       "price_money": {
        "amount": 0
       }
@@ -9336,7 +9346,7 @@ var catalog_raw=[
  {
   "id": "B4RZKTIX4IZOWR7QPLBYTDQJ",
   "modifier_data": {
-   "name": "gingersnap",
+   "name": "gingersnap cookies",
    "price_money": {
     "amount": 0
    }
@@ -9345,7 +9355,7 @@ var catalog_raw=[
  {
   "id": "2VYE6L3QK6KXUNO6RLSMXTRZ",
   "modifier_data": {
-   "name": "chocolate shortbread",
+   "name": "chocolate shortbread cookies",
    "price_money": {
     "amount": 0
    }
@@ -9354,7 +9364,7 @@ var catalog_raw=[
  {
   "id": "MV665OPQBX7OG25NRMVSA426",
   "modifier_data": {
-   "name": "classic shortbread",
+   "name": "classic shortbread cookies",
    "price_money": {
     "amount": 0
    }
@@ -9363,7 +9373,7 @@ var catalog_raw=[
  {
   "id": "7Z3KUFJBKCY75OLVNX3LTS3U",
   "modifier_data": {
-   "name": "chocolate chip",
+   "name": "chocolate chip cookies",
    "price_money": {
     "amount": 0
    }
@@ -9372,7 +9382,7 @@ var catalog_raw=[
  {
   "id": "GIF3BXDVZWKU3UKYJAHUC6DI",
   "modifier_data": {
-   "name": "chocolate chip-less",
+   "name": "chocolate chip-less cookies",
    "price_money": {
     "amount": 0
    }
@@ -9381,7 +9391,7 @@ var catalog_raw=[
  {
   "id": "TJBKBFKI2N7WTOLZ23O3ZQZG",
   "modifier_data": {
-   "name": "peanut butter (v)",
+   "name": "peanut butter cookies (v)",
    "price_money": {
     "amount": 0
    }
@@ -9390,7 +9400,7 @@ var catalog_raw=[
  {
   "id": "HQ3HBA4LV6HBIYCD6P2MBTUO",
   "modifier_data": {
-   "name": "snickerdoodle",
+   "name": "snickerdoodle cookies",
    "price_money": {
     "amount": 0
    }
@@ -9543,7 +9553,7 @@ var catalog_raw=[
     {
      "id": "VKAK33SEMCYSZP6SBA7ZBI7G",
      "modifier_data": {
-      "name": "almond joy bars (v)",
+      "name": "+ 6-pack almond joy bars (v)",
       "price_money": {
        "amount": 3000
       }
@@ -9552,7 +9562,7 @@ var catalog_raw=[
     {
      "id": "GZWIT5LEKVUI73PWVWPCNQZG",
      "modifier_data": {
-      "name": "trashberry bars (v)",
+      "name": "+ 6-pack trashberry bars (v)",
       "price_money": {
        "amount": 3000
       }
@@ -9561,7 +9571,7 @@ var catalog_raw=[
     {
      "id": "CKSLD6D7LLPYVPAZHKAX2ZCW",
      "modifier_data": {
-      "name": "earl grey + passionfruit bars",
+      "name": "+ 6-pack earl grey + passionfruit bars",
       "price_money": {
        "amount": 2500
       }
@@ -9570,7 +9580,7 @@ var catalog_raw=[
     {
      "id": "GS7MXKYRHWIBMRGDCJUBDF5R",
      "modifier_data": {
-      "name": "cookies + cream bars",
+      "name": "+ 6-pack cookies + cream bars",
       "price_money": {
        "amount": 2500
       }
@@ -9579,7 +9589,7 @@ var catalog_raw=[
     {
      "id": "GS7EM4GA3YSOL7R5F2NGGEI7",
      "modifier_data": {
-      "name": "strawberry shortcake bars",
+      "name": "+ 6-pack strawberry shortcake bars",
       "price_money": {
        "amount": 2500
       }
@@ -9591,7 +9601,7 @@ var catalog_raw=[
  {
   "id": "VKAK33SEMCYSZP6SBA7ZBI7G",
   "modifier_data": {
-   "name": "almond joy bars (v)",
+   "name": "+ 6-pack almond joy bars (v)",
    "price_money": {
     "amount": 3000
    }
@@ -9600,7 +9610,7 @@ var catalog_raw=[
  {
   "id": "GZWIT5LEKVUI73PWVWPCNQZG",
   "modifier_data": {
-   "name": "trashberry bars (v)",
+   "name": "+ 6-pack trashberry bars (v)",
    "price_money": {
     "amount": 3000
    }
@@ -9609,7 +9619,7 @@ var catalog_raw=[
  {
   "id": "CKSLD6D7LLPYVPAZHKAX2ZCW",
   "modifier_data": {
-   "name": "earl grey + passionfruit bars",
+   "name": "+ 6-pack earl grey + passionfruit bars",
    "price_money": {
     "amount": 2500
    }
@@ -9618,7 +9628,7 @@ var catalog_raw=[
  {
   "id": "GS7MXKYRHWIBMRGDCJUBDF5R",
   "modifier_data": {
-   "name": "cookies + cream bars",
+   "name": "+ 6-pack cookies + cream bars",
    "price_money": {
     "amount": 2500
    }
@@ -9627,7 +9637,7 @@ var catalog_raw=[
  {
   "id": "GS7EM4GA3YSOL7R5F2NGGEI7",
   "modifier_data": {
-   "name": "strawberry shortcake bars",
+   "name": "+ 6-pack strawberry shortcake bars",
    "price_money": {
     "amount": 2500
    }
@@ -9642,7 +9652,7 @@ var catalog_raw=[
     {
      "id": "UW4MKQEGKDQDFBX67Y3BXCUW",
      "modifier_data": {
-      "name": "snickerdoodle + brown butter",
+      "name": "+ 6-pack snickerdoodle + brown butter",
       "price_money": {
        "amount": 3000
       }
@@ -9651,7 +9661,7 @@ var catalog_raw=[
     {
      "id": "YVLUJMOBMA2S6HQ6HFU2VGBO",
      "modifier_data": {
-      "name": "chocolate chip + sweet cream",
+      "name": "+ 6-pack chocolate chip + sweet cream",
       "price_money": {
        "amount": 3000
       }
@@ -9660,7 +9670,7 @@ var catalog_raw=[
     {
      "id": "WZAYUJBUIRWBC3EJUQUAOXH7",
      "modifier_data": {
-      "name": "peanut butter + dark chocolate",
+      "name": "+ 6-pack peanut butter + dark chocolate",
       "price_money": {
        "amount": 3000
       }
@@ -9672,7 +9682,7 @@ var catalog_raw=[
  {
   "id": "UW4MKQEGKDQDFBX67Y3BXCUW",
   "modifier_data": {
-   "name": "snickerdoodle + brown butter",
+   "name": "+ 6-pack snickerdoodle + brown butter",
    "price_money": {
     "amount": 3000
    }
@@ -9681,7 +9691,7 @@ var catalog_raw=[
  {
   "id": "YVLUJMOBMA2S6HQ6HFU2VGBO",
   "modifier_data": {
-   "name": "chocolate chip + sweet cream",
+   "name": "+ 6-pack chocolate chip + sweet cream",
    "price_money": {
     "amount": 3000
    }
@@ -9690,7 +9700,7 @@ var catalog_raw=[
  {
   "id": "WZAYUJBUIRWBC3EJUQUAOXH7",
   "modifier_data": {
-   "name": "peanut butter + dark chocolate",
+   "name": "+ 6-pack peanut butter + dark chocolate",
    "price_money": {
     "amount": 3000
    }
@@ -9743,7 +9753,7 @@ var catalog_raw=[
     {
      "id": "2JFAM3CJS6KOCZIZWEF7KNF5",
      "modifier_data": {
-      "name": "salted vanilla bean ice cream",
+      "name": "pint of salted vanilla bean ice cream",
       "price_money": {
        "amount": 0
       }
@@ -9752,7 +9762,7 @@ var catalog_raw=[
     {
      "id": "53KXZW4CJNYLM252E6PZ6IJQ",
      "modifier_data": {
-      "name": "peach ice cream (v)",
+      "name": "pint of peach ice cream (v)",
       "price_money": {
        "amount": 0
       }
@@ -9761,7 +9771,7 @@ var catalog_raw=[
     {
      "id": "3CL6EDOPGU7AG77PIXAM2YMG",
      "modifier_data": {
-      "name": "milk chocolate ice cream",
+      "name": "pint of milk chocolate ice cream",
       "price_money": {
        "amount": 0
       }
@@ -9770,7 +9780,7 @@ var catalog_raw=[
     {
      "id": "2JBCCDMU5ZPW6E65KBYQKTH2",
      "modifier_data": {
-      "name": "banana ice cream",
+      "name": "pint of banana ice cream",
       "price_money": {
        "amount": 0
       }
@@ -9779,7 +9789,7 @@ var catalog_raw=[
     {
      "id": "TILS7WC6VLBA6CYESDWF3JY4",
      "modifier_data": {
-      "name": "raspberry sour cream ice cream",
+      "name": "pint of raspberry sour cream ice cream",
       "price_money": {
        "amount": 0
       }
@@ -9791,7 +9801,7 @@ var catalog_raw=[
  {
   "id": "2JFAM3CJS6KOCZIZWEF7KNF5",
   "modifier_data": {
-   "name": "salted vanilla bean ice cream",
+   "name": "pint of salted vanilla bean ice cream",
    "price_money": {
     "amount": 0
    }
@@ -9800,7 +9810,7 @@ var catalog_raw=[
  {
   "id": "53KXZW4CJNYLM252E6PZ6IJQ",
   "modifier_data": {
-   "name": "peach ice cream (v)",
+   "name": "pint of peach ice cream (v)",
    "price_money": {
     "amount": 0
    }
@@ -9809,7 +9819,7 @@ var catalog_raw=[
  {
   "id": "3CL6EDOPGU7AG77PIXAM2YMG",
   "modifier_data": {
-   "name": "milk chocolate ice cream",
+   "name": "pint of milk chocolate ice cream",
    "price_money": {
     "amount": 0
    }
@@ -9818,7 +9828,7 @@ var catalog_raw=[
  {
   "id": "2JBCCDMU5ZPW6E65KBYQKTH2",
   "modifier_data": {
-   "name": "banana ice cream",
+   "name": "pint of banana ice cream",
    "price_money": {
     "amount": 0
    }
@@ -9827,7 +9837,7 @@ var catalog_raw=[
  {
   "id": "TILS7WC6VLBA6CYESDWF3JY4",
   "modifier_data": {
-   "name": "raspberry sour cream ice cream",
+   "name": "pint of raspberry sour cream ice cream",
    "price_money": {
     "amount": 0
    }
