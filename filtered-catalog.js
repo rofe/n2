@@ -10006,5 +10006,12 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "ESN3AL4WQLN2EMYJXM7SMGJZ",
+  "type": "DISCOUNT",
+  "discount_data": {
+   "name": "balabeYUM"
+  }
  }
 ]
