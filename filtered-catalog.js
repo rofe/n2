@@ -9095,16 +9095,6 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "DYI4BYDC4STYFJEB6ZM2Y6EN",
-     "item_variation_data": {
-      "item_id": "GUZOTQHP5QMWZOI4TMER2MCR",
-      "name": "margherita pizza",
-      "price_money": {
-       "amount": 2000
-      }
-     }
-    },
-    {
      "id": "RK6VXA2O7MDZ4RABWNAYF23P",
      "item_variation_data": {
       "item_id": "GUZOTQHP5QMWZOI4TMER2MCR",
