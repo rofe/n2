@@ -9095,16 +9095,6 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "RK6VXA2O7MDZ4RABWNAYF23P",
-     "item_variation_data": {
-      "item_id": "GUZOTQHP5QMWZOI4TMER2MCR",
-      "name": "pepperoni pizza",
-      "price_money": {
-       "amount": 2000
-      }
-     }
-    },
-    {
      "id": "AZZZKPVETWY2XGC34ENZZVLW",
      "item_variation_data": {
       "item_id": "GUZOTQHP5QMWZOI4TMER2MCR",
