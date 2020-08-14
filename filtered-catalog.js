@@ -10037,6 +10037,18 @@ var catalog_raw=[
     {
      "modifier_list_id": "RYNRMVD5XK4FLVZA3UB3QSZC"
     }
+   ],
+   "variations": [
+    {
+     "id": "TL4PMMCH3MNUIIIWEKY7K2UE",
+     "item_variation_data": {
+      "item_id": "UX2LNSPITNAOCGW35MWX4M2J",
+      "name": "slice of pie",
+      "price_money": {
+       "amount": 450
+      }
+     }
+    }
    ]
   }
  },
