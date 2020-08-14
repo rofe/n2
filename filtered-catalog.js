@@ -10029,7 +10029,60 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "pies the limit",
-   "category_id": "BYZXYDN4Q5BVA3M35OE4SAQW"
+   "category_id": "BYZXYDN4Q5BVA3M35OE4SAQW",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "XWNZDHYSS6WQYPDUOQU3E52Q"
+    },
+    {
+     "modifier_list_id": "RYNRMVD5XK4FLVZA3UB3QSZC"
+    }
+   ]
+  }
+ },
+ {
+  "id": "XWNZDHYSS6WQYPDUOQU3E52Q",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "pie flavor",
+   "modifiers": [
+    {
+     "id": "TEEJVPDOSBDBC2V6GU3BDVMC",
+     "modifier_data": {
+      "name": "raspberry key lime pie",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "NWK5RHDDBDXNMEDBMTHXCTWX",
+     "modifier_data": {
+      "name": "banana cream pie",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "TEEJVPDOSBDBC2V6GU3BDVMC",
+  "modifier_data": {
+   "name": "raspberry key lime pie",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "NWK5RHDDBDXNMEDBMTHXCTWX",
+  "modifier_data": {
+   "name": "banana cream pie",
+   "price_money": {
+    "amount": 0
+   }
   }
  }
 ]
