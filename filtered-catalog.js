@@ -9100,7 +9100,7 @@ var catalog_raw=[
       "item_id": "GUZOTQHP5QMWZOI4TMER2MCR",
       "name": "margherita pizza",
       "price_money": {
-       "amount": 0
+       "amount": 2000
       }
      }
     },
@@ -9110,7 +9110,7 @@ var catalog_raw=[
       "item_id": "GUZOTQHP5QMWZOI4TMER2MCR",
       "name": "pepperoni pizza",
       "price_money": {
-       "amount": 0
+       "amount": 2000
       }
      }
     },
@@ -9120,7 +9120,7 @@ var catalog_raw=[
       "item_id": "GUZOTQHP5QMWZOI4TMER2MCR",
       "name": "vegan pizza",
       "price_money": {
-       "amount": 0
+       "amount": 2000
       }
      }
     }
