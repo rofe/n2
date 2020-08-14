@@ -10023,5 +10023,13 @@ var catalog_raw=[
   "discount_data": {
    "name": "balabeYUM"
   }
+ },
+ {
+  "id": "UX2LNSPITNAOCGW35MWX4M2J",
+  "type": "ITEM",
+  "item_data": {
+   "name": "pies the limit",
+   "category_id": "BYZXYDN4Q5BVA3M35OE4SAQW"
+  }
  }
 ]
