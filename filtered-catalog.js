@@ -10039,15 +10039,6 @@ var catalog_raw=[
    "name": "pie flavor",
    "modifiers": [
     {
-     "id": "TEEJVPDOSBDBC2V6GU3BDVMC",
-     "modifier_data": {
-      "name": "raspberry key lime pie",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "NWK5RHDDBDXNMEDBMTHXCTWX",
      "modifier_data": {
       "name": "banana cream pie",
@@ -10057,15 +10048,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "TEEJVPDOSBDBC2V6GU3BDVMC",
-  "modifier_data": {
-   "name": "raspberry key lime pie",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
