@@ -9098,7 +9098,7 @@ var catalog_raw=[
      "id": "AZZZKPVETWY2XGC34ENZZVLW",
      "item_variation_data": {
       "item_id": "GUZOTQHP5QMWZOI4TMER2MCR",
-      "name": "vegan pizza",
+      "name": "pizza + pint SOLD OUT!",
       "price_money": {
        "amount": 2000
       }
