@@ -10058,5 +10058,153 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "5UPOMZS4V5Y3RVN6AYRGGJGJ",
+  "type": "ITEM",
+  "item_data": {
+   "name": "build your own pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "RYNRMVD5XK4FLVZA3UB3QSZC"
+    },
+    {
+     "modifier_list_id": "RJ3SONFCEFFCEF67X7L3W6QI"
+    },
+    {
+     "modifier_list_id": "CM55OMW2IOOA46S3HBUECEYW"
+    }
+   ],
+   "variations": [
+    {
+     "id": "VKDF5KS3TO2L7QIMTLT65BUC",
+     "item_variation_data": {
+      "item_id": "5UPOMZS4V5Y3RVN6AYRGGJGJ",
+      "name": "Regular",
+      "price_money": {
+       "amount": 1200
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "CM55OMW2IOOA46S3HBUECEYW",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "PINT pick up day",
+   "modifiers": [
+    {
+     "id": "VXOBLZ2QEHGD6KC2Z6EQW5U5",
+     "modifier_data": {
+      "name": "tues 8/18",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "4S2BNJSHRS3N53G7CE4UBFVL",
+     "modifier_data": {
+      "name": "weds 8/19",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "PPFB5FF5EOG3Z3SNJW4345JL",
+     "modifier_data": {
+      "name": "thurs 8/20",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "CPG5ELOR43GUZO2OUMFCRPRG",
+     "modifier_data": {
+      "name": "fri 8/21",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "DDOBZ5ZG5ZOCWVUQCPOKXBNB",
+     "modifier_data": {
+      "name": "sat 8/22",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "HZXT4FLXYPBJTN77WYGONZG3",
+     "modifier_data": {
+      "name": "sun 8/23",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "VXOBLZ2QEHGD6KC2Z6EQW5U5",
+  "modifier_data": {
+   "name": "tues 8/18",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "4S2BNJSHRS3N53G7CE4UBFVL",
+  "modifier_data": {
+   "name": "weds 8/19",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "PPFB5FF5EOG3Z3SNJW4345JL",
+  "modifier_data": {
+   "name": "thurs 8/20",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "CPG5ELOR43GUZO2OUMFCRPRG",
+  "modifier_data": {
+   "name": "fri 8/21",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "DDOBZ5ZG5ZOCWVUQCPOKXBNB",
+  "modifier_data": {
+   "name": "sat 8/22",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "HZXT4FLXYPBJTN77WYGONZG3",
+  "modifier_data": {
+   "name": "sun 8/23",
+   "price_money": {
+    "amount": 0
+   }
+  }
  }
 ]
