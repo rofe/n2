@@ -10212,6 +10212,11 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "coava cold brew LAB",
+   "modifier_list_info": [
+    {
+     "modifier_list_id": "4C64ILV5M4MXDKY3V2ETZGUT"
+    }
+   ],
    "variations": [
     {
      "id": "KITQOLW7NULSB5HTZGKF7WNW",
