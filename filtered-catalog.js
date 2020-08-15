@@ -10206,5 +10206,169 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "QWAM7VPFOKHQZMSQMKVUY5IK",
+  "type": "ITEM",
+  "item_data": {
+   "name": "coava cold brew LAB",
+   "variations": [
+    {
+     "id": "KITQOLW7NULSB5HTZGKF7WNW",
+     "item_variation_data": {
+      "item_id": "QWAM7VPFOKHQZMSQMKVUY5IK",
+      "name": "cold brew 12 oz",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "ZVE44FJPQF66E57ABK77P34O",
+     "item_variation_data": {
+      "item_id": "QWAM7VPFOKHQZMSQMKVUY5IK",
+      "name": "cold brew 16oz",
+      "price_money": {
+       "amount": 400
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "4C64ILV5M4MXDKY3V2ETZGUT",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "add soft serve lab",
+   "modifiers": [
+    {
+     "id": "6YINBTKO4XRD26AZKWOQWD2O",
+     "modifier_data": {
+      "name": "no soft serve",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "ZW42CIB6M3B4ECP7IGZEI5AY",
+     "modifier_data": {
+      "name": "strawberry milk",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "4DCIIYY3HNJS52TXFBSV3FEQ",
+     "modifier_data": {
+      "name": "pineapple (v)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "UM4WAEHGILERHWPNYJNGIPHV",
+     "modifier_data": {
+      "name": "strawberry + pineapple TWIST",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "FEOQHXCKQL5BYDHUJ5EAEIUT",
+     "modifier_data": {
+      "name": "mascarpone",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "ND2ANZ4IGURGP57GXAR3A5GF",
+     "modifier_data": {
+      "name": "oreo milk (v)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "6ALOEYYBL5K7HVZ7ESRBWVNY",
+     "modifier_data": {
+      "name": "mascarpone + oreo milk TWIST",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "6YINBTKO4XRD26AZKWOQWD2O",
+  "modifier_data": {
+   "name": "no soft serve",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "ZW42CIB6M3B4ECP7IGZEI5AY",
+  "modifier_data": {
+   "name": "strawberry milk",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "4DCIIYY3HNJS52TXFBSV3FEQ",
+  "modifier_data": {
+   "name": "pineapple (v)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "FEOQHXCKQL5BYDHUJ5EAEIUT",
+  "modifier_data": {
+   "name": "mascarpone",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "ND2ANZ4IGURGP57GXAR3A5GF",
+  "modifier_data": {
+   "name": "oreo milk (v)",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "UM4WAEHGILERHWPNYJNGIPHV",
+  "modifier_data": {
+   "name": "strawberry + pineapple TWIST",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "6ALOEYYBL5K7HVZ7ESRBWVNY",
+  "modifier_data": {
+   "name": "mascarpone + oreo milk TWIST",
+   "price_money": {
+    "amount": 300
+   }
+  }
  }
 ]
