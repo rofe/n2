@@ -192,6 +192,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "RYZI5ENVOO4B6C4MWN2PVX3Q",
+     "modifier_data": {
+      "name": "sweet cream NORMAL DOTS",
+      "price_money": {
+       "amount": 300
+      }
+     }
     }
    ]
   }
@@ -10355,6 +10364,15 @@ var catalog_raw=[
    "name": "rainbow sprinkles (gf)",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "RYZI5ENVOO4B6C4MWN2PVX3Q",
+  "modifier_data": {
+   "name": "sweet cream NORMAL DOTS",
+   "price_money": {
+    "amount": 300
    }
   }
  }
