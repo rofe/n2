@@ -122,15 +122,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "WPVUWUDCRWMKCFQ6GAI5UV76",
-     "modifier_data": {
-      "name": "chocolate sprinkles (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "RXUS4VJ5RQAR26IOKVJKVWR4",
      "modifier_data": {
       "name": "cookie butter (v)",
@@ -167,15 +158,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "7UVSY5BUCHCNBR7VQO6YYZXJ",
-     "modifier_data": {
-      "name": "sweet cream NORMAL DOTS (gf)",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "KO6OZTV2UXBUJZ2YU45V7GSN",
      "modifier_data": {
       "name": "brown butter crumble (gf)",
@@ -197,6 +179,15 @@ var catalog_raw=[
      "id": "FHFPCU6QHLIHTY6IJZDVQNM4",
      "modifier_data": {
       "name": "oreo crumble (v)",
+      "price_money": {
+       "amount": 75
+      }
+     }
+    },
+    {
+     "id": "YCUYGYE27YN6EYMQDGTHSLIY",
+     "modifier_data": {
+      "name": "rainbow sprinkles (gf)",
       "price_money": {
        "amount": 75
       }
@@ -7379,15 +7370,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "WPVUWUDCRWMKCFQ6GAI5UV76",
-  "modifier_data": {
-   "name": "chocolate sprinkles (v) (gf)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
   "id": "RXUS4VJ5RQAR26IOKVJKVWR4",
   "modifier_data": {
    "name": "cookie butter (v)",
@@ -7973,15 +7955,6 @@ var catalog_raw=[
    "name": "tomato jam (v) (gv)",
    "price_money": {
     "amount": 75
-   }
-  }
- },
- {
-  "id": "7UVSY5BUCHCNBR7VQO6YYZXJ",
-  "modifier_data": {
-   "name": "sweet cream NORMAL DOTS (gf)",
-   "price_money": {
-    "amount": 300
    }
   }
  },
@@ -10373,6 +10346,15 @@ var catalog_raw=[
    "name": "mascarpone + oreo milk TWIST",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "YCUYGYE27YN6EYMQDGTHSLIY",
+  "modifier_data": {
+   "name": "rainbow sprinkles (gf)",
+   "price_money": {
+    "amount": 75
    }
   }
  }
