@@ -2087,6 +2087,26 @@ var catalog_raw=[
        "amount": 1600
       }
      }
+    },
+    {
+     "id": "JFJOLJV4ZL6BGQ76ZJUMGBBR",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "ETHIOPIA bukisa",
+      "price_money": {
+       "amount": 1600
+      }
+     }
+    },
+    {
+     "id": "DFFLG64I2Z7KWSTRN47IUGMM",
+     "item_variation_data": {
+      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
+      "name": "COLUMBIA nora pillimue",
+      "price_money": {
+       "amount": 1600
+      }
+     }
     }
    ]
   }
