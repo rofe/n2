@@ -281,6 +281,26 @@ main a.noborder {
     border-width: 0;   
 }
 
+main div.purge-section a:any-link {
+    margin: 10px;
+    display: block;
+    overflow: hidden;
+}
+
+main div.purge-section>p>a.working {
+    background-color: var(--background-highlight-color);
+}
+
+main div.purge-section>p>a.done {
+    color: var(--background-highlight-color);
+    background-color: var(--text-color);
+}
+
+
+main div.purge-section button {
+    padding: 10px 30px;
+}
+
 
 main a.labcone {
     display: inline-block;
