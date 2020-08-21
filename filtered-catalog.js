@@ -10497,15 +10497,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "NCGDBPEUMOF2QHK4CHW3RHJJ",
-     "modifier_data": {
-      "name": "beehive",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
