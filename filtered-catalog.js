@@ -10536,5 +10536,45 @@ var catalog_raw=[
     "amount": 0
    }
   }
+ },
+ {
+  "id": "UHMOE6ZLHUKN3YOJJ7BGGAMM",
+  "type": "ITEM",
+  "item_data": {
+   "name": "VoVo sando",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
+   "variations": [
+    {
+     "id": "L5BV5WIOEVIA3WQ7Z7OB3KPO",
+     "item_variation_data": {
+      "item_id": "UHMOE6ZLHUKN3YOJJ7BGGAMM",
+      "name": "Regular",
+      "price_money": {
+       "amount": 600
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "Q4OQR3R4UPMLDZ3TEGQJTU7P",
+  "type": "ITEM",
+  "item_data": {
+   "name": "tim tam ice cream",
+   "category_id": "I3C6NDB7GDQJZKMCMXPXSMR4",
+   "variations": [
+    {
+     "id": "DIATIMSM7WV6P4454VU45RPM",
+     "item_variation_data": {
+      "item_id": "Q4OQR3R4UPMLDZ3TEGQJTU7P",
+      "name": "Regular",
+      "price_money": {
+       "amount": 2400
+      }
+     }
+    }
+   ]
+  }
  }
 ]
