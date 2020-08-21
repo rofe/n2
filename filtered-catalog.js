@@ -10490,15 +10490,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "VOX6Q2RK7VHDH2CH2BAJKLPS",
-     "modifier_data": {
-      "name": "beehive",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "IFXFC5TBP7YP2YNFSPVDX3QT",
      "modifier_data": {
       "name": "vegan",
@@ -10523,15 +10514,6 @@ var catalog_raw=[
   "id": "MQCRPOEPUMANMVJWQHUASE6D",
   "modifier_data": {
    "name": "pepperoni",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "VOX6Q2RK7VHDH2CH2BAJKLPS",
-  "modifier_data": {
-   "name": "beehive",
    "price_money": {
     "amount": 0
    }
