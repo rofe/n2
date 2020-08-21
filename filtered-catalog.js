@@ -9157,7 +9157,7 @@ var catalog_raw=[
      "id": "AZZZKPVETWY2XGC34ENZZVLW",
      "item_variation_data": {
       "item_id": "GUZOTQHP5QMWZOI4TMER2MCR",
-      "name": "pizza + pint SOLD OUT!",
+      "name": "pizza + a pint",
       "price_money": {
        "amount": 2000
       }
@@ -10450,6 +10450,87 @@ var catalog_raw=[
    "name": "sweet cream NORMAL DOTS",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "JIE2SU6X6G42LVGUY2EV7SBR",
+  "type": "MODIFIER_LIST",
+  "modifier_list_data": {
+   "name": "pizza option",
+   "modifiers": [
+    {
+     "id": "SVTJZ756K7YUGWJWNULOW5FU",
+     "modifier_data": {
+      "name": "margherita ",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "MQCRPOEPUMANMVJWQHUASE6D",
+     "modifier_data": {
+      "name": "pepperoni ",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "VOX6Q2RK7VHDH2CH2BAJKLPS",
+     "modifier_data": {
+      "name": "beehive",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "IFXFC5TBP7YP2YNFSPVDX3QT",
+     "modifier_data": {
+      "name": "vegan",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    }
+   ]
+  }
+ },
+ {
+  "id": "SVTJZ756K7YUGWJWNULOW5FU",
+  "modifier_data": {
+   "name": "margherita ",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "MQCRPOEPUMANMVJWQHUASE6D",
+  "modifier_data": {
+   "name": "pepperoni ",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "VOX6Q2RK7VHDH2CH2BAJKLPS",
+  "modifier_data": {
+   "name": "beehive",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "IFXFC5TBP7YP2YNFSPVDX3QT",
+  "modifier_data": {
+   "name": "vegan",
+   "price_money": {
+    "amount": 0
    }
   }
  }
