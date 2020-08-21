@@ -10497,6 +10497,15 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "NCGDBPEUMOF2QHK4CHW3RHJJ",
+     "modifier_data": {
+      "name": "beehive",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -10532,6 +10541,15 @@ var catalog_raw=[
   "id": "O72P5S4R4PQFA4JG6Y2BC2UD",
   "modifier_data": {
    "name": "raspberry key lime pie",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "NCGDBPEUMOF2QHK4CHW3RHJJ",
+  "modifier_data": {
+   "name": "beehive",
    "price_money": {
     "amount": 0
    }
