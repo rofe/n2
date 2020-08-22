@@ -10113,15 +10113,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "NWK5RHDDBDXNMEDBMTHXCTWX",
-  "modifier_data": {
-   "name": "banana cream pie",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "5UPOMZS4V5Y3RVN6AYRGGJGJ",
   "type": "ITEM",
   "item_data": {
