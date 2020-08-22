@@ -10481,15 +10481,6 @@ var catalog_raw=[
    "name": "pizza option",
    "modifiers": [
     {
-     "id": "SVTJZ756K7YUGWJWNULOW5FU",
-     "modifier_data": {
-      "name": "margherita",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "IFXFC5TBP7YP2YNFSPVDX3QT",
      "modifier_data": {
       "name": "vegan",
@@ -10499,15 +10490,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "SVTJZ756K7YUGWJWNULOW5FU",
-  "modifier_data": {
-   "name": "margherita",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
