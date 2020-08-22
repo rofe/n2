@@ -185,15 +185,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "YCUYGYE27YN6EYMQDGTHSLIY",
-     "modifier_data": {
-      "name": "rainbow sprinkles (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "6FBHLWGXRJZBYG2DNGWI6U4H",
      "modifier_data": {
       "name": "chocolate sprinkles",
@@ -10453,15 +10444,6 @@ var catalog_raw=[
    "name": "mascarpone + oreo milk TWIST",
    "price_money": {
     "amount": 300
-   }
-  }
- },
- {
-  "id": "YCUYGYE27YN6EYMQDGTHSLIY",
-  "modifier_data": {
-   "name": "rainbow sprinkles (gf)",
-   "price_money": {
-    "amount": 75
    }
   }
  },
