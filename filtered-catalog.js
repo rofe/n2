@@ -1232,7 +1232,7 @@ var catalog_raw=[
      "id": "U37T47IF6IPIORBRMQ2NJ5GH",
      "item_variation_data": {
       "item_id": "QJAZTYZZSWL457OPU3RNQ2GD",
-      "name": "",
+      "name": "Regular",
       "price_money": {
        "amount": 600
       }
@@ -1432,7 +1432,7 @@ var catalog_raw=[
      "id": "KKZTAOC3ZR5UCACRHYW2QGVX",
      "item_variation_data": {
       "item_id": "3QJIX4LIS6CEOXZRCVV7SCJQ",
-      "name": "",
+      "name": "Regular",
       "price_money": {
        "amount": 500
       }
@@ -1532,7 +1532,7 @@ var catalog_raw=[
      "id": "5QXNTLPBW5XJ5B363EQL5ZEN",
      "item_variation_data": {
       "item_id": "5S447RAYQDJ4BDEWRZ6HCPVZ",
-      "name": "",
+      "name": "Regular",
       "price_money": {
        "amount": 600
       }
@@ -3138,7 +3138,7 @@ var catalog_raw=[
      "id": "UZVF7KVBCGBPO34J4F6DNKVH",
      "item_variation_data": {
       "item_id": "XBXM5EYMN3VDIP7CM7O6LHLA",
-      "name": "",
+      "name": "Regular",
       "price_money": {
        "amount": 700
       }
@@ -5078,7 +5078,7 @@ var catalog_raw=[
      "id": "OBCUVOAU3H3GBUNDHP7WEKUF",
      "item_variation_data": {
       "item_id": "ACCUCB4LZBBMIOFEUNH62EDZ",
-      "name": "",
+      "name": "Regular",
       "price_money": {
        "amount": 500
       }
@@ -6827,7 +6827,7 @@ var catalog_raw=[
      "id": "E5QQCKBX7C7ZWYCXBBALEEUM",
      "item_variation_data": {
       "item_id": "3D2X763NAIJIJHYXA2TCL5KF",
-      "name": "",
+      "name": "Regular",
       "price_money": {
        "amount": 1000
       }
