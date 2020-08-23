@@ -2023,7 +2023,7 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "pup cup",
-   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "category_id": "M2K5IIO5YF37GPU35BGCHCEX",
    "variations": [
     {
      "id": "2UPTTZJKGF3HVJKA6I7BGPER",
@@ -2031,7 +2031,7 @@ var catalog_raw=[
       "item_id": "E6MHOVDZ5BI4DDBN3FGPYYJG",
       "name": "Regular",
       "price_money": {
-       "amount": 100
+       "amount": 150
       }
      }
     }
@@ -2741,26 +2741,6 @@ var catalog_raw=[
       "name": "normal",
       "price_money": {
        "amount": 400
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "7J7WKT3JD3H3PXEXBDVMN2XE",
-  "type": "ITEM",
-  "item_data": {
-   "name": "doughnut",
-   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
-   "variations": [
-    {
-     "id": "RKQMAK7PUYZSD3R6IMKNFPFS",
-     "item_variation_data": {
-      "item_id": "7J7WKT3JD3H3PXEXBDVMN2XE",
-      "name": "Regular",
-      "price_money": {
-       "amount": 200
       }
      }
     }
@@ -3656,26 +3636,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "WNYZ7RPGZIFHO4GNIOXIZNG5",
-  "type": "ITEM",
-  "item_data": {
-   "name": "salted caramel sando",
-   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
-   "variations": [
-    {
-     "id": "VHIWOSX3RHKEBRIU6O6VS6AS",
-     "item_variation_data": {
-      "item_id": "WNYZ7RPGZIFHO4GNIOXIZNG5",
-      "name": "Regular",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "TVV6PIR5L3XFL43TDIXSBWXK",
   "type": "DISCOUNT",
   "discount_data": {
@@ -3937,26 +3897,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "UFMC26CWWUMWSR2XC4ETQPM6",
-  "type": "ITEM",
-  "item_data": {
-   "name": "normal, but make it fancy",
-   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
-   "variations": [
-    {
-     "id": "MSYXM6QNT3JQLOJTWCC7TYK5",
-     "item_variation_data": {
-      "item_id": "UFMC26CWWUMWSR2XC4ETQPM6",
-      "name": "Regular",
-      "price_money": {
-       "amount": 700
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "2PDU25OF3IC73YKLTIJKF2QG",
   "type": "ITEM",
   "item_data": {
@@ -4141,116 +4081,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "RBNETMWTJFUKADOJK2O2JQQP",
-  "type": "ITEM",
-  "item_data": {
-   "name": "macaron ice cream sando box",
-   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
-   "variations": [
-    {
-     "id": "WZSX434AC4HXA4ETAVVI7JZH",
-     "item_variation_data": {
-      "item_id": "RBNETMWTJFUKADOJK2O2JQQP",
-      "name": "Regular",
-      "price_money": {
-       "amount": 1400
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "XUHYR6TFTVZMUZXLIX7D6PGL",
-  "type": "ITEM",
-  "item_data": {
-   "name": "valentine's ice cream cake",
-   "category_id": "FQ53PBZ53MF7J3W47L5VI4PC",
-   "variations": [
-    {
-     "id": "FMYQWQNHAP3B2PZKAXONTLF3",
-     "item_variation_data": {
-      "item_id": "XUHYR6TFTVZMUZXLIX7D6PGL",
-      "name": "FEB 9",
-      "price_money": {
-       "amount": 4000
-      }
-     }
-    },
-    {
-     "id": "QC5JXVUY7AJL5B3M35M4P76B",
-     "item_variation_data": {
-      "item_id": "XUHYR6TFTVZMUZXLIX7D6PGL",
-      "name": "FEB 10",
-      "price_money": {
-       "amount": 4000
-      }
-     }
-    },
-    {
-     "id": "273L3JP2T5HKLG6U6QZU7SGT",
-     "item_variation_data": {
-      "item_id": "XUHYR6TFTVZMUZXLIX7D6PGL",
-      "name": "FEB 11",
-      "price_money": {
-       "amount": 4000
-      }
-     }
-    },
-    {
-     "id": "HBJIBWZB2CE7Q4LX5FR5LMG2",
-     "item_variation_data": {
-      "item_id": "XUHYR6TFTVZMUZXLIX7D6PGL",
-      "name": "FEB 12",
-      "price_money": {
-       "amount": 4000
-      }
-     }
-    },
-    {
-     "id": "QYBDB2GWIRYENFJTVRKQJJWR",
-     "item_variation_data": {
-      "item_id": "XUHYR6TFTVZMUZXLIX7D6PGL",
-      "name": "FEB 13",
-      "price_money": {
-       "amount": 4000
-      }
-     }
-    },
-    {
-     "id": "PA26PS2SG2RMAXMIIDB5P3K6",
-     "item_variation_data": {
-      "item_id": "XUHYR6TFTVZMUZXLIX7D6PGL",
-      "name": "FEB 14",
-      "price_money": {
-       "amount": 4000
-      }
-     }
-    },
-    {
-     "id": "GNX5WH3PBYNRMOHDPYP5UL7O",
-     "item_variation_data": {
-      "item_id": "XUHYR6TFTVZMUZXLIX7D6PGL",
-      "name": "FEB 15",
-      "price_money": {
-       "amount": 4000
-      }
-     }
-    },
-    {
-     "id": "V4LZM3X5G4UGLFYI46ABXXTF",
-     "item_variation_data": {
-      "item_id": "XUHYR6TFTVZMUZXLIX7D6PGL",
-      "name": "FEB 16",
-      "price_money": {
-       "amount": 4000
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "MXP773ZGJ5LSEEUEWUKY5DND",
   "type": "ITEM",
   "item_data": {
@@ -4264,26 +4094,6 @@ var catalog_raw=[
       "name": "Regular",
       "price_money": {
        "amount": 400
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "KNLHV2VID476ZRKJ2NBMCUFE",
-  "type": "ITEM",
-  "item_data": {
-   "name": "dots pup cup",
-   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
-   "variations": [
-    {
-     "id": "5VZH5HPMZR5AALELKSZJLX6B",
-     "item_variation_data": {
-      "item_id": "KNLHV2VID476ZRKJ2NBMCUFE",
-      "name": "Regular",
-      "price_money": {
-       "amount": 500
       }
      }
     }
@@ -4315,13 +4125,13 @@ var catalog_raw=[
   "type": "ITEM",
   "item_data": {
    "name": "normal choco taco",
-   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
+   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
    "variations": [
     {
      "id": "UZVF7KVBCGBPO34J4F6DNKVH",
      "item_variation_data": {
       "item_id": "XBXM5EYMN3VDIP7CM7O6LHLA",
-      "name": "normal choco taco",
+      "name": "",
       "price_money": {
        "amount": 700
       }
@@ -4424,26 +4234,6 @@ var catalog_raw=[
       "name": "Regular",
       "price_money": {
        "amount": 1000
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "LM5LRHO5J6GB4V66P3DZXWDA",
-  "type": "ITEM",
-  "item_data": {
-   "name": "grasshopper pie slice",
-   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
-   "variations": [
-    {
-     "id": "JVBAPEDDX7W7BKGTK7VYAY24",
-     "item_variation_data": {
-      "item_id": "LM5LRHO5J6GB4V66P3DZXWDA",
-      "name": "slice",
-      "price_money": {
-       "amount": 600
       }
      }
     }
@@ -4839,186 +4629,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "UCYJQ5PMDAVF2K6BQDX2BKB2",
-  "type": "ITEM",
-  "item_data": {
-   "name": "grasshopper pie",
-   "category_id": "2RW5KFDKIHO5WAE26ZJKXEA3",
-   "variations": [
-    {
-     "id": "UZGDU5OZ7QPHAONFSWIPA2BX",
-     "item_variation_data": {
-      "item_id": "UCYJQ5PMDAVF2K6BQDX2BKB2",
-      "name": "Friday 3/13",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
-     "id": "7YU54VBFWJ5MED7UBHV6AEQO",
-     "item_variation_data": {
-      "item_id": "UCYJQ5PMDAVF2K6BQDX2BKB2",
-      "name": "Saturday, 3/14",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
-     "id": "PFRSSYQQY37QFL2RDUXPJA4R",
-     "item_variation_data": {
-      "item_id": "UCYJQ5PMDAVF2K6BQDX2BKB2",
-      "name": "Sunday, 3/15",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
-     "id": "YJ556OEVLU7PS2TTZXI4SCAN",
-     "item_variation_data": {
-      "item_id": "UCYJQ5PMDAVF2K6BQDX2BKB2",
-      "name": "Monday, 3/16",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
-     "id": "OACIZPKJJA6D2VJB7CJXWATT",
-     "item_variation_data": {
-      "item_id": "UCYJQ5PMDAVF2K6BQDX2BKB2",
-      "name": "Tuesday 3/17",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
-     "id": "NJLZVQUL4S33F6HUIBZOPOMH",
-     "item_variation_data": {
-      "item_id": "UCYJQ5PMDAVF2K6BQDX2BKB2",
-      "name": "Wednesday, 3/18",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
-     "id": "QUUDPD6PMUAA6IP2KPLYMGOX",
-     "item_variation_data": {
-      "item_id": "UCYJQ5PMDAVF2K6BQDX2BKB2",
-      "name": "Thursday, 3/19",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
-     "id": "IPSHK6EQN3LG3S6JVU2YECL6",
-     "item_variation_data": {
-      "item_id": "UCYJQ5PMDAVF2K6BQDX2BKB2",
-      "name": "Friday, 3/20",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
-     "id": "6RBTLQ3PPCHQ6WPOHAN4CEL5",
-     "item_variation_data": {
-      "item_id": "UCYJQ5PMDAVF2K6BQDX2BKB2",
-      "name": "Saturday, 3/21",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
-     "id": "STY3PMTIBG7LBFIGI6Q54RAA",
-     "item_variation_data": {
-      "item_id": "UCYJQ5PMDAVF2K6BQDX2BKB2",
-      "name": "Sunday, 3/22",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
-     "id": "I4YKGVPSAOCNE5ZBJO64B3SY",
-     "item_variation_data": {
-      "item_id": "UCYJQ5PMDAVF2K6BQDX2BKB2",
-      "name": "Monday, 3/23",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
-     "id": "GGIWP4APDJZ5PVWNQ3UTQJRN",
-     "item_variation_data": {
-      "item_id": "UCYJQ5PMDAVF2K6BQDX2BKB2",
-      "name": "Tuesday, 3/24",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
-     "id": "VSN6EWWGGV7B37ZHWSCFTZID",
-     "item_variation_data": {
-      "item_id": "UCYJQ5PMDAVF2K6BQDX2BKB2",
-      "name": "Wednesday, 3/25",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
-     "id": "MXEJU7K5MTJYN66H56Z66EWI",
-     "item_variation_data": {
-      "item_id": "UCYJQ5PMDAVF2K6BQDX2BKB2",
-      "name": "Thursday, 3/26",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
-     "id": "GUIRQYZAKATP2Q7CZSK6ISZJ",
-     "item_variation_data": {
-      "item_id": "UCYJQ5PMDAVF2K6BQDX2BKB2",
-      "name": "Friday, 3/27",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
-     "id": "TKIRNQIATYYI44FP2XTSYYPM",
-     "item_variation_data": {
-      "item_id": "UCYJQ5PMDAVF2K6BQDX2BKB2",
-      "name": "Saturday, 3/28",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    },
-    {
-     "id": "H2HN3OD2JQ52VLHH3UBHHXVK",
-     "item_variation_data": {
-      "item_id": "UCYJQ5PMDAVF2K6BQDX2BKB2",
-      "name": "Sunday, 3/29",
-      "price_money": {
-       "amount": 3500
-      }
-     }
-    }
-   ]
-  }
- },
- {
   "id": "BYGKAVWHXX5UJLXU6NTGKKW3",
   "type": "ITEM",
   "item_data": {
@@ -5178,96 +4788,6 @@ var catalog_raw=[
    ]
   },
   "image_id": "N5OIABGGD2L6IGPX73PGMSZN"
- },
- {
-  "id": "G7MYMIMDCVGWMAUCEVK4A4XA",
-  "type": "ITEM",
-  "item_data": {
-   "name": "ice cream sando",
-   "category_id": "OHOKU5LSGXMJBSLE6HRKBLIS",
-   "variations": [
-    {
-     "id": "VHB4D7IJZ2T4IPQQV3NP7BDQ",
-     "item_variation_data": {
-      "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
-      "name": "anti-chocolate chip + milk chocolate sando",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "OAEUHNQVAKA35JUQMOXGFRLI",
-     "item_variation_data": {
-      "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
-      "name": "banana cream sando",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "XPGX6MY5LDTNBEC3PKIQXDK3",
-     "item_variation_data": {
-      "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
-      "name": "chocolate chip + sweet cream sando",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "I5MYZMBBDAHCP23PJULXYUQQ",
-     "item_variation_data": {
-      "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
-      "name": "chocolate wasted sando",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "N32XQCKQCAPVHYLEHR2BJWGQ",
-     "item_variation_data": {
-      "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
-      "name": "gingersnap + cream cheese sando",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "QX7R7AVNS4WKSVLXP6GSQR5J",
-     "item_variation_data": {
-      "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
-      "name": "mocha sando",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "VCQJQPQCRLAHOE7UJNKLWVDV",
-     "item_variation_data": {
-      "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
-      "name": "peanut butter + dark chocolate sando",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    },
-    {
-     "id": "PXQTE6Q3ZDEQPA3B3D3WOVAU",
-     "item_variation_data": {
-      "item_id": "G7MYMIMDCVGWMAUCEVK4A4XA",
-      "name": "snickerdoodle + brown butter sando",
-      "price_money": {
-       "amount": 600
-      }
-     }
-    }
-   ]
-  }
  },
  {
   "id": "BJ477UAFT44XPN5FDXKSH57Z",
@@ -6171,106 +5691,6 @@ var catalog_raw=[
   "type": "CATEGORY",
   "category_data": {
    "name": "mother's day specials"
-  }
- },
- {
-  "id": "KTPHPYPG6KWULPWTZWZ7PSW5",
-  "type": "ITEM",
-  "item_data": {
-   "name": "the honey cake",
-   "category_id": "EE7SCYZUIS64LGXIEQFGFBOX",
-   "variations": [
-    {
-     "id": "UJB5EB5FZX4CCM23KPAVNSNP",
-     "item_variation_data": {
-      "item_id": "KTPHPYPG6KWULPWTZWZ7PSW5",
-      "name": "friday 5/8",
-      "price_money": {
-       "amount": 2500
-      }
-     }
-    },
-    {
-     "id": "CH3VQ6RLBYRO72UYXTMBI7OE",
-     "item_variation_data": {
-      "item_id": "KTPHPYPG6KWULPWTZWZ7PSW5",
-      "name": "thursday 5/7",
-      "price_money": {
-       "amount": 2500
-      }
-     }
-    },
-    {
-     "id": "OB2IJDEK7CMUDSR4ZMZKSY5A",
-     "item_variation_data": {
-      "item_id": "KTPHPYPG6KWULPWTZWZ7PSW5",
-      "name": "saturday 5/9",
-      "price_money": {
-       "amount": 2500
-      }
-     }
-    },
-    {
-     "id": "BP7Z4PBQ6P7BSDMPMXXQ6D5K",
-     "item_variation_data": {
-      "item_id": "KTPHPYPG6KWULPWTZWZ7PSW5",
-      "name": "sunday 5/10",
-      "price_money": {
-       "amount": 2500
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "FXQQPYZEUHSLFZ6M6P3QZJVW",
-  "type": "ITEM",
-  "item_data": {
-   "name": "the chocolate bomb",
-   "category_id": "EE7SCYZUIS64LGXIEQFGFBOX",
-   "variations": [
-    {
-     "id": "WLIAQ3WFI7WX6WAN2CQ3E5EB",
-     "item_variation_data": {
-      "item_id": "FXQQPYZEUHSLFZ6M6P3QZJVW",
-      "name": "thursday 5/7",
-      "price_money": {
-       "amount": 900
-      }
-     }
-    },
-    {
-     "id": "J73MI2ATTZC6XZNZIH7NNZWY",
-     "item_variation_data": {
-      "item_id": "FXQQPYZEUHSLFZ6M6P3QZJVW",
-      "name": "friday 5/8",
-      "price_money": {
-       "amount": 900
-      }
-     }
-    },
-    {
-     "id": "AVKXRNARZR77TAOUZJ3RDPZL",
-     "item_variation_data": {
-      "item_id": "FXQQPYZEUHSLFZ6M6P3QZJVW",
-      "name": "saturday 5/9",
-      "price_money": {
-       "amount": 900
-      }
-     }
-    },
-    {
-     "id": "4KB5OBMFOBRYZ3JJ7KG5G3KM",
-     "item_variation_data": {
-      "item_id": "FXQQPYZEUHSLFZ6M6P3QZJVW",
-      "name": "sunday 5/10",
-      "price_money": {
-       "amount": 900
-      }
-     }
-    }
-   ]
   }
  },
  {
