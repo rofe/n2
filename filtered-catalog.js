@@ -311,15 +311,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "3LPA34OEITVAH75K57U4HWGH",
-     "modifier_data": {
-      "name": "honeycomb (v) (gf)",
-      "price_money": {
-       "amount": 75
-      }
-     }
-    },
-    {
      "id": "MN4YAKMHGUFUFNWK7KNMC7V6",
      "modifier_data": {
       "name": "burnt honey ganache (gf)",
@@ -1643,30 +1634,10 @@ var catalog_raw=[
    "category_id": "FS3LVXIXJBYYKL7R6TYZM3QR",
    "variations": [
     {
-     "id": "F6AIT42P32BD6UTLGWDDRWCT",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "COLUMBIA robinson figueroa",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
      "id": "HLD2QUCB2BHLAPV7ZSLXPYUK",
      "item_variation_data": {
       "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
       "name": "GUATEMALA nayo ovalle",
-      "price_money": {
-       "amount": 1600
-      }
-     }
-    },
-    {
-     "id": "BOU2XOFKGJ7UG23AIDG7JHM6",
-     "item_variation_data": {
-      "item_id": "6IKBVSZV2JOTUFVZNNQSANM4",
-      "name": "ETHIOPIA kilenso",
       "price_money": {
        "amount": 1600
       }
@@ -3922,51 +3893,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "VISPIIS3MUXM3B3A2Y4FD6DW",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "coffee bean varietal",
-   "modifiers": [
-    {
-     "id": "RNP6JQ73JYXF4QAS6XAGPC64",
-     "modifier_data": {
-      "name": "GUATEMALA nayo ovalle",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "4RW2YDB5BO3CUNHTPAKFVPER",
-     "modifier_data": {
-      "name": "ETHIOPIA kilenso",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "CLCI2OZTTVWNEMPR7RKNGDUF",
-     "modifier_data": {
-      "name": "COLUMBIA robinson figeuroa",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "RNP6JQ73JYXF4QAS6XAGPC64",
-  "modifier_data": {
-   "name": "GUATEMALA nayo ovalle",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "ZNSFQW2NYHQOR4RGWB5EADXK",
   "type": "ITEM",
   "item_data": {
@@ -4318,24 +4244,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "4RW2YDB5BO3CUNHTPAKFVPER",
-  "modifier_data": {
-   "name": "ETHIOPIA kilenso",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "CLCI2OZTTVWNEMPR7RKNGDUF",
-  "modifier_data": {
-   "name": "COLUMBIA robinson figeuroa",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
@@ -4740,15 +4648,6 @@ var catalog_raw=[
   "id": "BMVJZYP3F7U6Y3KBBBJD2JLS",
   "modifier_data": {
    "name": "brown sugar streusel (v)",
-   "price_money": {
-    "amount": 75
-   }
-  }
- },
- {
-  "id": "3LPA34OEITVAH75K57U4HWGH",
-  "modifier_data": {
-   "name": "honeycomb (v) (gf)",
    "price_money": {
     "amount": 75
    }
@@ -6915,6 +6814,26 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
+  }
+ },
+ {
+  "id": "3D2X763NAIJIJHYXA2TCL5KF",
+  "type": "ITEM",
+  "item_data": {
+   "name": "cream cheese + gingersnap pint",
+   "category_id": "IKMPD6MPVPOGD4MS4G4J3TQN",
+   "variations": [
+    {
+     "id": "E5QQCKBX7C7ZWYCXBBALEEUM",
+     "item_variation_data": {
+      "item_id": "3D2X763NAIJIJHYXA2TCL5KF",
+      "name": "",
+      "price_money": {
+       "amount": 1000
+      }
+     }
+    }
+   ]
   }
  }
 ]
