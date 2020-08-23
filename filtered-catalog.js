@@ -2850,15 +2850,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "B4YKKKWOISWXVYCZRX5PQHD2",
-     "modifier_data": {
-      "name": "salted vanilla bean",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "2ODB3QSVELCV2PIOKOFMP3O5",
      "modifier_data": {
       "name": "milk chocolate",
@@ -2886,15 +2877,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "X7X57F6CJEELFOKRX6VACOGY",
-     "modifier_data": {
-      "name": "peach + vanilla twist",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "6ALCJGM2SBGWYCR3UPBNX7G6",
      "modifier_data": {
       "name": "milk chocolate + banana twist",
@@ -2904,15 +2886,6 @@ var catalog_raw=[
      }
     }
    ]
-  }
- },
- {
-  "id": "B4YKKKWOISWXVYCZRX5PQHD2",
-  "modifier_data": {
-   "name": "salted vanilla bean",
-   "price_money": {
-    "amount": 0
-   }
   }
  },
  {
@@ -6170,16 +6143,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "GEAPVQHNDXIZ36TSEHM46NYX",
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "salted vanilla bean",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "UGWGUYIMN57SRVJNKOGGA7DU",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
@@ -6348,15 +6311,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "HS2EC7ZYJSH6RAK22H23CFBJ",
-     "modifier_data": {
-      "name": "salted vanilla bean",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "L2A3GZYK5NH7BPDTN7ZDP6E4",
      "modifier_data": {
       "name": "milk chocolate",
@@ -6378,15 +6332,6 @@ var catalog_raw=[
      "id": "4W3H6MUMVJ7H5QPMTA775RJK",
      "modifier_data": {
       "name": "raspberry sour cream",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "BVBPO6FV3UGBRRBS2EWNMDOK",
-     "modifier_data": {
-      "name": "peach + vanilla twist",
       "price_money": {
        "amount": 300
       }
@@ -7699,15 +7644,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "HS2EC7ZYJSH6RAK22H23CFBJ",
-  "modifier_data": {
-   "name": "salted vanilla bean",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
   "id": "FPGER3KRXCCAQHDM5DAXYAT2",
   "modifier_data": {
    "name": "peach (v)",
@@ -7834,15 +7770,6 @@ var catalog_raw=[
   "id": "K3MPKBBGGFLWRGNID6FBX5XS",
   "modifier_data": {
    "name": "raspberry sour cream",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "X7X57F6CJEELFOKRX6VACOGY",
-  "modifier_data": {
-   "name": "peach + vanilla twist",
    "price_money": {
     "amount": 0
    }
@@ -8059,15 +7986,6 @@ var catalog_raw=[
    "name": "milk chocolate + banana twist",
    "price_money": {
     "amount": 0
-   }
-  }
- },
- {
-  "id": "BVBPO6FV3UGBRRBS2EWNMDOK",
-  "modifier_data": {
-   "name": "peach + vanilla twist",
-   "price_money": {
-    "amount": 300
    }
   }
  },
