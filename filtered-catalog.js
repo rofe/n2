@@ -6133,6 +6133,16 @@ var catalog_raw=[
    ],
    "variations": [
     {
+     "id": "YK6VKBYCZD42HBPULCFZDNTQ",
+     "item_variation_data": {
+      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
+      "name": "salted vanilla bean",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "SVOGJI7K7PZAR7T62LN5QSBM",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
@@ -6302,6 +6312,24 @@ var catalog_raw=[
      }
     },
     {
+     "id": "WZ2OXAWUYOMBMPYDYBHUO6CC",
+     "modifier_data": {
+      "name": "salted vanilla bean",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "KK2MXAQMEQNLOT3MVMDY6VVS",
+     "modifier_data": {
+      "name": "vanilla + peach TWIST",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "R42VX2AH6AO4PXF62VJHIZPN",
      "modifier_data": {
       "name": "peach (v)",
@@ -6340,7 +6368,7 @@ var catalog_raw=[
     {
      "id": "NISM5NCVXD5UXFHSQOBCX5EL",
      "modifier_data": {
-      "name": "milk chocolate + banana twist",
+      "name": "milk chocolate + banana TWIST",
       "price_money": {
        "amount": 300
       }
@@ -7992,7 +8020,7 @@ var catalog_raw=[
  {
   "id": "NISM5NCVXD5UXFHSQOBCX5EL",
   "modifier_data": {
-   "name": "milk chocolate + banana twist",
+   "name": "milk chocolate + banana TWIST",
    "price_money": {
     "amount": 300
    }
@@ -10438,6 +10466,24 @@ var catalog_raw=[
    "name": "chocolate sprinkles",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "WZ2OXAWUYOMBMPYDYBHUO6CC",
+  "modifier_data": {
+   "name": "salted vanilla bean",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "KK2MXAQMEQNLOT3MVMDY6VVS",
+  "modifier_data": {
+   "name": "vanilla + peach TWIST",
+   "price_money": {
+    "amount": 300
    }
   }
  }
