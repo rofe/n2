@@ -2347,18 +2347,18 @@ var catalog_raw=[
      }
     },
     {
-     "id": "K3MPKBBGGFLWRGNID6FBX5XS",
+     "id": "6ALCJGM2SBGWYCR3UPBNX7G6",
      "modifier_data": {
-      "name": "raspberry sour cream",
+      "name": "milk chocolate + banana twist",
       "price_money": {
        "amount": 0
       }
      }
     },
     {
-     "id": "6ALCJGM2SBGWYCR3UPBNX7G6",
+     "id": "CE53AFMD3AVABIXVJ3EQ4L3D",
      "modifier_data": {
-      "name": "milk chocolate + banana twist",
+      "name": "raspberry sour cream",
       "price_money": {
        "amount": 0
       }
@@ -4554,15 +4554,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "K3MPKBBGGFLWRGNID6FBX5XS",
-  "modifier_data": {
-   "name": "raspberry sour cream",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "HGUHUOMLEGCK5QICXMMBXCLX",
   "modifier_data": {
    "name": "cup + cone on top!",
@@ -5830,15 +5821,6 @@ var catalog_raw=[
        "amount": 0
       }
      }
-    },
-    {
-     "id": "F4FN65E2K4VAHSII7UPTSXW6",
-     "modifier_data": {
-      "name": "pint of raspberry sour cream ice cream",
-      "price_money": {
-       "amount": 0
-      }
-     }
     }
    ]
   }
@@ -5874,15 +5856,6 @@ var catalog_raw=[
   "id": "USBOZXRIPLWABHWMGDSJG4HH",
   "modifier_data": {
    "name": "pint of banana ice cream",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "F4FN65E2K4VAHSII7UPTSXW6",
-  "modifier_data": {
-   "name": "pint of raspberry sour cream ice cream",
    "price_money": {
     "amount": 0
    }
@@ -6367,9 +6340,6 @@ var catalog_raw=[
    "modifier_list_info": [
     {
      "modifier_list_id": "6FIUN6R47HWQU43NUNM7GSC4"
-    },
-    {
-     "modifier_list_id": "NBELUKHPO4TI7S47GILQLEPT"
     }
    ],
    "variations": [
@@ -6397,105 +6367,6 @@ var catalog_raw=[
   }
  },
  {
-  "id": "NBELUKHPO4TI7S47GILQLEPT",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "+ pint of ice cream 2",
-   "modifiers": [
-    {
-     "id": "2JFAM3CJS6KOCZIZWEF7KNF5",
-     "modifier_data": {
-      "name": "pint of salted vanilla bean ice cream",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "53KXZW4CJNYLM252E6PZ6IJQ",
-     "modifier_data": {
-      "name": "pint of peach ice cream (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "3CL6EDOPGU7AG77PIXAM2YMG",
-     "modifier_data": {
-      "name": "pint of milk chocolate ice cream",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "2JBCCDMU5ZPW6E65KBYQKTH2",
-     "modifier_data": {
-      "name": "pint of banana ice cream",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "TILS7WC6VLBA6CYESDWF3JY4",
-     "modifier_data": {
-      "name": "pint of raspberry sour cream ice cream",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "2JFAM3CJS6KOCZIZWEF7KNF5",
-  "modifier_data": {
-   "name": "pint of salted vanilla bean ice cream",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "53KXZW4CJNYLM252E6PZ6IJQ",
-  "modifier_data": {
-   "name": "pint of peach ice cream (v)",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "3CL6EDOPGU7AG77PIXAM2YMG",
-  "modifier_data": {
-   "name": "pint of milk chocolate ice cream",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "2JBCCDMU5ZPW6E65KBYQKTH2",
-  "modifier_data": {
-   "name": "pint of banana ice cream",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "TILS7WC6VLBA6CYESDWF3JY4",
-  "modifier_data": {
-   "name": "pint of raspberry sour cream ice cream",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "67FCRFCXSOHCCZEO4ETYYQZQ",
   "type": "ITEM",
   "item_data": {
@@ -6504,9 +6375,6 @@ var catalog_raw=[
    "modifier_list_info": [
     {
      "modifier_list_id": "6FIUN6R47HWQU43NUNM7GSC4"
-    },
-    {
-     "modifier_list_id": "NBELUKHPO4TI7S47GILQLEPT"
     },
     {
      "modifier_list_id": "WQCTNZO4KDXBSEUGHMUCREJX"
@@ -7037,6 +6905,15 @@ var catalog_raw=[
    "name": "vanilla + peach TWIST",
    "price_money": {
     "amount": 300
+   }
+  }
+ },
+ {
+  "id": "CE53AFMD3AVABIXVJ3EQ4L3D",
+  "modifier_data": {
+   "name": "raspberry sour cream",
+   "price_money": {
+    "amount": 0
    }
   }
  }
