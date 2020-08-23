@@ -209,7 +209,7 @@ var catalog_raw=[
   "id": "RJ3SONFCEFFCEF67X7L3W6QI",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "store topping",
+   "name": "STORE topping",
    "modifiers": [
     {
      "id": "ZCXGP3RXDQMIM5FFHYDSYFFF",
@@ -1441,7 +1441,7 @@ var catalog_raw=[
      "id": "KKZTAOC3ZR5UCACRHYW2QGVX",
      "item_variation_data": {
       "item_id": "3QJIX4LIS6CEOXZRCVV7SCJQ",
-      "name": "Regular",
+      "name": "",
       "price_money": {
        "amount": 500
       }
@@ -1541,7 +1541,7 @@ var catalog_raw=[
      "id": "5QXNTLPBW5XJ5B363EQL5ZEN",
      "item_variation_data": {
       "item_id": "5S447RAYQDJ4BDEWRZ6HCPVZ",
-      "name": "Regular",
+      "name": "",
       "price_money": {
        "amount": 600
       }
@@ -2317,7 +2317,7 @@ var catalog_raw=[
   "id": "RYNRMVD5XK4FLVZA3UB3QSZC",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "store flavors",
+   "name": "STORE flavors",
    "modifiers": [
     {
      "id": "FPGER3KRXCCAQHDM5DAXYAT2",
@@ -3625,7 +3625,7 @@ var catalog_raw=[
   "id": "LPZTD3WMASMFYAJTC5YNFWP2",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "add soft serve",
+   "name": "+ soft serve STORE",
    "modifiers": [
     {
      "id": "DAU35H5KFM55Z6QFODCQIDBK",
@@ -3964,13 +3964,6 @@ var catalog_raw=[
    "price_money": {
     "amount": 0
    }
-  }
- },
- {
-  "id": "EE7SCYZUIS64LGXIEQFGFBOX",
-  "type": "CATEGORY",
-  "category_data": {
-   "name": "mother's day specials"
   }
  },
  {
@@ -4999,7 +4992,7 @@ var catalog_raw=[
      "id": "NT27XPGJLM26AOOG2CO4WXJE",
      "item_variation_data": {
       "item_id": "47GHWIWAG7XYC5THUPMTNEM6",
-      "name": "raspberry key lime slice",
+      "name": "slice",
       "price_money": {
        "amount": 450
       }
@@ -5130,7 +5123,7 @@ var catalog_raw=[
      "id": "MOROGN4VYER6NQCQ2YDNLS62",
      "item_variation_data": {
       "item_id": "BTSMOL5GNKOPJ76HQVVBWUFA",
-      "name": "slice of pie",
+      "name": "slice",
       "price_money": {
        "amount": 450
       }
@@ -5195,7 +5188,7 @@ var catalog_raw=[
      "id": "OBCUVOAU3H3GBUNDHP7WEKUF",
      "item_variation_data": {
       "item_id": "ACCUCB4LZBBMIOFEUNH62EDZ",
-      "name": "Regular",
+      "name": "",
       "price_money": {
        "amount": 500
       }
@@ -6516,9 +6509,6 @@ var catalog_raw=[
      "modifier_list_id": "NBELUKHPO4TI7S47GILQLEPT"
     },
     {
-     "modifier_list_id": "WS5C7BUPF7WXE6AOTP4KEGMX"
-    },
-    {
      "modifier_list_id": "WQCTNZO4KDXBSEUGHMUCREJX"
     }
    ]
@@ -6624,91 +6614,10 @@ var catalog_raw=[
   }
  },
  {
-  "id": "WS5C7BUPF7WXE6AOTP4KEGMX",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "normal enamel pin",
-   "modifiers": [
-    {
-     "id": "5QSC6KHMJ52M2PETKM3SGF6M",
-     "modifier_data": {
-      "name": "cone pin",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "7UF4RLRGDDU4PMUDB3DYDKX5",
-     "modifier_data": {
-      "name": "smiley pin",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "WYBULII6C3DI6NEYKPWUYITF",
-     "modifier_data": {
-      "name": "truck pin",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    }
-   ]
-  }
- },
- {
-  "id": "5QSC6KHMJ52M2PETKM3SGF6M",
-  "modifier_data": {
-   "name": "cone pin",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "7UF4RLRGDDU4PMUDB3DYDKX5",
-  "modifier_data": {
-   "name": "smiley pin",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "WYBULII6C3DI6NEYKPWUYITF",
-  "modifier_data": {
-   "name": "truck pin",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
   "id": "ESN3AL4WQLN2EMYJXM7SMGJZ",
   "type": "DISCOUNT",
   "discount_data": {
    "name": "happyYUM"
-  }
- },
- {
-  "id": "XWNZDHYSS6WQYPDUOQU3E52Q",
-  "type": "MODIFIER_LIST",
-  "modifier_list_data": {
-   "name": "pie flavor",
-   "modifiers": [
-    {
-     "id": "O72P5S4R4PQFA4JG6Y2BC2UD",
-     "modifier_data": {
-      "name": "raspberry key lime pie",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    }
-   ]
   }
  },
  {
@@ -6897,7 +6806,7 @@ var catalog_raw=[
   "id": "4C64ILV5M4MXDKY3V2ETZGUT",
   "type": "MODIFIER_LIST",
   "modifier_list_data": {
-   "name": "add soft serve lab",
+   "name": "+ soft serve LAB",
    "modifiers": [
     {
      "id": "6YINBTKO4XRD26AZKWOQWD2O",
@@ -7059,15 +6968,6 @@ var catalog_raw=[
   "id": "IFXFC5TBP7YP2YNFSPVDX3QT",
   "modifier_data": {
    "name": "vegan",
-   "price_money": {
-    "amount": 0
-   }
-  }
- },
- {
-  "id": "O72P5S4R4PQFA4JG6Y2BC2UD",
-  "modifier_data": {
-   "name": "raspberry key lime pie",
    "price_money": {
     "amount": 0
    }
