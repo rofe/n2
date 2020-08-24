@@ -327,6 +327,15 @@ var catalog_raw=[
        "amount": 75
       }
      }
+    },
+    {
+     "id": "CLJI6VQZ5HCSCP2FTVU72TY7",
+     "modifier_data": {
+      "name": "honeycomb (gf) (v)",
+      "price_money": {
+       "amount": 75
+      }
+     }
     }
    ]
   }
@@ -6798,6 +6807,15 @@ var catalog_raw=[
      }
     }
    ]
+  }
+ },
+ {
+  "id": "CLJI6VQZ5HCSCP2FTVU72TY7",
+  "modifier_data": {
+   "name": "honeycomb (gf) (v)",
+   "price_money": {
+    "amount": 75
+   }
   }
  }
 ]
