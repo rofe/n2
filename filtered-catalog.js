@@ -2300,9 +2300,27 @@ var catalog_raw=[
    "name": "STORE flavors",
    "modifiers": [
     {
+     "id": "QWHQLRIYPJJTVZQM6HYU3FGB",
+     "modifier_data": {
+      "name": "salted vanilla bean",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
      "id": "FPGER3KRXCCAQHDM5DAXYAT2",
      "modifier_data": {
       "name": "peach (v)",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "K7EIASHSOLKSYHJXBQL7AG22",
+     "modifier_data": {
+      "name": "vanilla + peach TWIST",
       "price_money": {
        "amount": 0
       }
@@ -3523,9 +3541,27 @@ var catalog_raw=[
      }
     },
     {
+     "id": "KHKWEDVUWCTLBUCTE2GEZX2K",
+     "modifier_data": {
+      "name": "salted vanilla bean",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
      "id": "R42VX2AH6AO4PXF62VJHIZPN",
      "modifier_data": {
       "name": "peach (v)",
+      "price_money": {
+       "amount": 300
+      }
+     }
+    },
+    {
+     "id": "257BXO5TXJKTOAEJQMM3RPSG",
+     "modifier_data": {
+      "name": "vanilla + peach TWIST",
       "price_money": {
        "amount": 300
       }
@@ -6719,6 +6755,42 @@ var catalog_raw=[
   "id": "MREZZAWBX5CLFPLYRULORKKH",
   "modifier_data": {
    "name": "oreo milk (v)",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "KHKWEDVUWCTLBUCTE2GEZX2K",
+  "modifier_data": {
+   "name": "salted vanilla bean",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "257BXO5TXJKTOAEJQMM3RPSG",
+  "modifier_data": {
+   "name": "vanilla + peach TWIST",
+   "price_money": {
+    "amount": 300
+   }
+  }
+ },
+ {
+  "id": "QWHQLRIYPJJTVZQM6HYU3FGB",
+  "modifier_data": {
+   "name": "salted vanilla bean",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "K7EIASHSOLKSYHJXBQL7AG22",
+  "modifier_data": {
+   "name": "vanilla + peach TWIST",
    "price_money": {
     "amount": 0
    }
