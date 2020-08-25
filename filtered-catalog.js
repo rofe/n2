@@ -3446,30 +3446,10 @@ var catalog_raw=[
    ],
    "variations": [
     {
-     "id": "YK6VKBYCZD42HBPULCFZDNTQ",
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "salted vanilla bean",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
      "id": "SVOGJI7K7PZAR7T62LN5QSBM",
      "item_variation_data": {
       "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
       "name": "peach (v)",
-      "price_money": {
-       "amount": 0
-      }
-     }
-    },
-    {
-     "id": "UGWGUYIMN57SRVJNKOGGA7DU",
-     "item_variation_data": {
-      "item_id": "A27FMLO6LCQUMRQLI3HU2HH3",
-      "name": "peach + salted vanilla twist",
       "price_money": {
        "amount": 0
       }
@@ -4173,18 +4153,18 @@ var catalog_raw=[
      }
     },
     {
-     "id": "LDOCMWJFWNCGPBVRQC7IUZPZ",
+     "id": "MREZZAWBX5CLFPLYRULORKKH",
      "modifier_data": {
-      "name": "oreo milk mascarpone twist",
+      "name": "oreo milk (v)",
       "price_money": {
        "amount": 0
       }
      }
     },
     {
-     "id": "MREZZAWBX5CLFPLYRULORKKH",
+     "id": "LDOCMWJFWNCGPBVRQC7IUZPZ",
      "modifier_data": {
-      "name": "mascarpone",
+      "name": "oreo milk mascarpone twist",
       "price_money": {
        "amount": 0
       }
@@ -6848,7 +6828,7 @@ var catalog_raw=[
  {
   "id": "MREZZAWBX5CLFPLYRULORKKH",
   "modifier_data": {
-   "name": "mascarpone",
+   "name": "oreo milk (v)",
    "price_money": {
     "amount": 0
    }
