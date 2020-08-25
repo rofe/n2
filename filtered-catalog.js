@@ -3597,24 +3597,6 @@ var catalog_raw=[
      }
     },
     {
-     "id": "WZ2OXAWUYOMBMPYDYBHUO6CC",
-     "modifier_data": {
-      "name": "salted vanilla bean",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
-     "id": "KK2MXAQMEQNLOT3MVMDY6VVS",
-     "modifier_data": {
-      "name": "vanilla + peach TWIST",
-      "price_money": {
-       "amount": 300
-      }
-     }
-    },
-    {
      "id": "R42VX2AH6AO4PXF62VJHIZPN",
      "modifier_data": {
       "name": "peach (v)",
@@ -6757,24 +6739,6 @@ var catalog_raw=[
    "name": "chocolate sprinkles",
    "price_money": {
     "amount": 75
-   }
-  }
- },
- {
-  "id": "WZ2OXAWUYOMBMPYDYBHUO6CC",
-  "modifier_data": {
-   "name": "salted vanilla bean",
-   "price_money": {
-    "amount": 300
-   }
-  }
- },
- {
-  "id": "KK2MXAQMEQNLOT3MVMDY6VVS",
-  "modifier_data": {
-   "name": "vanilla + peach TWIST",
-   "price_money": {
-    "amount": 300
    }
   }
  },
