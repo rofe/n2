@@ -4171,6 +4171,24 @@ var catalog_raw=[
        "amount": 0
       }
      }
+    },
+    {
+     "id": "LDOCMWJFWNCGPBVRQC7IUZPZ",
+     "modifier_data": {
+      "name": "oreo milk mascarpone twist",
+      "price_money": {
+       "amount": 0
+      }
+     }
+    },
+    {
+     "id": "MREZZAWBX5CLFPLYRULORKKH",
+     "modifier_data": {
+      "name": "mascarpone",
+      "price_money": {
+       "amount": 0
+      }
+     }
     }
    ]
   }
@@ -6815,6 +6833,24 @@ var catalog_raw=[
    "name": "honeycomb (gf) (v)",
    "price_money": {
     "amount": 75
+   }
+  }
+ },
+ {
+  "id": "LDOCMWJFWNCGPBVRQC7IUZPZ",
+  "modifier_data": {
+   "name": "oreo milk mascarpone twist",
+   "price_money": {
+    "amount": 0
+   }
+  }
+ },
+ {
+  "id": "MREZZAWBX5CLFPLYRULORKKH",
+  "modifier_data": {
+   "name": "mascarpone",
+   "price_money": {
+    "amount": 0
    }
   }
  }
